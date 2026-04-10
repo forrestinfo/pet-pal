@@ -1,0 +1,84 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        package: [shared-types, content, spaced-repetition]
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm ci
+      working-directory: packages/${{ matrix.package }}
+    
+    - name: Build package
+      run: npm run build
+      working-directory: packages/${{ matrix.package }}
+    
+    - name: Type check
+      run: npx tsc --noEmit
+      working-directory: packages/${{ matrix.package }}
+
+  mac-app-build:
+    runs-on: ubuntu-latest
+    needs: build-and-test
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install app dependencies
+      run: npm ci
+      working-directory: apps/mac
+    
+    - name: Build app
+      run: npm run build
+      working-directory: apps/mac
+    
+    - name: Type check
+      run: npx tsc --noEmit
+      working-directory: apps/mac
+
+  lint:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: |
+        cd apps/mac && npm ci
+        cd ../../packages/shared-types && npm ci
+        cd ../content && npm ci
+        cd ../spaced-repetition && npm ci
+    
+    - name: ESLint check
+      run: npx eslint . --ext .ts,.tsx
+      working-directory: apps/mac
