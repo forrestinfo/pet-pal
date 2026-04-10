@@ -1,20 +1,20 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "mac",
+  "productName": "PET Pal",
   "version": "0.1.0",
-  "identifier": "com.tauri.dev",
+  "identifier": "com.petpal.app",
   "build": {
-    "frontendDist": "../build",
-    "devUrl": "http://localhost:3000",
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173",
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build"
   },
   "app": {
     "windows": [
       {
-        "title": "mac",
-        "width": 800,
-        "height": 600,
+        "title": "PET Pal",
+        "width": 1024,
+        "height": 768,
         "resizable": true,
         "fullscreen": false
       }
@@ -32,6 +32,10 @@
       "icons/128x128@2x.png",
       "icons/icon.icns",
       "icons/icon.ico"
-    ]
+    ],
+    "category": "Education",
+    "copyright": "Copyright © 2026 PET Pal Team",
+    "shortDescription": "PET Exam Learning App with Melody Theme",
+    "longDescription": "A macOS desktop application for PET (B1 Preliminary) exam preparation with vocabulary/sentence learning, spaced repetition, pet-raising gamification, and Melody theme."
   }
 }
