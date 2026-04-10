@@ -1,0 +1,3 @@
+2026-04-10T12:28:46.2330000Z Evaluating mac-app-build.if
+2026-04-10T12:28:46.2330000Z Evaluating: success()
+2026-04-10T12:28:46.2330000Z Result: false

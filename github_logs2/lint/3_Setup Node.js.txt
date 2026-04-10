@@ -1,0 +1,22 @@
+﻿2026-04-10T12:28:30.7413816Z ##[group]Run actions/setup-node@v4
+2026-04-10T12:28:30.7414189Z with:
+2026-04-10T12:28:30.7414400Z   node-version: 20
+2026-04-10T12:28:30.7414627Z   cache: npm
+2026-04-10T12:28:30.7414833Z   always-auth: false
+2026-04-10T12:28:30.7415067Z   check-latest: false
+2026-04-10T12:28:30.7415428Z   token: ***
+2026-04-10T12:28:30.7415645Z ##[endgroup]
+2026-04-10T12:28:31.0239357Z Found in cache @ /opt/hostedtoolcache/node/20.20.2/x64
+2026-04-10T12:28:31.0245883Z ##[group]Environment details
+2026-04-10T12:28:35.5355277Z node: v20.20.2
+2026-04-10T12:28:35.5356348Z npm: 10.8.2
+2026-04-10T12:28:35.5356665Z yarn: 1.22.22
+2026-04-10T12:28:35.5357938Z ##[endgroup]
+2026-04-10T12:28:35.5376535Z [command]/opt/hostedtoolcache/node/20.20.2/x64/bin/npm config get cache
+2026-04-10T12:28:35.9742544Z /home/runner/.npm
+2026-04-10T12:28:36.0831707Z Cache hit for: node-cache-Linux-x64-npm-a329d96a675602c3777a023f85e0387f4b394a54e7916c334aa60e4b8c762457
+2026-04-10T12:28:36.2327280Z Received 4518132 of 4518132 (100.0%), 40.6 MBs/sec
+2026-04-10T12:28:36.2328412Z Cache Size: ~4 MB (4518132 B)
+2026-04-10T12:28:36.2355490Z [command]/usr/bin/tar -xf /home/runner/work/_temp/a30370aa-5b28-415f-8dc1-2139d3454aab/cache.tzst -P -C /home/runner/work/pet-pal/pet-pal --use-compress-program unzstd
+2026-04-10T12:28:36.2478023Z Cache restored successfully
+2026-04-10T12:28:36.2485055Z Cache restored from key: node-cache-Linux-x64-npm-a329d96a675602c3777a023f85e0387f4b394a54e7916c334aa60e4b8c762457

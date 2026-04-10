@@ -19,4 +19,5 @@ __exportStar(require("./types"), exports);
 var types_1 = require("./types");
 Object.defineProperty(exports, "MemoryState", { enumerable: true, get: function () { return types_1.MemoryState; } });
 Object.defineProperty(exports, "Difficulty", { enumerable: true, get: function () { return types_1.Difficulty; } });
+__exportStar(require("./userTypes"), exports);
 //# sourceMappingURL=index.js.map

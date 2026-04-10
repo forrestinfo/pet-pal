@@ -8,9 +8,11 @@ exports.petVocabulary = void 0;
 exports.getVocabularyByTopic = getVocabularyByTopic;
 exports.getVocabularyByDifficulty = getVocabularyByDifficulty;
 /**
- * Sample PET vocabulary with simple English definitions
+ * PET vocabulary with simple English definitions - 200+ words
+ * Organized by PET official topics
  */
 exports.petVocabulary = [
+    // ==================== DAILY LIFE (日常) ====================
     {
         word: 'accept',
         partOfSpeech: 'verb',
@@ -18,7 +20,7 @@ exports.petVocabulary = [
         meaningZh: '接受',
         exampleSentence: 'I accept your invitation to the party.',
         exampleSentenceZh: '我接受你派对的邀请。',
-        topicTag: 'social',
+        topicTag: 'daily life',
         difficulty: 2
     },
     {
@@ -38,7 +40,7 @@ exports.petVocabulary = [
         meaningZh: '决定',
         exampleSentence: 'I need to decide which book to read first.',
         exampleSentenceZh: '我需要决定先读哪本书。',
-        topicTag: 'decision',
+        topicTag: 'daily life',
         difficulty: 2
     },
     {
@@ -48,7 +50,7 @@ exports.petVocabulary = [
         meaningZh: '改进',
         exampleSentence: 'I want to improve my English speaking.',
         exampleSentenceZh: '我想提高我的英语口语。',
-        topicTag: 'education',
+        topicTag: 'daily life',
         difficulty: 2
     },
     {

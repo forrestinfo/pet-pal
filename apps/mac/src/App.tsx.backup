@@ -1,0 +1,312 @@
+import { useState, useEffect, useRef } from 'react'
+import './App.css';
+
+// Mock data for development
+const mockWord = {
+  word: 'improve',
+  partOfSpeech: 'verb',
+  pronunciation: '/ɪmˈpruːv/',
+  simpleDefinitionEn: 'to become better',
+  meaningZh: '改进',
+  exampleSentence: 'I want to improve my English speaking.',
+  exampleSentenceZh: '我想提高我的英语口语。',
+  topicTag: 'education',
+  difficulty: 2
+};
+
+// Simple pronunciation service
+const createPronunciationService = () => {
+  const synth = typeof window !== 'undefined' && window.speechSynthesis;
+  
+  return {
+    speak: async (text: string, lang = 'en-US', rate = 1) => {
+      if (!synth) {
+        throw new Error('Speech synthesis not supported');
+      }
+      
+      return new Promise<void>((resolve, reject) => {
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = lang;
+        utterance.rate = Math.max(0.1, Math.min(10, rate));
+        
+        utterance.onend = () => resolve();
+        utterance.onerror = (event) => reject(new Error(`Speech error: ${event.error}`));
+        
+        synth.speak(utterance);
+      });
+    },
+    stop: () => {
+      if (synth && synth.speaking) {
+        synth.cancel();
+      }
+    },
+    isSupported: () => !!synth
+  };
+};
+
+// Pet configurations
+const petConfigs = {
+  dog: {
+    id: 'dog',
+    name: 'Study Buddy',
+    emoji: '🐶',
+    color: '#FFB74D',
+    description: 'A loyal learning companion'
+  },
+  cat: {
+    id: 'cat',
+    name: 'Clever Cat',
+    emoji: '🐱',
+    color: '#7986CB',
+    description: 'Smart and focused'
+  },
+  melody: {
+    id: 'melody',
+    name: '美乐蒂',
+    emoji: '🎵',
+    color: '#E91E63',
+    description: 'A musical companion for harmonious learning'
+  },
+  bird: {
+    id: 'bird',
+    name: 'Vocabulary Bird',
+    emoji: '🐦',
+    color: '#4CAF50',
+    description: 'Remembers words with you'
+  }
+};
+
+function App() {
+  const [showAnswer, setShowAnswer] = useState(false);
+  const [learningCount, setLearningCount] = useState(0);
+  const [currentPet, setCurrentPet] = useState<'dog' | 'cat' | 'melody' | 'bird'>('melody'); // Default to Melody
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [speechSupported, setSpeechSupported] = useState(true);
+  const pronunciationService = useRef(createPronunciationService());
+  
+  useEffect(() => {
+    // Check if speech synthesis is supported
+    const supported = pronunciationService.current.isSupported();
+    setSpeechSupported(supported);
+    
+    if (!supported) {
+      console.warn('Web Speech API not supported in this browser');
+    }
+  }, []);
+  
+  const handleAnswer = (result: 'dont-know' | 'somewhat' | 'know') => {
+    console.log('User answered:', result);
+    setShowAnswer(false);
+    setLearningCount(prev => prev + 1);
+    
+    // In real app, this would update spaced repetition algorithm
+    // and fetch next card
+  };
+
+  const speakWord = async () => {
+    if (pronunciationService.current.isSupported()) {
+      setIsSpeaking(true);
+      try {
+        await pronunciationService.current.speak(mockWord.word, 'en-US', 0.8);
+      } catch (error) {
+        console.error('Failed to speak word:', error);
+        // Fallback: show pronunciation guide
+        alert(`Pronunciation: ${mockWord.pronunciation}`);
+      } finally {
+        setIsSpeaking(false);
+      }
+    } else {
+      console.warn('Speech synthesis not supported');
+      // Fallback: show pronunciation guide
+      alert(`Pronunciation: ${mockWord.pronunciation}`);
+    }
+  };
+
+  const speakSentence = async () => {
+    if (pronunciationService.current.isSupported()) {
+      setIsSpeaking(true);
+      try {
+        await pronunciationService.current.speak(mockWord.exampleSentence, 'en-US', 0.9);
+      } catch (error) {
+        console.error('Failed to speak sentence:', error);
+      } finally {
+        setIsSpeaking(false);
+      }
+    } else {
+      console.warn('Speech synthesis not supported');
+    }
+  };
+
+  const stopSpeaking = () => {
+    pronunciationService.current.stop();
+    setIsSpeaking(false);
+  };
+
+  return (
+    <div className="app-container">
+      <header className="app-header">
+        <h1>PET Pal</h1>
+        <div className="stats">
+          <span>Today: {learningCount} learned</span>
+          <div className="pet-info">
+            <span className="pet-emoji">{petConfigs[currentPet].emoji}</span>
+            <span className="pet-name">{petConfigs[currentPet].name}</span>
+            <span className="pet-status">Happy</span>
+          </div>
+        </div>
+      </header>
+      
+      <main className="learning-area">
+        <div className="card-container">
+          <div className="word-card">
+            <div className="word-header">
+              <span className="topic-tag">{mockWord.topicTag}</span>
+              <span className="difficulty">Level {mockWord.difficulty}</span>
+            </div>
+            
+            <div className="word-content">
+              <div className="word-header-with-sound">
+                <h2 className="word">{mockWord.word}</h2>
+                <button 
+                  className={`sound-button ${isSpeaking ? 'speaking' : ''}`}
+                  onClick={speakWord}
+                  disabled={isSpeaking}
+                  title="Listen to pronunciation"
+                >
+                  {isSpeaking ? '⏹️' : '🔊'}
+                </button>
+                {mockWord.pronunciation && (
+                  <span className="phonetic">{mockWord.pronunciation}</span>
+                )}
+              </div>
+              <div className="part-of-speech">{mockWord.partOfSpeech}</div>
+              
+              {!showAnswer ? (
+                <div className="challenge">
+                  <p>What does this word mean?</p>
+                  <button 
+                    className="show-answer-btn"
+                    onClick={() => setShowAnswer(true)}
+                  >
+                    Show Answer
+                  </button>
+                </div>
+              ) : (
+                <div className="answer">
+                  <div className="definition">
+                    <h3>Simple English Definition</h3>
+                    <p>{mockWord.simpleDefinitionEn}</p>
+                  </div>
+                  
+                  <div className="chinese-meaning">
+                    <h3>中文意思</h3>
+                    <p>{mockWord.meaningZh}</p>
+                  </div>
+                  
+                  <div className="example">
+                    <div className="example-header">
+                      <h3>Example Sentence</h3>
+                      <button 
+                        className={`sound-button small ${isSpeaking ? 'speaking' : ''}`}
+                        onClick={speakSentence}
+                        disabled={isSpeaking}
+                        title="Listen to sentence"
+                      >
+                        {isSpeaking ? '⏹️' : '🔊'}
+                      </button>
+                    </div>
+                    <p className="english">{mockWord.exampleSentence}</p>
+                    <p className="chinese">{mockWord.exampleSentenceZh}</p>
+                  </div>
+                </div>
+              )}
+            </div>
+            
+            <div className="card-footer">
+              <p>How well did you know this word?</p>
+              <div className="answer-buttons">
+                <button 
+                  className="btn-dont-know"
+                  onClick={() => handleAnswer('dont-know')}
+                  disabled={!showAnswer}
+                >
+                  Didn't Know
+                </button>
+                <button 
+                  className="btn-somewhat"
+                  onClick={() => handleAnswer('somewhat')}
+                  disabled={!showAnswer}
+                >
+                  Somewhat Knew
+                </button>
+                <button 
+                  className="btn-know"
+                  onClick={() => handleAnswer('know')}
+                  disabled={!showAnswer}
+                >
+                  Knew It Well
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div className="progress-info">
+          <div className="pronunciation-controls">
+            <p>Today's progress: {learningCount} words learned</p>
+            {isSpeaking && (
+              <button 
+                className="stop-speech-btn"
+                onClick={stopSpeaking}
+              >
+                Stop Speech
+              </button>
+            )}
+          </div>
+          <p style={{ color: petConfigs[currentPet].color }}>
+            {currentPet === 'melody' 
+              ? `美乐蒂 is humming a happy tune! 🎵` 
+              : `Keep going! ${petConfigs[currentPet].name} is getting smarter.`}
+          </p>
+          {currentPet === 'melody' && (
+            <p className="melody-special">
+              Melody's music helps you remember words better!
+            </p>
+          )}
+          
+          {!speechSupported && (
+            <div className="speech-support-warning">
+              ⚠️ Speech synthesis not supported in your browser. 
+              Words will be shown with phonetic guides instead.
+            </div>
+          )}
+        </div>
+        
+        <div className="pet-selector">
+          <label>Choose your learning companion:</label>
+          <div className="pet-options">
+            {(Object.keys(petConfigs) as Array<keyof typeof petConfigs>).map(petId => (
+              <div 
+                key={petId}
+                className={`pet-option ${currentPet === petId ? 'selected' : ''}`}
+                onClick={() => setCurrentPet(petId)}
+                style={{
+                  borderColor: currentPet === petId ? petConfigs[petId].color : 'transparent'
+                }}
+              >
+                <div className="pet-option-emoji">{petConfigs[petId].emoji}</div>
+                <div className="pet-option-name">{petConfigs[petId].name}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </main>
+      
+      <footer className="app-footer">
+        <p>PET Pal - Making PET exam preparation effective and fun</p>
+      </footer>
+    </div>
+  )
+}
+
+export default App

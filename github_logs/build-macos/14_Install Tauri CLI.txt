@@ -1,0 +1,15 @@
+﻿2026-04-10T12:25:22.7885230Z ##[group]Run npm install @tauri-apps/cli
+2026-04-10T12:25:22.7885470Z [36;1mnpm install @tauri-apps/cli[0m
+2026-04-10T12:25:22.7916130Z shell: /bin/bash -e {0}
+2026-04-10T12:25:22.7916300Z env:
+2026-04-10T12:25:22.7916510Z   CARGO_HOME: /Users/runner/.cargo
+2026-04-10T12:25:22.7916710Z   CARGO_INCREMENTAL: 0
+2026-04-10T12:25:22.7916870Z   CARGO_TERM_COLOR: always
+2026-04-10T12:25:22.7917030Z ##[endgroup]
+2026-04-10T12:25:23.5932840Z 
+2026-04-10T12:25:23.5933400Z added 2 packages, and audited 6 packages in 705ms
+2026-04-10T12:25:23.5933670Z 
+2026-04-10T12:25:23.5933790Z 1 package is looking for funding
+2026-04-10T12:25:23.5934100Z   run `npm fund` for details
+2026-04-10T12:25:23.5937720Z 
+2026-04-10T12:25:23.5938000Z found 0 vulnerabilities

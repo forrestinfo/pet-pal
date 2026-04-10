@@ -1,0 +1,45 @@
+﻿2026-04-10T12:28:45.5045798Z ##[group]Run npx eslint . --ext .ts,.tsx
+2026-04-10T12:28:45.5046148Z [36;1mnpx eslint . --ext .ts,.tsx[0m
+2026-04-10T12:28:45.5068013Z shell: /usr/bin/bash -e {0}
+2026-04-10T12:28:45.5068269Z ##[endgroup]
+2026-04-10T12:28:47.7752533Z 
+2026-04-10T12:28:47.7753794Z /home/runner/work/pet-pal/pet-pal/apps/mac/src/components/PetExamSimulator.tsx
+2026-04-10T12:28:47.7764747Z    93:13  error    Error: Cannot access variable before it is declared
+2026-04-10T12:28:47.7765215Z 
+2026-04-10T12:28:47.7766044Z `handleTimeUp` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+2026-04-10T12:28:47.7766718Z 
+2026-04-10T12:28:47.7767214Z /home/runner/work/pet-pal/pet-pal/apps/mac/src/components/PetExamSimulator.tsx:93:13
+2026-04-10T12:28:47.7768195Z   91 |               window.clearInterval(timerRef.current);
+2026-04-10T12:28:47.7768585Z   92 |             }
+2026-04-10T12:28:47.7768931Z > 93 |             handleTimeUp();
+2026-04-10T12:28:47.7769375Z      |             ^^^^^^^^^^^^ `handleTimeUp` accessed before it is declared
+2026-04-10T12:28:47.7769883Z   94 |             return 0;
+2026-04-10T12:28:47.7770160Z   95 |           }
+2026-04-10T12:28:47.7770477Z   96 |           return prev - 1;
+2026-04-10T12:28:47.7770693Z 
+2026-04-10T12:28:47.7771138Z /home/runner/work/pet-pal/pet-pal/apps/mac/src/components/PetExamSimulator.tsx:116:3
+2026-04-10T12:28:47.7771744Z   114 |   };
+2026-04-10T12:28:47.7771948Z   115 |
+2026-04-10T12:28:47.7772231Z > 116 |   const handleTimeUp = () => {
+2026-04-10T12:28:47.7772552Z       |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-10T12:28:47.7773018Z > 117 |     if (currentQuestionIndex < mockExamQuestions.length - 1) {
+2026-04-10T12:28:47.7773467Z       | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-10T12:28:47.7774183Z > 118 |       nextQuestion();
+2026-04-10T12:28:47.7774533Z       | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-10T12:28:47.7774846Z > 119 |     } else {
+2026-04-10T12:28:47.7775148Z       | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-10T12:28:47.7775471Z > 120 |       finishExam();
+2026-04-10T12:28:47.7775832Z       | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-10T12:28:47.7776133Z > 121 |     }
+2026-04-10T12:28:47.7776408Z       | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-04-10T12:28:47.7776715Z > 122 |   };
+2026-04-10T12:28:47.7776964Z       | ^^^^^ `handleTimeUp` is declared here
+2026-04-10T12:28:47.7777244Z   123 |
+2026-04-10T12:28:47.7777561Z   124 |   const handleAnswerSelect = (answerIndex: number) => {
+2026-04-10T12:28:47.7778230Z   125 |     const newAnswers = [...userAnswers];  react-hooks/immutability
+2026-04-10T12:28:47.7792994Z ##[warning]  106:6   warning  React Hook useEffect has a missing dependency: 'handleTimeUp'. Either include it or remove the dependency array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           react-hooks/exhaustive-deps
+2026-04-10T12:28:47.7809420Z ##[error]  286:44  error    '_index' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+2026-04-10T12:28:47.7812486Z 
+2026-04-10T12:28:47.7813198Z ✖ 3 problems (2 errors, 1 warning)
+2026-04-10T12:28:47.7813424Z 
+2026-04-10T12:28:47.8069868Z ##[error]Process completed with exit code 1.

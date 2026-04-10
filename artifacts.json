@@ -1,0 +1,25 @@
+{
+  "total_count": 1,
+  "artifacts": [
+    {
+      "id": 6370870184,
+      "node_id": "MDg6QXJ0aWZhY3Q2MzcwODcwMTg0",
+      "name": "PET-Pal-macOS",
+      "size_in_bytes": 6734129,
+      "url": "https://api.github.com/repos/forrestinfo/pet-pal/actions/artifacts/6370870184",
+      "archive_download_url": "https://api.github.com/repos/forrestinfo/pet-pal/actions/artifacts/6370870184/zip",
+      "expired": false,
+      "digest": "sha256:67c477bc488c9ffacd481e6b640660b7b778ab67b05326663d85a299172d056e",
+      "created_at": "2026-04-10T12:30:48Z",
+      "updated_at": "2026-04-10T12:30:48Z",
+      "expires_at": "2026-04-17T12:30:47Z",
+      "workflow_run": {
+        "id": 24242910890,
+        "repository_id": 1206949596,
+        "head_repository_id": 1206949596,
+        "head_branch": "main",
+        "head_sha": "a2e50987903fc341218c757fb10e38fa2fa06a66"
+      }
+    }
+  ]
+}

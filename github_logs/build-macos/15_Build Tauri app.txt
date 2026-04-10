@@ -1,0 +1,14 @@
+﻿2026-04-10T12:25:23.5991460Z ##[group]Run npx tauri build --verbose
+2026-04-10T12:25:23.5991720Z [36;1mnpx tauri build --verbose[0m
+2026-04-10T12:25:23.6022290Z shell: /bin/bash -e {0}
+2026-04-10T12:25:23.6022450Z env:
+2026-04-10T12:25:23.6022590Z   CARGO_HOME: /Users/runner/.cargo
+2026-04-10T12:25:23.6022760Z   CARGO_INCREMENTAL: 0
+2026-04-10T12:25:23.6022910Z   CARGO_TERM_COLOR: always
+2026-04-10T12:25:23.6023060Z ##[endgroup]
+2026-04-10T12:25:23.8531160Z        Debug [tauri_cli::helpers::app_paths] Found Tauri project inside /Users/runner/work/pet-pal/pet-pal/apps/mac/src-tauri on early lookup
+2026-04-10T12:25:25.0257490Z         Info [tauri_cli::build] Looking up installed tauri packages to check mismatched versions...
+2026-04-10T12:25:25.0437960Z        Debug [tauri_cli::info::plugins] Failed to parse version `2` for crate `tauri-plugin-log`
+2026-04-10T12:25:25.3541100Z You must change the bundle identifier in `{bundle_identifier_source} identifier`. The default value `com.tauri.dev` is not allowed as it must be unique across applications.
+2026-04-10T12:25:25.3545160Z        Error [tauri_cli_node] You must change the bundle identifier in `{bundle_identifier_source} identifier`. The default value `com.tauri.dev` is not allowed as it must be unique across applications.
+2026-04-10T12:25:25.3610370Z ##[error]Process completed with exit code 1.

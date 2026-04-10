@@ -1,0 +1,32 @@
+﻿2026-04-10T12:28:32.5076511Z Current runner version: '2.333.1'
+2026-04-10T12:28:32.5103898Z ##[group]Runner Image Provisioner
+2026-04-10T12:28:32.5104673Z Hosted Compute Agent
+2026-04-10T12:28:32.5105395Z Version: 20260213.493
+2026-04-10T12:28:32.5105926Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-04-10T12:28:32.5106575Z Build Date: 2026-02-13T00:28:41Z
+2026-04-10T12:28:32.5107193Z Worker ID: {55aad2ac-911a-4ecd-8d5f-79a0312ece8a}
+2026-04-10T12:28:32.5107776Z Azure Region: northcentralus
+2026-04-10T12:28:32.5108284Z ##[endgroup]
+2026-04-10T12:28:32.5109655Z ##[group]Operating System
+2026-04-10T12:28:32.5110207Z Ubuntu
+2026-04-10T12:28:32.5110622Z 24.04.4
+2026-04-10T12:28:32.5111079Z LTS
+2026-04-10T12:28:32.5111465Z ##[endgroup]
+2026-04-10T12:28:32.5111971Z ##[group]Runner Image
+2026-04-10T12:28:32.5112510Z Image: ubuntu-24.04
+2026-04-10T12:28:32.5112942Z Version: 20260406.80.1
+2026-04-10T12:28:32.5113847Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260406.80/images/ubuntu/Ubuntu2404-Readme.md
+2026-04-10T12:28:32.5115585Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260406.80
+2026-04-10T12:28:32.5116380Z ##[endgroup]
+2026-04-10T12:28:32.5117351Z ##[group]GITHUB_TOKEN Permissions
+2026-04-10T12:28:32.5120035Z Contents: read
+2026-04-10T12:28:32.5120581Z Metadata: read
+2026-04-10T12:28:32.5121049Z Packages: read
+2026-04-10T12:28:32.5121537Z ##[endgroup]
+2026-04-10T12:28:32.5124021Z Secret source: Actions
+2026-04-10T12:28:32.5125316Z Prepare workflow directory
+2026-04-10T12:28:32.5455557Z Prepare all required actions
+2026-04-10T12:28:32.5496534Z Getting action download info
+2026-04-10T12:28:32.8637770Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-04-10T12:28:32.9917049Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-04-10T12:28:33.1697308Z Complete job name: build-and-test (shared-types)

@@ -1,0 +1,73 @@
+﻿2026-04-10T12:25:10.1814080Z ##[group]Run actions/checkout@v4
+2026-04-10T12:25:10.1814710Z with:
+2026-04-10T12:25:10.1814940Z   repository: forrestinfo/pet-pal
+2026-04-10T12:25:10.1815370Z   token: ***
+2026-04-10T12:25:10.1815580Z   ssh-strict: true
+2026-04-10T12:25:10.1815800Z   ssh-user: git
+2026-04-10T12:25:10.1816030Z   persist-credentials: true
+2026-04-10T12:25:10.1816270Z   clean: true
+2026-04-10T12:25:10.1816500Z   sparse-checkout-cone-mode: true
+2026-04-10T12:25:10.1816770Z   fetch-depth: 1
+2026-04-10T12:25:10.1816980Z   fetch-tags: false
+2026-04-10T12:25:10.1817240Z   show-progress: true
+2026-04-10T12:25:10.1817460Z   lfs: false
+2026-04-10T12:25:10.1817660Z   submodules: false
+2026-04-10T12:25:10.1817890Z   set-safe-directory: true
+2026-04-10T12:25:10.1818230Z ##[endgroup]
+2026-04-10T12:25:10.5026520Z Syncing repository: forrestinfo/pet-pal
+2026-04-10T12:25:10.5027970Z ##[group]Getting Git version info
+2026-04-10T12:25:10.5028480Z Working directory is '/Users/runner/work/pet-pal/pet-pal'
+2026-04-10T12:25:10.5029070Z [command]/opt/homebrew/bin/git version
+2026-04-10T12:25:10.5897590Z git version 2.53.0
+2026-04-10T12:25:10.5922360Z ##[endgroup]
+2026-04-10T12:25:10.5929010Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/7bb97c6d-2b54-445f-95b8-5b4b85a929ff/.gitconfig'
+2026-04-10T12:25:10.5939880Z Temporarily overriding HOME='/Users/runner/work/_temp/7bb97c6d-2b54-445f-95b8-5b4b85a929ff' before making global git config changes
+2026-04-10T12:25:10.5941270Z Adding repository directory to the temporary git global config as a safe directory
+2026-04-10T12:25:10.5944180Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/pet-pal/pet-pal
+2026-04-10T12:25:10.6029180Z Deleting the contents of '/Users/runner/work/pet-pal/pet-pal'
+2026-04-10T12:25:10.6031930Z ##[group]Initializing the repository
+2026-04-10T12:25:10.6035520Z [command]/opt/homebrew/bin/git init /Users/runner/work/pet-pal/pet-pal
+2026-04-10T12:25:10.6205170Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-04-10T12:25:10.6206250Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-04-10T12:25:10.6206800Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-04-10T12:25:10.6207200Z hint: call:
+2026-04-10T12:25:10.6207400Z hint:
+2026-04-10T12:25:10.6207690Z hint: 	git config --global init.defaultBranch <name>
+2026-04-10T12:25:10.6208020Z hint:
+2026-04-10T12:25:10.6208320Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-04-10T12:25:10.6208810Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-04-10T12:25:10.6209190Z hint:
+2026-04-10T12:25:10.6209410Z hint: 	git branch -m <name>
+2026-04-10T12:25:10.6209660Z hint:
+2026-04-10T12:25:10.6209980Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-04-10T12:25:10.6210510Z Initialized empty Git repository in /Users/runner/work/pet-pal/pet-pal/.git/
+2026-04-10T12:25:10.6213220Z [command]/opt/homebrew/bin/git remote add origin https://github.com/forrestinfo/pet-pal
+2026-04-10T12:25:10.6271370Z ##[endgroup]
+2026-04-10T12:25:10.6271850Z ##[group]Disabling automatic garbage collection
+2026-04-10T12:25:10.6273540Z [command]/opt/homebrew/bin/git config --local gc.auto 0
+2026-04-10T12:25:10.6321560Z ##[endgroup]
+2026-04-10T12:25:10.6321980Z ##[group]Setting up auth
+2026-04-10T12:25:10.6325980Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-04-10T12:25:10.6371490Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-04-10T12:25:10.7131520Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-04-10T12:25:10.7398290Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-04-10T12:25:10.8291800Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-04-10T12:25:10.8347280Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-04-10T12:25:10.8983110Z [command]/opt/homebrew/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-04-10T12:25:10.9040530Z ##[endgroup]
+2026-04-10T12:25:10.9041310Z ##[group]Fetching the repository
+2026-04-10T12:25:10.9045440Z [command]/opt/homebrew/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +febb5a78a0745910deed1f8d04b7564bd7e77e2a:refs/remotes/origin/main
+2026-04-10T12:25:12.2411320Z From https://github.com/forrestinfo/pet-pal
+2026-04-10T12:25:12.2411820Z  * [new ref]         febb5a78a0745910deed1f8d04b7564bd7e77e2a -> origin/main
+2026-04-10T12:25:12.2516860Z ##[endgroup]
+2026-04-10T12:25:12.2517920Z ##[group]Determining the checkout info
+2026-04-10T12:25:12.2518630Z ##[endgroup]
+2026-04-10T12:25:12.2521520Z [command]/opt/homebrew/bin/git sparse-checkout disable
+2026-04-10T12:25:12.2615840Z [command]/opt/homebrew/bin/git config --local --unset-all extensions.worktreeConfig
+2026-04-10T12:25:12.2708870Z ##[group]Checking out the ref
+2026-04-10T12:25:12.2712280Z [command]/opt/homebrew/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-04-10T12:25:12.7105360Z Switched to a new branch 'main'
+2026-04-10T12:25:12.7111480Z branch 'main' set up to track 'origin/main'.
+2026-04-10T12:25:12.7236120Z ##[endgroup]
+2026-04-10T12:25:12.7376870Z [command]/opt/homebrew/bin/git log -1 --format=%H
+2026-04-10T12:25:12.7411550Z febb5a78a0745910deed1f8d04b7564bd7e77e2a

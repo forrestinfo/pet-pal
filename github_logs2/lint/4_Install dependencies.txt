@@ -1,0 +1,26 @@
+﻿2026-04-10T12:28:36.2615436Z ##[group]Run cd apps/mac && npm ci
+2026-04-10T12:28:36.2615826Z [36;1mcd apps/mac && npm ci[0m
+2026-04-10T12:28:36.2616132Z [36;1mcd ../../packages/shared-types && npm ci[0m
+2026-04-10T12:28:36.2616505Z [36;1mcd ../content && npm ci[0m
+2026-04-10T12:28:36.2616761Z [36;1mcd ../spaced-repetition && npm ci[0m
+2026-04-10T12:28:36.2842183Z shell: /usr/bin/bash -e {0}
+2026-04-10T12:28:36.2842475Z ##[endgroup]
+2026-04-10T12:28:43.7277576Z 
+2026-04-10T12:28:43.7287117Z added 178 packages, and audited 179 packages in 7s
+2026-04-10T12:28:43.7287642Z 
+2026-04-10T12:28:43.7288248Z 52 packages are looking for funding
+2026-04-10T12:28:43.7288804Z   run `npm fund` for details
+2026-04-10T12:28:43.7292338Z 
+2026-04-10T12:28:43.7292775Z found 0 vulnerabilities
+2026-04-10T12:28:44.2994509Z 
+2026-04-10T12:28:44.2995384Z added 1 package, and audited 2 packages in 496ms
+2026-04-10T12:28:44.3003480Z 
+2026-04-10T12:28:44.3003850Z found 0 vulnerabilities
+2026-04-10T12:28:44.8997022Z 
+2026-04-10T12:28:44.8998190Z added 2 packages, and audited 4 packages in 531ms
+2026-04-10T12:28:44.9005368Z 
+2026-04-10T12:28:44.9005686Z found 0 vulnerabilities
+2026-04-10T12:28:45.4924640Z 
+2026-04-10T12:28:45.4925465Z added 2 packages, and audited 4 packages in 525ms
+2026-04-10T12:28:45.4932691Z 
+2026-04-10T12:28:45.4933135Z found 0 vulnerabilities

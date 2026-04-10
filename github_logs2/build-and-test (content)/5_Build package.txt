@@ -1,0 +1,11 @@
+﻿2026-04-10T12:28:39.7459613Z ##[group]Run npm run build
+2026-04-10T12:28:39.7459938Z [36;1mnpm run build[0m
+2026-04-10T12:28:39.7481506Z shell: /usr/bin/bash -e {0}
+2026-04-10T12:28:39.7481758Z ##[endgroup]
+2026-04-10T12:28:39.8584917Z 
+2026-04-10T12:28:39.8585499Z > content@1.0.0 build
+2026-04-10T12:28:39.8586118Z > tsc
+2026-04-10T12:28:39.8586345Z 
+2026-04-10T12:28:40.8000155Z ##[error]src/pointsSystem.ts(6,10): error TS2305: Module '"shared-types"' has no exported member 'PointsCategory'.
+2026-04-10T12:28:40.8011556Z ##[error]src/pointsSystem.ts(6,26): error TS2305: Module '"shared-types"' has no exported member 'PointsTransaction'.
+2026-04-10T12:28:40.8171341Z ##[error]Process completed with exit code 2.

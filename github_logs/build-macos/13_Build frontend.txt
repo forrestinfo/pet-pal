@@ -1,0 +1,22 @@
+﻿2026-04-10T12:25:21.1793890Z ##[group]Run npm run build
+2026-04-10T12:25:21.1794160Z [36;1mnpm run build[0m
+2026-04-10T12:25:21.1827910Z shell: /bin/bash -e {0}
+2026-04-10T12:25:21.1828070Z env:
+2026-04-10T12:25:21.1828200Z   CARGO_HOME: /Users/runner/.cargo
+2026-04-10T12:25:21.1828380Z   CARGO_INCREMENTAL: 0
+2026-04-10T12:25:21.1828570Z   CARGO_TERM_COLOR: always
+2026-04-10T12:25:21.1828790Z ##[endgroup]
+2026-04-10T12:25:21.3618080Z 
+2026-04-10T12:25:21.3618370Z > mac@0.0.0 build
+2026-04-10T12:25:21.3618700Z > tsc -b && vite build
+2026-04-10T12:25:21.3618820Z 
+2026-04-10T12:25:22.6776300Z [36mvite v8.0.8 [32mbuilding client environment for production...[36m[39m
+2026-04-10T12:25:22.6841700Z [2K
+2026-04-10T12:25:22.7184020Z transforming...✓ 17 modules transformed.
+2026-04-10T12:25:22.7518410Z rendering chunks...
+2026-04-10T12:25:22.7747760Z computing gzip size...
+2026-04-10T12:25:22.7835570Z dist/index.html                   0.45 kB │ gzip:  0.29 kB
+2026-04-10T12:25:22.7857320Z dist/assets/index-q4qTHOBJ.css    4.77 kB │ gzip:  1.69 kB
+2026-04-10T12:25:22.7859520Z dist/assets/index-UHJrWRi4.js   193.20 kB │ gzip: 60.90 kB
+2026-04-10T12:25:22.7859820Z 
+2026-04-10T12:25:22.7860100Z [32m✓ built in 95ms[39m

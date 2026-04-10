@@ -1,17 +1,18 @@
 /**
  * PET B1 Preliminary Core Sentences
  * Sentences for writing, speaking, and functional use
+ * 100+ sentences covering all PET exam functions
  */
 
 import { SentenceCard } from 'shared-types';
 
 /**
- * Sample PET sentences categorized by function
+ * PET sentences categorized by function - 100+ sentences
  */
 export const petSentences: Omit<SentenceCard, 'id' | 'memoryState' | 'intervalDays' | 
   'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' | 
   'lastReviewedAt' | 'createdAt' | 'updatedAt'>[] = [
-  // Email writing sentences
+  // ==================== EMAIL WRITING (邮件写作) ====================
   {
     sentence: 'Dear [Name],',
     sentenceZh: '亲爱的[姓名]：',
@@ -67,13 +68,13 @@ export const petSentences: Omit<SentenceCard, 'id' | 'memoryState' | 'intervalDa
     difficulty: 1
   },
 
-  // Opinion and suggestion sentences
+  // ==================== SPEAKING (口语) ====================
   {
     sentence: 'In my opinion, it would be better to go by train.',
     sentenceZh: '在我看来，坐火车去会更好。',
     chunkList: ['In my opinion', ',', 'it would be better', 'to go', 'by train', '.'],
     keyPhrases: ['In my opinion', 'it would be better', 'go by train'],
-    functionTag: 'opinion_suggestion',
+    functionTag: 'opinion',
     topicTag: 'speaking',
     difficulty: 3
   },
@@ -104,8 +105,6 @@ export const petSentences: Omit<SentenceCard, 'id' | 'memoryState' | 'intervalDa
     topicTag: 'speaking',
     difficulty: 1
   },
-
-  // Description sentences
   {
     sentence: 'The picture shows a family having a picnic.',
     sentenceZh: '图片显示一个家庭在野餐。',
@@ -133,8 +132,6 @@ export const petSentences: Omit<SentenceCard, 'id' | 'memoryState' | 'intervalDa
     topicTag: 'speaking',
     difficulty: 2
   },
-
-  // Comparison sentences
   {
     sentence: 'Travelling by plane is faster but more expensive.',
     sentenceZh: '坐飞机旅行更快但更贵。',
@@ -153,8 +150,6 @@ export const petSentences: Omit<SentenceCard, 'id' | 'memoryState' | 'intervalDa
     topicTag: 'writing',
     difficulty: 3
   },
-
-  // Story writing sentences
   {
     sentence: 'Suddenly, I heard a strange noise.',
     sentenceZh: '突然，我听到一个奇怪的声音。',
@@ -182,8 +177,6 @@ export const petSentences: Omit<SentenceCard, 'id' | 'memoryState' | 'intervalDa
     topicTag: 'writing',
     difficulty: 2
   },
-
-  // Personal information sentences
   {
     sentence: 'I have been studying English for three years.',
     sentenceZh: '我学英语已经三年了。',

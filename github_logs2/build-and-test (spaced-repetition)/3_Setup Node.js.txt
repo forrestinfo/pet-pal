@@ -1,0 +1,18 @@
+﻿2026-04-10T12:28:42.7738169Z ##[group]Run actions/setup-node@v4
+2026-04-10T12:28:42.7739264Z with:
+2026-04-10T12:28:42.7740055Z   node-version: 20
+2026-04-10T12:28:42.7740887Z   cache: npm
+2026-04-10T12:28:42.7741701Z   always-auth: false
+2026-04-10T12:28:42.7742580Z   check-latest: false
+2026-04-10T12:28:42.7743724Z   token: ***
+2026-04-10T12:28:42.7744515Z ##[endgroup]
+2026-04-10T12:28:42.9552156Z Found in cache @ /opt/hostedtoolcache/node/20.20.2/x64
+2026-04-10T12:28:42.9559608Z ##[group]Environment details
+2026-04-10T12:28:43.2389417Z node: v20.20.2
+2026-04-10T12:28:43.2389955Z npm: 10.8.2
+2026-04-10T12:28:43.2390328Z yarn: 1.22.22
+2026-04-10T12:28:43.2391424Z ##[endgroup]
+2026-04-10T12:28:43.2413786Z [command]/opt/hostedtoolcache/node/20.20.2/x64/bin/npm config get cache
+2026-04-10T12:28:43.3498553Z /home/runner/.npm
+2026-04-10T12:28:43.5983025Z Cache hit for: node-cache-Linux-x64-npm-a329d96a675602c3777a023f85e0387f4b394a54e7916c334aa60e4b8c762457
+2026-04-10T12:28:43.7268110Z ##[error]The operation was canceled.

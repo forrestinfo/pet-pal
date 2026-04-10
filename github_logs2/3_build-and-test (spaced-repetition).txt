@@ -1,0 +1,138 @@
+﻿2026-04-10T12:28:40.2618898Z Current runner version: '2.333.1'
+2026-04-10T12:28:40.2644034Z ##[group]Runner Image Provisioner
+2026-04-10T12:28:40.2645195Z Hosted Compute Agent
+2026-04-10T12:28:40.2645761Z Version: 20260213.493
+2026-04-10T12:28:40.2646438Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-04-10T12:28:40.2647187Z Build Date: 2026-02-13T00:28:41Z
+2026-04-10T12:28:40.2647835Z Worker ID: {111bf59e-fcd4-4550-95f3-e3472c405aad}
+2026-04-10T12:28:40.2648539Z Azure Region: westcentralus
+2026-04-10T12:28:40.2649062Z ##[endgroup]
+2026-04-10T12:28:40.2650471Z ##[group]Operating System
+2026-04-10T12:28:40.2651062Z Ubuntu
+2026-04-10T12:28:40.2651529Z 24.04.4
+2026-04-10T12:28:40.2652052Z LTS
+2026-04-10T12:28:40.2652534Z ##[endgroup]
+2026-04-10T12:28:40.2653034Z ##[group]Runner Image
+2026-04-10T12:28:40.2653614Z Image: ubuntu-24.04
+2026-04-10T12:28:40.2654180Z Version: 20260406.80.1
+2026-04-10T12:28:40.2655573Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260406.80/images/ubuntu/Ubuntu2404-Readme.md
+2026-04-10T12:28:40.2656990Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260406.80
+2026-04-10T12:28:40.2657881Z ##[endgroup]
+2026-04-10T12:28:40.2659042Z ##[group]GITHUB_TOKEN Permissions
+2026-04-10T12:28:40.2660999Z Contents: read
+2026-04-10T12:28:40.2661605Z Metadata: read
+2026-04-10T12:28:40.2662153Z Packages: read
+2026-04-10T12:28:40.2662626Z ##[endgroup]
+2026-04-10T12:28:40.2665285Z Secret source: Actions
+2026-04-10T12:28:40.2666085Z Prepare workflow directory
+2026-04-10T12:28:40.2995250Z Prepare all required actions
+2026-04-10T12:28:40.3033572Z Getting action download info
+2026-04-10T12:28:40.7001263Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-04-10T12:28:40.8490836Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-04-10T12:28:41.0385325Z Complete job name: build-and-test (spaced-repetition)
+2026-04-10T12:28:41.1062702Z ##[group]Run actions/checkout@v4
+2026-04-10T12:28:41.1063640Z with:
+2026-04-10T12:28:41.1064035Z   repository: forrestinfo/pet-pal
+2026-04-10T12:28:41.1064978Z   token: ***
+2026-04-10T12:28:41.1065360Z   ssh-strict: true
+2026-04-10T12:28:41.1065748Z   ssh-user: git
+2026-04-10T12:28:41.1066146Z   persist-credentials: true
+2026-04-10T12:28:41.1066610Z   clean: true
+2026-04-10T12:28:41.1067016Z   sparse-checkout-cone-mode: true
+2026-04-10T12:28:41.1067481Z   fetch-depth: 1
+2026-04-10T12:28:41.1067868Z   fetch-tags: false
+2026-04-10T12:28:41.1068252Z   show-progress: true
+2026-04-10T12:28:41.1068646Z   lfs: false
+2026-04-10T12:28:41.1068999Z   submodules: false
+2026-04-10T12:28:41.1069400Z   set-safe-directory: true
+2026-04-10T12:28:41.1070048Z ##[endgroup]
+2026-04-10T12:28:41.2149207Z Syncing repository: forrestinfo/pet-pal
+2026-04-10T12:28:41.2150882Z ##[group]Getting Git version info
+2026-04-10T12:28:41.2151534Z Working directory is '/home/runner/work/pet-pal/pet-pal'
+2026-04-10T12:28:41.2152586Z [command]/usr/bin/git version
+2026-04-10T12:28:41.2189393Z git version 2.53.0
+2026-04-10T12:28:41.2214894Z ##[endgroup]
+2026-04-10T12:28:41.2237439Z Temporarily overriding HOME='/home/runner/work/_temp/4e363541-740d-4808-ae05-9f2a7f38265b' before making global git config changes
+2026-04-10T12:28:41.2238768Z Adding repository directory to the temporary git global config as a safe directory
+2026-04-10T12:28:41.2242637Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pet-pal/pet-pal
+2026-04-10T12:28:41.2275927Z Deleting the contents of '/home/runner/work/pet-pal/pet-pal'
+2026-04-10T12:28:41.2279526Z ##[group]Initializing the repository
+2026-04-10T12:28:41.2283532Z [command]/usr/bin/git init /home/runner/work/pet-pal/pet-pal
+2026-04-10T12:28:41.2348173Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-04-10T12:28:41.2349656Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-04-10T12:28:41.2351094Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-04-10T12:28:41.2352629Z hint: call:
+2026-04-10T12:28:41.2353178Z hint:
+2026-04-10T12:28:41.2354097Z hint: 	git config --global init.defaultBranch <name>
+2026-04-10T12:28:41.2355308Z hint:
+2026-04-10T12:28:41.2356134Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-04-10T12:28:41.2357521Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-04-10T12:28:41.2358680Z hint:
+2026-04-10T12:28:41.2359316Z hint: 	git branch -m <name>
+2026-04-10T12:28:41.2359994Z hint:
+2026-04-10T12:28:41.2360879Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-04-10T12:28:41.2362304Z Initialized empty Git repository in /home/runner/work/pet-pal/pet-pal/.git/
+2026-04-10T12:28:41.2365157Z [command]/usr/bin/git remote add origin https://github.com/forrestinfo/pet-pal
+2026-04-10T12:28:41.2394145Z ##[endgroup]
+2026-04-10T12:28:41.2395499Z ##[group]Disabling automatic garbage collection
+2026-04-10T12:28:41.2399271Z [command]/usr/bin/git config --local gc.auto 0
+2026-04-10T12:28:41.2431919Z ##[endgroup]
+2026-04-10T12:28:41.2432913Z ##[group]Setting up auth
+2026-04-10T12:28:41.2439141Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-04-10T12:28:41.2469880Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-04-10T12:28:41.2760571Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-04-10T12:28:41.2792116Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-04-10T12:28:41.3025023Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-04-10T12:28:41.3060552Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-04-10T12:28:41.3316699Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-04-10T12:28:41.3355364Z ##[endgroup]
+2026-04-10T12:28:41.3356414Z ##[group]Fetching the repository
+2026-04-10T12:28:41.3365530Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a2e50987903fc341218c757fb10e38fa2fa06a66:refs/remotes/origin/main
+2026-04-10T12:28:42.2373087Z From https://github.com/forrestinfo/pet-pal
+2026-04-10T12:28:42.2375021Z  * [new ref]         a2e50987903fc341218c757fb10e38fa2fa06a66 -> origin/main
+2026-04-10T12:28:42.2405087Z ##[endgroup]
+2026-04-10T12:28:42.2406445Z ##[group]Determining the checkout info
+2026-04-10T12:28:42.2408097Z ##[endgroup]
+2026-04-10T12:28:42.2413891Z [command]/usr/bin/git sparse-checkout disable
+2026-04-10T12:28:42.2454841Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-04-10T12:28:42.2484064Z ##[group]Checking out the ref
+2026-04-10T12:28:42.2486306Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-04-10T12:28:42.7347184Z Switched to a new branch 'main'
+2026-04-10T12:28:42.7349175Z branch 'main' set up to track 'origin/main'.
+2026-04-10T12:28:42.7361447Z ##[endgroup]
+2026-04-10T12:28:42.7402109Z [command]/usr/bin/git log -1 --format=%H
+2026-04-10T12:28:42.7425076Z a2e50987903fc341218c757fb10e38fa2fa06a66
+2026-04-10T12:28:42.7738198Z ##[group]Run actions/setup-node@v4
+2026-04-10T12:28:42.7739273Z with:
+2026-04-10T12:28:42.7740062Z   node-version: 20
+2026-04-10T12:28:42.7740892Z   cache: npm
+2026-04-10T12:28:42.7741705Z   always-auth: false
+2026-04-10T12:28:42.7742586Z   check-latest: false
+2026-04-10T12:28:42.7743728Z   token: ***
+2026-04-10T12:28:42.7744530Z ##[endgroup]
+2026-04-10T12:28:42.9552231Z Found in cache @ /opt/hostedtoolcache/node/20.20.2/x64
+2026-04-10T12:28:42.9559634Z ##[group]Environment details
+2026-04-10T12:28:43.2389481Z node: v20.20.2
+2026-04-10T12:28:43.2389962Z npm: 10.8.2
+2026-04-10T12:28:43.2390334Z yarn: 1.22.22
+2026-04-10T12:28:43.2391438Z ##[endgroup]
+2026-04-10T12:28:43.2413822Z [command]/opt/hostedtoolcache/node/20.20.2/x64/bin/npm config get cache
+2026-04-10T12:28:43.3498630Z /home/runner/.npm
+2026-04-10T12:28:43.5983058Z Cache hit for: node-cache-Linux-x64-npm-a329d96a675602c3777a023f85e0387f4b394a54e7916c334aa60e4b8c762457
+2026-04-10T12:28:43.7268217Z ##[error]The operation was canceled.
+2026-04-10T12:28:43.7392610Z Post job cleanup.
+2026-04-10T12:28:43.8356961Z [command]/usr/bin/git version
+2026-04-10T12:28:43.8393422Z git version 2.53.0
+2026-04-10T12:28:43.8435258Z Temporarily overriding HOME='/home/runner/work/_temp/ed4c8169-108e-4cc2-9859-2709654ce7a8' before making global git config changes
+2026-04-10T12:28:43.8436544Z Adding repository directory to the temporary git global config as a safe directory
+2026-04-10T12:28:43.8441755Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pet-pal/pet-pal
+2026-04-10T12:28:43.8478688Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-04-10T12:28:43.8511586Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-04-10T12:28:43.8752135Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-04-10T12:28:43.8773974Z http.https://github.com/.extraheader
+2026-04-10T12:28:43.8787536Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-04-10T12:28:43.8818749Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-04-10T12:28:43.9060498Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-04-10T12:28:43.9107109Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-04-10T12:28:43.9469373Z Cleaning up orphan processes
+2026-04-10T12:28:43.9687008Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4, actions/setup-node@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
