@@ -1,0 +1,100 @@
+name: Build macOS Application
+
+on:
+  push:
+    branches: [ main ]
+    tags:
+      - 'v*'
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-macos:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        cache-dependency-path: '**/package-lock.json'
+    
+    - name: Setup Rust
+      uses: dtolnay/rust-toolchain@stable
+      with:
+        targets: aarch64-apple-darwin
+    
+    - name: Cache Rust dependencies
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.cargo/registry
+          ~/.cargo/git
+          apps/mac/src-tauri/target
+        key: ${{ runner.os }}-cargo-${{ hashFiles('apps/mac/src-tauri/Cargo.toml') }}
+        restore-keys: |
+          ${{ runner.os }}-cargo-
+    
+    - name: Install npm dependencies
+      run: npm ci
+      working-directory: packages/shared-types
+    
+    - name: Build shared-types
+      run: npm run build
+      working-directory: packages/shared-types
+    
+    - name: Install npm dependencies for content
+      run: npm ci
+      working-directory: packages/content
+    
+    - name: Build content
+      run: npm run build
+      working-directory: packages/content
+    
+    - name: Install npm dependencies for spaced-repetition
+      run: npm ci
+      working-directory: packages/spaced-repetition
+    
+    - name: Build spaced-repetition
+      run: npm run build
+      working-directory: packages/spaced-repetition
+    
+    - name: Install app dependencies
+      run: npm ci
+      working-directory: apps/mac
+    
+    - name: Build frontend
+      run: npm run build
+      working-directory: apps/mac
+    
+    - name: Install Tauri CLI
+      run: npm install @tauri-apps/cli
+    
+    - name: Build Tauri app
+      run: npx tauri build
+      working-directory: apps/mac
+      env:
+        TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
+        TAURI_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
+    
+    - name: Upload macOS app artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: PET-Pal-macOS
+        path: apps/mac/src-tauri/target/release/bundle/
+        retention-days: 7
+    
+    - name: Create GitHub Release (on tag)
+      if: startsWith(github.ref, 'refs/tags/v')
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          apps/mac/src-tauri/target/release/bundle/macos/PET Pal.app.tar.gz
+          apps/mac/src-tauri/target/release/bundle/dmg/PET Pal.dmg
+        draft: false
+        prerelease: false
