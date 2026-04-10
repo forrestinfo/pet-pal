@@ -4,8 +4,6 @@
  * 300+ sentences covering all PET exam functions
  */
 
-import { emailSentences } from './sentences/sentences-email';
-import { speakingSentences } from './sentences/sentences-speaking';
 import { SentenceCard } from 'shared-types';
 
 /**
@@ -14,8 +12,6 @@ import { SentenceCard } from 'shared-types';
 export const petSentences: Omit<SentenceCard, 'id' | 'memoryState' | 'intervalDays' | 
   'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' | 
   'lastReviewedAt' | 'createdAt' | 'updatedAt'>[] = [
-  ...emailSentences,
-  ...speakingSentences,
   // ==================== EMAIL WRITING (邮件写作) ====================
   {
     sentence: 'Dear [Name],',
