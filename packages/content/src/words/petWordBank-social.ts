@@ -529,7 +529,4 @@ export const socialWords: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' |
     topicTag: 'social',
     difficulty: 2
   },
-  {
-    word: 'neighbor',
-    partOfSpeech: 'noun',
-    simpleDefinitionEn: 'person living near you',
+];

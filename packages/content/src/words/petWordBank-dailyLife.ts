@@ -506,4 +506,7 @@ export const dailyLifeWords: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays
     meaningZh: '谈话',
     exampleSentence: 'We talked about our holiday plans.',
     exampleSentenceZh: '我们讨论了我们的假期计划。',
-    topic
+    topicTag: 'dailyLife',
+    difficulty: 1
+  }
+];

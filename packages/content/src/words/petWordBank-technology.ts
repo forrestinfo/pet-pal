@@ -539,10 +539,4 @@ export const technologyWords: Omit<WordCard, 'id' | 'memoryState' | 'intervalDay
     topicTag: 'technology',
     difficulty: 1
   },
-  {
-    word: 'disconnect',
-    partOfSpeech: 'verb',
-    simpleDefinitionEn: 'to separate',
-    meaningZh: '断开连接',
-    exampleSentence: 'Disconnect the cable.',
-    exampleSentenceZh: '断开电缆
+];

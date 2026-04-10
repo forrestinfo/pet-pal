@@ -539,11 +539,4 @@ export const foodWords: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' |
     topicTag: 'food',
     difficulty: 1
   },
-  {
-    word: 'chicken',
-    partOfSpeech: 'noun',
-    simpleDefinitionEn: 'bird for food',
-    meaningZh: '鸡肉',
-    exampleSentence: 'We eat chicken for dinner.',
-    exampleSentenceZh: '我们晚餐吃鸡肉。',
-    topic
+];

@@ -529,5 +529,4 @@ export const healthWords: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' |
     topicTag: 'health',
     difficulty: 3
   },
-  {
-    word: 'hy
+];

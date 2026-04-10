@@ -519,3 +519,4 @@ export const travelWords: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' |
     topicTag: 'travel',
     difficulty: 2
   },
+];

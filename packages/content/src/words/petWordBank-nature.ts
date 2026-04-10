@@ -539,10 +539,4 @@ export const natureWords: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' |
     topicTag: 'nature',
     difficulty: 2
   },
-  {
-    word: 'habitat',
-    partOfSpeech: 'noun',
-    simpleDefinitionEn: 'natural home of animal',
-    meaningZh: '栖息地',
-    exampleSentence: 'Forests are the habitat of many animals.',
-    example
+];

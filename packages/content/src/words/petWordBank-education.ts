@@ -529,7 +529,4 @@ export const educationWords: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays
     topicTag: 'education',
     difficulty: 2
   },
-  {
-    word: 'analyze',
-    partOfSpeech: 'verb',
-    simpleDefinitionEn: 'to
+];

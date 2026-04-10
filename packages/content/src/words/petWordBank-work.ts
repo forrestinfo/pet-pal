@@ -549,5 +549,4 @@ export const workWords: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' |
     topicTag: 'work',
     difficulty: 2
   },
-  {
-    word: 'service',
+];

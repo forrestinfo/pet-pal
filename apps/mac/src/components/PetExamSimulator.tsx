@@ -72,30 +72,6 @@ export default function PetExamSimulator({ onPointsEarned, onExamComplete }: Pet
 
 
   // 辅助函数 - 先定义
-  const nextQuestion = useCallback(() => {
-    if (currentQuestionIndex < mockExamQuestions.length - 1) {
-      setCurrentQuestionIndex(prev => prev + 1);
-      const nextQ = mockExamQuestions[currentQuestionIndex + 1];
-      setTimeRemaining(nextQ.timeLimit);
-      setWritingAnswer('');
-      setSpeakingAnswer('');
-      setIsRecording(false);
-    } else {
-      finishExam();
-    }
-  }, [currentQuestionIndex, finishExam]);
-
-  const prevQuestion = () => {
-    if (currentQuestionIndex > 0) {
-      setCurrentQuestionIndex(prev => prev - 1);
-      const prevQ = mockExamQuestions[currentQuestionIndex - 1];
-      setTimeRemaining(prevQ.timeLimit);
-      setWritingAnswer('');
-      setSpeakingAnswer('');
-      setIsRecording(false);
-    }
-  };
-
   const finishExam = useCallback(() => {
     setExamFinished(true);
     if (timerRef.current !== null) {
@@ -126,6 +102,30 @@ export default function PetExamSimulator({ onPointsEarned, onExamComplete }: Pet
       onExamComplete(calculatedScore, mockExamQuestions.length * 20);
     }
   }, [userAnswers, onPointsEarned, onExamComplete]);
+
+  const nextQuestion = useCallback(() => {
+    if (currentQuestionIndex < mockExamQuestions.length - 1) {
+      setCurrentQuestionIndex(prev => prev + 1);
+      const nextQ = mockExamQuestions[currentQuestionIndex + 1];
+      setTimeRemaining(nextQ.timeLimit);
+      setWritingAnswer('');
+      setSpeakingAnswer('');
+      setIsRecording(false);
+    } else {
+      finishExam();
+    }
+  }, [currentQuestionIndex, finishExam]);
+
+  const prevQuestion = () => {
+    if (currentQuestionIndex > 0) {
+      setCurrentQuestionIndex(prev => prev - 1);
+      const prevQ = mockExamQuestions[currentQuestionIndex - 1];
+      setTimeRemaining(prevQ.timeLimit);
+      setWritingAnswer('');
+      setSpeakingAnswer('');
+      setIsRecording(false);
+    }
+  };
 
   // handleTimeUp 现在可以安全地使用 nextQuestion 和 finishExam
   const handleTimeUp = useCallback(() => {
