@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import './PetExamSimulator.css';
 
 interface ExamQuestion {
@@ -60,7 +60,7 @@ export default function PetExamSimulator({ onPointsEarned, onExamComplete }: Pet
   const [examFinished, setExamFinished] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [timeRemaining, setTimeRemaining] = useState(0);
-  const [userAnswers, setUserAnswers] = useState<(number | string | null)[]>([]);
+  const [userAnswers, setUserAnswers] = useState<(number | string | null)[]>(new Array(mockExamQuestions.length).fill(null));
   const [writingAnswer, setWritingAnswer] = useState('');
   const [speakingAnswer, setSpeakingAnswer] = useState('');
   const [isRecording, setIsRecording] = useState(false);
@@ -69,13 +69,10 @@ export default function PetExamSimulator({ onPointsEarned, onExamComplete }: Pet
   const timerRef = useRef<number | null>(null);
   const currentQuestion = mockExamQuestions[currentQuestionIndex];
 
-  // 初始化用户答案数组
-  useEffect(() => {
-    setUserAnswers(new Array(mockExamQuestions.length).fill(null));
-  }, []);
+
 
   // 辅助函数 - 先定义
-  const nextQuestion = () => {
+  const nextQuestion = useCallback(() => {
     if (currentQuestionIndex < mockExamQuestions.length - 1) {
       setCurrentQuestionIndex(prev => prev + 1);
       const nextQ = mockExamQuestions[currentQuestionIndex + 1];
@@ -86,7 +83,7 @@ export default function PetExamSimulator({ onPointsEarned, onExamComplete }: Pet
     } else {
       finishExam();
     }
-  };
+  }, [currentQuestionIndex, finishExam]);
 
   const prevQuestion = () => {
     if (currentQuestionIndex > 0) {
@@ -99,7 +96,7 @@ export default function PetExamSimulator({ onPointsEarned, onExamComplete }: Pet
     }
   };
 
-  const finishExam = () => {
+  const finishExam = useCallback(() => {
     setExamFinished(true);
     if (timerRef.current !== null) {
       window.clearInterval(timerRef.current);
@@ -128,16 +125,16 @@ export default function PetExamSimulator({ onPointsEarned, onExamComplete }: Pet
     if (onExamComplete) {
       onExamComplete(calculatedScore, mockExamQuestions.length * 20);
     }
-  };
+  }, [userAnswers, onPointsEarned, onExamComplete]);
 
   // handleTimeUp 现在可以安全地使用 nextQuestion 和 finishExam
-  function handleTimeUp() {
+  const handleTimeUp = useCallback(() => {
     if (currentQuestionIndex < mockExamQuestions.length - 1) {
       nextQuestion();
     } else {
       finishExam();
     }
-  }
+  }, [currentQuestionIndex, nextQuestion, finishExam]);
 
   // 计时器效果
   useEffect(() => {

@@ -7,11 +7,17 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.petVocabulary = void 0;
 exports.getVocabularyByTopic = getVocabularyByTopic;
 exports.getVocabularyByDifficulty = getVocabularyByDifficulty;
+const words_dailyLife_1 = require("./words/words-dailyLife");
+const words_education_1 = require("./words/words-education");
+const words_travel_1 = require("./words/words-travel");
 /**
- * PET vocabulary with simple English definitions - 200+ words
+ * PET vocabulary with simple English definitions - 3000+ words
  * Organized by PET official topics
  */
 exports.petVocabulary = [
+    ...words_dailyLife_1.dailyLifeWords,
+    ...words_education_1.educationWords,
+    ...words_travel_1.travelWords,
     // ==================== DAILY LIFE (日常) ====================
     {
         word: 'accept',

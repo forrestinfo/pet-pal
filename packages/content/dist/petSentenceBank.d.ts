@@ -1,11 +1,11 @@
 /**
  * PET B1 Preliminary Core Sentences
  * Sentences for writing, speaking, and functional use
- * 100+ sentences covering all PET exam functions
+ * 300+ sentences covering all PET exam functions
  */
 import { SentenceCard } from 'shared-types';
 /**
- * PET sentences categorized by function - 100+ sentences
+ * PET sentences categorized by function - 300+ sentences
  */
 export declare const petSentences: Omit<SentenceCard, 'id' | 'memoryState' | 'intervalDays' | 'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' | 'lastReviewedAt' | 'createdAt' | 'updatedAt'>[];
 /**

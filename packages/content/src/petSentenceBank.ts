@@ -1,17 +1,21 @@
 /**
  * PET B1 Preliminary Core Sentences
  * Sentences for writing, speaking, and functional use
- * 100+ sentences covering all PET exam functions
+ * 300+ sentences covering all PET exam functions
  */
 
+import { emailSentences } from './sentences/sentences-email';
+import { speakingSentences } from './sentences/sentences-speaking';
 import { SentenceCard } from 'shared-types';
 
 /**
- * PET sentences categorized by function - 100+ sentences
+ * PET sentences categorized by function - 300+ sentences
  */
 export const petSentences: Omit<SentenceCard, 'id' | 'memoryState' | 'intervalDays' | 
   'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' | 
   'lastReviewedAt' | 'createdAt' | 'updatedAt'>[] = [
+  ...emailSentences,
+  ...speakingSentences,
   // ==================== EMAIL WRITING (邮件写作) ====================
   {
     sentence: 'Dear [Name],',

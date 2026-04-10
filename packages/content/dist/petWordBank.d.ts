@@ -4,7 +4,7 @@
  */
 import { WordCard } from 'shared-types';
 /**
- * PET vocabulary with simple English definitions - 200+ words
+ * PET vocabulary with simple English definitions - 3000+ words
  * Organized by PET official topics
  */
 export declare const petVocabulary: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' | 'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' | 'lastReviewedAt' | 'createdAt' | 'updatedAt'>[];

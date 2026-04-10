@@ -2,17 +2,21 @@
 /**
  * PET B1 Preliminary Core Sentences
  * Sentences for writing, speaking, and functional use
- * 100+ sentences covering all PET exam functions
+ * 300+ sentences covering all PET exam functions
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.petSentences = void 0;
 exports.getSentencesByFunction = getSentencesByFunction;
 exports.getSentencesByDifficulty = getSentencesByDifficulty;
 exports.getSentencesByTopic = getSentencesByTopic;
+const sentences_email_1 = require("./sentences/sentences-email");
+const sentences_speaking_1 = require("./sentences/sentences-speaking");
 /**
- * PET sentences categorized by function - 100+ sentences
+ * PET sentences categorized by function - 300+ sentences
  */
 exports.petSentences = [
+    ...sentences_email_1.emailSentences,
+    ...sentences_speaking_1.speakingSentences,
     // ==================== EMAIL WRITING (邮件写作) ====================
     {
         sentence: 'Dear [Name],',

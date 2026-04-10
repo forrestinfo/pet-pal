@@ -3,15 +3,21 @@
  * Each word has a simple English definition using A1/A2 level words
  */
 
+import { dailyLifeWords } from './words/words-dailyLife';
+import { educationWords } from './words/words-education';
+import { travelWords } from './words/words-travel';
 import { WordCard } from 'shared-types';
 
 /**
- * PET vocabulary with simple English definitions - 200+ words
+ * PET vocabulary with simple English definitions - 3000+ words
  * Organized by PET official topics
  */
 export const petVocabulary: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' | 
   'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' | 
   'lastReviewedAt' | 'createdAt' | 'updatedAt'>[] = [
+  ...dailyLifeWords,
+  ...educationWords,
+  ...travelWords,
   // ==================== DAILY LIFE (日常) ====================
   {
     word: 'accept',
