@@ -3,7 +3,7 @@
  * Handles earning and spending of points in the learning economy
  */
 
-import { PointsCategory, PointsTransaction } from 'shared-types';
+import { PointsCategory, PointsTransaction } from 'shared-types/src/userTypes';
 
 /**
  * Point earning rules

@@ -103,7 +103,7 @@ export function PetExamSimulator({ onComplete, onPointsEarned }: ExamSimulatorPr
         window.clearInterval(timerRef.current);
       }
     };
-  }, [examStarted, examFinished, timeRemaining]);
+  }, [examStarted, examFinished, timeRemaining, handleTimeUp]);
 
   const startExam = () => {
     setExamStarted(true);
@@ -283,7 +283,7 @@ export function PetExamSimulator({ onComplete, onPointsEarned }: ExamSimulatorPr
             <div className="question-types-preview">
               <h4>题型预览</h4>
               <div className="types-grid">
-                {mockExamQuestions.map((q, _index) => (
+                {mockExamQuestions.map((q) => (
                   <div 
                     key={q.id} 
                     className="type-card"
