@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 
 interface ExamQuestion {
   id: number;
@@ -113,13 +113,13 @@ export function PetExamSimulator({ onComplete, onPointsEarned }: ExamSimulatorPr
     }
   };
 
-  const handleTimeUp = () => {
+  function handleTimeUp() {
     if (currentQuestionIndex < mockExamQuestions.length - 1) {
       nextQuestion();
     } else {
       finishExam();
     }
-  };
+  }
 
   const handleAnswerSelect = (answerIndex: number) => {
     const newAnswers = [...userAnswers];
