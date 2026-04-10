@@ -507,5 +507,5 @@ export const travelWords: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' |
     exampleSentenceZh: '我买了一张音乐会的票。',
     topicTag: 'travel',
     difficulty: 1
-  },
-  {
+  }
+];
