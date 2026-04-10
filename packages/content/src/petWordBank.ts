@@ -1,7 +1,6 @@
 /**
- * PET B1 Preliminary Core Vocabulary - 3000+ words
- * Complete PET B1 vocabulary organized by topics
- * Each word has a simple English definition using A1/A2 level words
+ * PET B1 Complete Vocabulary - 3000+ Words
+ * Main file importing all topic-specific vocabulary
  */
 
 import { dailyLifeWords } from './words/petWordBank-dailyLife';
@@ -13,12 +12,14 @@ import { natureWords } from './words/petWordBank-nature';
 import { technologyWords } from './words/petWordBank-technology';
 import { workWords } from './words/petWordBank-work';
 import { foodWords } from './words/petWordBank-food';
+import { cultureWords } from './words/petWordBank-culture';
+import { sportWords } from './words/petWordBank-sport';
+import { abstractWords } from './words/petWordBank-abstract';
+import { shoppingWords } from './words/petWordBank-shopping';
+import { familyWords } from './words/petWordBank-family';
+import { weatherWords } from './words/petWordBank-weather';
 import { WordCard } from 'shared-types';
 
-/**
- * Complete PET B1 vocabulary - 3000+ words
- * Organized by PET official topics
- */
 export const petVocabulary: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' | 
   'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' | 
   'lastReviewedAt' | 'createdAt' | 'updatedAt'>[] = [
@@ -31,37 +32,11 @@ export const petVocabulary: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays'
   ...technologyWords,
   ...workWords,
   ...foodWords,
+  ...cultureWords,
+  ...sportWords,
+  ...abstractWords,
+  ...shoppingWords,
+  ...familyWords,
+  ...weatherWords,
   // Additional words can be added here or imported from other topic files
 ];
-
-/**
- * Get PET vocabulary by topic
- */
-export function getVocabularyByTopic(topic: string): typeof petVocabulary {
-  return petVocabulary.filter(word => word.topicTag === topic);
-}
-
-/**
- * Get vocabulary by difficulty level
- */
-export function getVocabularyByDifficulty(level: 1 | 2 | 3): typeof petVocabulary {
-  return petVocabulary.filter(word => word.difficulty === level);
-}
-
-/**
- * Get total word count
- */
-export function getVocabularyCount(): number {
-  return petVocabulary.length;
-}
-
-/**
- * Get topics with word counts
- */
-export function getTopicsWithCounts(): Record<string, number> {
-  const counts: Record<string, number> = {};
-  petVocabulary.forEach(word => {
-    counts[word.topicTag] = (counts[word.topicTag] || 0) + 1;
-  });
-  return counts;
-}
