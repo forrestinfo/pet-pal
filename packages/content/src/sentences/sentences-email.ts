@@ -1,0 +1,54 @@
+import { SentenceCard } from 'shared-types';
+
+export const emailSentences: Omit<SentenceCard, 'id' | 'memoryState' | 'intervalDays' | 
+  'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' | 
+  'lastReviewedAt' | 'createdAt' | 'updatedAt'>[] = [
+  // 开头问候 (Opening greetings)
+  { sentence:'Dear Mr. Smith,', sentenceZh:'尊敬的史密斯先生：', chunkList:['Dear','Mr. Smith',','], keyPhrases:['Dear','Mr. Smith'], functionTag:'email_opening', topicTag:'writing', difficulty:1 },
+  { sentence:'Dear Sir or Madam,', sentenceZh:'尊敬的先生/女士：', chunkList:['Dear','Sir or Madam',','], keyPhrases:['Dear','Sir or Madam'], functionTag:'email_opening', topicTag:'writing', difficulty:1 },
+  { sentence:'To whom it may concern,', sentenceZh:'致相关人士：', chunkList:['To whom','it may concern',','], keyPhrases:['To whom it may concern'], functionTag:'email_opening', topicTag:'writing', difficulty:2 },
+  { sentence:'Hello [First Name],', sentenceZh:'你好[名字]：', chunkList:['Hello','[First Name]',','], keyPhrases:['Hello'], functionTag:'email_opening', topicTag:'writing', difficulty:1 },
+  { sentence:'Good morning,', sentenceZh:'早上好，', chunkList:['Good morning',','], keyPhrases:['Good morning'], functionTag:'email_opening', topicTag:'writing', difficulty:1 },
+  
+  // 说明目的 (Stating purpose)
+  { sentence:'I am writing to inquire about your services.', sentenceZh:'我写信是想咨询您的服务。', chunkList:['I am writing','to inquire about','your services','.'], keyPhrases:['I am writing','inquire about','services'], functionTag:'email_purpose', topicTag:'writing', difficulty:2 },
+  { sentence:'The purpose of this email is to request information.', sentenceZh:'这封邮件的目的是请求信息。', chunkList:['The purpose','of this email','is to request','information','.'], keyPhrases:['purpose of this email','request information'], functionTag:'email_purpose', topicTag:'writing', difficulty:2 },
+  { sentence:'I would like to apply for the position advertised.', sentenceZh:'我想申请广告中的职位。', chunkList:['I would like','to apply for','the position','advised','.'], keyPhrases:['would like','apply for','position'], functionTag:'email_purpose', topicTag:'writing', difficulty:2 },
+  { sentence:'This is to confirm our meeting next week.', sentenceZh:'这是为了确认我们下周的会议。', chunkList:['This is','to confirm','our meeting','next week','.'], keyPhrases:['confirm','meeting','next week'], functionTag:'email_purpose', topicTag:'writing', difficulty:2 },
+  { sentence:'I am writing in response to your advertisement.', sentenceZh:'我写信是回应您的广告。', chunkList:['I am writing','in response to','your advertisement','.'], keyPhrases:['in response to','advertisement'], functionTag:'email_purpose', topicTag:'writing', difficulty:2 },
+  
+  // 请求信息 (Requesting information)
+  { sentence:'Could you please send me more details?', sentenceZh:'您能否给我发送更多详细信息？', chunkList:['Could you','please','send me','more details','?'], keyPhrases:['Could you','send me','more details'], functionTag:'email_request', topicTag:'writing', difficulty:2 },
+  { sentence:'I would appreciate it if you could provide the information.', sentenceZh:'如果您能提供信息，我将不胜感激。', chunkList:['I would appreciate it','if you could','provide','the information','.'], keyPhrases:['would appreciate','provide information'], functionTag:'email_request', topicTag:'writing', difficulty:3 },
+  { sentence:'Please let me know the available dates.', sentenceZh:'请告诉我可用的日期。', chunkList:['Please','let me know','the available dates','.'], keyPhrases:['let me know','available dates'], functionTag:'email_request', topicTag:'writing', difficulty:2 },
+  { sentence:'Would it be possible to receive a sample?', sentenceZh:'是否可以收到一个样品？', chunkList:['Would it be possible','to receive','a sample','?'], keyPhrases:['Would it be possible','receive a sample'], functionTag:'email_request', topicTag:'writing', difficulty:3 },
+  { sentence:'I need to know the exact time of arrival.', sentenceZh:'我需要知道确切的到达时间。', chunkList:['I need','to know','the exact time','of arrival','.'], keyPhrases:['need to know','exact time','arrival'], functionTag:'email_request', topicTag:'writing', difficulty:2 },
+  
+  // 建议 (Suggestions)
+  { sentence:'I suggest we meet on Friday afternoon.', sentenceZh:'我建议我们周五下午见面。', chunkList:['I suggest','we meet','on Friday afternoon','.'], keyPhrases:['I suggest','meet','Friday afternoon'], functionTag:'email_suggestion', topicTag:'writing', difficulty:2 },
+  { sentence:'It might be better to postpone the meeting.', sentenceZh:'推迟会议可能会更好。', chunkList:['It might be better','to postpone','the meeting','.'], keyPhrases:['might be better','postpone','meeting'], functionTag:'email_suggestion', topicTag:'writing', difficulty:3 },
+  { sentence:'Why don\'t we try a different approach?', sentenceZh:'我们为什么不尝试不同的方法？', chunkList:['Why don\'t we','try','a different approach','?'], keyPhrases:['Why don\'t we','different approach'], functionTag:'email_suggestion', topicTag:'writing', difficulty:2 },
+  { sentence:'You could consider taking the train instead.', sentenceZh:'您可以考虑改乘火车。', chunkList:['You could','consider','taking the train','instead','.'], keyPhrases:['could consider','taking the train','instead'], functionTag:'email_suggestion', topicTag:'writing', difficulty:3 },
+  { sentence:'My recommendation is to start earlier.', sentenceZh:'我的建议是早点开始。', chunkList:['My recommendation','is to start','earlier','.'], keyPhrases:['My recommendation','start earlier'], functionTag:'email_suggestion', topicTag:'writing', difficulty:2 },
+  
+  // 投诉 (Complaints)
+  { sentence:'I am writing to complain about the service.', sentenceZh:'我写信是要投诉服务。', chunkList:['I am writing','to complain about','the service','.'], keyPhrases:['complain about','service'], functionTag:'email_complaint', topicTag:'writing', difficulty:2 },
+  { sentence:'Unfortunately, the product arrived damaged.', sentenceZh:'不幸的是，产品到达时已损坏。', chunkList:['Unfortunately',',','the product arrived','damaged','.'], keyPhrases:['Unfortunately','product arrived','damaged'], functionTag:'email_complaint', topicTag:'writing', difficulty:2 },
+  { sentence:'I was disappointed with the quality.', sentenceZh:'我对质量感到失望。', chunkList:['I was disappointed','with','the quality','.'], keyPhrases:['was disappointed','quality'], functionTag:'email_complaint', topicTag:'writing', difficulty:2 },
+  { sentence:'This is not what I expected.', sentenceZh:'这不是我期望的。', chunkList:['This is not','what I expected','.'], keyPhrases:['not what I expected'], functionTag:'email_complaint', topicTag:'writing', difficulty:1 },
+  { sentence:'I hope this issue can be resolved quickly.', sentenceZh:'我希望这个问题能尽快解决。', chunkList:['I hope','this issue','can be resolved','quickly','.'], keyPhrases:['hope','issue','resolved quickly'], functionTag:'email_complaint', topicTag:'writing', difficulty:2 },
+  
+  // 道歉 (Apologies)
+  { sentence:'I apologize for the delay.', sentenceZh:'我为延误道歉。', chunkList:['I apologize','for','the delay','.'], keyPhrases:['I apologize','delay'], functionTag:'email_apology', topicTag:'writing', difficulty:1 },
+  { sentence:'Sorry for any inconvenience caused.', sentenceZh:'对造成的不便表示抱歉。', chunkList:['Sorry','for any inconvenience','caused','.'], keyPhrases:['Sorry','inconvenience caused'], functionTag:'email_apology', topicTag:'writing', difficulty:2 },
+  { sentence:'Please accept my sincere apologies.', sentenceZh:'请接受我诚挚的道歉。', chunkList:['Please accept','my sincere apologies','.'], keyPhrases:['accept','sincere apologies'], functionTag:'email_apology', topicTag:'writing', difficulty:2 },
+  { sentence:'It was my mistake and I take full responsibility.', sentenceZh:'这是我的错误，我承担全部责任。', chunkList:['It was','my mistake','and','I take full responsibility','.'], keyPhrases:['my mistake','take full responsibility'], functionTag:'email_apology', topicTag:'writing', difficulty:3 },
+  { sentence:'I will make sure it doesn\'t happen again.', sentenceZh:'我会确保不再发生。', chunkList:['I will make sure','it doesn\'t happen','again','.'], keyPhrases:['make sure','doesn\'t happen again'], functionTag:'email_apology', topicTag:'writing', difficulty:2 },
+  
+  // 结尾署名 (Closing signatures)
+  { sentence:'Best regards,', sentenceZh:'此致敬礼，', chunkList:['Best regards',','], keyPhrases:['Best regards'], functionTag:'email_signature', topicTag:'writing', difficulty:1 },
+  { sentence:'Yours sincerely,', sentenceZh:'您诚挚的，', chunkList:['Yours sincerely',','], keyPhrases:['Yours sincerely'], functionTag:'email_signature', topicTag:'writing', difficulty:1 },
+  { sentence:'Looking forward to your reply.', sentenceZh:'期待您的回复。', chunkList:['Looking forward','to your reply','.'], keyPhrases:['Looking forward','your reply'], functionTag:'email_closing', topicTag:'writing', difficulty:2 },
+  { sentence:'Thank you for your attention.', sentenceZh:'感谢您的关注。', chunkList:['Thank you','for your attention','.'], keyPhrases:['Thank you','your attention'], functionTag:'email_closing', topicTag:'writing', difficulty:1 },
+  { sentence:'Please feel free to contact me if you have any questions.', sentenceZh:'如果您有任何问题，请随时联系我。', chunkList:['Please feel free','to contact me','if you have','any questions','.'], keyPhrases:['feel free','contact me','any questions'], functionTag:'email_closing', topicTag:'writing', difficulty:3 },
+];

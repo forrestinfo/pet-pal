@@ -1,0 +1,71 @@
+import { SentenceCard } from 'shared-types';
+
+export const storyWritingSentences: Omit<SentenceCard, 'id' | 'memoryState' | 'intervalDays' | 
+  'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' | 
+  'lastReviewedAt' | 'createdAt' | 'updatedAt'>[] = [
+  // 开头 (Beginnings)
+  { sentence:'Once upon a time, there was a small village.', sentenceZh:'从前，有一个小村庄。', chunkList:['Once upon a time',',','there was','a small village','.'], keyPhrases:['Once upon a time','small village'], functionTag:'story_beginning', topicTag:'writing', difficulty:2 },
+  { sentence:'It all started on a sunny afternoon.', sentenceZh:'一切都开始于一个阳光明媚的下午。', chunkList:['It all started','on a sunny afternoon','.'], keyPhrases:['all started','sunny afternoon'], functionTag:'story_beginning', topicTag:'writing', difficulty:2 },
+  { sentence:'I will never forget that day.', sentenceZh:'我永远不会忘记那一天。', chunkList:['I will never forget','that day','.'], keyPhrases:['never forget','that day'], functionTag:'story_beginning', topicTag:'writing', difficulty:2 },
+  { sentence:'The story begins in a quiet town.', sentenceZh:'故事开始于一个安静的小镇。', chunkList:['The story begins','in a quiet town','.'], keyPhrases:['story begins','quiet town'], functionTag:'story_beginning', topicTag:'writing', difficulty:2 },
+  { sentence:'Let me tell you about what happened.', sentenceZh:'让我告诉你发生了什么。', chunkList:['Let me tell you','about','what happened','.'], keyPhrases:['Let me tell you','what happened'], functionTag:'story_beginning', topicTag:'writing', difficulty:2 },
+  { sentence:'It was a dark and stormy night.', sentenceZh:'那是一个黑暗而暴风雨的夜晚。', chunkList:['It was','a dark and stormy night','.'], keyPhrases:['dark and stormy night'], functionTag:'story_beginning', topicTag:'writing', difficulty:2 },
+  { sentence:'I remember it like it was yesterday.', sentenceZh:'我记得就像昨天一样。', chunkList:['I remember it','like it was yesterday','.'], keyPhrases:['remember','like yesterday'], functionTag:'story_beginning', topicTag:'writing', difficulty:2 },
+  
+  // 时间推进 (Time progression)
+  { sentence:'A few days later, something strange happened.', sentenceZh:'几天后，奇怪的事情发生了。', chunkList:['A few days later',',','something strange','happened','.'], keyPhrases:['A few days later','something strange','happened'], functionTag:'story_progression', topicTag:'writing', difficulty:2 },
+  { sentence:'As time went by, things began to change.', sentenceZh:'随着时间的流逝，事情开始发生变化。', chunkList:['As time went by',',','things began','to change','.'], keyPhrases:['As time went by','began to change'], functionTag:'story_progression', topicTag:'writing', difficulty:3 },
+  { sentence:'The next morning, I woke up early.', sentenceZh:'第二天早上，我早早醒来。', chunkList:['The next morning',',','I woke up','early','.'], keyPhrases:['The next morning','woke up','early'], functionTag:'story_progression', topicTag:'writing', difficulty:2 },
+  { sentence:'After what seemed like hours, we finally arrived.', sentenceZh:'在似乎过了几个小时之后，我们终于到达了。', chunkList:['After what seemed like hours',',','we finally arrived','.'], keyPhrases:['After what seemed like hours','finally arrived'], functionTag:'story_progression', topicTag:'writing', difficulty:3 },
+  { sentence:'Meanwhile, back at the house, my brother was waiting.', sentenceZh:'与此同时，在房子里，我弟弟正在等待。', chunkList:['Meanwhile',',','back at the house',',','my brother was waiting','.'], keyPhrases:['Meanwhile','back at the house','brother waiting'], functionTag:'story_progression', topicTag:'writing', difficulty:3 },
+  { sentence:'Later that evening, we decided to go out.', sentenceZh:'那天晚上晚些时候，我们决定出去。', chunkList:['Later that evening',',','we decided','to go out','.'], keyPhrases:['Later that evening','decided to go out'], functionTag:'story_progression', topicTag:'writing', difficulty:2 },
+  { sentence:'By the end of the week, everything was different.', sentenceZh:'到周末时，一切都不同了。', chunkList:['By the end of the week',',','everything was','different','.'], keyPhrases:['By the end of the week','different'], functionTag:'story_progression', topicTag:'writing', difficulty:3 },
+  
+  // 突发事件 (Unexpected events)
+  { sentence:'Suddenly, the lights went out.', sentenceZh:'突然，灯灭了。', chunkList:['Suddenly',',','the lights went out','.'], keyPhrases:['Suddenly','lights went out'], functionTag:'story_event', topicTag:'writing', difficulty:2 },
+  { sentence:'Without warning, the door slammed shut.', sentenceZh:'毫无预警地，门砰地关上了。', chunkList:['Without warning',',','the door slammed','shut','.'], keyPhrases:['Without warning','door slammed shut'], functionTag:'story_event', topicTag:'writing', difficulty:3 },
+  { sentence:'To my surprise, he agreed immediately.', sentenceZh:'令我惊讶的是，他立即同意了。', chunkList:['To my surprise',',','he agreed','immediately','.'], keyPhrases:['To my surprise','agreed immediately'], functionTag:'story_event', topicTag:'writing', difficulty:2 },
+  { sentence:'Out of nowhere, a dog appeared.', sentenceZh:'不知从哪里冒出来一只狗。', chunkList:['Out of nowhere',',','a dog appeared','.'], keyPhrases:['Out of nowhere','dog appeared'], functionTag:'story_event', topicTag:'writing', difficulty:2 },
+  { sentence:'Just then, the phone started ringing.', sentenceZh:'就在这时，电话开始响了。', chunkList:['Just then',',','the phone started','ringing','.'], keyPhrases:['Just then','phone started ringing'], functionTag:'story_event', topicTag:'writing', difficulty:2 },
+  { sentence:'All of a sudden, I remembered something important.', sentenceZh:'突然，我想起了重要的事情。', chunkList:['All of a sudden',',','I remembered','something important','.'], keyPhrases:['All of a sudden','remembered','important'], functionTag:'story_event', topicTag:'writing', difficulty:3 },
+  { sentence:'Unexpectedly, the weather changed completely.', sentenceZh:'出乎意料地，天气完全变了。', chunkList:['Unexpectedly',',','the weather changed','completely','.'], keyPhrases:['Unexpectedly','weather changed','completely'], functionTag:'story_event', topicTag:'writing', difficulty:3 },
+  
+  // 转折 (Turning points)
+  { sentence:'However, things didn\'t go as planned.', sentenceZh:'然而，事情并没有按计划进行。', chunkList:['However',',','things didn\'t go','as planned','.'], keyPhrases:['However','didn\'t go as planned'], functionTag:'story_turning_point', topicTag:'writing', difficulty:2 },
+  { sentence:'On the other hand, there was another possibility.', sentenceZh:'另一方面，还有另一种可能性。', chunkList:['On the other hand',',','there was','another possibility','.'], keyPhrases:['On the other hand','another possibility'], functionTag:'story_turning_point', topicTag:'writing', difficulty:3 },
+  { sentence:'Despite this, we decided to continue.', sentenceZh:'尽管如此，我们决定继续。', chunkList:['Despite this',',','we decided','to continue','.'], keyPhrases:['Despite this','decided to continue'], functionTag:'story_turning_point', topicTag:'writing', difficulty:3 },
+  { sentence:'Nevertheless, we had to find a solution.', sentenceZh:'尽管如此，我们必须找到解决方案。', chunkList:['Nevertheless',',','we had to find','a solution','.'], keyPhrases:['Nevertheless','had to find','solution'], functionTag:'story_turning_point', topicTag:'writing', difficulty:3 },
+  { sentence:'In contrast, the second attempt was successful.', sentenceZh:'相比之下，第二次尝试成功了。', chunkList:['In contrast',',','the second attempt','was successful','.'], keyPhrases:['In contrast','second attempt','successful'], functionTag:'story_turning_point', topicTag:'writing', difficulty:3 },
+  { sentence:'As a result, we had to change our plans.', sentenceZh:'结果，我们不得不改变计划。', chunkList:['As a result',',','we had to change','our plans','.'], keyPhrases:['As a result','change plans'], functionTag:'story_turning_point', topicTag:'writing', difficulty:2 },
+  { sentence:'Therefore, we made a different decision.', sentenceZh:'因此，我们做出了不同的决定。', chunkList:['Therefore',',','we made','a different decision','.'], keyPhrases:['Therefore','different decision'], functionTag:'story_turning_point', topicTag:'writing', difficulty:3 },
+  
+  // 结尾 (Endings)
+  { sentence:'In the end, everything worked out perfectly.', sentenceZh:'最后，一切都完美解决了。', chunkList:['In the end',',','everything worked out','perfectly','.'], keyPhrases:['In the end','worked out','perfectly'], functionTag:'story_conclusion', topicTag:'writing', difficulty:2 },
+  { sentence:'Finally, we reached our destination.', sentenceZh:'最后，我们到达了目的地。', chunkList:['Finally',',','we reached','our destination','.'], keyPhrases:['Finally','reached','destination'], functionTag:'story_conclusion', topicTag:'writing', difficulty:2 },
+  { sentence:'To conclude, it was an unforgettable experience.', sentenceZh:'总之，这是一次难忘的经历。', chunkList:['To conclude',',','it was','an unforgettable experience','.'], keyPhrases:['To conclude','unforgettable experience'], functionTag:'story_conclusion', topicTag:'writing', difficulty:3 },
+  { sentence:'All in all, it was a great adventure.', sentenceZh:'总而言之，这是一次伟大的冒险。', chunkList:['All in all',',','it was','a great adventure','.'], keyPhrases:['All in all','great adventure'], functionTag:'story_conclusion', topicTag:'writing', difficulty:2 },
+  { sentence:'Looking back, I\'m glad it happened.', sentenceZh:'回想起来，我很高兴它发生了。', chunkList:['Looking back',',','I\'m glad','it happened','.'], keyPhrases:['Looking back','glad','happened'], functionTag:'story_conclusion', topicTag:'writing', difficulty:2 },
+  { sentence:'Eventually, we learned an important lesson.', sentenceZh:'最终，我们学到了重要的一课。', chunkList:['Eventually',',','we learned','an important lesson','.'], keyPhrases:['Eventually','learned','important lesson'], functionTag:'story_conclusion', topicTag:'writing', difficulty:3 },
+  { sentence:'In conclusion, it was worth the effort.', sentenceZh:'总之，努力是值得的。', chunkList:['In conclusion',',','it was worth','the effort','.'], keyPhrases:['In conclusion','worth the effort'], functionTag:'story_conclusion', topicTag:'writing', difficulty:3 },
+  
+  // 人物描写 (Character description)
+  { sentence:'She had long brown hair and green eyes.', sentenceZh:'她有着长长的棕色头发和绿色的眼睛。', chunkList:['She had','long brown hair','and','green eyes','.'], keyPhrases:['long brown hair','green eyes'], functionTag:'character_description', topicTag:'writing', difficulty:2 },
+  { sentence:'He was a tall man with a friendly smile.', sentenceZh:'他是一个高个子男人，面带友好的微笑。', chunkList:['He was','a tall man','with','a friendly smile','.'], keyPhrases:['tall man','friendly smile'], functionTag:'character_description', topicTag:'writing', difficulty:2 },
+  { sentence:'The old woman had a kind face.', sentenceZh:'那位老妇人有一张和善的脸。', chunkList:['The old woman','had','a kind face','.'], keyPhrases:['old woman','kind face'], functionTag:'character_description', topicTag:'writing', difficulty:2 },
+  { sentence:'My friend is always cheerful and optimistic.', sentenceZh:'我的朋友总是开朗乐观。', chunkList:['My friend is','always cheerful','and','optimistic','.'], keyPhrases:['always cheerful','optimistic'], functionTag:'character_description', topicTag:'writing', difficulty:3 },
+  { sentence:'He spoke in a quiet, gentle voice.', sentenceZh:'他用安静温和的声音说话。', chunkList:['He spoke','in a quiet','gentle voice','.'], keyPhrases:['quiet','gentle voice'], functionTag:'character_description', topicTag:'writing', difficulty:3 },
+  
+  // 氛围 (Atmosphere)
+  { sentence:'The room was filled with silence.', sentenceZh:'房间里充满了寂静。', chunkList:['The room was','filled with','silence','.'], keyPhrases:['filled with','silence'], functionTag:'atmosphere', topicTag:'writing', difficulty:2 },
+  { sentence:'There was a strange feeling in the air.', sentenceZh:'空气中弥漫着一种奇怪的感觉。', chunkList:['There was','a strange feeling','in the air','.'], keyPhrases:['strange feeling','in the air'], functionTag:'atmosphere', topicTag:'writing', difficulty:3 },
+  { sentence:'The atmosphere was tense and uncomfortable.', sentenceZh:'气氛紧张而不舒服。', chunkList:['The atmosphere was','tense and uncomfortable','.'], keyPhrases:['atmosphere','tense','uncomfortable'], functionTag:'atmosphere', topicTag:'writing', difficulty:3 },
+  { sentence:'A sense of excitement filled the room.', sentenceZh:'一种兴奋感充满了房间。', chunkList:['A sense of excitement','filled','the room','.'], keyPhrases:['sense of excitement','filled the room'], functionTag:'atmosphere', topicTag:'writing', difficulty:3 },
+  { sentence:'The place had a warm and welcoming feel.', sentenceZh:'这个地方有一种温暖而受欢迎的感觉。', chunkList:['The place had','a warm and welcoming feel','.'], keyPhrases:['warm and welcoming feel'], functionTag:'atmosphere', topicTag:'writing', difficulty:3 },
+  
+  // 情感 (Emotions)
+  { sentence:'I felt a wave of happiness wash over me.', sentenceZh:'我感到一阵幸福涌上心头。', chunkList:['I felt','a wave of happiness','wash over me','.'], keyPhrases:['wave of happiness','wash over me'], functionTag:'emotion', topicTag:'writing', difficulty:3 },
+  { sentence:'She was overcome with sadness.', sentenceZh:'她被悲伤淹没了。', chunkList:['She was overcome','with sadness','.'], keyPhrases:['overcome','with sadness'], functionTag:'emotion', topicTag:'writing', difficulty:3 },
+  { sentence:'My heart was pounding with excitement.', sentenceZh:'我的心因兴奋而怦怦直跳。', chunkList:['My heart was','pounding','with excitement','.'], keyPhrases:['heart pounding','with excitement'], functionTag:'emotion', topicTag:'writing', difficulty:3 },
+  { sentence:'He couldn\'t hide his disappointment.', sentenceZh:'他无法掩饰自己的失望。', chunkList:['He couldn\'t hide','his disappointment','.'], keyPhrases:['couldn\'t hide','disappointment'], functionTag:'emotion', topicTag:'writing', difficulty:3 },
+  { sentence:'A feeling of relief spread through the room.', sentenceZh:'一种解脱感在房间里蔓延。', chunkList:['A feeling of relief','spread','through the room','.'], keyPhrases:['feeling of relief','spread through'], functionTag:'emotion', topicTag:'writing', difficulty:3 },
+];

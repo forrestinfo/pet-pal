@@ -1,0 +1,54 @@
+import { SentenceCard } from 'shared-types';
+
+export const speakingSentences: Omit<SentenceCard, 'id' | 'memoryState' | 'intervalDays' | 
+  'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' | 
+  'lastReviewedAt' | 'createdAt' | 'updatedAt'>[] = [
+  // 观点 (Opinions)
+  { sentence:'In my view, this is the best solution.', sentenceZh:'在我看来，这是最好的解决方案。', chunkList:['In my view',',','this is','the best solution','.'], keyPhrases:['In my view','best solution'], functionTag:'opinion', topicTag:'speaking', difficulty:2 },
+  { sentence:'I strongly believe that education is important.', sentenceZh:'我坚信教育很重要。', chunkList:['I strongly believe','that','education is','important','.'], keyPhrases:['strongly believe','education','important'], functionTag:'opinion', topicTag:'speaking', difficulty:2 },
+  { sentence:'From my perspective, we need more time.', sentenceZh:'从我的角度来看，我们需要更多时间。', chunkList:['From my perspective',',','we need','more time','.'], keyPhrases:['From my perspective','need more time'], functionTag:'opinion', topicTag:'speaking', difficulty:3 },
+  { sentence:'It seems to me that the plan is too complicated.', sentenceZh:'在我看来，这个计划太复杂了。', chunkList:['It seems to me','that','the plan is','too complicated','.'], keyPhrases:['It seems to me','plan','too complicated'], functionTag:'opinion', topicTag:'speaking', difficulty:3 },
+  { sentence:'Personally, I prefer the first option.', sentenceZh:'就个人而言，我更喜欢第一个选项。', chunkList:['Personally',',','I prefer','the first option','.'], keyPhrases:['Personally','prefer','first option'], functionTag:'opinion', topicTag:'speaking', difficulty:2 },
+  
+  // 同意 (Agreement)
+  { sentence:'I completely agree with you.', sentenceZh:'我完全同意你的观点。', chunkList:['I completely agree','with you','.'], keyPhrases:['completely agree','with you'], functionTag:'agreement', topicTag:'speaking', difficulty:1 },
+  { sentence:'That\'s exactly what I think.', sentenceZh:'这正是我的想法。', chunkList:['That\'s exactly','what I think','.'], keyPhrases:['exactly','what I think'], functionTag:'agreement', topicTag:'speaking', difficulty:1 },
+  { sentence:'You have a good point there.', sentenceZh:'你说得有道理。', chunkList:['You have','a good point','there','.'], keyPhrases:['good point','there'], functionTag:'agreement', topicTag:'speaking', difficulty:2 },
+  { sentence:'I couldn\'t agree more.', sentenceZh:'我完全同意。', chunkList:['I couldn\'t agree','more','.'], keyPhrases:['couldn\'t agree more'], functionTag:'agreement', topicTag:'speaking', difficulty:2 },
+  { sentence:'That makes perfect sense.', sentenceZh:'这完全合理。', chunkList:['That makes','perfect sense','.'], keyPhrases:['makes perfect sense'], functionTag:'agreement', topicTag:'speaking', difficulty:2 },
+  
+  // 反对 (Disagreement)
+  { sentence:'I see your point, but I disagree.', sentenceZh:'我明白你的观点，但我不同意。', chunkList:['I see your point',',','but','I disagree','.'], keyPhrases:['see your point','disagree'], functionTag:'disagreement', topicTag:'speaking', difficulty:2 },
+  { sentence:'I\'m afraid I have a different opinion.', sentenceZh:'恐怕我有不同的意见。', chunkList:['I\'m afraid','I have','a different opinion','.'], keyPhrases:['I\'m afraid','different opinion'], functionTag:'disagreement', topicTag:'speaking', difficulty:2 },
+  { sentence:'That\'s not how I see it.', sentenceZh:'我不是这样看的。', chunkList:['That\'s not','how I see it','.'], keyPhrases:['not how I see it'], functionTag:'disagreement', topicTag:'speaking', difficulty:2 },
+  { sentence:'I understand, but I think differently.', sentenceZh:'我理解，但我的想法不同。', chunkList:['I understand',',','but','I think differently','.'], keyPhrases:['understand','think differently'], functionTag:'disagreement', topicTag:'speaking', difficulty:2 },
+  { sentence:'Actually, I have another perspective.', sentenceZh:'实际上，我有另一个角度。', chunkList:['Actually',',','I have','another perspective','.'], keyPhrases:['Actually','another perspective'], functionTag:'disagreement', topicTag:'speaking', difficulty:3 },
+  
+  // 描述图片 (Describing pictures)
+  { sentence:'In the picture, there is a family at the beach.', sentenceZh:'图片中，有一个家庭在海滩上。', chunkList:['In the picture',',','there is','a family','at the beach','.'], keyPhrases:['In the picture','family','at the beach'], functionTag:'description', topicTag:'speaking', difficulty:2 },
+  { sentence:'The man is wearing a blue shirt.', sentenceZh:'那个男人穿着一件蓝色衬衫。', chunkList:['The man is','wearing','a blue shirt','.'], keyPhrases:['man','wearing','blue shirt'], functionTag:'description', topicTag:'speaking', difficulty:2 },
+  { sentence:'They seem to be enjoying themselves.', sentenceZh:'他们似乎玩得很开心。', chunkList:['They seem','to be enjoying','themselves','.'], keyPhrases:['seem to be enjoying','themselves'], functionTag:'description', topicTag:'speaking', difficulty:3 },
+  { sentence:'In the background, you can see mountains.', sentenceZh:'在背景中，你可以看到山。', chunkList:['In the background',',','you can see','mountains','.'], keyPhrases:['In the background','can see','mountains'], functionTag:'description', topicTag:'speaking', difficulty:2 },
+  { sentence:'The weather looks sunny and warm.', sentenceZh:'天气看起来晴朗温暖。', chunkList:['The weather looks','sunny and warm','.'], keyPhrases:['weather looks','sunny and warm'], functionTag:'description', topicTag:'speaking', difficulty:2 },
+  
+  // 比较 (Comparison)
+  { sentence:'This one is more expensive than that one.', sentenceZh:'这个比那个更贵。', chunkList:['This one is','more expensive','than','that one','.'], keyPhrases:['more expensive','than'], functionTag:'comparison', topicTag:'speaking', difficulty:2 },
+  { sentence:'Compared to last year, sales have increased.', sentenceZh:'与去年相比，销售额增加了。', chunkList:['Compared to','last year',',','sales have increased','.'], keyPhrases:['Compared to','last year','sales increased'], functionTag:'comparison', topicTag:'speaking', difficulty:3 },
+  { sentence:'Both options have their advantages.', sentenceZh:'两个选项都有各自的优点。', chunkList:['Both options','have','their advantages','.'], keyPhrases:['Both options','advantages'], functionTag:'comparison', topicTag:'speaking', difficulty:2 },
+  { sentence:'The new model is much faster.', sentenceZh:'新模型快得多。', chunkList:['The new model','is','much faster','.'], keyPhrases:['new model','much faster'], functionTag:'comparison', topicTag:'speaking', difficulty:2 },
+  { sentence:'Whereas the first method is simple, the second is more effective.', sentenceZh:'第一种方法简单，而第二种更有效。', chunkList:['Whereas','the first method','is simple',',','the second is','more effective','.'], keyPhrases:['Whereas','first method','second','more effective'], functionTag:'comparison', topicTag:'speaking', difficulty:3 },
+  
+  // 偏好 (Preferences)
+  { sentence:'I\'d rather stay at home tonight.', sentenceZh:'我宁愿今晚待在家里。', chunkList:['I\'d rather','stay','at home','tonight','.'], keyPhrases:['I\'d rather','stay at home'], functionTag:'preference', topicTag:'speaking', difficulty:2 },
+  { sentence:'I prefer coffee to tea.', sentenceZh:'比起茶，我更喜欢咖啡。', chunkList:['I prefer','coffee','to tea','.'], keyPhrases:['prefer','coffee','to tea'], functionTag:'preference', topicTag:'speaking', difficulty:2 },
+  { sentence:'My favorite season is autumn.', sentenceZh:'我最喜欢的季节是秋天。', chunkList:['My favorite season','is','autumn','.'], keyPhrases:['favorite season','autumn'], functionTag:'preference', topicTag:'speaking', difficulty:1 },
+  { sentence:'I enjoy reading more than watching TV.', sentenceZh:'比起看电视，我更喜欢阅读。', chunkList:['I enjoy','reading','more than','watching TV','.'], keyPhrases:['enjoy','reading','more than','watching TV'], functionTag:'preference', topicTag:'speaking', difficulty:3 },
+  { sentence:'If I had to choose, I would pick the red one.', sentenceZh:'如果我必须选择，我会选红色的那个。', chunkList:['If I had to choose',',','I would pick','the red one','.'], keyPhrases:['If I had to choose','would pick','red one'], functionTag:'preference', topicTag:'speaking', difficulty:3 },
+  
+  // 推测 (Speculation)
+  { sentence:'It might rain later today.', sentenceZh:'今天晚些时候可能会下雨。', chunkList:['It might','rain','later today','.'], keyPhrases:['might rain','later today'], functionTag:'speculation', topicTag:'speaking', difficulty:2 },
+  { sentence:'He probably forgot about the meeting.', sentenceZh:'他可能忘记了会议。', chunkList:['He probably','forgot','about the meeting','.'], keyPhrases:['probably forgot','meeting'], functionTag:'speculation', topicTag:'speaking', difficulty:2 },
+  { sentence:'I guess they\'ll arrive around 3 o\'clock.', sentenceZh:'我猜他们会在3点左右到达。', chunkList:['I guess','they\'ll arrive','around 3 o\'clock','.'], keyPhrases:['I guess','arrive','around 3 o\'clock'], functionTag:'speculation', topicTag:'speaking', difficulty:2 },
+  { sentence:'It looks like it\'s going to be a nice day.', sentenceZh:'看起来今天会是美好的一天。', chunkList:['It looks like','it\'s going to be','a nice day','.'], keyPhrases:['looks like','going to be','nice day'], functionTag:'speculation', topicTag:'speaking', difficulty:2 },
+  { sentence:'Perhaps we should wait a bit longer.', sentenceZh:'也许我们应该再等一会儿。', chunkList:['Perhaps','we should','wait','a bit longer','.'], keyPhrases:['Perhaps','should wait','bit longer'], functionTag:'speculation', topicTag:'speaking', difficulty:2 },
+];
