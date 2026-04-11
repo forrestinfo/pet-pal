@@ -82,11 +82,24 @@ jobs:
       run: npx tauri build --verbose
       working-directory: apps/mac
     
+    - name: Ad-hoc sign and package app
+      run: |
+        cd apps/mac/src-tauri/target/release/bundle
+        # Ad-hoc sign the app (no developer account needed)
+        codesign --force --deep --sign - "macos/PET Pal.app"
+        # Create zip for distribution (like math-kids approach)
+        cd macos
+        zip -r ../PET-Pal-macOS.zip "PET Pal.app"
+        echo "Created PET-Pal-macOS.zip"
+      shell: bash
+    
     - name: Upload macOS app artifact
       uses: actions/upload-artifact@v4
       with:
         name: PET-Pal-macOS
-        path: apps/mac/src-tauri/target/release/bundle/
+        path: |
+          apps/mac/src-tauri/target/release/bundle/PET-Pal-macOS.zip
+          apps/mac/src-tauri/target/release/bundle/dmg/*.dmg
         retention-days: 7
     
     - name: Create GitHub Release (on tag)
@@ -94,7 +107,17 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         files: |
+          apps/mac/src-tauri/target/release/bundle/PET-Pal-macOS.zip
           apps/mac/src-tauri/target/release/bundle/dmg/*.dmg
-          apps/mac/src-tauri/target/release/bundle/macos/PET Pal.app
         draft: false
         prerelease: false
+        body: |
+          ## PET Pal - macOS Release
+          
+          ### 安装说明
+          1. 下载 `PET-Pal-macOS.zip`
+          2. 解压 zip 文件
+          3. 将 `PET Pal.app` 拖到"应用程序"文件夹
+          4. 首次打开时，右键点击 → 选择"打开"（或运行 `xattr -cr "/Applications/PET Pal.app"`）
+          
+          如果提示"无法验证开发者"，请到 系统设置 → 隐私与安全性 → 点击"仍要打开"
