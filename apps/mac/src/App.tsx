@@ -1,124 +1,201 @@
-import { useState } from 'react'
-import './App.css'
-
-// Mock data for development
-const mockWord = {
-  word: 'improve',
-  partOfSpeech: 'verb',
-  simpleDefinitionEn: 'to become better',
-  meaningZh: '改进',
-  exampleSentence: 'I want to improve my English speaking.',
-  exampleSentenceZh: '我想提高我的英语口语。',
-  topicTag: 'education',
-  difficulty: 2
-};
+import { useState, useEffect } from 'react';
+import { useLearning } from './hooks/useLearning';
+import { applyMelodyTheme } from './themes/melodyTheme';
+import Navigation, { TabType } from './components/Navigation';
+import Welcome from './components/Welcome';
+import WordCard from './components/WordCard';
+import SentenceCard from './components/SentenceCard';
+import { PetPanelComponent } from './components/PetPanel';
+import { PointsPanelComponent } from './components/PointsPanel';
+import { SettingsComponent } from './components/Settings';
+import './App.css';
 
 function App() {
-  const [showAnswer, setShowAnswer] = useState(false);
-  const [learningCount, setLearningCount] = useState(0);
-  
-  const handleAnswer = (result: 'dont-know' | 'somewhat' | 'know') => {
-    console.log('User answered:', result);
-    setShowAnswer(false);
-    setLearningCount(prev => prev + 1);
-    
-    // In real app, this would update spaced repetition algorithm
-    // and fetch next card
+  const [activeTab, setActiveTab] = useState<TabType>('words');
+  const [isSetup, setIsSetup] = useState(() => {
+    return !!localStorage.getItem('pet-pal-settings');
+  });
+
+  useEffect(() => {
+    applyMelodyTheme();
+  }, []);
+
+  const learning = useLearning();
+
+  const handleWelcomeComplete = () => {
+    setIsSetup(true);
   };
 
+  const handleSettingsSave = (newSettings: {
+    username: string;
+    dailyGoal: number;
+    pronunciationSpeed: number;
+  }) => {
+    const current = JSON.parse(localStorage.getItem('pet-pal-settings') || '{}');
+    localStorage.setItem('pet-pal-settings', JSON.stringify({ ...current, ...newSettings }));
+  };
+
+  const handleResetData = () => {
+    if (window.confirm('确定要重置所有学习数据吗？此操作不可撤销。')) {
+      localStorage.clear();
+      window.location.reload();
+    }
+  };
+
+  // Show Welcome screen on first launch
+  if (!isSetup) {
+    return <Welcome onComplete={handleWelcomeComplete} />;
+  }
+
+  const { currentWord, currentSentence, showAnswer, todayLearned, progress, pet, settings, speakText } = learning;
+
+  const dailyProgress = learning.getDailyProgress();
+
+  // Calculate points from progress
+  const totalPoints = progress?.totalPoints || 0;
+  const todayPoints = progress?.todayPoints || 0;
+  const streak = progress?.streak || 0;
+
+  // Points history from localStorage
+  const pointsHistory = JSON.parse(localStorage.getItem('pet-pal-points-history') || '[]');
+
   return (
-    <div className="app-container">
+    <div className="app-container melody-theme">
+      {/* Header */}
       <header className="app-header">
-        <h1>PET Pal</h1>
-        <div className="stats">
-          <span>Today: {learningCount} learned</span>
-          <span>Pet: Happy 🐶</span>
+        <div className="header-left">
+          <h1 className="app-title">🐰 PET Pal</h1>
+          <span className="greeting">Hi, {settings.username || 'Learner'}!</span>
         </div>
-      </header>
-      
-      <main className="learning-area">
-        <div className="card-container">
-          <div className="word-card">
-            <div className="word-header">
-              <span className="topic-tag">{mockWord.topicTag}</span>
-              <span className="difficulty">Level {mockWord.difficulty}</span>
-            </div>
-            
-            <div className="word-content">
-              <h2 className="word">{mockWord.word}</h2>
-              <div className="part-of-speech">{mockWord.partOfSpeech}</div>
-              
-              {!showAnswer ? (
-                <div className="challenge">
-                  <p>What does this word mean?</p>
-                  <button 
-                    className="show-answer-btn"
-                    onClick={() => setShowAnswer(true)}
-                  >
-                    Show Answer
-                  </button>
-                </div>
-              ) : (
-                <div className="answer">
-                  <div className="definition">
-                    <h3>Simple English Definition</h3>
-                    <p>{mockWord.simpleDefinitionEn}</p>
-                  </div>
-                  
-                  <div className="chinese-meaning">
-                    <h3>中文意思</h3>
-                    <p>{mockWord.meaningZh}</p>
-                  </div>
-                  
-                  <div className="example">
-                    <h3>Example Sentence</h3>
-                    <p className="english">{mockWord.exampleSentence}</p>
-                    <p className="chinese">{mockWord.exampleSentenceZh}</p>
-                  </div>
-                </div>
-              )}
-            </div>
-            
-            <div className="card-footer">
-              <p>How well did you know this word?</p>
-              <div className="answer-buttons">
-                <button 
-                  className="btn-dont-know"
-                  onClick={() => handleAnswer('dont-know')}
-                  disabled={!showAnswer}
-                >
-                  Didn't Know
-                </button>
-                <button 
-                  className="btn-somewhat"
-                  onClick={() => handleAnswer('somewhat')}
-                  disabled={!showAnswer}
-                >
-                  Somewhat Knew
-                </button>
-                <button 
-                  className="btn-know"
-                  onClick={() => handleAnswer('know')}
-                  disabled={!showAnswer}
-                >
-                  Knew It Well
-                </button>
-              </div>
+        <div className="header-right">
+          <div className="daily-progress">
+            <span className="progress-text">
+              今日 {dailyProgress.completed}/{dailyProgress.goal} 词
+            </span>
+            <div className="progress-bar">
+              <div
+                className="progress-fill"
+                style={{ width: `${dailyProgress.percentage}%` }}
+              />
             </div>
           </div>
+          <div className="points-badge">⭐ {totalPoints}</div>
         </div>
-        
-        <div className="progress-info">
-          <p>Today's progress: {learningCount} words learned</p>
-          <p>Keep going! Your pet is getting smarter.</p>
-        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="app-main">
+        {activeTab === 'words' && (
+          <div className="tab-content">
+            <div className="learning-header">
+              <h2>📚 单词学习</h2>
+              <span className="word-count">
+                今日已学 {todayLearned} 个单词
+              </span>
+            </div>
+            {currentWord ? (
+              <WordCard
+                word={currentWord}
+                showAnswer={showAnswer}
+                onShowAnswer={() => learning.setShowAnswer(true)}
+                onAnswer={(result) => learning.handleAnswer(result)}
+                onSpeak={(text, lang) => speakText(text, lang)}
+              />
+            ) : (
+              <div className="empty-state">
+                <p>🎯 加载中...</p>
+              </div>
+            )}
+            <div className="card-nav">
+              <button className="nav-btn next-btn" onClick={() => learning.loadRandomWord()}>
+                → 下一个单词
+              </button>
+            </div>
+          </div>
+        )}
+
+        {activeTab === 'sentences' && (
+          <div className="tab-content">
+            <div className="learning-header">
+              <h2>📝 句型学习</h2>
+              <span className="word-count">
+                今日已学 {todayLearned} 个句型
+              </span>
+            </div>
+            {currentSentence ? (
+              <SentenceCard
+                sentence={currentSentence}
+                showAnswer={showAnswer}
+                onShowAnswer={() => learning.setShowAnswer(true)}
+                onAnswer={(result) => learning.handleAnswer(result)}
+                onSpeak={(text, lang) => speakText(text, lang)}
+              />
+            ) : (
+              <div className="empty-state">
+                <p>🎯 加载中...</p>
+              </div>
+            )}
+            <div className="card-nav">
+              <button className="nav-btn next-btn" onClick={() => learning.loadRandomSentence()}>
+                → 下一个句型
+              </button>
+            </div>
+          </div>
+        )}
+
+        {activeTab === 'pet' && (
+          <div className="tab-content">
+            <PetPanelComponent
+              petState={{
+                name: pet.name || '美乐蒂',
+                level: pet.level || 1,
+                experience: pet.experience || 0,
+                experienceToNextLevel: pet.experienceToNextLevel || 100,
+                mood: pet.mood || 80,
+                hunger: pet.hunger || 30,
+                moodIcon: '🐰',
+              }}
+              points={totalPoints}
+            />
+            <div className="pet-actions">
+              <button className="action-btn feed-btn" onClick={() => learning.feedPet()}>
+                🍎 喂食
+              </button>
+              <button className="action-btn play-btn" onClick={() => learning.playWithPet()}>
+                🎮 玩耍
+              </button>
+            </div>
+          </div>
+        )}
+
+        {activeTab === 'points' && (
+          <div className="tab-content">
+            <PointsPanelComponent
+              totalPoints={totalPoints}
+              todayPoints={todayPoints}
+              streak={streak}
+              history={pointsHistory}
+            />
+          </div>
+        )}
+
+        {activeTab === 'settings' && (
+          <div className="tab-content">
+            <SettingsComponent
+              username={settings.username || 'Learner'}
+              dailyGoal={settings.dailyGoal || 20}
+              pronunciationSpeed={settings.pronunciationSpeed || 1.0}
+              onSave={handleSettingsSave}
+              onResetData={handleResetData}
+            />
+          </div>
+        )}
       </main>
-      
-      <footer className="app-footer">
-        <p>PET Pal - Making PET exam preparation effective and fun</p>
-      </footer>
+
+      {/* Bottom Navigation */}
+      <Navigation activeTab={activeTab} onTabChange={setActiveTab} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
