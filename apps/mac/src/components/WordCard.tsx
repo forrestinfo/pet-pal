@@ -51,60 +51,72 @@ const styles: any = {
     padding: `${melodySpacing.lg} 0`,
   },
   word: {
-    fontSize: '2.5rem',
+    fontSize: '3.5rem', /* 增大单词字体 */
     fontWeight: 700,
     color: melodyColors.textPrimary,
     margin: 0,
+    letterSpacing: '0.5px',
   },
   phonetic: {
-    fontSize: '1rem',
+    fontSize: '1.3rem', /* 增大音标字体 */
     color: melodyColors.textSecondary,
-    margin: `${melodySpacing.xs} 0`,
+    margin: `${melodySpacing.md} 0`,
+    fontStyle: 'italic',
   },
   posAndSpeak: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    gap: melodySpacing.sm,
-    margin: `${melodySpacing.sm} 0`,
+    gap: melodySpacing.md, /* 增大间距 */
+    margin: `${melodySpacing.md} 0`,
   },
   partOfSpeech: {
-    fontSize: '0.9rem',
+    fontSize: '1.2rem', /* 增大词性字体 */
     color: melodyColors.secondary,
     fontStyle: 'italic',
     backgroundColor: melodyColors.secondaryLight,
-    padding: `${melodySpacing.xs} ${melodySpacing.sm}`,
+    padding: `${melodySpacing.sm} ${melodySpacing.md}`,
     borderRadius: melodyBorderRadius.md,
+    fontWeight: 600,
   },
   speakBtn: {
     background: 'none',
     border: 'none',
-    fontSize: '1.5rem',
+    fontSize: '2rem', /* 增大发音按钮 */
     cursor: 'pointer',
-    padding: melodySpacing.xs,
+    padding: melodySpacing.sm,
     borderRadius: melodyBorderRadius.full,
     transition: 'transform 0.2s',
+    minWidth: '60px',
+    minHeight: '60px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   challenge: {
     textAlign: 'center' as const,
     padding: `${melodySpacing.lg} 0`,
   },
   challengeText: {
-    fontSize: '1.1rem',
+    fontSize: '1.5rem', /* 增大挑战文本 */
     color: melodyColors.textSecondary,
-    marginBottom: melodySpacing.md,
+    marginBottom: melodySpacing.lg,
+    fontWeight: 500,
+    lineHeight: 1.5,
   },
   showBtn: {
     backgroundColor: melodyColors.primary,
     color: '#fff',
     border: 'none',
-    padding: `${melodySpacing.sm} ${melodySpacing.xl}`,
+    padding: `${melodySpacing.md} ${melodySpacing['2xl']}`,
     borderRadius: melodyBorderRadius.full,
-    fontSize: '1rem',
+    fontSize: '1.3rem', /* 增大显示答案按钮 */
     fontWeight: 600,
     cursor: 'pointer',
     boxShadow: melodyShadows.md,
     transition: 'transform 0.2s, box-shadow 0.2s',
+    minHeight: '60px',
+    minWidth: '200px',
   },
   answer: {
     padding: `${melodySpacing.md} 0`,
@@ -112,44 +124,51 @@ const styles: any = {
   answerBlock: {
     backgroundColor: melodyColors.background,
     borderRadius: melodyBorderRadius.xl,
-    padding: melodySpacing.md,
-    marginBottom: melodySpacing.sm,
+    padding: melodySpacing.lg, /* 增大答案块内边距 */
+    marginBottom: melodySpacing.md,
+    border: `1px solid ${melodyColors.primaryLight}`,
   },
   answerLabel: {
-    fontSize: '0.8rem',
+    fontSize: '1rem', /* 增大答案标签 */
     color: melodyColors.textSecondary,
     fontWeight: 600,
     textTransform: 'uppercase' as const,
-    marginBottom: melodySpacing.xs,
+    marginBottom: melodySpacing.sm,
+    letterSpacing: '0.5px',
   },
   answerText: {
-    fontSize: '1rem',
+    fontSize: '1.3rem', /* 增大答案文本 */
     color: melodyColors.textPrimary,
     margin: 0,
+    lineHeight: 1.6,
   },
   footer: {
     textAlign: 'center' as const,
     padding: `${melodySpacing.md} 0 0`,
   },
   footerText: {
-    fontSize: '0.9rem',
+    fontSize: '1.2rem', /* 增大页脚文本 */
     color: melodyColors.textSecondary,
-    marginBottom: melodySpacing.sm,
+    marginBottom: melodySpacing.md,
+    fontWeight: 500,
+    lineHeight: 1.5,
   },
   btnRow: {
     display: 'flex',
-    gap: melodySpacing.sm,
+    gap: melodySpacing.md, /* 增大按钮间距 */
     justifyContent: 'center',
   },
   answerBtn: {
     border: 'none',
-    padding: `${melodySpacing.sm} ${melodySpacing.lg}`,
+    padding: `${melodySpacing.md} ${melodySpacing.xl}`,
     borderRadius: melodyBorderRadius.full,
-    fontSize: '0.9rem',
+    fontSize: '1.1rem', /* 增大答案按钮字体 */
     fontWeight: 600,
     color: '#fff',
     cursor: 'pointer',
     transition: 'opacity 0.2s, transform 0.2s',
+    minHeight: '55px',
+    minWidth: '140px',
   },
   exampleRow: {
     display: 'flex',
