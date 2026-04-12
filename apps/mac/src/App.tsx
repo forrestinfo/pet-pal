@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useLearning } from './hooks/useLearning';
 import { applyMelodyTheme } from './themes/melodyTheme';
-import Navigation, { TabType } from './components/Navigation';
+import Navigation from './components/Navigation';
+import type { TabType } from './components/Navigation';
 import Welcome from './components/Welcome';
 import WordCard from './components/WordCard';
 import SentenceCard from './components/SentenceCard';
@@ -52,9 +53,9 @@ function App() {
   const dailyProgress = learning.getDailyProgress();
 
   // Calculate points from progress
-  const totalPoints = progress?.totalPoints || 0;
-  const todayPoints = progress?.todayPoints || 0;
-  const streak = progress?.streak || 0;
+  const totalPoints = progress.totalPoints || 0;
+  const todayPoints = progress.todayPoints || 0;
+  const streak = progress.streakDays || 0;
 
   // Points history from localStorage
   const pointsHistory = JSON.parse(localStorage.getItem('pet-pal-points-history') || '[]');
@@ -150,11 +151,11 @@ function App() {
                 name: pet.name || '美乐蒂',
                 level: pet.level || 1,
                 experience: pet.experience || 0,
-                experienceToNextLevel: pet.experienceToNextLevel || 100,
+                experienceToNextLevel: (pet.level || 1) * 100 - (pet.experience || 0),
                 mood: pet.mood || 80,
                 hunger: pet.hunger || 30,
                 moodIcon: '🐰',
-              }}
+              } as any}
               points={totalPoints}
             />
             <div className="pet-actions">

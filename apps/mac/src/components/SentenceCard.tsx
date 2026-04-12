@@ -1,5 +1,5 @@
-import React, { CSSProperties } from 'react';
-import type { SentenceCard as SentenceCardType } from '@pet-pal/shared-types';
+import React from 'react';
+import type { SentenceCard as SentenceCardType } from '../../../../packages/shared-types/dist';
 import { melodyColors, melodyShadows, melodyBorderRadius, melodySpacing } from '../themes/melodyTheme';
 
 export interface SentenceCardProps {
@@ -14,7 +14,7 @@ const difficultyLabels = ['', 'Easy', 'Medium', 'Hard'];
 const difficultyColors = ['', '#4CAF50', '#FF9800', '#F44336'];
 const chunkColors = [melodyColors.primary, melodyColors.secondary, melodyColors.accent, '#4CAF50', '#FF9800'];
 
-const styles: Record<string, CSSProperties> = {
+const styles: any = {
   card: {
     backgroundColor: melodyColors.surface,
     borderRadius: melodyBorderRadius['2xl'],
@@ -202,7 +202,7 @@ export const SentenceCardComponent: React.FC<SentenceCardProps> = ({
     // Simple chunk highlighting (for display purposes)
     return (
       <div>
-        {chunks.map((chunk, index) => (
+        {chunks.map((chunk: string, index: number) => (
           <span
             key={index}
             style={{
@@ -281,7 +281,7 @@ export const SentenceCardComponent: React.FC<SentenceCardProps> = ({
             <div style={styles.answerBlock}>
               <div style={styles.answerLabel}>🔑 Key Phrases</div>
               <div style={styles.keyPhrasesContainer}>
-                {sentence.keyPhrases.map((phrase, index) => (
+                {sentence.keyPhrases.map((phrase: string, index: number) => (
                   <span key={index} style={styles.keyPhrase}>
                     {phrase}
                   </span>

@@ -1,4 +1,4 @@
-import React, { CSSProperties, useState } from 'react';
+import React, { useState } from 'react';
 import { melodyColors, melodyShadows, melodyBorderRadius, melodySpacing, melodyIcons } from '../themes/melodyTheme';
 
 export interface SettingsProps {
@@ -15,7 +15,7 @@ export interface SettingsProps {
 
 const DAILY_GOAL_OPTIONS = [10, 20, 30, 50];
 
-const styles: Record<string, CSSProperties> = {
+const styles: any = {
   panel: {
     backgroundColor: melodyColors.surface,
     borderRadius: melodyBorderRadius.xl,

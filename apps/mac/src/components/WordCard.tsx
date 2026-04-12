@@ -1,9 +1,9 @@
-import React, { CSSProperties } from 'react';
-import type { WordCard as WordCardType } from '@pet-pal/shared-types';
+import React from 'react';
+import type { WordCard as WordCardType } from '../../../../packages/shared-types/dist';
 import { melodyColors, melodyShadows, melodyBorderRadius, melodySpacing } from '../themes/melodyTheme';
 
 export interface WordCardProps {
-  word: Pick<WordCardType, 'word' | 'partOfSpeech' | 'simpleDefinitionEn' | 'meaningZh' | 'exampleSentence' | 'exampleSentenceZh' | 'topicTag' | 'difficulty' | 'phonetic'>;
+  word: Pick<WordCardType, 'word' | 'partOfSpeech' | 'simpleDefinitionEn' | 'meaningZh' | 'exampleSentence' | 'exampleSentenceZh' | 'topicTag' | 'difficulty'> & { phonetic?: string };
   showAnswer: boolean;
   onShowAnswer: () => void;
   onAnswer: (result: 'dont-know' | 'somewhat' | 'know') => void;
@@ -13,7 +13,7 @@ export interface WordCardProps {
 const difficultyLabels = ['', 'Easy', 'Medium', 'Hard'];
 const difficultyColors = ['', '#4CAF50', '#FF9800', '#F44336'];
 
-const styles: Record<string, CSSProperties> = {
+const styles: any = {
   card: {
     backgroundColor: melodyColors.surface,
     borderRadius: melodyBorderRadius['2xl'],

@@ -1,4 +1,4 @@
-import React, { CSSProperties, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { melodyColors, melodyShadows, melodyBorderRadius, melodySpacing, melodyIcons } from '../themes/melodyTheme';
 
 export interface PetPanelProps {
@@ -49,7 +49,7 @@ const getHungerLabel = (hunger: number): string => {
   return 'Starving';
 };
 
-const styles: Record<string, CSSProperties> = {
+const styles: any = {
   panel: {
     backgroundColor: melodyColors.surface,
     borderRadius: melodyBorderRadius.xl,

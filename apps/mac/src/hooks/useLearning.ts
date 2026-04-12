@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useLocalStorage, useLearningProgress, usePetState, useLearnedItems } from './useLocalStorage';
+import type { LearnedItem } from './useLocalStorage';
 // Import types from shared-types package
 // In a proper workspace setup, this would be: import type { WordCard, SentenceCard } from 'shared-types';
 // For now, define the minimal types we need
@@ -262,7 +263,7 @@ export function useLearning() {
     setPet(newPetState);
 
     // Record learned item
-    const newLearnedItem = {
+    const newLearnedItem: LearnedItem = {
       id: itemId!,
       type: itemType,
       learnedAt: new Date().toISOString(),

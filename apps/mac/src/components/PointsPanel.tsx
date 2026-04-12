@@ -1,4 +1,4 @@
-import React, { CSSProperties } from 'react';
+import React from 'react';
 import { melodyColors, melodyShadows, melodyBorderRadius, melodySpacing, melodyIcons } from '../themes/melodyTheme';
 
 export interface PointsHistory {
@@ -12,7 +12,7 @@ export interface PointsPanelProps {
   todayPoints: number;
   streak: number;
   history: PointsHistory[];
-  nextLevelPoints?: number; // Points needed for next level
+  nextLevelPoints?: number; // Points needed for next level (unused)
 }
 
 const getLevelFromPoints = (points: number): { level: number; nextLevelAt: number } => {
@@ -36,7 +36,7 @@ const formatDate = (dateStr: string): string => {
   return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 };
 
-const styles: Record<string, CSSProperties> = {
+const styles: any = {
   panel: {
     backgroundColor: melodyColors.surface,
     borderRadius: melodyBorderRadius.xl,
@@ -202,6 +202,7 @@ export const PointsPanelComponent: React.FC<PointsPanelProps> = ({
   history,
   nextLevelPoints,
 }) => {
+  void nextLevelPoints;
   const { level, nextLevelAt } = getLevelFromPoints(totalPoints);
   const progressPercent = Math.min(100, (totalPoints / Math.max(nextLevelAt, 1)) * 100);
   
