@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useLocalStorage, useLearningProgress, usePetState, useLearnedItems } from './useLocalStorage';
 import type { LearnedItem } from './useLocalStorage';
+import { processReview, getDueCards } from '../../../../packages/spaced-repetition/dist';
 
 type WordCard = {
   id: string;
@@ -13,14 +14,14 @@ type WordCard = {
   exampleSentenceZh: string;
   topicTag: string;
   difficulty: number;
-  memoryState: string;
+  memoryState: any;
   intervalDays: number;
-  nextReviewAt: Date;
+  nextReviewAt: any;
   lapseCount: number;
   correctCount: number;
   wrongCount: number;
-  createdAt: Date;
-  updatedAt: Date;
+  createdAt: any;
+  updatedAt: any;
 };
 
 type SentenceCard = {
@@ -32,14 +33,14 @@ type SentenceCard = {
   functionTag: string;
   topicTag: string;
   difficulty: number;
-  memoryState: string;
+  memoryState: any;
   intervalDays: number;
-  nextReviewAt: Date;
+  nextReviewAt: any;
   lapseCount: number;
   correctCount: number;
   wrongCount: number;
-  createdAt: Date;
-  updatedAt: Date;
+  createdAt: any;
+  updatedAt: any;
 };
 
 import { petVocabulary, petSentences } from '../../../../packages/content/dist';
@@ -58,6 +59,10 @@ export function useLearning() {
   const [pet, setPet] = usePetState();
   const [learnedItems, setLearnedItems] = useLearnedItems();
 
+  // Real SRS card stores (per-account via snapshot in App.tsx)
+  const [wordCards, setWordCards] = useLocalStorage<Record<string, WordCard>>('pet-pal-word-cards', {});
+  const [sentenceCards, setSentenceCards] = useLocalStorage<Record<string, SentenceCard>>('pet-pal-sentence-cards', {});
+
   const [currentWord, setCurrentWord] = useState<WordCard | null>(null);
   const [currentSentence, setCurrentSentence] = useState<SentenceCard | null>(null);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -70,7 +75,7 @@ export function useLearning() {
     ...wordData,
     id: `word_${Date.now()}_${randomIndex}`,
     memoryState: 'new',
-    intervalDays: 1,
+    intervalDays: 10 / (24 * 60),
     nextReviewAt: new Date(),
     lapseCount: 0,
     correctCount: 0,
@@ -83,7 +88,7 @@ export function useLearning() {
     ...sentenceData,
     id: `sentence_${Date.now()}_${randomIndex}`,
     memoryState: 'new',
-    intervalDays: 1,
+    intervalDays: 10 / (24 * 60),
     nextReviewAt: new Date(),
     lapseCount: 0,
     correctCount: 0,
@@ -92,12 +97,82 @@ export function useLearning() {
     updatedAt: new Date(),
   });
 
+  const pickDue = useCallback((): WordCard | SentenceCard | null => {
+    const now = new Date();
+    const words = Object.values(wordCards).map((c: any) => ({
+      ...c,
+      nextReviewAt: new Date(c.nextReviewAt),
+      createdAt: new Date(c.createdAt),
+      updatedAt: new Date(c.updatedAt),
+    })).filter((c: any) => c.nextReviewAt <= now);
+
+    const sentences = Object.values(sentenceCards).map((c: any) => ({
+      ...c,
+      nextReviewAt: new Date(c.nextReviewAt),
+      createdAt: new Date(c.createdAt),
+      updatedAt: new Date(c.updatedAt),
+    })).filter((c: any) => c.nextReviewAt <= now);
+
+    const due = getDueCards([...(words as any[]), ...(sentences as any[])], 1) as any[];
+    return due[0] || null;
+  }, [wordCards, sentenceCards]);
+
+  const ensureWordCard = useCallback((base: any): WordCard => {
+    const id = `w_${base.word}`;
+    const existing = wordCards[id];
+    if (existing) return existing;
+    const card: WordCard = {
+      ...buildWordCard(base, 0),
+      id,
+      word: base.word,
+      memoryState: 'new',
+      intervalDays: 10 / (24 * 60),
+      nextReviewAt: new Date(),
+    };
+    setWordCards({ ...wordCards, [id]: card });
+    return card;
+  }, [wordCards, setWordCards]);
+
+  const ensureSentenceCard = useCallback((base: any): SentenceCard => {
+    const id = `s_${base.sentence}`;
+    const existing = sentenceCards[id];
+    if (existing) return existing;
+    const card: SentenceCard = {
+      ...buildSentenceCard(base, 0),
+      id,
+      sentence: base.sentence,
+      memoryState: 'new',
+      intervalDays: 10 / (24 * 60),
+      nextReviewAt: new Date(),
+    };
+    setSentenceCards({ ...sentenceCards, [id]: card });
+    return card;
+  }, [sentenceCards, setSentenceCards]);
+
   const loadRandomWord = useCallback(async () => {
     try {
       setIsLoading(true);
       if (petVocabulary.length === 0) throw new Error('No vocabulary available');
+
+      const due = pickDue();
+      if (due) {
+        if ('word' in (due as any)) {
+          setCurrentWord(due as any);
+          setCurrentSentence(null);
+        } else {
+          setCurrentSentence(due as any);
+          setCurrentWord(null);
+        }
+        setShowAnswer(false);
+        setLearningMode('review');
+        return;
+      }
+
+      // no due -> new word
       const randomIndex = Math.floor(Math.random() * petVocabulary.length);
-      setCurrentWord(buildWordCard(petVocabulary[randomIndex], randomIndex));
+      const base = petVocabulary[randomIndex];
+      const card = ensureWordCard(base);
+      setCurrentWord(card);
       setCurrentSentence(null);
       setShowAnswer(false);
       setLearningMode('review');
@@ -119,14 +194,31 @@ export function useLearning() {
     } finally {
       setIsLoading(false);
     }
-  }, []);
+  }, [pickDue, ensureWordCard]);
 
   const loadRandomSentence = useCallback(async () => {
     try {
       setIsLoading(true);
       if (petSentences.length === 0) throw new Error('No sentences available');
+
+      const due = pickDue();
+      if (due) {
+        if ('word' in (due as any)) {
+          setCurrentWord(due as any);
+          setCurrentSentence(null);
+        } else {
+          setCurrentSentence(due as any);
+          setCurrentWord(null);
+        }
+        setShowAnswer(false);
+        setLearningMode('review');
+        return;
+      }
+
       const randomIndex = Math.floor(Math.random() * petSentences.length);
-      setCurrentSentence(buildSentenceCard(petSentences[randomIndex], randomIndex));
+      const base = petSentences[randomIndex];
+      const card = ensureSentenceCard(base);
+      setCurrentSentence(card);
       setCurrentWord(null);
       setShowAnswer(false);
       setLearningMode('review');
@@ -147,7 +239,7 @@ export function useLearning() {
     } finally {
       setIsLoading(false);
     }
-  }, []);
+  }, [pickDue, ensureSentenceCard]);
 
   const enterFillInBlank = useCallback((difficulty: 1 | 2 | 3 | 4 = 2) => {
     setFillInDifficulty(difficulty);
@@ -170,7 +262,8 @@ export function useLearning() {
     const petMoodBonus = pet.mood / 100;
     pointsEarned = Math.round(pointsEarned * (1 + petMoodBonus * 0.5));
 
-    const today = new Date().toISOString().split('T')[0];
+    const now = new Date();
+    const today = now.toISOString().split('T')[0];
     const isNewDay = progress.lastLearningDate !== today;
     setProgress({
       ...progress,
@@ -190,19 +283,82 @@ export function useLearning() {
       hunger: Math.max(0, pet.hunger - 2),
     });
 
-    const newLearnedItem: LearnedItem = {
-      id: item.id,
-      type: currentWord ? 'word' : 'sentence',
-      learnedAt: new Date().toISOString(),
-      confidence,
-      nextReviewAt: new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(),
-    };
-    setLearnedItems([...learnedItems, newLearnedItem]);
-    setTodayLearned(prev => prev + 1);
+    const success = confidence !== 'dont-know';
+    const responseTimeMs = 1200; // MVP: no timer yet
 
-    if (currentWord) loadRandomWord();
-    if (currentSentence) loadRandomSentence();
-  }, [currentWord, currentSentence, progress, pet, learnedItems, setProgress, setPet, setLearnedItems, loadRandomWord, loadRandomSentence]);
+    // --- Word SRS ---
+    if (currentWord) {
+      const reviewResult = processReview(currentWord as any, success, responseTimeMs);
+      const updated: WordCard = {
+        ...(currentWord as any),
+        memoryState: reviewResult.newMemoryState,
+        intervalDays: reviewResult.newIntervalDays,
+        nextReviewAt: reviewResult.nextReviewAt,
+        lapseCount: (currentWord as any).lapseCount + (success ? 0 : 1),
+        correctCount: (currentWord as any).correctCount + (success ? 1 : 0),
+        wrongCount: (currentWord as any).wrongCount + (success ? 0 : 1),
+        updatedAt: now,
+      };
+      setWordCards({ ...wordCards, [updated.id]: updated });
+
+      const newLearnedItem: LearnedItem = {
+        id: updated.id,
+        type: 'word',
+        learnedAt: now.toISOString(),
+        confidence,
+        nextReviewAt: new Date(updated.nextReviewAt).toISOString(),
+      };
+      setLearnedItems([...learnedItems, newLearnedItem]);
+      setTodayLearned(prev => prev + 1);
+
+      loadRandomWord();
+      return;
+    }
+
+    // --- Sentence SRS ---
+    if (currentSentence) {
+      const reviewResult = processReview(currentSentence as any, success, responseTimeMs);
+      const updated: SentenceCard = {
+        ...(currentSentence as any),
+        memoryState: reviewResult.newMemoryState,
+        intervalDays: reviewResult.newIntervalDays,
+        nextReviewAt: reviewResult.nextReviewAt,
+        lapseCount: (currentSentence as any).lapseCount + (success ? 0 : 1),
+        correctCount: (currentSentence as any).correctCount + (success ? 1 : 0),
+        wrongCount: (currentSentence as any).wrongCount + (success ? 0 : 1),
+        updatedAt: now,
+      };
+      setSentenceCards({ ...sentenceCards, [updated.id]: updated });
+
+      const newLearnedItem: LearnedItem = {
+        id: updated.id,
+        type: 'sentence',
+        learnedAt: now.toISOString(),
+        confidence,
+        nextReviewAt: new Date(updated.nextReviewAt).toISOString(),
+      };
+      setLearnedItems([...learnedItems, newLearnedItem]);
+      setTodayLearned(prev => prev + 1);
+
+      loadRandomSentence();
+      return;
+    }
+  }, [
+    currentWord,
+    currentSentence,
+    progress,
+    pet,
+    learnedItems,
+    setProgress,
+    setPet,
+    setLearnedItems,
+    loadRandomWord,
+    loadRandomSentence,
+    wordCards,
+    sentenceCards,
+    setWordCards,
+    setSentenceCards,
+  ]);
 
   const speakText = useCallback((text: string, language = 'en-US') => {
     if (!settings.soundEnabled || typeof window === 'undefined') return;

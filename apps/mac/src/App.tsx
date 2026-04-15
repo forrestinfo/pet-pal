@@ -17,6 +17,8 @@ type AccountSnapshot = {
   pet: any;
   progress: any;
   learnedItems: any[];
+  wordCards?: Record<string, any>;
+  sentenceCards?: Record<string, any>;
 };
 
 type Account = {
@@ -35,6 +37,8 @@ const defaultSnapshot = (): AccountSnapshot => ({
   pet: {},
   progress: {},
   learnedItems: [],
+  wordCards: {},
+  sentenceCards: {},
 });
 
 const readAccounts = (): Account[] => {
@@ -61,6 +65,8 @@ const saveCurrentSnapshotToActiveAccount = () => {
     pet: JSON.parse(localStorage.getItem('pet-pal-pet') || '{}'),
     progress: JSON.parse(localStorage.getItem('pet-pal-progress') || '{}'),
     learnedItems: JSON.parse(localStorage.getItem('pet-pal-learned-items') || '[]'),
+    wordCards: JSON.parse(localStorage.getItem('pet-pal-word-cards') || '{}'),
+    sentenceCards: JSON.parse(localStorage.getItem('pet-pal-sentence-cards') || '{}'),
   };
   writeAccounts(accounts);
 };
@@ -70,6 +76,8 @@ const loadSnapshot = (snapshot: AccountSnapshot) => {
   localStorage.setItem('pet-pal-pet', JSON.stringify(snapshot.pet || {}));
   localStorage.setItem('pet-pal-progress', JSON.stringify(snapshot.progress || {}));
   localStorage.setItem('pet-pal-learned-items', JSON.stringify(snapshot.learnedItems || []));
+  localStorage.setItem('pet-pal-word-cards', JSON.stringify(snapshot.wordCards || {}));
+  localStorage.setItem('pet-pal-sentence-cards', JSON.stringify(snapshot.sentenceCards || {}));
   localStorage.setItem('pet-pal-initialized', 'true');
 };
 
@@ -116,6 +124,8 @@ function App() {
         lastLearningDate: '',
       },
       learnedItems: [],
+      wordCards: {},
+      sentenceCards: {},
     };
     const newAccount: Account = { id, username: profile.username, createdAt: new Date().toISOString(), lastUsedAt: new Date().toISOString(), snapshot };
     const next = [...accounts, newAccount];

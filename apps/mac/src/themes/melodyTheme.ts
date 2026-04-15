@@ -146,8 +146,8 @@ export const melodyAnimations = {
       '50%': { transform: 'translateY(-20px)' },
     },
     glow: {
-      '0%, 100%': { boxShadow: '0 0 5px rgba(233, 30, 99, 0.5)' },
-      '50%': { boxShadow: '0 0 20px rgba(233, 30, 99, 0.8)' },
+      '0%, 100%': { boxShadow: `0 0 6px ${melodyColors.glow}` },
+      '50%': { boxShadow: `0 0 22px ${melodyColors.secondaryLight}` },
     },
   },
 };
