@@ -286,25 +286,28 @@ export const FillInTheBlankComponent: React.FC<FillInTheBlankProps> = ({
   };
   
   const checkAnswer = () => {
+    const normalizedWordLower = word.trim().toLowerCase();
     let correct = false;
-    
+
     if (isFullWordMode) {
-      // 全空白模式
-      correct = fullWordInput.toLowerCase() === word.toLowerCase();
+      // 全空白模式：要求完整拼写（忽略首尾空格、大小写）
+      const normalizedInputLower = fullWordInput.trim().toLowerCase();
+      correct = normalizedInputLower === normalizedWordLower;
     } else {
-      // 部分字母空白模式
-      const wordArray = word.toUpperCase().split('');
+      // 部分字母空白模式：逐个校验缺失位置（忽略大小写；必须有输入）
+      const wordArray = word.trim().toUpperCase().split('');
       let allCorrect = true;
-      
+
       blankPositions.forEach((pos, index) => {
-        if (userInput[index].toUpperCase() !== wordArray[pos]) {
+        const input = (userInput[index] ?? '').trim().toUpperCase();
+        if (!input || input.length !== 1 || input !== wordArray[pos]) {
           allCorrect = false;
         }
       });
-      
+
       correct = allCorrect;
     }
-    
+
     setIsCorrect(correct);
     setShowFeedback(true);
     onAnswer(correct, isFullWordMode ? fullWordInput : userInput.join(''));
