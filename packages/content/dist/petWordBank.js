@@ -30,7 +30,17 @@ const words_place_1 = require("./words/words-place");
 const words_time_1 = require("./words/words-time");
 const words_transport_1 = require("./words/words-transport");
 const words_verbs_1 = require("./words/words-verbs");
-exports.petVocabulary = [
+const ldoceWordBank_1 = require("./words/ldoceWordBank");
+const ldoceChinese_1 = require("./words/ldoceChinese");
+const uniqueByWord = (items) => {
+    const map = new Map();
+    for (const item of items) {
+        if (!map.has(item.word))
+            map.set(item.word, item);
+    }
+    return [...map.values()];
+};
+exports.petVocabulary = uniqueByWord([
     ...petWordBank_dailyLife_1.dailyLifeWords,
     ...petWordBank_education_1.educationWords,
     ...petWordBank_travel_1.travelWords,
@@ -54,16 +64,12 @@ exports.petVocabulary = [
     ...words_time_1.timeWords,
     ...words_transport_1.transportWords,
     ...words_verbs_1.verbsWords,
-];
-/**
- * Get PET vocabulary by topic
- */
+    ...ldoceWordBank_1.ldoceWords,
+    ...ldoceChinese_1.ldoceChineseWords,
+]);
 function getVocabularyByTopic(topic) {
     return exports.petVocabulary.filter(word => word.topicTag === topic);
 }
-/**
- * Get vocabulary by difficulty level
- */
 function getVocabularyByDifficulty(level) {
     return exports.petVocabulary.filter(word => word.difficulty === level);
 }
