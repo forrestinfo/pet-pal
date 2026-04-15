@@ -186,8 +186,8 @@ const styles: any = {
     color: melodyColors.textPrimary,
   },
   '@keyframes bounce': {
-    '0%, 100%': { transform: 'translateY(0)' },
-    '50%': { transform: 'translateY(-15px)' },
+    '0%, 100%': { transform: 'translateY(0) scale(1)' },
+    '50%': { transform: 'translateY(-6px) scale(1.02)' },
   },
 };
 
@@ -195,17 +195,21 @@ export const PetPanelComponent: React.FC<PetPanelProps> = ({
   petState,
   points,
 }) => {
-  const [isBouncing, setIsBouncing] = useState(true);
+  const [isBouncing, setIsBouncing] = useState(false);
   
-  // Trigger bounce animation periodically
+  // keep animation subtle: only bounce briefly on level up
+  const prevLevelRef = React.useRef<number>(petState.level);
   useEffect(() => {
-    const interval = setInterval(() => {
+    const prev = prevLevelRef.current;
+    if (petState.level > prev) {
       setIsBouncing(true);
-      setTimeout(() => setIsBouncing(false), 2000);
-    }, 5000); // Bounce every 5 seconds
-    
-    return () => clearInterval(interval);
-  }, []);
+      const t = setTimeout(() => setIsBouncing(false), 550);
+      prevLevelRef.current = petState.level;
+      return () => clearTimeout(t);
+    }
+    prevLevelRef.current = petState.level;
+    return;
+  }, [petState.level]);
 
   const petEmoji = getPetEmoji(petState.name);
   const moodIcon = petState.moodIcon || getMoodIcon(petState.mood);

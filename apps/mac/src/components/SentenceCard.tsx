@@ -14,6 +14,27 @@ const difficultyLabels = ['', 'Easy', 'Medium', 'Hard'];
 const difficultyColors = ['', '#4CAF50', '#FF9800', '#F44336'];
 const chunkColors = [melodyColors.primary, melodyColors.secondary, melodyColors.accent, '#4CAF50', '#FF9800'];
 
+const btnBase = {
+  border: 'none',
+  borderRadius: melodyBorderRadius.full,
+  fontWeight: 700,
+  cursor: 'pointer',
+  transition: 'transform 120ms ease, filter 120ms ease, box-shadow 120ms ease',
+  boxShadow: melodyShadows.sm,
+  userSelect: 'none' as const,
+  WebkitUserSelect: 'none' as const,
+};
+const btnHover = {
+  transform: 'translateY(-1px)',
+  filter: 'brightness(1.03)',
+  boxShadow: melodyShadows.md,
+};
+const btnActive = {
+  transform: 'translateY(0px)',
+  filter: 'brightness(0.98)',
+  boxShadow: melodyShadows.sm,
+};
+
 const styles: any = {
   card: {
     backgroundColor: melodyColors.surface,
@@ -120,16 +141,11 @@ const styles: any = {
     lineHeight: 1.5,
   },
   showBtn: {
+    ...btnBase,
     backgroundColor: melodyColors.primary,
     color: '#fff',
-    border: 'none',
     padding: `${melodySpacing.sm} ${melodySpacing.lg}`,
-    borderRadius: melodyBorderRadius.full,
     fontSize: '0.95rem',
-    fontWeight: 700,
-    cursor: 'pointer',
-    boxShadow: melodyShadows.sm,
-    transition: 'transform 0.2s, box-shadow 0.2s',
     minHeight: '44px',
     minWidth: '160px',
   },
@@ -193,17 +209,17 @@ const styles: any = {
     justifyContent: 'center',
   },
   answerBtn: {
-    border: 'none',
+    ...btnBase,
     padding: `${melodySpacing.sm} ${melodySpacing.md}`,
     borderRadius: melodyBorderRadius.full,
     fontSize: '0.9rem',
     fontWeight: 700,
     color: '#fff',
-    cursor: 'pointer',
     transition: 'opacity 0.2s, transform 0.2s',
     minHeight: '42px',
     minWidth: '120px',
-  },};
+  },
+};
 
 export const SentenceCardComponent: React.FC<SentenceCardProps> = ({
   sentence,
@@ -212,6 +228,9 @@ export const SentenceCardComponent: React.FC<SentenceCardProps> = ({
   onAnswer,
   onSpeak,
 }) => {
+  const [hoveredBtn, setHoveredBtn] = React.useState<string | null>(null);
+  const [activeBtn, setActiveBtn] = React.useState<string | null>(null);
+
   const renderChunkedSentence = () => {
     const sentenceText = sentence.sentence;
     const chunks = sentence.chunkList || [];
@@ -277,7 +296,18 @@ export const SentenceCardComponent: React.FC<SentenceCardProps> = ({
       {!showAnswer ? (
         <div style={styles.challenge}>
           <p style={styles.challengeText}>What does this sentence mean?</p>
-          <button style={styles.showBtn} onClick={onShowAnswer}>
+          <button
+            style={{
+              ...styles.showBtn,
+              ...(hoveredBtn === 'show-answer' ? btnHover : {}),
+              ...(activeBtn === 'show-answer' ? btnActive : {}),
+            }}
+            onMouseEnter={() => setHoveredBtn('show-answer')}
+            onMouseLeave={() => setHoveredBtn(null)}
+            onMouseDown={() => setActiveBtn('show-answer')}
+            onMouseUp={() => setActiveBtn(null)}
+            onClick={onShowAnswer}
+          >
             Show Answer
           </button>
         </div>
@@ -318,21 +348,48 @@ export const SentenceCardComponent: React.FC<SentenceCardProps> = ({
         <p style={styles.footerText}>How well did you understand this sentence?</p>
         <div style={styles.btnRow}>
           <button
-            style={{ ...styles.answerBtn, backgroundColor: '#e74c3c' }}
+            style={{
+              ...styles.answerBtn,
+              backgroundColor: '#e74c3c',
+              ...(hoveredBtn === 'dont-know' ? btnHover : {}),
+              ...(activeBtn === 'dont-know' ? btnActive : {}),
+            }}
+            onMouseEnter={() => setHoveredBtn('dont-know')}
+            onMouseLeave={() => setHoveredBtn(null)}
+            onMouseDown={() => setActiveBtn('dont-know')}
+            onMouseUp={() => setActiveBtn(null)}
             onClick={() => onAnswer('dont-know')}
             disabled={!showAnswer}
           >
             😕 Don't Know
           </button>
           <button
-            style={{ ...styles.answerBtn, backgroundColor: '#f39c12' }}
+            style={{
+              ...styles.answerBtn,
+              backgroundColor: '#f39c12',
+              ...(hoveredBtn === 'somewhat' ? btnHover : {}),
+              ...(activeBtn === 'somewhat' ? btnActive : {}),
+            }}
+            onMouseEnter={() => setHoveredBtn('somewhat')}
+            onMouseLeave={() => setHoveredBtn(null)}
+            onMouseDown={() => setActiveBtn('somewhat')}
+            onMouseUp={() => setActiveBtn(null)}
             onClick={() => onAnswer('somewhat')}
             disabled={!showAnswer}
           >
             🤔 Somewhat
           </button>
           <button
-            style={{ ...styles.answerBtn, backgroundColor: '#27ae60' }}
+            style={{
+              ...styles.answerBtn,
+              backgroundColor: '#27ae60',
+              ...(hoveredBtn === 'know' ? btnHover : {}),
+              ...(activeBtn === 'know' ? btnActive : {}),
+            }}
+            onMouseEnter={() => setHoveredBtn('know')}
+            onMouseLeave={() => setHoveredBtn(null)}
+            onMouseDown={() => setActiveBtn('know')}
+            onMouseUp={() => setActiveBtn(null)}
             onClick={() => onAnswer('know')}
             disabled={!showAnswer}
           >

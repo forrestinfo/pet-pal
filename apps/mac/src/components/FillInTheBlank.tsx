@@ -14,6 +14,18 @@ export interface FillInTheBlankProps {
 }
 
 const styles: any = {
+  // Shared button tokens (macOS-ish): minimal motion + soft highlight
+  btnHover: {
+    transform: 'translateY(-1px)',
+    filter: 'brightness(1.03)',
+    boxShadow: melodyShadows.md,
+  },
+  btnActive: {
+    transform: 'translateY(0px)',
+    filter: 'brightness(0.98)',
+    boxShadow: melodyShadows.sm,
+  },
+
   card: {
     backgroundColor: melodyColors.surface,
     borderRadius: melodyBorderRadius['2xl'],
@@ -243,6 +255,8 @@ export const FillInTheBlankComponent: React.FC<FillInTheBlankProps> = ({
   const [showFeedback, setShowFeedback] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
+  const [hoveredBtn, setHoveredBtn] = useState<string | null>(null);
+  const [activeBtn, setActiveBtn] = useState<string | null>(null);
   
   // 根据难度生成空白位置
   const [blankPositions, setBlankPositions] = useState<number[]>([]);
@@ -485,7 +499,13 @@ export const FillInTheBlankComponent: React.FC<FillInTheBlankProps> = ({
             style={{
               ...styles.actionButton,
               ...styles.checkButton,
+              ...(hoveredBtn === 'check' ? styles.btnHover : {}),
+              ...(activeBtn === 'check' ? styles.btnActive : {}),
             }}
+            onMouseEnter={() => setHoveredBtn('check')}
+            onMouseLeave={() => setHoveredBtn(null)}
+            onMouseDown={() => setActiveBtn('check')}
+            onMouseUp={() => setActiveBtn(null)}
             disabled={(isFullWordMode && !fullWordInput) || ((!isFullWordMode) && userInput.some(input => !input))}
           >
             ✅ 检查答案
@@ -496,7 +516,13 @@ export const FillInTheBlankComponent: React.FC<FillInTheBlankProps> = ({
             style={{
               ...styles.actionButton,
               ...styles.nextButton,
+              ...(hoveredBtn === 'next' ? styles.btnHover : {}),
+              ...(activeBtn === 'next' ? styles.btnActive : {}),
             }}
+            onMouseEnter={() => setHoveredBtn('next')}
+            onMouseLeave={() => setHoveredBtn(null)}
+            onMouseDown={() => setActiveBtn('next')}
+            onMouseUp={() => setActiveBtn(null)}
           >
             → 下一个测试
           </button>
@@ -508,7 +534,13 @@ export const FillInTheBlankComponent: React.FC<FillInTheBlankProps> = ({
             style={{
               ...styles.actionButton,
               ...styles.showAnswerButton,
+              ...(hoveredBtn === 'show' ? styles.btnHover : {}),
+              ...(activeBtn === 'show' ? styles.btnActive : {}),
             }}
+            onMouseEnter={() => setHoveredBtn('show')}
+            onMouseLeave={() => setHoveredBtn(null)}
+            onMouseDown={() => setActiveBtn('show')}
+            onMouseUp={() => setActiveBtn(null)}
           >
             🔍 显示答案
           </button>
