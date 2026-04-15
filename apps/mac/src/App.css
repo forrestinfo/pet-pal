@@ -10,30 +10,34 @@
 
 /* 美乐蒂主题 CSS 变量 */
 :root {
-  --color-primary: #E91E63;
-  --color-primary-light: #F8BBD0;
-  --color-primary-dark: #C2185B;
-  --color-secondary: #9C27B0;
-  --color-secondary-light: #E1BEE7;
-  --color-secondary-dark: #7B1FA2;
-  --color-accent: #FF4081;
-  --color-accent-light: #FF80AB;
-  --color-accent-dark: #F50057;
-  --color-background: #FCE4EC;
+  --color-primary: #0A84FF;
+  --color-primary-light: rgba(10, 132, 255, 0.18);
+  --color-primary-dark: #0060DF;
+  --color-secondary: #8E8E93;
+  --color-secondary-light: rgba(142, 142, 147, 0.16);
+  --color-secondary-dark: #636366;
+  --color-accent: #34C759;
+  --color-accent-light: rgba(52, 199, 89, 0.18);
+  --color-accent-dark: #248A3D;
+
+  --color-background: #F5F5F7;
   --color-background-light: #FFFFFF;
-  --color-background-dark: #F8BBD0;
-  --color-surface: #FFFFFF;
-  --color-surface-variant: #F5F5F5;
-  --color-text-primary: #3C3C3C;
-  --color-text-secondary: #757575;
-  --color-text-disabled: #BDBDBD;
-  --color-success: #4CAF50;
-  --color-error: #F44336;
-  --color-warning: #FF9800;
-  --color-info: #2196F3;
-  --color-glow: rgba(233, 30, 99, 0.3);
-  --color-shadow: rgba(233, 30, 99, 0.2);
-  --color-overlay: rgba(252, 228, 236, 0.8);
+  --color-background-dark: #EDEDF0;
+  --color-surface: rgba(255, 255, 255, 0.75);
+  --color-surface-variant: rgba(255, 255, 255, 0.55);
+
+  --color-text-primary: #1D1D1F;
+  --color-text-secondary: #6E6E73;
+  --color-text-disabled: #AEAEB2;
+
+  --color-success: #34C759;
+  --color-error: #FF3B30;
+  --color-warning: #FF9F0A;
+  --color-info: #0A84FF;
+
+  --color-glow: rgba(10, 132, 255, 0.25);
+  --color-shadow: rgba(0, 0, 0, 0.08);
+  --color-overlay: rgba(245, 245, 247, 0.86);
 }
 
 body {

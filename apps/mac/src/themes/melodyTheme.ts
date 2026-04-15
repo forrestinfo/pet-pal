@@ -7,43 +7,43 @@
  * 美乐蒂主题颜色配置
  */
 export const melodyColors = {
-  // 主色调 - 美乐蒂粉色系
-  primary: '#E91E63',      // 主粉色
-  primaryLight: '#F8BBD0', // 浅粉色
-  primaryDark: '#C2185B',  // 深粉色
-  
-  secondary: '#9C27B0',    // 紫色
-  secondaryLight: '#E1BEE7',
-  secondaryDark: '#7B1FA2',
-  
-  accent: '#FF4081',       // 强调粉色
-  accentLight: '#FF80AB',
-  accentDark: '#F50057',
-  
-  // 背景色
-  background: '#FCE4EC',   // 浅粉色背景
+  // macOS-ish neutral + accent blue
+  primary: '#0A84FF',
+  primaryLight: 'rgba(10, 132, 255, 0.18)',
+  primaryDark: '#0060DF',
+
+  secondary: '#8E8E93',
+  secondaryLight: 'rgba(142, 142, 147, 0.16)',
+  secondaryDark: '#636366',
+
+  accent: '#34C759',
+  accentLight: 'rgba(52, 199, 89, 0.18)',
+  accentDark: '#248A3D',
+
+  // backgrounds
+  background: '#F5F5F7',
   backgroundLight: '#FFFFFF',
-  backgroundDark: '#F8BBD0',
-  
-  // 表面色
-  surface: '#FFFFFF',
-  surfaceVariant: '#F5F5F5',
-  
-  // 文本色
-  textPrimary: '#3C3C3C',
-  textSecondary: '#757575',
-  textDisabled: '#BDBDBD',
-  
-  // 成功/错误/警告
-  success: '#4CAF50',
-  error: '#F44336',
-  warning: '#FF9800',
-  info: '#2196F3',
-  
-  // 特殊效果
-  glow: 'rgba(233, 30, 99, 0.3)',
-  shadow: 'rgba(233, 30, 99, 0.2)',
-  overlay: 'rgba(252, 228, 236, 0.8)',
+  backgroundDark: '#EDEDF0',
+
+  // surfaces
+  surface: 'rgba(255, 255, 255, 0.75)',
+  surfaceVariant: 'rgba(255, 255, 255, 0.55)',
+
+  // text
+  textPrimary: '#1D1D1F',
+  textSecondary: '#6E6E73',
+  textDisabled: '#AEAEB2',
+
+  // statuses
+  success: '#34C759',
+  error: '#FF3B30',
+  warning: '#FF9F0A',
+  info: '#0A84FF',
+
+  // effects
+  glow: 'rgba(10, 132, 255, 0.25)',
+  shadow: 'rgba(0, 0, 0, 0.08)',
+  overlay: 'rgba(245, 245, 247, 0.86)',
 };
 
 /**

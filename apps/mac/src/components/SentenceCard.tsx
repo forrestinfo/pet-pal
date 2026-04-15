@@ -52,12 +52,12 @@ const styles: any = {
     padding: `${melodySpacing.lg} 0`,
   },
   sentence: {
-    fontSize: '2.2rem', /* 增大句子字体 */
-    fontWeight: 600,
+    fontSize: '1.45rem',
+    fontWeight: 650,
     color: melodyColors.textPrimary,
-    margin: `0 0 ${melodySpacing.lg} 0`,
-    lineHeight: 1.5,
-    letterSpacing: '0.3px',
+    margin: `0 0 ${melodySpacing.md} 0`,
+    lineHeight: 1.55,
+    letterSpacing: '0.2px',
   },
   chunksContainer: {
     display: 'flex',
@@ -67,13 +67,13 @@ const styles: any = {
     margin: `${melodySpacing.sm} 0`,
   },
   chunk: {
-    padding: `${melodySpacing.sm} ${melodySpacing.md}`,
-    borderRadius: melodyBorderRadius.lg,
-    fontSize: '1.1rem', /* 增大语块字体 */
+    padding: `${melodySpacing.xs} ${melodySpacing.sm}`,
+    borderRadius: melodyBorderRadius.md,
+    fontSize: '0.9rem',
     fontWeight: 600,
     color: '#fff',
     transition: 'transform 0.2s',
-    minHeight: '40px',
+    minHeight: '32px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -82,27 +82,28 @@ const styles: any = {
     display: 'inline-flex',
     alignItems: 'center',
     gap: melodySpacing.xs,
-    backgroundColor: melodyColors.secondaryLight,
+    backgroundColor: melodyColors.surfaceVariant,
     padding: `${melodySpacing.xs} ${melodySpacing.sm}`,
     borderRadius: melodyBorderRadius.md,
     margin: `${melodySpacing.sm} 0`,
+    border: `1px solid ${melodyColors.primaryLight}`,
   },
   functionTag: {
-    fontSize: '1rem', /* 增大功能标签字体 */
-    color: melodyColors.secondaryDark,
+    fontSize: '0.85rem',
+    color: melodyColors.textPrimary,
     fontWeight: 600,
-    letterSpacing: '0.3px',
+    letterSpacing: '0.2px',
   },
   speakBtn: {
-    background: 'none',
-    border: 'none',
-    fontSize: '1.8rem', /* 增大发音按钮 */
+    background: melodyColors.surfaceVariant,
+    border: `1px solid ${melodyColors.primaryLight}`,
+    fontSize: '1.05rem',
     cursor: 'pointer',
-    padding: melodySpacing.sm,
+    padding: melodySpacing.xs,
     borderRadius: melodyBorderRadius.full,
     transition: 'transform 0.2s',
-    minWidth: '50px',
-    minHeight: '50px',
+    minWidth: '40px',
+    minHeight: '40px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -112,9 +113,9 @@ const styles: any = {
     padding: `${melodySpacing.lg} 0`,
   },
   challengeText: {
-    fontSize: '1.5rem', /* 增大挑战文本 */
+    fontSize: '1rem',
     color: melodyColors.textSecondary,
-    marginBottom: melodySpacing.lg,
+    marginBottom: melodySpacing.md,
     fontWeight: 500,
     lineHeight: 1.5,
   },
@@ -122,15 +123,15 @@ const styles: any = {
     backgroundColor: melodyColors.primary,
     color: '#fff',
     border: 'none',
-    padding: `${melodySpacing.md} ${melodySpacing['2xl']}`,
+    padding: `${melodySpacing.sm} ${melodySpacing.lg}`,
     borderRadius: melodyBorderRadius.full,
-    fontSize: '1.3rem', /* 增大显示答案按钮 */
-    fontWeight: 600,
+    fontSize: '0.95rem',
+    fontWeight: 700,
     cursor: 'pointer',
-    boxShadow: melodyShadows.md,
+    boxShadow: melodyShadows.sm,
     transition: 'transform 0.2s, box-shadow 0.2s',
-    minHeight: '60px',
-    minWidth: '200px',
+    minHeight: '44px',
+    minWidth: '160px',
   },
   answer: {
     padding: `${melodySpacing.md} 0`,
@@ -142,15 +143,15 @@ const styles: any = {
     marginBottom: melodySpacing.sm,
   },
   answerLabel: {
-    fontSize: '1rem', /* 增大答案标签 */
+    fontSize: '0.85rem',
     color: melodyColors.textSecondary,
-    fontWeight: 600,
+    fontWeight: 700,
     textTransform: 'uppercase' as const,
-    marginBottom: melodySpacing.sm,
+    marginBottom: melodySpacing.xs,
     letterSpacing: '0.5px',
   },
   answerText: {
-    fontSize: '1.3rem', /* 增大答案文本 */
+    fontSize: '1rem',
     color: melodyColors.textPrimary,
     margin: 0,
     lineHeight: 1.6,
@@ -162,13 +163,13 @@ const styles: any = {
     margin: `${melodySpacing.xs} 0`,
   },
   keyPhrase: {
-    backgroundColor: melodyColors.backgroundLight,
+    backgroundColor: melodyColors.surfaceVariant,
     border: `1px solid ${melodyColors.primaryLight}`,
-    padding: `${melodySpacing.sm} ${melodySpacing.md}`,
+    padding: `${melodySpacing.xs} ${melodySpacing.sm}`,
     borderRadius: melodyBorderRadius.md,
-    fontSize: '1rem', /* 增大关键词短语字体 */
+    fontSize: '0.85rem',
     color: melodyColors.textPrimary,
-    fontWeight: 500,
+    fontWeight: 600,
   },
   translationRow: {
     display: 'flex',
@@ -180,9 +181,9 @@ const styles: any = {
     padding: `${melodySpacing.md} 0 0`,
   },
   footerText: {
-    fontSize: '1.2rem', /* 增大页脚文本 */
+    fontSize: '0.95rem',
     color: melodyColors.textSecondary,
-    marginBottom: melodySpacing.md,
+    marginBottom: melodySpacing.sm,
     fontWeight: 500,
     lineHeight: 1.5,
   },
@@ -193,17 +194,16 @@ const styles: any = {
   },
   answerBtn: {
     border: 'none',
-    padding: `${melodySpacing.md} ${melodySpacing.xl}`,
+    padding: `${melodySpacing.sm} ${melodySpacing.md}`,
     borderRadius: melodyBorderRadius.full,
-    fontSize: '1.1rem', /* 增大答案按钮字体 */
-    fontWeight: 600,
+    fontSize: '0.9rem',
+    fontWeight: 700,
     color: '#fff',
     cursor: 'pointer',
     transition: 'opacity 0.2s, transform 0.2s',
-    minHeight: '55px',
-    minWidth: '140px',
-  },
-};
+    minHeight: '42px',
+    minWidth: '120px',
+  },};
 
 export const SentenceCardComponent: React.FC<SentenceCardProps> = ({
   sentence,
