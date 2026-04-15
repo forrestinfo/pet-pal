@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { melodyColors, melodyShadows, melodyBorderRadius, melodySpacing } from '../themes/melodyTheme';
+import type { Difficulty } from '../../../../packages/shared-types/src/types';
 
 export interface FillInTheBlankProps {
   word: string;
@@ -9,7 +10,7 @@ export interface FillInTheBlankProps {
   exampleSentenceZh: string;
   onAnswer: (correct: boolean, userInput: string) => void;
   onNext: () => void;
-  difficulty: number; // 1: 缺1个字母, 2: 缺2个字母, 3: 缺3个字母, 4: 全缺
+  difficulty: Difficulty | 4; // 1: 缺1个字母, 2: 缺2个字母, 3: 缺3个字母, 4: 全缺
 }
 
 const styles: any = {
@@ -239,13 +240,14 @@ export const FillInTheBlankComponent: React.FC<FillInTheBlankProps> = ({
   
   // 根据难度生成空白位置
   const [blankPositions, setBlankPositions] = useState<number[]>([]);
+  const isFullWordMode = Number(difficulty) === 4;
   
   useEffect(() => {
     // 根据难度生成空白位置
     const positions: number[] = [];
     const wordLength = word.length;
     
-    if (difficulty === 4) {
+    if (isFullWordMode) {
       // 全空白 - 显示所有位置为空白
       for (let i = 0; i < wordLength; i++) {
         positions.push(i);
@@ -286,7 +288,7 @@ export const FillInTheBlankComponent: React.FC<FillInTheBlankProps> = ({
   const checkAnswer = () => {
     let correct = false;
     
-    if (difficulty === 4) {
+    if (isFullWordMode) {
       // 全空白模式
       correct = fullWordInput.toLowerCase() === word.toLowerCase();
     } else {
@@ -305,12 +307,12 @@ export const FillInTheBlankComponent: React.FC<FillInTheBlankProps> = ({
     
     setIsCorrect(correct);
     setShowFeedback(true);
-    onAnswer(correct, difficulty === 4 ? fullWordInput : userInput.join(''));
+    onAnswer(correct, isFullWordMode ? fullWordInput : userInput.join(''));
   };
   
   const handleShowAnswer = () => {
     setShowAnswer(true);
-    if (difficulty === 4) {
+    if (isFullWordMode) {
       setFullWordInput(word);
     } else {
       const wordArray = word.toUpperCase().split('');
@@ -336,7 +338,7 @@ export const FillInTheBlankComponent: React.FC<FillInTheBlankProps> = ({
       );
     }
     
-    if (difficulty === 4) {
+    if (isFullWordMode) {
       return (
         <div>
           <div style={styles.wordDisplay}>
@@ -435,7 +437,7 @@ export const FillInTheBlankComponent: React.FC<FillInTheBlankProps> = ({
       <div style={styles.header}>
         <h2 style={styles.title}>🧩 填空测试</h2>
         <p style={styles.subtitle}>
-          根据提示，填写单词的{ difficulty === 4 ? '完整拼写' : `缺失的 ${difficulty} 个字母` }
+          根据提示，填写单词的{ isFullWordMode ? '完整拼写' : `缺失的 ${difficulty} 个字母` }
         </p>
       </div>
       
@@ -459,7 +461,7 @@ export const FillInTheBlankComponent: React.FC<FillInTheBlankProps> = ({
         <h3 style={styles.challengeTitle}>填写单词：</h3>
         {renderWordDisplay()}
         <p style={styles.hint}>
-          {difficulty === 4 
+          {isFullWordMode 
             ? '请输入完整的单词拼写'
             : `请填写 ${difficulty} 个缺失的字母`}
         </p>
@@ -475,7 +477,7 @@ export const FillInTheBlankComponent: React.FC<FillInTheBlankProps> = ({
               ...styles.actionButton,
               ...styles.checkButton,
             }}
-            disabled={(difficulty === 4 && !fullWordInput) || (!difficulty === 4 && userInput.some(input => !input))}
+            disabled={(isFullWordMode && !fullWordInput) || ((!isFullWordMode) && userInput.some(input => !input))}
           >
             ✅ 检查答案
           </button>
