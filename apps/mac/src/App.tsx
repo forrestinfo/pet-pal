@@ -12,6 +12,67 @@ import { PointsPanelComponent } from './components/PointsPanel';
 import { SettingsComponent } from './components/Settings';
 import './App.css';
 
+type AccountSnapshot = {
+  settings: any;
+  pet: any;
+  progress: any;
+  learnedItems: any[];
+};
+
+type Account = {
+  id: string;
+  username: string;
+  createdAt: string;
+  lastUsedAt: string;
+  snapshot: AccountSnapshot;
+};
+
+const ACCOUNTS_KEY = 'pet-pal-accounts';
+const ACTIVE_ACCOUNT_KEY = 'pet-pal-active-account';
+
+const defaultSnapshot = (): AccountSnapshot => ({
+  settings: {},
+  pet: {},
+  progress: {},
+  learnedItems: [],
+});
+
+const readAccounts = (): Account[] => {
+  try {
+    return JSON.parse(localStorage.getItem(ACCOUNTS_KEY) || '[]');
+  } catch {
+    return [];
+  }
+};
+
+const writeAccounts = (accounts: Account[]) => {
+  localStorage.setItem(ACCOUNTS_KEY, JSON.stringify(accounts));
+};
+
+const saveCurrentSnapshotToActiveAccount = () => {
+  const activeId = localStorage.getItem(ACTIVE_ACCOUNT_KEY);
+  if (!activeId) return;
+  const accounts = readAccounts();
+  const idx = accounts.findIndex(a => a.id === activeId);
+  if (idx < 0) return;
+  accounts[idx].lastUsedAt = new Date().toISOString();
+  accounts[idx].snapshot = {
+    settings: JSON.parse(localStorage.getItem('pet-pal-settings') || '{}'),
+    pet: JSON.parse(localStorage.getItem('pet-pal-pet') || '{}'),
+    progress: JSON.parse(localStorage.getItem('pet-pal-progress') || '{}'),
+    learnedItems: JSON.parse(localStorage.getItem('pet-pal-learned-items') || '[]'),
+  };
+  writeAccounts(accounts);
+};
+
+const loadSnapshot = (snapshot: AccountSnapshot) => {
+  localStorage.setItem('pet-pal-settings', JSON.stringify(snapshot.settings || {}));
+  localStorage.setItem('pet-pal-pet', JSON.stringify(snapshot.pet || {}));
+  localStorage.setItem('pet-pal-progress', JSON.stringify(snapshot.progress || {}));
+  localStorage.setItem('pet-pal-learned-items', JSON.stringify(snapshot.learnedItems || []));
+  localStorage.setItem('pet-pal-initialized', 'true');
+};
+
 function App() {
   const [activeTab, setActiveTab] = useState<TabType>('words');
   const [isSetup, setIsSetup] = useState(() => !!localStorage.getItem('pet-pal-settings'));
@@ -22,27 +83,62 @@ function App() {
 
   const learning = useLearning();
 
-  const handleWelcomeComplete = () => setIsSetup(true);
+  const accounts = readAccounts();
+
+  const handleCreateAccount = (profile: { username: string; dailyGoal: number; pronunciationSpeed: number; petType?: string }) => {
+    const id = `acct_${Date.now()}`;
+    const snapshot: AccountSnapshot = {
+      settings: {
+        username: profile.username,
+        dailyGoal: profile.dailyGoal,
+        pronunciationSpeed: profile.pronunciationSpeed,
+        theme: 'melody',
+        soundEnabled: true,
+        musicEnabled: true,
+      },
+      pet: {
+        name: profile.username,
+        type: profile.petType || 'melody',
+        level: 1,
+        experience: 0,
+        mood: 80,
+        hunger: 50,
+        energy: 70,
+        lastFed: '',
+        lastPlayed: '',
+      },
+      progress: {
+        totalPoints: 0,
+        todayPoints: 0,
+        streakDays: 0,
+        totalWordsLearned: 0,
+        totalSentencesLearned: 0,
+        lastLearningDate: '',
+      },
+      learnedItems: [],
+    };
+    const newAccount: Account = { id, username: profile.username, createdAt: new Date().toISOString(), lastUsedAt: new Date().toISOString(), snapshot };
+    const next = [...accounts, newAccount];
+    writeAccounts(next);
+    localStorage.setItem(ACTIVE_ACCOUNT_KEY, id);
+    loadSnapshot(snapshot);
+    setIsSetup(true);
+    window.location.reload();
+  };
+
+  const switchAccount = (id: string) => {
+    saveCurrentSnapshotToActiveAccount();
+    const acct = readAccounts().find(a => a.id === id);
+    if (!acct) return;
+    localStorage.setItem(ACTIVE_ACCOUNT_KEY, id);
+    loadSnapshot(acct.snapshot || defaultSnapshot());
+    window.location.reload();
+  };
 
   const handleSettingsSave = (newSettings: { username: string; dailyGoal: number; pronunciationSpeed: number }) => {
     const current = JSON.parse(localStorage.getItem('pet-pal-settings') || '{}');
     localStorage.setItem('pet-pal-settings', JSON.stringify({ ...current, ...newSettings }));
-  };
-
-  const handleSwitchUser = () => {
-    if (window.confirm('确定要切换用户吗？当前账号会被保留，你可以重新进入另一个用户。')) {
-      localStorage.removeItem('pet-pal-settings');
-      localStorage.removeItem('pet-pal-initialized');
-      setIsSetup(false);
-    }
-  };
-
-  const handleLogout = () => {
-    if (window.confirm('确定要退出当前用户吗？退出后会回到欢迎页。')) {
-      localStorage.removeItem('pet-pal-settings');
-      localStorage.removeItem('pet-pal-initialized');
-      setIsSetup(false);
-    }
+    saveCurrentSnapshotToActiveAccount();
   };
 
   const handleResetData = () => {
@@ -52,7 +148,7 @@ function App() {
     }
   };
 
-  if (!isSetup) return <Welcome onComplete={handleWelcomeComplete} />;
+  if (!isSetup) return <Welcome onComplete={handleCreateAccount} accounts={accounts} activeAccountId={localStorage.getItem(ACTIVE_ACCOUNT_KEY) || ''} onSwitchAccount={switchAccount} />;
 
   const { currentWord, currentSentence, showAnswer, todayLearned, progress, pet, settings, speakText, fillInDifficulty } = learning;
   const dailyProgress = learning.getDailyProgress();
@@ -170,8 +266,6 @@ function App() {
               pronunciationSpeed={settings.pronunciationSpeed || 1.0}
               onSave={handleSettingsSave}
               onResetData={handleResetData}
-              onSwitchUser={handleSwitchUser}
-              onLogout={handleLogout}
             />
           </div>
         )}

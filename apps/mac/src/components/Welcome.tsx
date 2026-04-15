@@ -18,11 +18,21 @@ const DAILY_GOALS = [
   { value: 50, label: '挑战自我 (50个词/天)' },
 ];
 
+type Account = {
+  id: string;
+  username: string;
+  createdAt: string;
+  lastUsedAt: string;
+};
+
 interface WelcomeProps {
-  onComplete?: () => void;
+  onComplete?: (profile: { username: string; dailyGoal: number; pronunciationSpeed: number; petType?: string }) => void;
+  accounts?: Account[];
+  activeAccountId?: string;
+  onSwitchAccount?: (id: string) => void;
 }
 
-const Welcome: React.FC<WelcomeProps> = ({ onComplete }) => {
+const Welcome: React.FC<WelcomeProps> = ({ onComplete, accounts = [], activeAccountId, onSwitchAccount }) => {
   const [username, setUsername] = useState('');
   const [selectedGoal, setSelectedGoal] = useState(10);
   const [selectedPet, setSelectedPet] = useState('melody');
@@ -81,7 +91,12 @@ const Welcome: React.FC<WelcomeProps> = ({ onComplete }) => {
 
     // 通知父组件完成初始化
     if (onComplete) {
-      onComplete();
+      onComplete({
+        username,
+        dailyGoal: selectedGoal,
+        pronunciationSpeed: 1.0,
+        petType: selectedPet,
+      });
     }
   };
 
@@ -93,6 +108,27 @@ const Welcome: React.FC<WelcomeProps> = ({ onComplete }) => {
           你的个性化 PET 英语学习伴侣
         </p>
       </div>
+
+      {accounts.length > 0 && (
+        <div className="form-section">
+          <h2 className="section-title">👥 已有账户</h2>
+          <div className="goal-grid">
+            {accounts.map((account) => (
+              <button
+                key={account.id}
+                type="button"
+                className={`goal-card ${activeAccountId === account.id ? 'selected' : ''}`}
+                onClick={() => onSwitchAccount?.(account.id)}
+              >
+                <div className="goal-info">
+                  <div className="goal-value">{account.username}</div>
+                  <div className="goal-label">{activeAccountId === account.id ? '当前账户' : '点击切换'}</div>
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       <form onSubmit={handleSubmit} className="welcome-form">
         <div className="form-section">
