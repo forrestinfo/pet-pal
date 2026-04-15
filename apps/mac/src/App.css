@@ -38,6 +38,10 @@
   --color-glow: rgba(10, 132, 255, 0.25);
   --color-shadow: rgba(0, 0, 0, 0.08);
   --color-overlay: rgba(245, 245, 247, 0.86);
+
+  /* Melody background */
+  --melody-bg-image: url('./assets/hero.png');
+  --melody-bg-opacity: 0.12;
 }
 
 body {
@@ -47,6 +51,22 @@ body {
   line-height: 1.6;
   font-size: 15px;
   overflow-x: hidden;
+  position: relative;
+}
+
+/* Melody background (subtle, not "web wallpaper") */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: var(--melody-bg-image);
+  background-size: 520px auto;
+  background-repeat: repeat;
+  background-position: 0 0;
+  opacity: var(--melody-bg-opacity);
+  filter: saturate(1.05) contrast(0.98);
+  pointer-events: none;
+  z-index: -1;
 }
 
 /* 基础字体大小（桌面端更接近原生 App） */
