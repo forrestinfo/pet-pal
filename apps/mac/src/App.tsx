@@ -151,8 +151,7 @@ function App() {
               points={totalPoints}
             />
             <div className="pet-actions">
-              <button className="action-btn feed-btn" onClick={() => learning.feedPet()}>🍎 喂食</button>
-              <button className="action-btn play-btn" onClick={() => learning.playWithPet()}>🎮 玩耍</button>
+              <p className="pet-note">宠物成长只由学习量和学习效果驱动，不依赖喂养。</p>
             </div>
           </div>
         )}
