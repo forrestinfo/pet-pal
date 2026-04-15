@@ -117,18 +117,19 @@ export interface PointsTransaction {
 /**
  * Points earning/spending categories
  */
-export enum PointsCategory {
-  WORD_CORRECT = 'word_correct',
-  SENTENCE_CORRECT = 'sentence_correct',
-  DAILY_STREAK = 'daily_streak',
-  PET_HAPPY = 'pet_happy',
-  LEVEL_UP = 'level_up',
-  ACHIEVEMENT = 'achievement',
-  PET_SKIN = 'pet_skin',
-  BACKGROUND = 'background',
-  LEARNING_BOOST = 'learning_boost',
-  MUSIC_UNLOCK = 'music_unlock',
-}
+export const PointsCategory = {
+  WORD_CORRECT: 'word_correct',
+  SENTENCE_CORRECT: 'sentence_correct',
+  DAILY_STREAK: 'daily_streak',
+  PET_HAPPY: 'pet_happy',
+  LEVEL_UP: 'level_up',
+  ACHIEVEMENT: 'achievement',
+  PET_SKIN: 'pet_skin',
+  BACKGROUND: 'background',
+  LEARNING_BOOST: 'learning_boost',
+  MUSIC_UNLOCK: 'music_unlock',
+} as const;
+export type PointsCategory = (typeof PointsCategory)[keyof typeof PointsCategory];
 
 /**
  * Shop item for points redemption
@@ -151,13 +152,14 @@ export interface ShopItem {
 /**
  * Shop categories
  */
-export enum ShopCategory {
-  PET_SKINS = 'pet_skins',
-  BACKGROUNDS = 'backgrounds',
-  BOOSTERS = 'boosters',
-  MUSIC = 'music',
-  AVATARS = 'avatars',
-}
+export const ShopCategory = {
+  PET_SKINS: 'pet_skins',
+  BACKGROUNDS: 'backgrounds',
+  BOOSTERS: 'boosters',
+  MUSIC: 'music',
+  AVATARS: 'avatars',
+} as const;
+export type ShopCategory = (typeof ShopCategory)[keyof typeof ShopCategory];
 
 /**
  * Effect of a shop item
