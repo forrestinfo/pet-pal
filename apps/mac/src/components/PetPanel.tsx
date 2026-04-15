@@ -7,6 +7,7 @@ export interface PetPanelProps {
     level: number;
     experience: number; // Current XP
     experienceToNextLevel: number; // XP needed for next level
+    // note: mood/hunger are kept for display compatibility, but growth logic no longer depends on them
     mood: number; // 0-100
     hunger: number; // 0-100
     moodIcon?: string; // Optional emoji
@@ -55,7 +56,7 @@ const styles: any = {
     borderRadius: melodyBorderRadius.xl,
     boxShadow: melodyShadows.md,
     padding: melodySpacing.lg,
-    border: `2px solid ${melodyColors.primaryLight}`,
+    border: `1px solid ${melodyColors.primaryLight}`,
     width: '100%',
   },
   header: {
@@ -71,12 +72,13 @@ const styles: any = {
     margin: 0,
   },
   levelBadge: {
-    backgroundColor: melodyColors.primary,
-    color: '#fff',
+    backgroundColor: melodyColors.primaryLight,
+    color: melodyColors.primaryDark,
     padding: `${melodySpacing.xs} ${melodySpacing.sm}`,
     borderRadius: melodyBorderRadius.full,
     fontSize: '0.8rem',
-    fontWeight: 600,
+    fontWeight: 700,
+    border: `1px solid ${melodyColors.primaryLight}`,
   },
   petArea: {
     textAlign: 'center' as const,
@@ -84,7 +86,7 @@ const styles: any = {
     position: 'relative',
   },
   petEmoji: {
-    fontSize: '4rem',
+    fontSize: '3.25rem',
     margin: `${melodySpacing.sm} 0`,
     display: 'block',
     transition: 'transform 0.3s ease',
@@ -99,10 +101,11 @@ const styles: any = {
     margin: `${melodySpacing.md} 0`,
   },
   statCard: {
-    backgroundColor: melodyColors.background,
+    backgroundColor: melodyColors.surfaceVariant,
     borderRadius: melodyBorderRadius.lg,
     padding: melodySpacing.md,
     border: `1px solid ${melodyColors.primaryLight}`,
+    boxShadow: melodyShadows.sm,
   },
   statHeader: {
     display: 'flex',
@@ -144,9 +147,10 @@ const styles: any = {
   abilitySection: {
     marginTop: melodySpacing.lg,
     padding: melodySpacing.md,
-    backgroundColor: melodyColors.background,
+    backgroundColor: melodyColors.surfaceVariant,
     borderRadius: melodyBorderRadius.lg,
     border: `1px solid ${melodyColors.secondaryLight}`,
+    boxShadow: melodyShadows.sm,
   },
   abilityTitle: {
     fontSize: '0.9rem',
@@ -165,10 +169,12 @@ const styles: any = {
   },
   pointsDisplay: {
     textAlign: 'center' as const,
-    backgroundColor: melodyColors.primaryLight,
+    backgroundColor: melodyColors.surfaceVariant,
     borderRadius: melodyBorderRadius.lg,
     padding: melodySpacing.md,
     marginTop: melodySpacing.md,
+    border: `1px solid ${melodyColors.primaryLight}`,
+    boxShadow: melodyShadows.sm,
   },
   pointsIcon: {
     fontSize: '1.5rem',
@@ -176,8 +182,8 @@ const styles: any = {
   },
   pointsText: {
     fontSize: '1rem',
-    fontWeight: 600,
-    color: melodyColors.primaryDark,
+    fontWeight: 700,
+    color: melodyColors.textPrimary,
   },
   '@keyframes bounce': {
     '0%, 100%': { transform: 'translateY(0)' },
@@ -279,7 +285,7 @@ export const PetPanelComponent: React.FC<PetPanelProps> = ({
             <div
               style={{
                 ...styles.progressFill,
-                backgroundColor: moodPercent >= 60 ? '#4CAF50' : '#FF9800',
+                backgroundColor: melodyColors.warning,
                 width: `${moodPercent}%`,
               }}
             />
@@ -297,7 +303,7 @@ export const PetPanelComponent: React.FC<PetPanelProps> = ({
             <div
               style={{
                 ...styles.progressFill,
-                backgroundColor: hungerPercent >= 60 ? '#4CAF50' : '#FF9800',
+                backgroundColor: melodyColors.warning,
                 width: `${hungerPercent}%`,
               }}
             />
@@ -310,8 +316,8 @@ export const PetPanelComponent: React.FC<PetPanelProps> = ({
       <div style={styles.abilitySection}>
         <div style={styles.abilityTitle}>🎯 Pet Ability</div>
         <p style={styles.abilityDesc}>{getAbilityDescription()}</p>
-        <p style={{ ...styles.abilityDesc, marginTop: melodySpacing.sm }}>
-          Feed your pet by completing daily lessons and earning points!
+        <p style={{ ...styles.abilityDesc, marginTop: melodySpacing.sm, color: melodyColors.textSecondary }}>
+          小提示：宠物成长只和你的学习表现相关（不需要喂养/玩耍）。
         </p>
       </div>
     </div>

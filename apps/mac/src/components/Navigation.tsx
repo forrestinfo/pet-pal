@@ -9,12 +9,12 @@ interface NavigationProps {
 
 const Navigation: React.FC<NavigationProps> = ({ activeTab, onTabChange }) => {
   const tabs = [
-    { id: 'words' as TabType, label: '学习（单词）', icon: '📚', emoji: '📖' },
-    { id: 'sentences' as TabType, label: '句型', icon: '📝', emoji: '🗣️' },
-    { id: 'fillInBlank' as TabType, label: '填词', icon: '🧩', emoji: '✍️' },
-    { id: 'pet' as TabType, label: '宠物', icon: '🐰', emoji: '❤️' },
-    { id: 'points' as TabType, label: '积分', icon: '⭐', emoji: '🏆' },
-    { id: 'settings' as TabType, label: '设置', icon: '⚙️', emoji: '🎛️' },
+    { id: 'words' as TabType, label: '学习（单词）', icon: '📚' },
+    { id: 'sentences' as TabType, label: '句型', icon: '📝' },
+    { id: 'fillInBlank' as TabType, label: '填词', icon: '🧩' },
+    { id: 'pet' as TabType, label: '宠物', icon: '🐰' },
+    { id: 'points' as TabType, label: '积分', icon: '⭐' },
+    { id: 'settings' as TabType, label: '设置', icon: '⚙️' },
   ];
 
   return (
@@ -31,11 +31,6 @@ const Navigation: React.FC<NavigationProps> = ({ activeTab, onTabChange }) => {
               {tab.icon}
             </span>
             <span className="nav-label">{tab.label}</span>
-            {activeTab === tab.id && (
-              <span className="nav-emoji" role="img" aria-hidden="true">
-                {tab.emoji}
-              </span>
-            )}
           </button>
         ))}
       </div>

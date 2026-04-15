@@ -42,7 +42,7 @@ const styles: any = {
     borderRadius: melodyBorderRadius.xl,
     boxShadow: melodyShadows.md,
     padding: melodySpacing.lg,
-    border: `2px solid ${melodyColors.primaryLight}`,
+    border: `1px solid ${melodyColors.primaryLight}`,
     width: '100%',
   },
   header: {
@@ -64,11 +64,12 @@ const styles: any = {
     marginBottom: melodySpacing.xl,
   },
   statCard: {
-    backgroundColor: melodyColors.background,
+    backgroundColor: melodyColors.surfaceVariant,
     borderRadius: melodyBorderRadius.lg,
     padding: melodySpacing.md,
     textAlign: 'center' as const,
     border: `1px solid ${melodyColors.primaryLight}`,
+    boxShadow: melodyShadows.sm,
   },
   statIcon: {
     fontSize: '1.8rem',
@@ -87,11 +88,12 @@ const styles: any = {
     textTransform: 'uppercase' as const,
   },
   levelSection: {
-    backgroundColor: melodyColors.background,
+    backgroundColor: melodyColors.surfaceVariant,
     borderRadius: melodyBorderRadius.lg,
     padding: melodySpacing.md,
     marginBottom: melodySpacing.lg,
     border: `1px solid ${melodyColors.secondaryLight}`,
+    boxShadow: melodyShadows.sm,
   },
   levelHeader: {
     display: 'flex',
@@ -122,7 +124,7 @@ const styles: any = {
   progressFill: {
     height: '100%',
     borderRadius: 'inherit',
-    background: `linear-gradient(90deg, ${melodyColors.primary}, ${melodyColors.accent})`,
+    background: `linear-gradient(90deg, ${melodyColors.primary}, ${melodyColors.secondary})`,
     transition: 'width 0.5s ease',
   },
   progressLabel: {
@@ -146,16 +148,17 @@ const styles: any = {
   historyList: {
     maxHeight: 200,
     overflowY: 'auto',
-    border: `1px solid ${melodyColors.backgroundDark}`,
+    border: `1px solid ${melodyColors.primaryLight}`,
     borderRadius: melodyBorderRadius.md,
     padding: melodySpacing.sm,
+    backgroundColor: melodyColors.surfaceVariant,
   },
   historyItem: {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: melodySpacing.xs,
-    borderBottom: `1px solid ${melodyColors.backgroundDark}`,
+    borderBottom: `1px solid rgba(0,0,0,0.06)`,
     ':last-child': {
       borderBottom: 'none',
     },
@@ -174,7 +177,7 @@ const styles: any = {
   },
   historyPoints: {
     fontSize: '0.8rem',
-    fontWeight: 600,
+    fontWeight: 700,
     color: melodyColors.primary,
   },
   emptyHistory: {
@@ -185,10 +188,10 @@ const styles: any = {
   },
   streakBonus: {
     display: 'inline-block',
-    backgroundColor: '#FF6B6B',
+    backgroundColor: melodyColors.secondary,
     color: '#fff',
     fontSize: '0.7rem',
-    fontWeight: 600,
+    fontWeight: 700,
     padding: '2px 6px',
     borderRadius: melodyBorderRadius.sm,
     marginLeft: melodySpacing.xs,

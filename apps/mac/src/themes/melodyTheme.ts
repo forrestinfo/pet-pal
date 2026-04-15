@@ -7,14 +7,15 @@
  * 美乐蒂主题颜色配置
  */
 export const melodyColors = {
-  // macOS-ish neutral + accent blue
+  // macOS-ish neutral + accent blue, with a tiny bit of “cute” via native purple
   primary: '#0A84FF',
   primaryLight: 'rgba(10, 132, 255, 0.18)',
   primaryDark: '#0060DF',
 
-  secondary: '#8E8E93',
-  secondaryLight: 'rgba(142, 142, 147, 0.16)',
-  secondaryDark: '#636366',
+  // iOS system purple (still native-feeling, slightly playful)
+  secondary: '#AF52DE',
+  secondaryLight: 'rgba(175, 82, 222, 0.16)',
+  secondaryDark: '#7D2FA8',
 
   accent: '#34C759',
   accentLight: 'rgba(52, 199, 89, 0.18)',
@@ -25,9 +26,9 @@ export const melodyColors = {
   backgroundLight: '#FFFFFF',
   backgroundDark: '#EDEDF0',
 
-  // surfaces
-  surface: 'rgba(255, 255, 255, 0.75)',
-  surfaceVariant: 'rgba(255, 255, 255, 0.55)',
+  // surfaces (slightly tinted so it doesn’t feel too “web-white”)
+  surface: 'rgba(255, 255, 255, 0.78)',
+  surfaceVariant: 'rgba(255, 255, 255, 0.62)',
 
   // text
   textPrimary: '#1D1D1F',
@@ -41,7 +42,7 @@ export const melodyColors = {
   info: '#0A84FF',
 
   // effects
-  glow: 'rgba(10, 132, 255, 0.25)',
+  glow: 'rgba(10, 132, 255, 0.22)',
   shadow: 'rgba(0, 0, 0, 0.08)',
   overlay: 'rgba(245, 245, 247, 0.86)',
 };
@@ -105,12 +106,12 @@ export const melodyBorderRadius = {
  * 美乐蒂主题阴影配置
  */
 export const melodyShadows = {
-  sm: '0 1px 2px 0 rgba(233, 30, 99, 0.05)',
-  md: '0 4px 6px -1px rgba(233, 30, 99, 0.1), 0 2px 4px -1px rgba(233, 30, 99, 0.06)',
-  lg: '0 10px 15px -3px rgba(233, 30, 99, 0.1), 0 4px 6px -2px rgba(233, 30, 99, 0.05)',
-  xl: '0 20px 25px -5px rgba(233, 30, 99, 0.1), 0 10px 10px -5px rgba(233, 30, 99, 0.04)',
-  '2xl': '0 25px 50px -12px rgba(233, 30, 99, 0.25)',
-  inner: 'inset 0 2px 4px 0 rgba(233, 30, 99, 0.06)',
+  sm: '0 1px 2px 0 rgba(0, 0, 0, 0.06)',
+  md: '0 6px 16px rgba(0, 0, 0, 0.10)',
+  lg: '0 14px 36px rgba(0, 0, 0, 0.12)',
+  xl: '0 20px 52px rgba(0, 0, 0, 0.14)',
+  '2xl': '0 30px 72px rgba(0, 0, 0, 0.18)',
+  inner: 'inset 0 1px 2px rgba(0, 0, 0, 0.06)',
 };
 
 /**
