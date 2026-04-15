@@ -6,6 +6,7 @@ import type { TabType } from './components/Navigation';
 import Welcome from './components/Welcome';
 import WordCard from './components/WordCard';
 import SentenceCard from './components/SentenceCard';
+import FillInTheBlank from './components/FillInTheBlank';
 import { PetPanelComponent } from './components/PetPanel';
 import { PointsPanelComponent } from './components/PointsPanel';
 import { SettingsComponent } from './components/Settings';
@@ -13,9 +14,7 @@ import './App.css';
 
 function App() {
   const [activeTab, setActiveTab] = useState<TabType>('words');
-  const [isSetup, setIsSetup] = useState(() => {
-    return !!localStorage.getItem('pet-pal-settings');
-  });
+  const [isSetup, setIsSetup] = useState(() => !!localStorage.getItem('pet-pal-settings'));
 
   useEffect(() => {
     applyMelodyTheme();
@@ -23,17 +22,27 @@ function App() {
 
   const learning = useLearning();
 
-  const handleWelcomeComplete = () => {
-    setIsSetup(true);
-  };
+  const handleWelcomeComplete = () => setIsSetup(true);
 
-  const handleSettingsSave = (newSettings: {
-    username: string;
-    dailyGoal: number;
-    pronunciationSpeed: number;
-  }) => {
+  const handleSettingsSave = (newSettings: { username: string; dailyGoal: number; pronunciationSpeed: number }) => {
     const current = JSON.parse(localStorage.getItem('pet-pal-settings') || '{}');
     localStorage.setItem('pet-pal-settings', JSON.stringify({ ...current, ...newSettings }));
+  };
+
+  const handleSwitchUser = () => {
+    if (window.confirm('确定要切换用户吗？当前账号会被保留，你可以重新进入另一个用户。')) {
+      localStorage.removeItem('pet-pal-settings');
+      localStorage.removeItem('pet-pal-initialized');
+      setIsSetup(false);
+    }
+  };
+
+  const handleLogout = () => {
+    if (window.confirm('确定要退出当前用户吗？退出后会回到欢迎页。')) {
+      localStorage.removeItem('pet-pal-settings');
+      localStorage.removeItem('pet-pal-initialized');
+      setIsSetup(false);
+    }
   };
 
   const handleResetData = () => {
@@ -43,26 +52,17 @@ function App() {
     }
   };
 
-  // Show Welcome screen on first launch
-  if (!isSetup) {
-    return <Welcome onComplete={handleWelcomeComplete} />;
-  }
+  if (!isSetup) return <Welcome onComplete={handleWelcomeComplete} />;
 
-  const { currentWord, currentSentence, showAnswer, todayLearned, progress, pet, settings, speakText } = learning;
-
+  const { currentWord, currentSentence, showAnswer, todayLearned, progress, pet, settings, speakText, fillInDifficulty } = learning;
   const dailyProgress = learning.getDailyProgress();
-
-  // Calculate points from progress
   const totalPoints = progress.totalPoints || 0;
   const todayPoints = progress.todayPoints || 0;
   const streak = progress.streakDays || 0;
-
-  // Points history from localStorage
   const pointsHistory = JSON.parse(localStorage.getItem('pet-pal-points-history') || '[]');
 
   return (
     <div className="app-container melody-theme">
-      {/* Header */}
       <header className="app-header">
         <div className="header-left">
           <h1 className="app-title">🐰 PET Pal</h1>
@@ -70,47 +70,32 @@ function App() {
         </div>
         <div className="header-right">
           <div className="daily-progress">
-            <span className="progress-text">
-              今日 {dailyProgress.completed}/{dailyProgress.goal} 词
-            </span>
-            <div className="progress-bar">
-              <div
-                className="progress-fill"
-                style={{ width: `${dailyProgress.percentage}%` }}
-              />
-            </div>
+            <span className="progress-text">今日 {dailyProgress.completed}/{dailyProgress.goal} 词</span>
+            <div className="progress-bar"><div className="progress-fill" style={{ width: `${dailyProgress.percentage}%` }} /></div>
           </div>
           <div className="points-badge">⭐ {totalPoints}</div>
         </div>
       </header>
 
-      {/* Main Content */}
       <main className="app-main">
         {activeTab === 'words' && (
           <div className="tab-content">
             <div className="learning-header">
               <h2>📚 单词学习</h2>
-              <span className="word-count">
-                今日已学 {todayLearned} 个单词
-              </span>
+              <span className="word-count">今日已学 {todayLearned} 个单词</span>
             </div>
             {currentWord ? (
               <WordCard
                 word={currentWord}
                 showAnswer={showAnswer}
                 onShowAnswer={() => learning.setShowAnswer(true)}
-                onAnswer={(result) => learning.handleAnswer(result)}
-                onSpeak={(text, lang) => speakText(text, lang)}
+                onAnswer={(result: 'dont-know' | 'somewhat' | 'know') => learning.handleAnswer(result)}
+                onSpeak={(text: string, lang?: string) => speakText(text, lang)}
+                onFillInBlank={() => setActiveTab('fillInBlank')}
               />
-            ) : (
-              <div className="empty-state">
-                <p>🎯 加载中...</p>
-              </div>
-            )}
+            ) : <div className="empty-state"><p>🎯 加载中...</p></div>}
             <div className="card-nav">
-              <button className="nav-btn next-btn" onClick={() => learning.loadRandomWord()}>
-                → 下一个单词
-              </button>
+              <button className="nav-btn next-btn" onClick={() => learning.loadRandomWord()}>→ 下一个单词</button>
             </div>
           </div>
         )}
@@ -119,28 +104,35 @@ function App() {
           <div className="tab-content">
             <div className="learning-header">
               <h2>📝 句型学习</h2>
-              <span className="word-count">
-                今日已学 {todayLearned} 个句型
-              </span>
+              <span className="word-count">今日已学 {todayLearned} 个句型</span>
             </div>
             {currentSentence ? (
               <SentenceCard
                 sentence={currentSentence}
                 showAnswer={showAnswer}
                 onShowAnswer={() => learning.setShowAnswer(true)}
-                onAnswer={(result) => learning.handleAnswer(result)}
-                onSpeak={(text, lang) => speakText(text, lang)}
+                onAnswer={(result: 'dont-know' | 'somewhat' | 'know') => learning.handleAnswer(result)}
+                onSpeak={(text: string, lang?: string) => speakText(text, lang)}
               />
-            ) : (
-              <div className="empty-state">
-                <p>🎯 加载中...</p>
-              </div>
-            )}
+            ) : <div className="empty-state"><p>🎯 加载中...</p></div>}
             <div className="card-nav">
-              <button className="nav-btn next-btn" onClick={() => learning.loadRandomSentence()}>
-                → 下一个句型
-              </button>
+              <button className="nav-btn next-btn" onClick={() => learning.loadRandomSentence()}>→ 下一个句型</button>
             </div>
+          </div>
+        )}
+
+        {activeTab === 'fillInBlank' && currentWord && (
+          <div className="tab-content">
+            <FillInTheBlank
+              word={currentWord.word}
+              definition={currentWord.simpleDefinitionEn}
+              meaningZh={currentWord.meaningZh}
+              exampleSentence={currentWord.exampleSentence}
+              exampleSentenceZh={currentWord.exampleSentenceZh}
+              difficulty={fillInDifficulty}
+              onAnswer={(correct: boolean) => learning.handleAnswer(correct ? 'know' : 'dont-know')}
+              onNext={() => learning.loadRandomWord()}
+            />
           </div>
         )}
 
@@ -159,24 +151,15 @@ function App() {
               points={totalPoints}
             />
             <div className="pet-actions">
-              <button className="action-btn feed-btn" onClick={() => learning.feedPet()}>
-                🍎 喂食
-              </button>
-              <button className="action-btn play-btn" onClick={() => learning.playWithPet()}>
-                🎮 玩耍
-              </button>
+              <button className="action-btn feed-btn" onClick={() => learning.feedPet()}>🍎 喂食</button>
+              <button className="action-btn play-btn" onClick={() => learning.playWithPet()}>🎮 玩耍</button>
             </div>
           </div>
         )}
 
         {activeTab === 'points' && (
           <div className="tab-content">
-            <PointsPanelComponent
-              totalPoints={totalPoints}
-              todayPoints={todayPoints}
-              streak={streak}
-              history={pointsHistory}
-            />
+            <PointsPanelComponent totalPoints={totalPoints} todayPoints={todayPoints} streak={streak} history={pointsHistory} />
           </div>
         )}
 
@@ -188,12 +171,13 @@ function App() {
               pronunciationSpeed={settings.pronunciationSpeed || 1.0}
               onSave={handleSettingsSave}
               onResetData={handleResetData}
+              onSwitchUser={handleSwitchUser}
+              onLogout={handleLogout}
             />
           </div>
         )}
       </main>
 
-      {/* Bottom Navigation */}
       <Navigation activeTab={activeTab} onTabChange={setActiveTab} />
     </div>
   );

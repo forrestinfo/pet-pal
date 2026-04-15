@@ -11,6 +11,8 @@ export interface SettingsProps {
     pronunciationSpeed: number;
   }) => void;
   onResetData?: () => void;
+  onSwitchUser?: () => void;
+  onLogout?: () => void;
 }
 
 const DAILY_GOAL_OPTIONS = [10, 20, 30, 50];
@@ -205,7 +207,10 @@ export const SettingsComponent: React.FC<SettingsProps> = ({
   pronunciationSpeed,
   onSave,
   onResetData,
+  onSwitchUser,
+  onLogout,
 }) => {
+
   const [localUsername, setLocalUsername] = useState(username);
   const [localDailyGoal, setLocalDailyGoal] = useState(dailyGoal);
   const [localPronunciationSpeed, setLocalPronunciationSpeed] = useState(pronunciationSpeed);
@@ -350,6 +355,12 @@ export const SettingsComponent: React.FC<SettingsProps> = ({
             ⚠️ This will delete all your progress and learned words. This action cannot be undone.
           </p>
         )}
+        <button type="button" style={{ ...styles.button, backgroundColor: melodyColors.secondary, color: '#fff' }} onClick={onSwitchUser}>
+          🔄 切换用户
+        </button>
+        <button type="button" style={{ ...styles.button, backgroundColor: melodyColors.warning, color: '#fff' }} onClick={onLogout}>
+          🚪 退出当前用户
+        </button>
       </div>
 
       {/* About */}

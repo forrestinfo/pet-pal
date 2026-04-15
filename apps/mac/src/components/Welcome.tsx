@@ -193,7 +193,7 @@ const Welcome: React.FC<WelcomeProps> = ({ onComplete }) => {
           💡 小贴士：每天坚持学习，你的宠物会越来越聪明可爱！
         </p>
         <p className="welcome-tip">
-          📚 PET Pal 包含 4400+ PET 核心词汇和 274+ 实用句型
+          📚 PET Pal 已接入最新爬取的 3000+ 词汇版本
         </p>
       </div>
     </div>
