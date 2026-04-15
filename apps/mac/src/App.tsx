@@ -226,7 +226,9 @@ function App() {
               exampleSentence={currentWord.exampleSentence}
               exampleSentenceZh={currentWord.exampleSentenceZh}
               difficulty={fillInDifficulty}
-              onAnswer={(correct: boolean) => learning.handleAnswer(correct ? 'know' : 'dont-know')}
+              onAnswer={(correct: boolean) => {
+                learning.handleAnswer(correct ? 'know' : 'dont-know');
+              }}
               onNext={() => learning.loadRandomWord()}
             />
           </div>
