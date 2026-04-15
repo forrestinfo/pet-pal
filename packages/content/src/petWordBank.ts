@@ -1,71 +1,31 @@
 /**
- * PET B1 Complete Vocabulary - 4400+ Words
- * Main file importing all topic-specific vocabulary
+ * PET B1 Complete Vocabulary - Crawled 3000+ Words
+ * Main file importing the latest scraped word banks only
  */
 
-import { dailyLifeWords } from './words/petWordBank-dailyLife';
-import { educationWords } from './words/petWordBank-education';
-import { travelWords } from './words/petWordBank-travel';
-import { healthWords } from './words/petWordBank-health';
-import { socialWords } from './words/petWordBank-social';
-import { natureWords } from './words/petWordBank-nature';
-import { technologyWords } from './words/petWordBank-technology';
-import { workWords } from './words/petWordBank-work';
-import { foodWords } from './words/words-food';
-import { cultureWords } from './words/words-culture';
-import { sportWords } from './words/words-sport';
-import { abstractWords } from './words/words-abstract';
-import { shoppingWords } from './words/words-shopping';
-import { familyWords } from './words/words-family';
-import { adjAdvWords } from './words/words-adjAdv';
-import { bodyWords } from './words/words-body';
-import { communicationWords } from './words/words-communication';
-import { emotionsWords } from './words/words-emotions';
-import { phrasesWords } from './words/words-phrases';
-import { placeWords } from './words/words-place';
-import { timeWords } from './words/words-time';
-import { transportWords } from './words/words-transport';
-import { verbsWords } from './words/words-verbs';
+import { ldoceWords } from './words/ldoceWordBank';
+import { ldoceChineseWords } from './words/ldoceChinese';
 import { WordCard } from 'shared-types';
 
-export const petVocabulary: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' | 
-  'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' | 
-  'lastReviewedAt' | 'createdAt' | 'updatedAt'>[] = [
-  ...dailyLifeWords,
-  ...educationWords,
-  ...travelWords,
-  ...healthWords,
-  ...socialWords,
-  ...natureWords,
-  ...technologyWords,
-  ...workWords,
-  ...foodWords,
-  ...cultureWords,
-  ...sportWords,
-  ...abstractWords,
-  ...shoppingWords,
-  ...familyWords,
-  ...adjAdvWords,
-  ...bodyWords,
-  ...communicationWords,
-  ...emotionsWords,
-  ...phrasesWords,
-  ...placeWords,
-  ...timeWords,
-  ...transportWords,
-  ...verbsWords,
-];
+const uniqueByWord = <T extends { word: string }>(items: T[]): T[] => {
+  const map = new Map<string, T>();
+  for (const item of items) {
+    if (!map.has(item.word)) map.set(item.word, item);
+  }
+  return [...map.values()];
+};
 
-/**
- * Get PET vocabulary by topic
- */
+export const petVocabulary: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' |
+  'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' |
+  'lastReviewedAt' | 'createdAt' | 'updatedAt'>[] = uniqueByWord([
+  ...ldoceChineseWords,
+  ...ldoceWords,
+]);
+
 export function getVocabularyByTopic(topic: string): typeof petVocabulary {
   return petVocabulary.filter(word => word.topicTag === topic);
 }
 
-/**
- * Get vocabulary by difficulty level
- */
 export function getVocabularyByDifficulty(level: 1 | 2 | 3): typeof petVocabulary {
   return petVocabulary.filter(word => word.difficulty === level);
 }
