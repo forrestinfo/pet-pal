@@ -1,0 +1,31302 @@
+/**
+ * PET Pal - LDOCE Crawled Word Bank
+ * Auto-generated at 2026-04-14T11:17:53
+ * Entries: 3129
+ */
+
+import { WordCard } from 'shared-types';
+
+export const ldoceWords: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' |
+  'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' |
+  'lastReviewedAt' | 'createdAt' | 'updatedAt'>[] = [
+  {
+    word: 'English',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the language used in Britain, the US, Australia, and some other countries',
+    meaningZh: '',
+    exampleSentence: 'Do you speak English?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ability',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the state of being able to do something',
+    meaningZh: '',
+    exampleSentence: 'the ability to walk',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'able',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'clever or good at doing something',
+    meaningZh: '',
+    exampleSentence: 'one of my more able students',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'above',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in a higher position than something else',
+    meaningZh: '',
+    exampleSentence: 'Our office is above the hairdresser’s.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'absolute',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'complete or total',
+    meaningZh: '',
+    exampleSentence: 'I have absolute confidence in her.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'absolutely',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'completely and in every way',
+    meaningZh: '',
+    exampleSentence: 'He made his reasons for resigning absolutely clear.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'abuse',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'cruel or violent treatment of someone',
+    meaningZh: '',
+    exampleSentence: 'several cases of child abuse',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'academic',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to education , especially at college or university level',
+    meaningZh: '',
+    exampleSentence: 'He possessed no academic qualifications.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'academy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an official organization which encourages the development of literature , art , science etc',
+    meaningZh: '',
+    exampleSentence: 'the American Academy of Arts and Letters',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'accept',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to take something that someone offers you, or to agree to do something that someone asks you to do',
+    meaningZh: '',
+    exampleSentence: 'Rick accepted her offer of coffee.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'accepted',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'considered right or suitable by most people',
+    meaningZh: '',
+    exampleSentence: 'Having more than one wife is a normal and accepted practice in some countries.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'access',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the right to enter a place, use something, see someone etc',
+    meaningZh: '',
+    exampleSentence: 'Access to the papers is restricted to senior management.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'accident',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an event in which a car, train , plane etc is damaged and often someone is hurt',
+    meaningZh: '',
+    exampleSentence: 'Over 70,000 people are seriously injured every year in road accidents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'according',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with according.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'account',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a written or spoken description that says what happens in an event or process',
+    meaningZh: '',
+    exampleSentence: 'He was too shocked to give an account of what had happened.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'accounts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an exact record of the money that a company has received and the money it has spent',
+    meaningZh: '',
+    exampleSentence: 'The accounts for last year showed a profit of $2 million.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'accurate',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'correct and true in every detail',
+    meaningZh: '',
+    exampleSentence: 'The brochure tries to give a fair and accurate description of each hotel.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'accused',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the person or group of people who have been officially charged with a crime in a court of law',
+    meaningZh: '',
+    exampleSentence: 'This is an example with accused.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'achieve',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to successfully complete something or get a good result, especially by working hard',
+    meaningZh: '',
+    exampleSentence: 'She eventually achieved her goal of becoming a professor.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'achieved',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with achieved.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'across',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'from one side of something to the other',
+    meaningZh: '',
+    exampleSentence: 'the first flight across the Atlantic',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'act',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one thing that you do',
+    meaningZh: '',
+    exampleSentence: 'The new president’s first act should be to end the war.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'acting',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the job or skill of performing in plays and films',
+    meaningZh: '',
+    exampleSentence: 'Mr Smith is currently acting general manager of the development company.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'action',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of doing something, especially in order to achieve a particular thing',
+    meaningZh: '',
+    exampleSentence: 'The government must take action (= do something ) now to stop the rise in violent crime.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'actions',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with actions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'active',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'always busy doing things, especially physical or mental activities',
+    meaningZh: '',
+    exampleSentence: 'games for active youngsters',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'activities',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with activities.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'activity',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'things that people do, especially in order to achieve a particular aim',
+    meaningZh: '',
+    exampleSentence: 'Everyone is free to engage in peaceful political activity.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'actor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who performs in a play or film',
+    meaningZh: '',
+    exampleSentence: 'She has starred with many leading actors.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'acts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with acts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'actual',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'used to emphasize that something is real or exact',
+    meaningZh: '',
+    exampleSentence: 'I’m not joking. Those were his actual words.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'actually',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to add new information to what you have just said, to give your opinion , or to start a new conversation',
+    meaningZh: '',
+    exampleSentence: 'I’ve known Barbara for years. Since we were babies, actually.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'adam',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'in the Old Testament of the Bible , the first man created by God . God put him in the Garden of Eden , and created Eve , the first woman, from one of Adam’s rib s . He was the father of Cain, Abel, and Seth.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with adam.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'add',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to put something with something else or with a group of other things',
+    meaningZh: '',
+    exampleSentence: 'If the mixture seems dry, add water.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'added',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'in addition to what is usual or expected',
+    meaningZh: '',
+    exampleSentence: 'cereal with added vitamins',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'adding',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with adding.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'addition',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of adding something to something else',
+    meaningZh: '',
+    exampleSentence: 'The addition of networking facilities will greatly enhance the system.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'additional',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'more than what was agreed or expected',
+    meaningZh: '',
+    exampleSentence: 'Additional information can be obtained from the centre.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'address',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the details of the place where someone lives or works, which you use to send them letters etc',
+    meaningZh: '',
+    exampleSentence: 'What’s your new address?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'administration',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activities that are involved in managing the work of a company or organization',
+    meaningZh: '',
+    exampleSentence: 'We’re looking for someone with experience in administration.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'admit',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to agree unwillingly that something is true or that someone else is right',
+    meaningZh: '',
+    exampleSentence: '‘Okay, so maybe I was a little bit scared, ’ Jenny admitted.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'admitted',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with admitted.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'adopted',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'an adopted child has been legally made part of a family that he or she was not born into',
+    meaningZh: '',
+    exampleSentence: 'his adopted son',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'adult',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a fully-grown person, or one who is considered to be legally responsible for their actions',
+    meaningZh: '',
+    exampleSentence: 'Some children find it difficult to talk to adults.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'adults',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with adults.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'advance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a change, discovery , or invention that brings progress',
+    meaningZh: '',
+    exampleSentence: 'one of the great technological advances of the 20th century',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'advanced',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'very modern',
+    meaningZh: '',
+    exampleSentence: 'advanced weapon systems',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'advantage',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that helps you to be more successful than others, or the state of having this',
+    meaningZh: '',
+    exampleSentence: 'Her experience meant that she had a big advantage over her opponent.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'adventure',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an exciting experience in which dangerous or unusual things happen',
+    meaningZh: '',
+    exampleSentence: 'a great adventure',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'advertising',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity or business of advertising things on television , in newspapers etc',
+    meaningZh: '',
+    exampleSentence: 'advertising aimed at 18–25 year olds',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'advice',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an opinion you give someone about what they should do',
+    meaningZh: '',
+    exampleSentence: 'You should have followed my advice.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'affairs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'public or political events and activities',
+    meaningZh: '',
+    exampleSentence: 'Are you interested in world affairs?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'affect',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to do something that produces an effect or change in something or in someone’s situation',
+    meaningZh: '',
+    exampleSentence: 'the areas affected by the hurricane',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'affected',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not sincere or natural',
+    meaningZh: '',
+    exampleSentence: 'an affected laugh',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'afford',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to provide something or allow something to happen',
+    meaningZh: '',
+    exampleSentence: 'The room affords a beautiful view over the city.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'afraid',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'frightened because you think that you may get hurt or that something bad may happen',
+    meaningZh: '',
+    exampleSentence: 'There’s no need to be afraid.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'africa',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a continent (= one of the seven main areas of land on the Earth ) that is south of the Mediterranean Sea, and west of Asia and the Indian Ocean .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with africa.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'african',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Africa or its people',
+    meaningZh: '',
+    exampleSentence: 'This is an example with african.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'afternoon',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of the day after the morning and before the evening',
+    meaningZh: '',
+    exampleSentence: 'There’s a meeting on Thursday afternoon .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'against',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'used to say that someone opposes or disagrees with something',
+    meaningZh: '',
+    exampleSentence: 'Every council member voted against the proposal.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'age',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the number of years someone has lived or something has existed',
+    meaningZh: '',
+    exampleSentence: 'Francis is the same age as me.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'aged',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'very old',
+    meaningZh: '',
+    exampleSentence: 'my aged parents',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'agencies',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with agencies.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'agency',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a business that provides a particular service for people or organizations',
+    meaningZh: '',
+    exampleSentence: 'a local housing agency',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'agent',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a person or company that represents another person or company, especially in business',
+    meaningZh: '',
+    exampleSentence: 'Our agent in Rio deals with all our Brazilian business.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'agents',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with agents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ages',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a long time',
+    meaningZh: '',
+    exampleSentence: 'Simon! I haven’t seen you for ages .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ago',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to show how far back in the past something happened',
+    meaningZh: '',
+    exampleSentence: 'Her husband died 14 years ago.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'agree',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have or express the same opinion about something as someone else',
+    meaningZh: '',
+    exampleSentence: 'Teenagers and their parents rarely agree.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'agree with',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with agree with.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'agreed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'an agreed plan, price, arrangement etc is one that people have discussed and accepted',
+    meaningZh: '',
+    exampleSentence: 'The important thing is to have agreed objectives.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'agreement',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an arrangement or promise to do something, made by two or more people, companies, organizations etc',
+    meaningZh: '',
+    exampleSentence: 'They had made an agreement that they would share the profits equally.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ahead',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'a short distance in front of someone or something',
+    meaningZh: '',
+    exampleSentence: 'He kept his gaze fixed on the car ahead.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'aid',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'help, such as money or food, given by an organization or government to a country or to people who are in a difficult situation',
+    meaningZh: '',
+    exampleSentence: 'Foreign aid from many countries poured into the famine area.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'aim',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something you hope to achieve by doing something',
+    meaningZh: '',
+    exampleSentence: 'The aim of the research is to find new food sources.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'air',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the mixture of gases around the Earth , that we breathe',
+    meaningZh: '',
+    exampleSentence: 'Let’s go outside and get some fresh air.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'aircraft',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a plane or other vehicle that can fly',
+    meaningZh: '',
+    exampleSentence: 'The country’s aircraft industry is still in its infancy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'airport',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where planes take off and land , with buildings for passengers to wait in',
+    meaningZh: '',
+    exampleSentence: 'The plane landed at Heathrow Airport.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'album',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of songs or pieces of music on a record, CD , download etc',
+    meaningZh: '',
+    exampleSentence: 'The band plan to release their new album next week.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'alcohol',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'drinks such as beer or wine that contain a substance which can make you drunk',
+    meaningZh: '',
+    exampleSentence: 'I don’t drink alcohol anymore.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'alex',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with alex.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'alive',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'still living and not dead',
+    meaningZh: '',
+    exampleSentence: 'It was a bad accident – they’re lucky to be alive.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'allow',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to let someone do or have something, or let something happen',
+    meaningZh: '',
+    exampleSentence: 'My parents wouldn’t allow me to go to the party.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'allowed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with allowed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'allowing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with allowing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'allows',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with allows.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'almost',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'nearly, but not completely or not quite',
+    meaningZh: '',
+    exampleSentence: 'Have you almost finished?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'alone',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if you are alone in a place, there is no one with you',
+    meaningZh: '',
+    exampleSentence: 'She lives alone .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'along',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'going forward',
+    meaningZh: '',
+    exampleSentence: 'I was driving along, thinking about Chris.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'already',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'before now, or before a particular time',
+    meaningZh: '',
+    exampleSentence: 'The design of the new house is similar to those that have already been built.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'alternative',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'an alternative idea, plan etc is different from the one you have and can be used instead',
+    meaningZh: '',
+    exampleSentence: 'alternative approaches to learning',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'although',
+    partOfSpeech: 'conjunction',
+    simpleDefinitionEn: 'used to introduce a statement that makes your main statement seem surprising or unlikely',
+    meaningZh: '',
+    exampleSentence: 'Although in poor health, she continued to carry out her duties.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'always',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'all the time, at all times , or every time',
+    meaningZh: '',
+    exampleSentence: 'Always lock your bicycle to something secure.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'amazing',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'very good, especially in an unexpected way',
+    meaningZh: '',
+    exampleSentence: 'He’s an amazing player to watch.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'amazon',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a website that sells books, music , films , toys , electronic and household goods. You make your order and pay over the Internet , and the books, toys etc are sent to you through the post . Amazon has websites in many countries.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with amazon.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'america',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a name commonly used for the US',
+    meaningZh: '',
+    exampleSentence: 'This is an example with america.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'american',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to the US or its people',
+    meaningZh: '',
+    exampleSentence: 'Her mother is American.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'americans',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with americans.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'among',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'in or through the middle of a group of people or things',
+    meaningZh: '',
+    exampleSentence: 'The girl quickly disappeared among the crowd.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'amount',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a quantity of something such as time, money, or a substance',
+    meaningZh: '',
+    exampleSentence: 'They spend equal amounts of time in California and New York.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'analysis',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a careful examination of something in order to understand it better',
+    meaningZh: '',
+    exampleSentence: 'a detailed analysis of the week’s news',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ancient',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'belonging to a time long ago in history, especially thousands of years ago',
+    meaningZh: '',
+    exampleSentence: 'the ancient civilizations of Asia',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'andrew',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with andrew.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'angeles',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with angeles.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'angry',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'feeling strong emotions which make you want to shout at someone or hurt them because they have behaved in an unfair , cruel , offensive etc way, or because you think that a situation is unfair, unacceptable etc',
+    meaningZh: '',
+    exampleSentence: 'I was angry because he hadn’t told me his plans.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'animal',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a living creature such as a dog or cat , that is not an insect , plant , bird , fish , or person',
+    meaningZh: '',
+    exampleSentence: 'furry little animals',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'animals',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with animals.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'anniversary',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a date on which something special or important happened in a previous year',
+    meaningZh: '',
+    exampleSentence: 'Jack and Kim celebrated their twentieth wedding anniversary in January.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'announced',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with announced.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'annual',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening once a year',
+    meaningZh: '',
+    exampleSentence: 'The school trip has become an annual event.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'another',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'one more person or thing of the same type',
+    meaningZh: '',
+    exampleSentence: 'I’m going to have another cup of coffee.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'answer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something you say when you reply to a question that someone has asked you',
+    meaningZh: '',
+    exampleSentence: 'You don’t have to give them an answer now.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'answers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with answers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'anti',
+    partOfSpeech: 'prefix',
+    simpleDefinitionEn: 'opposed to',
+    meaningZh: '',
+    exampleSentence: 'antinuclear (= opposing the use of nuclear weapons and power )',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'any',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'some or even the smallest amount or number',
+    meaningZh: '',
+    exampleSentence: 'Have you got any money?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'anybody',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'anyone',
+    meaningZh: '',
+    exampleSentence: 'This is an example with anybody.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'anymore',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with anymore.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'anyone',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'used to refer to any person, when it is not important to say exactly who',
+    meaningZh: '',
+    exampleSentence: 'Anyone could win tonight.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'anything',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'any thing, event , situation etc, when it is not important to say exactly which',
+    meaningZh: '',
+    exampleSentence: 'You can buy anything you want.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'anyway',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in spite of the fact that you have just mentioned',
+    meaningZh: '',
+    exampleSentence: 'Catherine wasn’t sure the book was the right one, but she bought it anyway.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'anywhere',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in or to any place',
+    meaningZh: '',
+    exampleSentence: 'Sit anywhere you like.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'apart',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'if things are apart, they are not close to each other or touching each other',
+    meaningZh: '',
+    exampleSentence: 'Place the two posts 6 metres apart.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'apartment',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of rooms on one floor of a large building, where someone lives',
+    meaningZh: '',
+    exampleSentence: 'She lives in a small apartment.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'apologize for',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with apologize for.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'app',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of computer software that does a particular job',
+    meaningZh: '',
+    exampleSentence: 'You can download an app that reminds you of things you have to do.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'apparently',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to say that you have heard that something is true, although you are not completely sure about it',
+    meaningZh: '',
+    exampleSentence: 'Apparently the company is losing a lot of money.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'appeal',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an urgent request for something important',
+    meaningZh: '',
+    exampleSentence: 'The police have issued a new appeal for information.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'appear',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'used when saying how someone or something seems. Appear is more formal than seem',
+    meaningZh: '',
+    exampleSentence: 'The diamonds appeared to be genuine.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'appearance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the way someone or something looks to other people',
+    meaningZh: '',
+    exampleSentence: 'He was always criticising his wife’s appearance.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'appeared',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with appeared.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'appears',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with appears.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'apple',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a hard round fruit that has red , light green , or yellow skin and is white inside',
+    meaningZh: '',
+    exampleSentence: 'apple pie',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'application',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a formal , usually written, request for something such as a job, place at university , or permission to do something',
+    meaningZh: '',
+    exampleSentence: 'an application for a grant',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'applications',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with applications.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'applied',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with applied.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'apply',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make a formal request , usually written, for something such as a job , a place at a university , or permission to do something',
+    meaningZh: '',
+    exampleSentence: 'She applied for a job with the local newspaper.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'apply for',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with apply for.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'appointed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with appointed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'appointment',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an arrangement for a meeting at an agreed time and place, for a particular purpose',
+    meaningZh: '',
+    exampleSentence: 'I’d like to make an appointment to see the doctor.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'appreciate',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to understand how serious or important a situation or problem is or what someone’s feelings are',
+    meaningZh: '',
+    exampleSentence: 'He did not fully appreciate the significance of signing the contract.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'approach',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a method of doing something or dealing with a problem',
+    meaningZh: '',
+    exampleSentence: 'a new approach to teaching languages',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'appropriate',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'correct or suitable for a particular time, situation, or purpose',
+    meaningZh: '',
+    exampleSentence: 'clothes appropriate for a job interview',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'approval',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when a plan, decision , or person is officially accepted',
+    meaningZh: '',
+    exampleSentence: 'The president has already given his approval to the plan.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'approved',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'officially recognized as being of a particular level or standard',
+    meaningZh: '',
+    exampleSentence: 'Funding is available for approved courses.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'approximately',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'more or less than a number or amount',
+    meaningZh: '',
+    exampleSentence: 'The plane will be landing in approximately 20 minutes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'april',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the fourth month of the year, between March and May',
+    meaningZh: '',
+    exampleSentence: 'I’m going to Cuba next April.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'area',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a particular part of a country, town etc',
+    meaningZh: '',
+    exampleSentence: 'Only cheeses made in this area may be labelled ‘Roquefort’.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'areas',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with areas.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'argue',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to disagree with someone in words, often in an angry way',
+    meaningZh: '',
+    exampleSentence: 'We could hear the neighbours arguing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'argument',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a situation in which two or more people disagree , often angrily',
+    meaningZh: '',
+    exampleSentence: 'She had a big argument with her husband.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'arm',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the two long parts of your body between your shoulders and your hands',
+    meaningZh: '',
+    exampleSentence: 'Dave has a broken arm .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'armed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'carrying weapons , especially a gun',
+    meaningZh: '',
+    exampleSentence: 'Armed police raided the building.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'arms',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'weapons used for fighting wars',
+    meaningZh: '',
+    exampleSentence: 'Sales of arms to the Middle East have dramatically increased.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'army',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large organized group of people trained to fight on land in a war',
+    meaningZh: '',
+    exampleSentence: 'Rebel armies have taken control of the radio station.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'around',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'surrounding or on all sides of something or someone',
+    meaningZh: '',
+    exampleSentence: 'The whole family was sitting around the dinner table.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'arrest',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if the police arrest someone, the person is taken to a police station because the police think they have done something illegal',
+    meaningZh: '',
+    exampleSentence: 'He was arrested and charged with murder.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'arrested',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with arrested.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'arrive',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to get to the place you are going to',
+    meaningZh: '',
+    exampleSentence: 'Give me a call to let me know you’ve arrived safely.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'arrived',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with arrived.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'art',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the use of painting , drawing , sculpture etc to represent things or express ideas',
+    meaningZh: '',
+    exampleSentence: 'the Museum of Modern Art in New York',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'article',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of writing about a particular subject in a newspaper or magazine',
+    meaningZh: '',
+    exampleSentence: 'an article on environmental issues',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'articles',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an agreement by which someone finishes their training , especially as a lawyer , by working for a company',
+    meaningZh: '',
+    exampleSentence: 'This is an example with articles.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'artist',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who produces art , especially paintings or drawings',
+    meaningZh: '',
+    exampleSentence: 'an exhibition of paintings by local artists',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'artists',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with artists.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'arts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'subjects you can study that are not scientific , for example history , languages etc',
+    meaningZh: '',
+    exampleSentence: 'This is an example with arts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'asia',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the world\'s largest continent (= one of the seven main areas of land ) , which includes the countries of the Middle East and the countries between the Ural Mountains and the Pacific Ocean , such as India, China , Japan, and part of Russia',
+    meaningZh: '',
+    exampleSentence: 'This is an example with asia.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'asian',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone from Asia, or whose family originally came from Asia, especially India or Pakistan',
+    meaningZh: '',
+    exampleSentence: 'This is an example with asian.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'aside',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'kept to be used later',
+    meaningZh: '',
+    exampleSentence: 'I’ve been setting aside a few pounds each week.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ask',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to speak or write to someone in order to get an answer , information , or a solution',
+    meaningZh: '',
+    exampleSentence: '‘What’s your name?’ she asked.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ask for',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ask for.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'asked',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with asked.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'asking',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with asking.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'aspects',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with aspects.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ass',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a stupid annoying person',
+    meaningZh: '',
+    exampleSentence: 'He’s a pompous ass.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'assembly',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of people who are elected to make decisions or laws for a particular country, area, or organization',
+    meaningZh: '',
+    exampleSentence: 'the General Assembly of the Church of Scotland',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'assessment',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a process in which you make a judgment about a person or situation, or the judgment you make',
+    meaningZh: '',
+    exampleSentence: 'What’s Michael’s assessment of the situation?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'assets',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with assets.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'assistance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'help or support',
+    meaningZh: '',
+    exampleSentence: 'We offer financial assistance to students.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'assistant',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'someone who helps someone else in their work, especially by doing the less important jobs',
+    meaningZh: '',
+    exampleSentence: 'a clerical assistant',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'associated',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with associated.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'association',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an organization that consists of a group of people who have the same aims , do the same kind of work etc',
+    meaningZh: '',
+    exampleSentence: 'the Association of Master Builders',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'assume',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to think that something is true, although you do not have definite proof',
+    meaningZh: '',
+    exampleSentence: 'I didn’t see your car, so I assumed you’d gone out.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'atmosphere',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the feeling that an event or place gives you',
+    meaningZh: '',
+    exampleSentence: 'The hotel had a lovely relaxed atmosphere .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'attached',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with attached.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'attack',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an act of violence that is intended to hurt a person or damage a place',
+    meaningZh: '',
+    exampleSentence: 'There have been several attacks on foreigners recently.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'attacked',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with attacked.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'attacks',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with attacks.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'attempt',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an act of trying to do something, especially something difficult',
+    meaningZh: '',
+    exampleSentence: 'All attempts to control inflation have failed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'attempts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with attempts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'attend',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to go to an event such as a meeting or a class',
+    meaningZh: '',
+    exampleSentence: 'Only 12 people attended the meeting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'attended',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with attended.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'attention',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when you carefully listen to, look at, or think about someone or something',
+    meaningZh: '',
+    exampleSentence: 'My attention wasn’t really on the game.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'attitude',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the opinions and feelings that you usually have about something, especially when this is shown in your behaviour',
+    meaningZh: '',
+    exampleSentence: 'As soon as they found out I was a doctor, their whole attitude changed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'attorney',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a lawyer',
+    meaningZh: '',
+    exampleSentence: 'He appointed her his attorney.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'attractive',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'someone who is attractive is good looking, especially in a way that makes you sexually interested in them',
+    meaningZh: '',
+    exampleSentence: 'an attractive young woman',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'audience',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of people who come to watch and listen to someone speaking or performing in public',
+    meaningZh: '',
+    exampleSentence: 'The audience began clapping and cheering.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'audio',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to sound that is recorded or broadcast',
+    meaningZh: '',
+    exampleSentence: 'audio and video equipment',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'august',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'impressive and respected',
+    meaningZh: '',
+    exampleSentence: 'an august institution',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'australia',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large island between the Indian Ocean and the southern Pacific Ocean, which is both a country and a continent (= one of the seven main areas of land on the Earth ) and part of the Pacific Rim . Population : 22,262,501 (2014). Capital : Canberra. Australia is a member of the British Commonwealth , and used to have close connections with the UK because the families of many Australians originally came from Britain and Ireland. More recently, many Australian citizens came from southern Europe and east Asia. The people who have lived in Australia since before Europeans arrived there are called the Aboriginal people.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with australia.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'australian',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Australia or its people',
+    meaningZh: '',
+    exampleSentence: 'This is an example with australian.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'author',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who has written a book',
+    meaningZh: '',
+    exampleSentence: 'Nothomb is a Belgian author.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'authorities',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with authorities.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'authority',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the power you have because of your official position',
+    meaningZh: '',
+    exampleSentence: 'Only the president has the authority to declare war.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'authors',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with authors.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'auto',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a car',
+    meaningZh: '',
+    exampleSentence: 'imported autos',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'automatically',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'as the result of a situation or action, and without you having to do anything more',
+    meaningZh: '',
+    exampleSentence: 'Join now and you will automatically receive 50% off your first purchase.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'available',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'something that is available is able to be used or can easily be bought or found',
+    meaningZh: '',
+    exampleSentence: 'Tickets are available from the box office.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'average',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the average amount is the amount you get when you add together several quantities and divide this by the total number of quantities',
+    meaningZh: '',
+    exampleSentence: 'The age of the candidates ranged from 29 to 49 with an average age of 37.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'avoid',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to prevent something bad from happening',
+    meaningZh: '',
+    exampleSentence: 'Road safety is taught to young children to avoid road accidents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'award',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something such as a prize or money given to someone to reward them for something they have done',
+    meaningZh: '',
+    exampleSentence: 'The movie has won a number of awards.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'awards',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with awards.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'aware',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if you are aware that a situation exists , you realize or know that it exists',
+    meaningZh: '',
+    exampleSentence: 'The children are aware of the danger of taking drugs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'away',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to say that someone leaves a place or person, or stays some distance from a place or person',
+    meaningZh: '',
+    exampleSentence: 'Go away!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'awesome',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'extremely impressive , serious , or difficult so that you feel great respect , worry , or fear',
+    meaningZh: '',
+    exampleSentence: 'an awesome responsibility',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'awful',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'very bad or unpleasant',
+    meaningZh: '',
+    exampleSentence: 'The weather was awful.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'baby',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a very young child who has not yet learned to speak or walk',
+    meaningZh: '',
+    exampleSentence: 'The baby is crying.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'back',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in, into, or to the place or position where someone or something was before',
+    meaningZh: '',
+    exampleSentence: 'I’ll be back in a minute.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'background',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone’s family, education , previous work etc',
+    meaningZh: '',
+    exampleSentence: 'Students with a background in chemistry will probably find the course easier.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bad',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'unpleasant or likely to cause problems',
+    meaningZh: '',
+    exampleSentence: 'I have some bad news for you.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bag',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a container made of paper , cloth , or thin plastic , that usually opens at the top',
+    meaningZh: '',
+    exampleSentence: 'a paper bag',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'balance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a state in which all your weight is evenly spread so that you do not fall',
+    meaningZh: '',
+    exampleSentence: 'I lost my balance and fell on my face.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ball',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a round object that is thrown , kicked , or hit in a game or sport',
+    meaningZh: '',
+    exampleSentence: 'Weiskopf hit the ball 330 yards and a cheer went up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'balls',
+    partOfSpeech: 'interjection',
+    simpleDefinitionEn: 'testicle s',
+    meaningZh: '',
+    exampleSentence: 'I didn’t have the balls to ask.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ban',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an official order that prevents something from being used or done',
+    meaningZh: '',
+    exampleSentence: 'a total ban on cigarette advertising',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'band',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of musicians , especially a group that plays popular music',
+    meaningZh: '',
+    exampleSentence: 'The band was playing old Beatles songs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bank',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a business that keeps and lends money and provides other financial services',
+    meaningZh: '',
+    exampleSentence: 'We have very little money in the bank.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'banks',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with banks.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bar',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where alcoholic drinks are served',
+    meaningZh: '',
+    exampleSentence: 'The hotel has a licensed bar .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'barely',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'only with great difficulty or effort',
+    meaningZh: '',
+    exampleSentence: 'She was very old and barely able to walk.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'base',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have your main place of work, business etc in a particular place',
+    meaningZh: '',
+    exampleSentence: 'The paper had intended to base itself in London.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'baseball',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an outdoor game between two teams of nine players , in which players try to get points by hitting a ball and running around four base s',
+    meaningZh: '',
+    exampleSentence: 'This is an example with baseball.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'based',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if you are based somewhere, that is the place where you work or where your main business is',
+    meaningZh: '',
+    exampleSentence: 'It is a professional service based at our offices in Oxford.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'basic',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'forming the most important or most necessary part of something',
+    meaningZh: '',
+    exampleSentence: 'the basic principles of chemistry',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'basically',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to emphasize the most important reason or fact about something, or a simple explanation of something',
+    meaningZh: '',
+    exampleSentence: 'Basically, I’m just lazy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'basis',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the facts, ideas, or things from which something can be developed',
+    meaningZh: '',
+    exampleSentence: 'Their claim had no basis in fact (= it was not true ) .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'basketball',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a game played indoors between two teams of five players , in which each team tries to win points by throwing a ball through a net',
+    meaningZh: '',
+    exampleSentence: 'This is an example with basketball.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bathroom',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a room where there is a bath or shower , a basin , and sometimes a toilet',
+    meaningZh: '',
+    exampleSentence: 'Where’s the bathroom?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'battery',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an object that provides a supply of electricity for something such as a radio , car, or toy',
+    meaningZh: '',
+    exampleSentence: 'You have to take the top off to change the batteries .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'battle',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a fight between opposing armies, groups of ships , groups of people etc, especially one that is part of a larger war',
+    meaningZh: '',
+    exampleSentence: 'the Battle of Trafalgar',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bay',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a part of the sea that is partly enclosed by a curve in the land',
+    meaningZh: '',
+    exampleSentence: 'a house with a view across the bay',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bbc',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the British radio and television company that is paid for by the public',
+    meaningZh: '',
+    exampleSentence: 'This is an example with bbc.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'beach',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an area of sand or small stones at the edge of the sea or a lake',
+    meaningZh: '',
+    exampleSentence: 'There is a beautiful sandy beach.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bear',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to bravely accept or deal with a painful , difficult, or upsetting situation',
+    meaningZh: '',
+    exampleSentence: 'She was afraid she wouldn’t be able to bear the pain.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'beat',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to get the most points, votes etc in a game, race, or competition',
+    meaningZh: '',
+    exampleSentence: 'Brazil were beaten 2–1.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'beautiful',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'someone or something that is beautiful is extremely attractive to look at',
+    meaningZh: '',
+    exampleSentence: 'She was even more beautiful than I had remembered.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'beauty',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a quality that people, places, or things have that makes them very attractive to look at',
+    meaningZh: '',
+    exampleSentence: 'her beauty and grace',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'became',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of become',
+    meaningZh: '',
+    exampleSentence: 'This is an example with became.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'because',
+    partOfSpeech: 'conjunction',
+    simpleDefinitionEn: 'used when you are giving the reason for something',
+    meaningZh: '',
+    exampleSentence: 'We didn’t enjoy the day because the weather was so awful.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'become',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to start to have a feeling or quality , or to start to develop into something',
+    meaningZh: '',
+    exampleSentence: 'The weather became warmer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'becomes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with becomes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'becoming',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a piece of clothing , a hairstyle etc that is becoming makes you look attractive',
+    meaningZh: '',
+    exampleSentence: 'Her short hairstyle is very becoming.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of furniture that you sleep on',
+    meaningZh: '',
+    exampleSentence: 'Simon lay in bed thinking.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bedroom',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a room for sleeping in',
+    meaningZh: '',
+    exampleSentence: 'a hotel with 50 bedrooms',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'beer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an alcoholic drink made from malt and hop s',
+    meaningZh: '',
+    exampleSentence: 'a pint of beer',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'began',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of begin',
+    meaningZh: '',
+    exampleSentence: 'This is an example with began.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'begin',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to start doing something',
+    meaningZh: '',
+    exampleSentence: 'As everybody’s here, let’s begin.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'begin with',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with begin with.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'beginning',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the start or first part of an event , story , period of time etc',
+    meaningZh: '',
+    exampleSentence: 'She’s been here since the beginning of the year.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'begins',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with begins.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'behavior',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with behavior.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'behind',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'at or towards the back of a thing or person',
+    meaningZh: '',
+    exampleSentence: 'I turned to speak to the person standing behind me.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'belief',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the feeling that something is definitely true or definitely exists',
+    meaningZh: '',
+    exampleSentence: 'a strong belief in God',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'believe',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to be sure that something is true or that someone is telling the truth',
+    meaningZh: '',
+    exampleSentence: 'You shouldn’t believe everything you read.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'believe in',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with believe in.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'believed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with believed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bell',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of electrical equipment that makes a ringing sound, used as a signal or to get someone’s attention',
+    meaningZh: '',
+    exampleSentence: 'He rang the bell and waited for someone to answer the door.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'belong to',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with belong to.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'below',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in a lower place or position , or on a lower level',
+    meaningZh: '',
+    exampleSentence: 'an animal that lives below ground',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ben',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ben.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'benefit',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an advantage , improvement , or help that you get from something',
+    meaningZh: '',
+    exampleSentence: 'the benefits of contact lenses',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'benefits',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with benefits.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'besides',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used when adding another reason',
+    meaningZh: '',
+    exampleSentence: 'I need the money. And besides, when I agree to do something, I do it.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'best',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'better than anything else or anyone else in quality, skill , how effective it is etc',
+    meaningZh: '',
+    exampleSentence: 'He won the best actor award.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bet',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to risk money on the result of a race , game , competition , or other future event',
+    meaningZh: '',
+    exampleSentence: 'How much do you want to bet?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'better',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'more useful , interesting , satisfactory , effective , suitable etc',
+    meaningZh: '',
+    exampleSentence: 'Your stereo is better than mine.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'beyond',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'on or to the further side of something',
+    meaningZh: '',
+    exampleSentence: 'They crossed the mountains and headed for the valleys beyond.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bible',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a copy of the bible',
+    meaningZh: '',
+    exampleSentence: 'It\'s the anatomy student\'s bible!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'big',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'of more than average size or amount',
+    meaningZh: '',
+    exampleSentence: 'a big house',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bigger',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with bigger.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'biggest',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with biggest.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bike',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a bicycle',
+    meaningZh: '',
+    exampleSentence: 'Let’s go for a bike ride .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bill',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a written list showing how much you have to pay for services you have received , work that has been done etc',
+    meaningZh: '',
+    exampleSentence: 'The bill for the repairs came to $650.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'billion',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 1,000,000,000',
+    meaningZh: '',
+    exampleSentence: 'The final cost could be as much as one billion dollars.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bills',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with bills.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bird',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a creature with wings and feathers that can usually fly . Many birds sing and build nests , and female birds lay eggs',
+    meaningZh: '',
+    exampleSentence: 'wild birds',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'birds',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with birds.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'birth',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the time when a baby comes out of its mother ’s body',
+    meaningZh: '',
+    exampleSentence: 'Congratulations on the birth of your daughter!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'birthday',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'your birthday is a day that is an exact number of years after the day you were born',
+    meaningZh: '',
+    exampleSentence: 'It’s my birthday on Monday.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bit',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'a small piece of something',
+    meaningZh: '',
+    exampleSentence: 'He’s a bit shy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bitch',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a female dog',
+    meaningZh: '',
+    exampleSentence: 'The silly bitch went and told the police.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'black',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having the darkest colour , like coal or night',
+    meaningZh: '',
+    exampleSentence: 'a black evening dress',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'blame',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to say or think that someone or something is responsible for something bad',
+    meaningZh: '',
+    exampleSentence: 'Don’t blame me – it’s not my fault.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'blind',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'unable to see',
+    meaningZh: '',
+    exampleSentence: 'a school for blind children',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'block',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of hard material such as wood or stone with straight sides',
+    meaningZh: '',
+    exampleSentence: 'a block of ice',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'blog',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a web page containing information or opinions from a particular person or about a particular subject , to which new information is added regularly',
+    meaningZh: '',
+    exampleSentence: 'Some blogs are entertaining and interesting, but many are badly written.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'blood',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the red liquid that your heart pumps around your body',
+    meaningZh: '',
+    exampleSentence: 'Her body was found in a pool of blood.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'blow',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if the wind or a current of air blows, it moves',
+    meaningZh: '',
+    exampleSentence: 'A cold breeze was blowing hard .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'blue',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having the colour of the sky or the sea on a fine day',
+    meaningZh: '',
+    exampleSentence: 'the blue waters of the lake',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'board',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a flat wide piece of wood , plastic etc that you can use to show information',
+    meaningZh: '',
+    exampleSentence: 'The plan of the new building is displayed on a board at the back of the room.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'boat',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a vehicle that travels across water',
+    meaningZh: '',
+    exampleSentence: 'a fishing boat',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bob',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move up and down when floating on the surface of water',
+    meaningZh: '',
+    exampleSentence: 'The boat bobbed gently up and down on the water.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bodies',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with bodies.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'body',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the physical structure of a person or animal',
+    meaningZh: '',
+    exampleSentence: 'the human body',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bomb',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a weapon made of material that will explode',
+    meaningZh: '',
+    exampleSentence: 'The bomb went off at 9.30 in the morning.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bond',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an official document promising that a government or company will pay back money that it has borrowed , often with interest',
+    meaningZh: '',
+    exampleSentence: 'My father put all his money into stock market bonds.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bone',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the hard parts that together form the frame of a human , animal, or fish body',
+    meaningZh: '',
+    exampleSentence: 'The X-ray showed that the bone was broken in two places.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'book',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of printed pages that are held together in a cover so that you can read them',
+    meaningZh: '',
+    exampleSentence: 'I’ve just started reading a book by Graham Greene.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'books',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'written records of the financial accounts of a business',
+    meaningZh: '',
+    exampleSentence: 'An accountant will examine the company’s books.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'border',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the official line that separates two countries, states, or areas, or the area close to this line',
+    meaningZh: '',
+    exampleSentence: 'To cross the border, you will need a valid passport.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'born',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with born.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'boss',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the person who employs you or who is in charge of you at work',
+    meaningZh: '',
+    exampleSentence: 'I’ll have to ask my boss for a day off.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'boston',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a city in Massachusetts on the Atlantic coast , the most important city in New England, and one of the oldest cities in the US. It is often thought of as being less noisy and more relaxed than other American cities, and is known for its old brick buildings . In Boston and the surrounding area, there are many famous colleges and universities , including Harvard and MIT .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with boston.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'both',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'used to talk about two people, things etc together , and emphasize that each is included',
+    meaningZh: '',
+    exampleSentence: 'Both Helen’s parents are doctors.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bottle',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a container with a narrow top for keeping liquids in, usually made of plastic or glass',
+    meaningZh: '',
+    exampleSentence: 'an empty bottle',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bottom',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the flat surface on the lowest side of an object',
+    meaningZh: '',
+    exampleSentence: 'What’s that on the bottom of your shoe?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bought',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of buy',
+    meaningZh: '',
+    exampleSentence: 'This is an example with bought.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bound',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the past tense and past participle of bind',
+    meaningZh: '',
+    exampleSentence: 'a Bible bound in leather',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bowl',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a wide round container that is open at the top, used to hold liquids , food, flowers etc',
+    meaningZh: '',
+    exampleSentence: 'Mix all the ingredients thoroughly in a large bowl.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'box',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a container for putting things in, especially one with four stiff straight sides',
+    meaningZh: '',
+    exampleSentence: 'a strong cardboard box',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'boy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a male child, or a male person in general',
+    meaningZh: '',
+    exampleSentence: 'The boys wanted to play football.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'boyfriend',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a man that you are having a romantic relationship with',
+    meaningZh: '',
+    exampleSentence: 'Josh was my first boyfriend.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'boys',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of men who do the same job',
+    meaningZh: '',
+    exampleSentence: 'Oh no! Wait until the press boys get hold of this story.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'brain',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the organ inside your head that controls how you think, feel, and move',
+    meaningZh: '',
+    exampleSentence: 'Messages from the brain are carried by the central nervous system.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'branch',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a part of a tree that grows out from the trunk (= main stem ) and that has leaves, fruit , or smaller branches growing from it',
+    meaningZh: '',
+    exampleSentence: 'After the storm, the ground was littered with twigs and branches.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'brand',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a type of product made by a particular company, that has a particular name or design',
+    meaningZh: '',
+    exampleSentence: 'What brand of detergent do you use?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'brazil',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a type of curved nut that has a hard shell',
+    meaningZh: '',
+    exampleSentence: 'This is an example with brazil.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bread',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a type of food made from flour and water that is mixed together and then baked',
+    meaningZh: '',
+    exampleSentence: 'Would you like some bread with your soup?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'break',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if you break something, you make it separate into two or more pieces, for example by hitting it, dropping it, or bending it',
+    meaningZh: '',
+    exampleSentence: 'I had to break a window to get into the house.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'break down',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with break down.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'breakfast',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the meal you have in the morning',
+    meaningZh: '',
+    exampleSentence: 'We had bacon and eggs for breakfast .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'breaking',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with breaking.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'breaks',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with breaks.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'breath',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the air that you send out of your lungs when you breathe',
+    meaningZh: '',
+    exampleSentence: 'Leo could smell the wine on her breath.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'brian',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with brian.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bridge',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a structure built over a river , road etc that allows people or vehicles to cross from one side to the other',
+    meaningZh: '',
+    exampleSentence: 'The training programme is seen as a bridge between school and work.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'brief',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'continuing for a short time',
+    meaningZh: '',
+    exampleSentence: 'We stopped by Alice’s house for a brief visit.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bright',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'shining strongly, or with plenty of light',
+    meaningZh: '',
+    exampleSentence: 'Her eyes were hurting from the bright lights.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'brilliant',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'brilliant light or colour is very bright and strong',
+    meaningZh: '',
+    exampleSentence: 'She closed her eyes against the brilliant light .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bring',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to take something or someone with you to the place where you are now, or to the place you are talking about',
+    meaningZh: '',
+    exampleSentence: 'Did you bring an umbrella?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bringing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with bringing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'brings',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with brings.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'britain',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'Great Britain or the UK',
+    meaningZh: '',
+    exampleSentence: 'This is an example with britain.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'british',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Britain or its people',
+    meaningZh: '',
+    exampleSentence: 'the British government',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'broad',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a road, river , or part of someone’s body etc that is broad is wide',
+    meaningZh: '',
+    exampleSentence: 'We went along a broad passage.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'broke',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of break',
+    meaningZh: '',
+    exampleSentence: 'I’m fed up with being broke all the time.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'broken',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of break',
+    meaningZh: '',
+    exampleSentence: 'The CD player’s broken again.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'brother',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a male who has the same parents as you',
+    meaningZh: '',
+    exampleSentence: 'I have two brothers, William and Mark.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'brothers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with brothers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'brought',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of bring',
+    meaningZh: '',
+    exampleSentence: 'This is an example with brought.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'brown',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having the colour of earth , wood , or coffee',
+    meaningZh: '',
+    exampleSentence: 'dark brown hair',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'budget',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the money that is available to an organization or person, or a plan of how it will be spent',
+    meaningZh: '',
+    exampleSentence: 'a welfare program with a budget of $2 million',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'build',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make something, especially a building or something large',
+    meaningZh: '',
+    exampleSentence: 'The purpose is to build new houses for local people.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'building',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a structure such as a house, church , or factory , that has a roof and walls',
+    meaningZh: '',
+    exampleSentence: 'The offices are on the top two floors of the building.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'buildings',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with buildings.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'built',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the past tense and past participle of build',
+    meaningZh: '',
+    exampleSentence: 'She is built like a dancer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bullshit',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that is stupid and completely untrue',
+    meaningZh: '',
+    exampleSentence: 'Forget all that bullshit and listen to me!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bunch',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of things that are fastened , held, or growing together',
+    meaningZh: '',
+    exampleSentence: 'I’ll send her a bunch of flowers .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'burn',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if a fire burns, it produces heat and flames',
+    meaningZh: '',
+    exampleSentence: 'There was a fire burning in the fireplace.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'burning',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'on fire',
+    meaningZh: '',
+    exampleSentence: 'She was rescued from a burning building.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bus',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large vehicle that people pay to travel on',
+    meaningZh: '',
+    exampleSentence: 'There were a lot of people on the bus.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'bush',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a plant with many thin branches growing up from the ground',
+    meaningZh: '',
+    exampleSentence: 'a rose bush',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'business',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of making money by producing or buying and selling goods, or providing services',
+    meaningZh: '',
+    exampleSentence: 'Students on the course learn about all aspects of business.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'businesses',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with businesses.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'busy',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if you are busy, you are working hard and have a lot of things to do',
+    meaningZh: '',
+    exampleSentence: 'She’s busy now – can you phone later?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'button',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a small round flat object on your shirt , coat etc that you pass through a hole to fasten it',
+    meaningZh: '',
+    exampleSentence: 'small pearl buttons',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'buy',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to get something by paying money for it',
+    meaningZh: '',
+    exampleSentence: 'Where did you buy that dress?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'buying',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with buying.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cabinet',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the politicians with important positions in a government who meet to make decisions or advise the leader of the government',
+    meaningZh: '',
+    exampleSentence: 'a cabinet meeting',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cable',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a plastic or rubber tube containing wires that carry telephone messages , electronic signals , television pictures etc',
+    meaningZh: '',
+    exampleSentence: 'cables and switches for computers',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cake',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a soft sweet food made by baking a mixture of flour , butter , sugar , and eggs',
+    meaningZh: '',
+    exampleSentence: 'We had cake and ice cream.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'california',
+    partOfSpeech: 'noun, adjective',
+    simpleDefinitionEn: 'a state in the southwest of the US, next to the Pacific Ocean , whose main cities include San Francisco and Los Angeles. The state capital is Sacramento. Disneyland and Hollywood are in California. The area between San Francisco and San José is known informally as Silicon Valley and is a centre of the computer industry . California is known for its farming industry, especially the production of fruit and wine . It is the world’s fifth largest economy . Its nickname is The Golden State.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with california.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'call',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to telephone someone',
+    meaningZh: '',
+    exampleSentence: 'She calls her father every couple of days.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'call off',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with call off.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'called',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with called.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'calling',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a strong desire or feeling of duty to do a particular kind of work, especially religious work',
+    meaningZh: '',
+    exampleSentence: 'It wasn’t until Durant was in her 30s that she found her calling .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'calls',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with calls.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'calm',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relaxed and quiet , not angry , nervous , or upset',
+    meaningZh: '',
+    exampleSentence: 'Glen was calm and composed at the funeral.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'came',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of come',
+    meaningZh: '',
+    exampleSentence: 'This is an example with came.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'camera',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of equipment used to take photographs or make films or television programmes',
+    meaningZh: '',
+    exampleSentence: 'The crime was caught on camera by police.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'camp',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where people stay in tents , shelters etc for a short time, usually in the mountains , a forest etc',
+    meaningZh: '',
+    exampleSentence: 'Let’s go back to camp – it’s getting dark.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'campaign',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a series of actions intended to achieve a particular result relating to politics or business , or a social improvement',
+    meaningZh: '',
+    exampleSentence: 'an advertising campaign',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'campus',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the land and buildings of a university or college , including the buildings where students live',
+    meaningZh: '',
+    exampleSentence: 'a beautiful campus in New England',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'canada',
+    partOfSpeech: 'noun, adjective',
+    simpleDefinitionEn: 'a country in North America, north of the US, which is made up of ten province s . Population : 34,568,211 (2014). Capital : Ottawa. Canada is the second largest country in the world. It is a member of the Commonwealth and it used to be part of the British Empire . Before that, part of it was governed by France, and its official languages are English and French.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with canada.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'canadian',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Canada or its people',
+    meaningZh: '',
+    exampleSentence: 'This is an example with canadian.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cancer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a very serious disease in which cells in one part of the body start to grow in a way that is not normal',
+    meaningZh: '',
+    exampleSentence: 'A lot of cancers can now be treated successfully.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'candidate',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who is being considered for a job or is competing in an election',
+    meaningZh: '',
+    exampleSentence: 'a presidential candidate',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'candidates',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with candidates.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cannot',
+    partOfSpeech: 'modal verb',
+    simpleDefinitionEn: 'a negative form of ‘can’',
+    meaningZh: '',
+    exampleSentence: 'Mrs Armstrong regrets that she cannot accept your kind invitation.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cap',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a type of flat hat that has a curved part sticking out at the front , and is often worn as part of a uniform',
+    meaningZh: '',
+    exampleSentence: 'a baseball cap',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'capable',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'able to do things well',
+    meaningZh: '',
+    exampleSentence: 'a strong capable woman',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'capacity',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the amount of space a container , room etc has to hold things or people',
+    meaningZh: '',
+    exampleSentence: 'The fuel tank has a capacity of 40 litres.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'capital',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an important city where the main government of a country, state etc is',
+    meaningZh: '',
+    exampleSentence: 'Washington D.C., the capital of the United States',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'captain',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the sailor in charge of a ship , or the pilot in charge of an aircraft',
+    meaningZh: '',
+    exampleSentence: 'The captain and crew welcome you aboard.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'car',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a vehicle with four wheels and an engine , that can carry a small number of passengers',
+    meaningZh: '',
+    exampleSentence: 'Dan got out of the car and locked the door.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'carbon',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a chemical substance that exists in a pure form as diamonds , graphite etc, or in an impure form as coal , petrol etc. It is a chemical element : symbol C',
+    meaningZh: '',
+    exampleSentence: 'This is an example with carbon.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'card',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a small piece of plastic or paper containing information about a person or showing, for example , that they belong to a particular organization , club etc',
+    meaningZh: '',
+    exampleSentence: 'Employees must show their identity cards at the gate.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cards',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with cards.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'care',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of looking after someone, especially because they are ill , old, or very young',
+    meaningZh: '',
+    exampleSentence: 'high standards of medical care',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'care about',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with care about.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'care for',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with care for.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'career',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a job or profession that you have been trained for, and which you do for a long period of your life',
+    meaningZh: '',
+    exampleSentence: 'a career in journalism',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'careful',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'trying very hard to avoid doing anything wrong or to avoid damaging or losing something',
+    meaningZh: '',
+    exampleSentence: 'a careful driver',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'carefully',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in a careful way',
+    meaningZh: '',
+    exampleSentence: 'He folded the sheets up carefully.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'carolina',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with carolina.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'carried',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with carried.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'carry',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to hold something in your hand or arms, or support it as you take it somewhere',
+    meaningZh: '',
+    exampleSentence: 'Gina was carrying a small bunch of flowers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'carry on',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with carry on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'carry out',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with carry out.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'carrying',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with carrying.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cars',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with cars.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'case',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an example of a particular situation or of something happening',
+    meaningZh: '',
+    exampleSentence: 'There were 16 cases of damage to cars in the area.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cases',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with cases.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cash',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'money in the form of coins or notes rather than cheques , credit card s etc',
+    meaningZh: '',
+    exampleSentence: 'Cash was taken during a burglary of the apartment.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cast',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make light or a shadow appear somewhere',
+    meaningZh: '',
+    exampleSentence: 'The flames cast dancing shadows on the walls.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cat',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a small animal with four legs that people often keep as a pet',
+    meaningZh: '',
+    exampleSentence: 'a tom cat (= a male cat )',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'catch',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to get hold of and stop an object such as a ball that is moving through the air',
+    meaningZh: '',
+    exampleSentence: 'Stephen leapt up and caught the ball in one hand.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'catch up',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with catch up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'category',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of people or things that are all of the same type',
+    meaningZh: '',
+    exampleSentence: 'There are five categories of workers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'catholic',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'including a very wide variety of things',
+    meaningZh: '',
+    exampleSentence: 'She has catholic tastes (= likes a lot of different things ) .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cats',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a musical (= a play that uses singing and dancing to tell a story ) by Andrew Lloyd Webber, which is based on T .S. Eliot \'s Poems about Cats . Cats is one of the most popular musicals ever written , and has been seen by millions of people.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with cats.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'caught',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of catch',
+    meaningZh: '',
+    exampleSentence: 'This is an example with caught.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cause',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make something happen, especially something bad',
+    meaningZh: '',
+    exampleSentence: 'Heavy traffic is causing delays on the freeway.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'caused',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with caused.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'causes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with causes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'causing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with causing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'celebrate',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to show that an event or occasion is important by doing something special or enjoyable',
+    meaningZh: '',
+    exampleSentence: 'It’s Dad’s birthday and we’re going out for a meal to celebrate.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cell',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the smallest part of a living thing that can exist independently',
+    meaningZh: '',
+    exampleSentence: 'red blood cells',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cells',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with cells.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cent',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '1/100th of the standard unit of money in some countries . For example , there are 100 cents in one dollar or in one euro : symbol ¢',
+    meaningZh: '',
+    exampleSentence: 'The price of oil rose 36 cents to $61.95 a barrel.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'center',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the American spelling of centre',
+    meaningZh: '',
+    exampleSentence: 'This is an example with center.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'central',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'in the middle of an area or an object',
+    meaningZh: '',
+    exampleSentence: 'He lives in central London.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'centre',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the middle of a space , area, or object , especially the exact middle',
+    meaningZh: '',
+    exampleSentence: 'There was an enormous oak table in the center of the room.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'century',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the 100-year periods measured from before or after the year of Christ’s birth',
+    meaningZh: '',
+    exampleSentence: 'The church was built in the 13th century.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ceo',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the person with the most authority in a large company',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ceo.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'certain',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'confident and sure , without any doubts',
+    meaningZh: '',
+    exampleSentence: 'I’m absolutely certain that I left the keys in the kitchen.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'certainly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'without any doubt',
+    meaningZh: '',
+    exampleSentence: 'I certainly never expected to become a writer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chain',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a series of metal rings which are joined together in a line and used for fastening things, supporting weights , decoration etc',
+    meaningZh: '',
+    exampleSentence: 'She had a gold chain around her neck.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chair',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of furniture for one person to sit on, which has a back, a seat , and four legs',
+    meaningZh: '',
+    exampleSentence: 'a kitchen chair',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chairman',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone, especially a man, who is in charge of a meeting or directs the work of a committee or an organization',
+    meaningZh: '',
+    exampleSentence: 'Potts was appointed chairman of the education committee.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'challenge',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that tests strength , skill , or ability , especially in a way that is interesting',
+    meaningZh: '',
+    exampleSentence: 'The company is ready to meet the challenges of the next few years.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'challenges',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with challenges.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chamber',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an enclosed space, especially in your body or inside a machine',
+    meaningZh: '',
+    exampleSentence: 'a combustion chamber',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'champion',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone or something that has won a competition , especially in sport',
+    meaningZh: '',
+    exampleSentence: 'the world heavyweight boxing champion',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'champions',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with champions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'championship',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a competition to find which player , team etc is the best in a particular sport',
+    meaningZh: '',
+    exampleSentence: 'the women’s figure skating championships',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the possibility that something will happen, especially something you want',
+    meaningZh: '',
+    exampleSentence: 'There’s always the chance that something will go wrong.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chances',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with chances.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'change',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to become different, or to make something become different',
+    meaningZh: '',
+    exampleSentence: 'Susan has changed a lot since I last saw her.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'changed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to a change in someone’s situation',
+    meaningZh: '',
+    exampleSentence: 'Businesses need to adapt to changed circumstances.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'changes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with changes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'changing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with changing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'channel',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a television station and all the programmes that it broadcasts',
+    meaningZh: '',
+    exampleSentence: 'the news on Channel 4',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chapter',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the parts into which a book is divided',
+    meaningZh: '',
+    exampleSentence: 'Read Chapter 11 as your homework.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'character',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the particular combination of qualities that makes someone a particular type of person',
+    meaningZh: '',
+    exampleSentence: 'He has a cheerful but quiet character.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'characters',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with characters.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'charge',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the amount of money you have to pay for goods or services',
+    meaningZh: '',
+    exampleSentence: 'an admission charge of $5',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'charged',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a charged situation or subject makes people feel very angry , anxious , or excited , and is likely to cause arguments or violence',
+    meaningZh: '',
+    exampleSentence: 'the charged atmosphere in the room',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'charges',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with charges.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'charles',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with charles.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chart',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'information that is clearly arranged in the form of a simple picture , set of figures , graph etc, or a piece of paper with this information on it',
+    meaningZh: '',
+    exampleSentence: 'a chart showing last year’s sales',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chat',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to talk in a friendly informal way, especially about things that are not important',
+    meaningZh: '',
+    exampleSentence: 'John and I sat up until the early hours chatting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cheap',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not at all expensive , or lower in price than you expected',
+    meaningZh: '',
+    exampleSentence: 'cheap rail fares',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'check',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to do something in order to find out whether something really is correct , true, or in good condition',
+    meaningZh: '',
+    exampleSentence: 'Check the tiles carefully before you buy them.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'checked',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'checked cloth has a regular pattern of differently coloured squares',
+    meaningZh: '',
+    exampleSentence: 'a checked blouse',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cheese',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a solid food made from milk , which is usually yellow or white in colour , and can be soft or hard',
+    meaningZh: '',
+    exampleSentence: 'half a kilo of cheese',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chemical',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a substance used in chemistry or produced by a chemical process',
+    meaningZh: '',
+    exampleSentence: 'the organic chemicals industry',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chest',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the front part of your body between your neck and your stomach',
+    meaningZh: '',
+    exampleSentence: 'Her heart was pounding in her chest.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chicago',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the third largest city in the US. It is in the state of Illinois, on the southwest shore of Lake Michigan, and is an important industrial and business centre . During the 1920s and 1930s, Chicago was famous for its gangster s (= professional violent criminals working in groups ) , such as Al Capone . Chicago has many very tall buildings , including the Sears Tower , famous museum s (such as the Art Institute ), and universities (such as the University of Chicago and Northwestern University). Its airport , O\'Hare, is the busiest in the world. Chicago is often known as ‘the Windy City’.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with chicago.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chicken',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a common farm bird that is kept for its meat and eggs',
+    meaningZh: '',
+    exampleSentence: 'roast chicken',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chief',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'highest in rank',
+    meaningZh: '',
+    exampleSentence: 'He was recently appointed chief economist at the Bank of Scotland.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'child',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who is not yet an adult',
+    meaningZh: '',
+    exampleSentence: 'The hotel is ideal for families with young children.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'childhood',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the period of time when you are a child',
+    meaningZh: '',
+    exampleSentence: 'I had a very happy childhood.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'children',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the plural of child',
+    meaningZh: '',
+    exampleSentence: 'This is an example with children.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'china',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a hard white substance produced by baking a type of clay at a high temperature',
+    meaningZh: '',
+    exampleSentence: 'china teacups',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chinese',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the language used in China',
+    meaningZh: '',
+    exampleSentence: 'Do you fancy going out for a Chinese?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chocolate',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a sweet brown food that you can eat as a sweet or use in cooking to give foods such as cakes a special sweet taste',
+    meaningZh: '',
+    exampleSentence: 'a chocolate bar',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'choice',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'if you have a choice, you can choose between several things',
+    meaningZh: '',
+    exampleSentence: 'Voters have a choice between three main political parties.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'choices',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with choices.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'choose',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to decide which one of a number of things or people you want',
+    meaningZh: '',
+    exampleSentence: 'It took us ages to choose a new carpet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chose',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of choose',
+    meaningZh: '',
+    exampleSentence: 'This is an example with chose.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chosen',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the past participle of choose',
+    meaningZh: '',
+    exampleSentence: 'This is an example with chosen.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'chris',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with chris.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'christ',
+    partOfSpeech: 'interjection',
+    simpleDefinitionEn: 'the man who is worshipped by Christians as the son of God',
+    meaningZh: '',
+    exampleSentence: 'a follower of Christ',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'christian',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a person who believes in the ideas taught by Jesus Christ',
+    meaningZh: '',
+    exampleSentence: 'the Christian religion',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'christmas',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the period of time around December 25th, the day when Christians celebrate the birth of Christ',
+    meaningZh: '',
+    exampleSentence: 'We’ll see you at Christmas.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'church',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a building where Christians go to worship',
+    meaningZh: '',
+    exampleSentence: 'a short church service',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'circle',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a completely round shape , like the letter O',
+    meaningZh: '',
+    exampleSentence: 'Draw a circle 10 cm in diameter.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'circuit',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a path that forms a circle around an area, or a journey along this path',
+    meaningZh: '',
+    exampleSentence: 'We did a circuit of the old city.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'circumstances',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the conditions in which you live, especially how much money you have',
+    meaningZh: '',
+    exampleSentence: 'Whether or not you qualify for a loan will depend on your financial circumstances.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cities',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with cities.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'citizens',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with citizens.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'city',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large important town',
+    meaningZh: '',
+    exampleSentence: 'The nearest big city was St. Louis.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'civil',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to the people who live in a country',
+    meaningZh: '',
+    exampleSentence: 'They were married in a civil ceremony in May.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'claim',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to state that something is true, even though it has not been proved',
+    meaningZh: '',
+    exampleSentence: 'The product claims that it can make you thin without dieting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'claimed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with claimed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'claims',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with claims.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'class',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the groups in a society that different types of people are divided into according to their jobs, income , education etc',
+    meaningZh: '',
+    exampleSentence: 'a member of the landed class (= people who own land )',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'classes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with classes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'classic',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having all the features that are typical or expected of a particular thing or situation',
+    meaningZh: '',
+    exampleSentence: 'Too many job hunters make the classic mistake of thinking only about what’s in it for them.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'classroom',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a room that you have lessons in at a school or college',
+    meaningZh: '',
+    exampleSentence: 'This is an example with classroom.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'clean',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'without any dirt , marks etc',
+    meaningZh: '',
+    exampleSentence: 'Are your hands clean?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'clear',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'expressed in a simple and direct way so that people understand',
+    meaningZh: '',
+    exampleSentence: 'clear instructions',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'clearly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'without any doubt',
+    meaningZh: '',
+    exampleSentence: 'Clearly, ignoring him had been a mistake.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'click',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make a short hard sound , or make something produce this sound',
+    meaningZh: '',
+    exampleSentence: 'The door clicked shut behind me.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'client',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who gets services or advice from a professional person, company, or organization',
+    meaningZh: '',
+    exampleSentence: 'a meeting with an important client',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'climate',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the typical weather conditions in a particular area',
+    meaningZh: '',
+    exampleSentence: 'Los Angeles’ warm dry climate',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'clinical',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to treating or testing people who are sick',
+    meaningZh: '',
+    exampleSentence: 'The drug has undergone extensive clinical trials (= tests to see if it is effective in treating people ) .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'clinton',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with clinton.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'close',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to shut something in order to cover an opening, or to become shut in this way',
+    meaningZh: '',
+    exampleSentence: 'Would you mind if I closed the window?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'closed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not open',
+    meaningZh: '',
+    exampleSentence: 'Make sure all the windows are closed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'closely',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'very carefully',
+    meaningZh: '',
+    exampleSentence: 'The detective watched him closely , waiting for a reply.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'closer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with closer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'closing',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening or done at the end of an event or a period of time',
+    meaningZh: '',
+    exampleSentence: 'The judge gave his closing speech to the jury.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'clothes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the things that people wear to cover their body or keep warm',
+    meaningZh: '',
+    exampleSentence: 'What sort of clothes was he wearing?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'clothing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the clothes that people wear',
+    meaningZh: '',
+    exampleSentence: 'basic necessities such as food and clothing',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cloud',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a white or grey mass in the sky that forms from very small drops of water',
+    meaningZh: '',
+    exampleSentence: 'Dark clouds floated across the moon.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'club',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an organization for people who share a particular interest or enjoy similar activities , or a group of people who meet together to do something they are interested in',
+    meaningZh: '',
+    exampleSentence: 'Our chess club really needs new members.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'clubs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with clubs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'coach',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who trains a person or team in a sport',
+    meaningZh: '',
+    exampleSentence: 'a tennis coach',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'coal',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a hard black mineral which is dug out of the ground and burnt to produce heat',
+    meaningZh: '',
+    exampleSentence: 'Put some coal on the fire.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'coast',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the area where the land meets the sea',
+    meaningZh: '',
+    exampleSentence: 'the west coast of Africa',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'code',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of rules , laws, or principles that tell people how to behave',
+    meaningZh: '',
+    exampleSentence: 'The Torah is the basis for all the Jewish laws and their moral code .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'coffee',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a hot dark brown drink that has a slightly bitter taste',
+    meaningZh: '',
+    exampleSentence: 'Do you want a cup of coffee?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cold',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'something that is cold has a low temperature',
+    meaningZh: '',
+    exampleSentence: 'She splashed her face with cold water.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'collected',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'in control of yourself and your thoughts , feelings etc',
+    meaningZh: '',
+    exampleSentence: 'She wanted to arrive feeling cool, calm, and collected .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'collection',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of similar things that are kept or brought together because they are attractive or interesting',
+    meaningZh: '',
+    exampleSentence: 'a stamp collection',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'college',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a school for advanced education , especially in a particular profession or skill',
+    meaningZh: '',
+    exampleSentence: 'a teacher training college',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'color',
+    partOfSpeech: 'noun, verb',
+    simpleDefinitionEn: 'the American spelling of colour',
+    meaningZh: '',
+    exampleSentence: 'This is an example with color.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'colorado',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a state in the western US, mostly in and around the Rocky Mountains . Its capital city is Denver, and other cities include Aspen , which is a well-known centre for skiing ( ski ), and Boulder . Colorado is a popular place for both winter and summer holidays .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with colorado.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'colors',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with colors.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'colour',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'red, blue , yellow , green , brown , purple etc',
+    meaningZh: '',
+    exampleSentence: 'What colour dress did you buy?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'combat',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'fighting , especially during a war',
+    meaningZh: '',
+    exampleSentence: 'Corporal Gierson was killed in combat.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'combination',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'two or more different things that exist together or are used or put together',
+    meaningZh: '',
+    exampleSentence: 'A combination of factors may be responsible for the increase in cancer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'combined',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'done, made, or achieved by several people or groups working together',
+    meaningZh: '',
+    exampleSentence: 'Dinner was a combined effort.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'come',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move towards you or arrive at the place where you are',
+    meaningZh: '',
+    exampleSentence: 'Let me know when they come.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'come across',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with come across.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'come back',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with come back.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'come up with',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with come up with.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'comedy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'entertainment that is intended to make people laugh',
+    meaningZh: '',
+    exampleSentence: 'a career in stand-up comedy (= telling jokes in front of people as a job )',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'comes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with comes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'comfortable',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'making you feel physically relaxed , without any pain or without being too hot , cold etc',
+    meaningZh: '',
+    exampleSentence: 'The bed wasn’t particularly comfortable.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'coming',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'happening soon',
+    meaningZh: '',
+    exampleSentence: 'the coming winter',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'command',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the control of a group of people or a situation',
+    meaningZh: '',
+    exampleSentence: 'troops under the command of General Roberts',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'commander',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an officer of any rank who is in charge of a group of soldiers or a particular military activity',
+    meaningZh: '',
+    exampleSentence: 'the American Commander, General Otis',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'comment',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an opinion that you express about someone or something',
+    meaningZh: '',
+    exampleSentence: 'his comments about asylum seekers',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'comments',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with comments.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'commercial',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'related to business and the buying and selling of goods and services',
+    meaningZh: '',
+    exampleSentence: 'Our top priorities must be profit and commercial growth.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'commission',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of people who have been given the official job of finding out about something or controlling something',
+    meaningZh: '',
+    exampleSentence: 'The Government set up a commission to investigate allegations of police violence.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'committed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'willing to work very hard at something',
+    meaningZh: '',
+    exampleSentence: 'The party has a core of committed supporters.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'committee',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of people chosen to do a particular job, make decisions etc',
+    meaningZh: '',
+    exampleSentence: 'the International Committee of the Red Cross',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'common',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening often and to many people or in many places',
+    meaningZh: '',
+    exampleSentence: 'Heart disease is one of the commonest causes of death.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'communication',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process by which people exchange information or express their thoughts and feelings',
+    meaningZh: '',
+    exampleSentence: 'Good communication is vital in a large organization.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'communications',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'ways of sending information, especially using radio , telephone , or computers',
+    meaningZh: '',
+    exampleSentence: 'Modern communications are enabling more people to work from home.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'communities',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with communities.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'community',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the people who live in the same area, town etc',
+    meaningZh: '',
+    exampleSentence: 'The new arts centre will serve the whole community.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'companies',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with companies.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'company',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a business organization that makes or sells goods or services',
+    meaningZh: '',
+    exampleSentence: 'Which company do you work for?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'compared',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with compared.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'comparison',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of comparing two or more people or things',
+    meaningZh: '',
+    exampleSentence: 'Comparison with his previous movies shows how Lee has developed as a director.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'competition',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a situation in which people or organizations try to be more successful than other people or organizations',
+    meaningZh: '',
+    exampleSentence: 'Competition for the job was intense.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'competitive',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'determined or trying very hard to be more successful than other people or businesses',
+    meaningZh: '',
+    exampleSentence: 'Some US industries are not as competitive as they have been in the past.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'complain about',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with complain about.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'complete',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'used to emphasize that a quality or situation is as great as it could possibly be',
+    meaningZh: '',
+    exampleSentence: 'The police were in complete control of the situation.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'completed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with completed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'completely',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'to the greatest degree possible',
+    meaningZh: '',
+    exampleSentence: 'I completely forgot that it’s his birthday today.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'complex',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'consisting of many different parts and often difficult to understand',
+    meaningZh: '',
+    exampleSentence: 'a complex system of highways',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'complicated',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'difficult to understand or deal with, because many parts or details are involved',
+    meaningZh: '',
+    exampleSentence: 'a complicated voting system',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'computer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an electronic machine that stores information and uses programs to help you find , organize , or change the information',
+    meaningZh: '',
+    exampleSentence: 'a huge global computer network',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'concentrate on',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with concentrate on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'concept',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an idea of how something is, or how something should be done',
+    meaningZh: '',
+    exampleSentence: 'the concept of total patient care',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'concern',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a feeling of worry about something important',
+    meaningZh: '',
+    exampleSentence: 'The recent rise in crime is a matter of considerable public concern.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'concerned',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'involved in something or affected by it',
+    meaningZh: '',
+    exampleSentence: 'Divorce is very painful, especially when children are concerned.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'concerns',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with concerns.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'concert',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a performance given by musicians or singers',
+    meaningZh: '',
+    exampleSentence: 'a rock concert',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'condition',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the state that something is in, especially how good or bad its physical state is',
+    meaningZh: '',
+    exampleSentence: 'The car has been well maintained and is in excellent condition.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'conditions',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the situation in which people live or work, especially the physical things that affect the quality of their lives',
+    meaningZh: '',
+    exampleSentence: 'Conditions in the prison were atrocious.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'conduct',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to carry out a particular activity or process, especially in order to get information or prove facts',
+    meaningZh: '',
+    exampleSentence: 'We are conducting a survey of consumer attitudes towards organic food.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'conducted',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with conducted.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'conference',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large formal meeting where a lot of people discuss important matters such as business, politics , or science , especially for several days',
+    meaningZh: '',
+    exampleSentence: 'Representatives from over 100 countries attended the International Peace Conference in Geneva.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'confidence',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the feeling that you can trust someone or something to be good, work well, or produce good results',
+    meaningZh: '',
+    exampleSentence: 'Public confidence in the government is at an all-time low.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'confirmed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with confirmed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'conflict',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a state of disagreement or argument between people, groups, countries etc',
+    meaningZh: '',
+    exampleSentence: 'conflicts over wage settlements',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'confused',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'unable to understand or think clearly about what someone is saying or what is happening',
+    meaningZh: '',
+    exampleSentence: 'I’m totally confused. Could you explain that again?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'congress',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a formal meeting of representatives of different groups, countries etc, to discuss ideas, make decisions etc',
+    meaningZh: '',
+    exampleSentence: 'a congress of the ruling Labor Party',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'connect',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to join two or more things together',
+    meaningZh: '',
+    exampleSentence: 'The railway link would connect Felixstowe with Fishguard.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'connected',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'to be joined to something else or joined to a large system or network',
+    meaningZh: '',
+    exampleSentence: 'The light is connected to a timer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'connection',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the way in which two facts , ideas, events etc are related to each other, and one is affected or caused by the other',
+    meaningZh: '',
+    exampleSentence: 'the causal connection between smoking and cancer',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'consequences',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a game played by a small group of people, in which a story is written with each person adding a sentence without knowing what has already been written. The last sentence begins : ‘The consequence (= result ) was...’ The stories are usually about famous people or friends, in amusing or embarrassing situations .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with consequences.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'conservative',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not liking changes or new ideas',
+    meaningZh: '',
+    exampleSentence: 'a very conservative attitude to education',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'consider',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to think about something carefully, especially before making a choice or decision',
+    meaningZh: '',
+    exampleSentence: 'I seriously considered resigning (= almost actually resigned ) .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'considered',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a considered opinion , reply , judgment etc is one that you have thought about carefully',
+    meaningZh: '',
+    exampleSentence: 'He hadn’t had time to form a considered opinion .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'considering',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'used to say that you are thinking about a particular fact when you are giving your opinion',
+    meaningZh: '',
+    exampleSentence: 'Considering the strength of the opposition, we did very well to score two goals.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'consistent',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'always behaving in the same way or having the same attitudes , standards etc – usually used to show approval',
+    meaningZh: '',
+    exampleSentence: 'She’s the team’s most consistent player.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'constant',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening regularly or all the time',
+    meaningZh: '',
+    exampleSentence: 'There was a constant stream of visitors to the house.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'constantly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'all the time, or very often',
+    meaningZh: '',
+    exampleSentence: 'He talked constantly about his work.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'constitution',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of basic laws and principles that a country or organization is governed by',
+    meaningZh: '',
+    exampleSentence: 'The right to speak freely is written into the Constitution of the United States.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'construction',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of building things such as houses, bridges , roads etc',
+    meaningZh: '',
+    exampleSentence: 'the construction of a new airport',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'consumer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who buys and uses products and services',
+    meaningZh: '',
+    exampleSentence: 'Consumers will soon be paying higher airfares.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'contact',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'communication with a person, organization , country etc',
+    meaningZh: '',
+    exampleSentence: 'There is very little contact between the two tribes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'contain',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if something such as a bag , box , or place contains something, that thing is inside it',
+    meaningZh: '',
+    exampleSentence: 'The thieves stole a purse containing banknotes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'contains',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with contains.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'contemporary',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'belonging to the present time',
+    meaningZh: '',
+    exampleSentence: 'an exhibition of contemporary Japanese prints',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'content',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the amount of a substance that is contained in something, especially food or drink',
+    meaningZh: '',
+    exampleSentence: 'the fat content of cheese',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'contest',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a competition or a situation in which two or more people or groups are competing with each other',
+    meaningZh: '',
+    exampleSentence: 'the bitter contest for the Republican presidential nomination',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'context',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the situation, events , or information that are related to something and that help you to understand it',
+    meaningZh: '',
+    exampleSentence: 'the political context of the election',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'continue',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to not stop happening, existing , or doing something',
+    meaningZh: '',
+    exampleSentence: 'Sheila continued to work after she had her baby.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'continued',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'continuing to happen or exist for a long time, or happening many times',
+    meaningZh: '',
+    exampleSentence: 'threats to the continued existence of the species',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'continues',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with continues.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'continuing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with continuing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'contract',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an official agreement between two or more people, stating what each will do',
+    meaningZh: '',
+    exampleSentence: 'Tyler has agreed a seven-year contract with a Hollywood studio.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'contrast',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a difference between people, ideas, situations, things etc that are being compared',
+    meaningZh: '',
+    exampleSentence: 'While there are similarities in the two cultures, there are also great contrasts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'control',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the ability or power to make someone or something do what you want or make something happen in the way you want',
+    meaningZh: '',
+    exampleSentence: 'The disease robs you of muscle control.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'controlled',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'deliberately done in a particular way, or made to have particular qualities',
+    meaningZh: '',
+    exampleSentence: 'a test held under controlled conditions',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'convention',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large formal meeting for people who belong to the same profession or organization or who have the same interests',
+    meaningZh: '',
+    exampleSentence: 'a teachers’ convention',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'conversation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an informal talk in which people exchange news , feelings , and thoughts',
+    meaningZh: '',
+    exampleSentence: 'a telephone conversation',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cook',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to prepare food for eating by using heat',
+    meaningZh: '',
+    exampleSentence: 'Where did you learn to cook?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cool',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'low in temperature , but not cold , often in a way that feels pleasant',
+    meaningZh: '',
+    exampleSentence: 'She swam out into the cool water.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'copy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that is made to be exactly like another thing',
+    meaningZh: '',
+    exampleSentence: 'She forwarded them a copy of her British passport.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'core',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the hard central part of a fruit such as an apple',
+    meaningZh: '',
+    exampleSentence: 'Remove the cores, and bake the apples for 40 minutes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'corner',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the point at which two lines or edges meet',
+    meaningZh: '',
+    exampleSentence: 'He pulled a dirty handkerchief out by its corner and waved it at me.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'corporate',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'belonging to or relating to a corporation',
+    meaningZh: '',
+    exampleSentence: 'The company is moving its corporate headquarters (= main offices ) from New York to Houston.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'corporation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a big company, or a group of companies acting together as a single organization',
+    meaningZh: '',
+    exampleSentence: 'He works for a large American corporation.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'correct',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having no mistakes',
+    meaningZh: '',
+    exampleSentence: 'If my calculations are correct, we’re about ten miles from Exeter.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cost',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the amount of money that you have to pay in order to buy, do, or produce something',
+    meaningZh: '',
+    exampleSentence: 'the cost of accommodation',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'costs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the money that you must regularly spend in order to run a business, a home, a car etc',
+    meaningZh: '',
+    exampleSentence: 'We have to cut costs in order to remain competitive.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'council',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of people that are chosen to make rules , laws, or decisions , or to give advice',
+    meaningZh: '',
+    exampleSentence: 'the council for civil liberties',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'count',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to calculate the total number of things or people in a group',
+    meaningZh: '',
+    exampleSentence: 'I was amazed at the number of plants – I counted 147.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'counter',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the place where you pay or are served in a shop , bank , restaurant etc',
+    meaningZh: '',
+    exampleSentence: 'He wondered if the girl behind the counter recognised him.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'countries',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with countries.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'country',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an area of land that is controlled by its own government, president , king etc',
+    meaningZh: '',
+    exampleSentence: 'the Scandinavian countries',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'county',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an area of a state or country that has its own government to deal with local matters',
+    meaningZh: '',
+    exampleSentence: 'Fairfax County, Virginia',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'couple',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'two people who are married or having a sexual or romantic relationship',
+    meaningZh: '',
+    exampleSentence: 'a newly married couple',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'course',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a series of lessons in a particular subject',
+    meaningZh: '',
+    exampleSentence: 'Andy’s doing a one-year journalism course.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'courses',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with courses.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'court',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the place where a trial is held, or the people there, especially the judge and the jury who examine the evidence and decide whether someone is guilty or not guilty',
+    meaningZh: '',
+    exampleSentence: 'It could not be proved in a court of law.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'courts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with courts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cover',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to put something over or be over something in order to hide, close, or protect it',
+    meaningZh: '',
+    exampleSentence: 'Cover the pot and bake for an hour.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'coverage',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when a subject or event is reported on television or radio , or in newspapers',
+    meaningZh: '',
+    exampleSentence: 'The allegations received widespread media coverage.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'covered',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a roof',
+    meaningZh: '',
+    exampleSentence: 'a covered arena',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'covers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with covers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'crash',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have an accident in a car, plane etc by violently hitting something else',
+    meaningZh: '',
+    exampleSentence: 'The jet crashed after take-off.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'crazy',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'very strange or not sensible',
+    meaningZh: '',
+    exampleSentence: 'The neighbours must think we’re crazy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cream',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a thick yellow-white liquid that rises to the top of milk',
+    meaningZh: '',
+    exampleSentence: 'fresh cream',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'create',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make something exist that did not exist before',
+    meaningZh: '',
+    exampleSentence: 'Some people believe the universe was created by a big explosion.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'created',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with created.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'creating',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with creating.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'creation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of creating something',
+    meaningZh: '',
+    exampleSentence: 'the creation of 2,000 new jobs',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'creative',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'involving the use of imagination to produce new ideas or things',
+    meaningZh: '',
+    exampleSentence: 'This job is so boring. I wish I could do something more creative.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'credit',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an arrangement with a shop , bank etc that allows you to buy something and pay for it later',
+    meaningZh: '',
+    exampleSentence: 'Most new cars are bought on credit.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'crew',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'all the people who work on a ship or plane',
+    meaningZh: '',
+    exampleSentence: 'The plane crashed, killing two of the crew and four passengers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'crime',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'illegal activities in general',
+    meaningZh: '',
+    exampleSentence: 'We moved here because there was very little crime.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'criminal',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to crime',
+    meaningZh: '',
+    exampleSentence: 'Experts cannot agree on the causes of criminal behaviour .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'crisis',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a situation in which there are a lot of problems that must be dealt with quickly so that the situation does not get worse or more dangerous',
+    meaningZh: '',
+    exampleSentence: 'The country now faces an economic crisis .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'critical',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if you are critical, you criticize someone or something',
+    meaningZh: '',
+    exampleSentence: 'Many economists are critical of the government’s economic policies.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'criticism',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'remarks that say what you think is bad about someone or something',
+    meaningZh: '',
+    exampleSentence: 'My main criticism of the scheme is that it does nothing to help families on low incomes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cross',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to go or stretch from one side of something such as a road, river, room etc to the other',
+    meaningZh: '',
+    exampleSentence: 'He crossed to the window.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'crowd',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large group of people who have gathered together to do something, for example to watch something or protest about something',
+    meaningZh: '',
+    exampleSentence: 'a crowd of angry protesters',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'crown',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a circle made of gold and decorated with jewels , worn by kings and queens on their heads',
+    meaningZh: '',
+    exampleSentence: 'auburn hair piled high on the crown of her head',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cry',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to produce tears from your eyes, usually because you are unhappy or hurt',
+    meaningZh: '',
+    exampleSentence: 'Don’t cry, Laura. It’ll be OK.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'crying',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'when someone produces tears from their eyes, usually because they are unhappy or hurt',
+    meaningZh: '',
+    exampleSentence: 'As he neared her tent he heard the sound of crying.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cultural',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'belonging or relating to a particular society and its way of life',
+    meaningZh: '',
+    exampleSentence: 'the very real historical and cultural differences between our two societies',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'culture',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the beliefs , way of life, art, and customs that are shared and accepted by people in a particular society',
+    meaningZh: '',
+    exampleSentence: 'We speak Danish at home so that the boys don’t lose touch with their language and culture.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cup',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a small round container , usually with a handle , that you use to drink tea , coffee etc',
+    meaningZh: '',
+    exampleSentence: 'Mathew picked up the cup and sipped his coffee.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'current',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening or existing now',
+    meaningZh: '',
+    exampleSentence: 'the current president',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'currently',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'at the present time',
+    meaningZh: '',
+    exampleSentence: 'the products that are currently available',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'customer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who buys goods or services from a shop , company etc',
+    meaningZh: '',
+    exampleSentence: 'We aim to offer good value and service to all our customers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'customers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with customers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cut',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to reduce the amount of something',
+    meaningZh: '',
+    exampleSentence: 'They’re introducing CCTV cameras in an attempt to cut street crime in the area.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cut down',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with cut down.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cute',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'very pretty or attractive',
+    meaningZh: '',
+    exampleSentence: 'a cute little puppy',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cutting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a stem or leaf that is cut from a plant and put in soil or water to grow into a new plant',
+    meaningZh: '',
+    exampleSentence: 'Margot sent him some press cuttings about the wedding.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'cycle',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a number of related events that happen again and again in the same order',
+    meaningZh: '',
+    exampleSentence: 'a woman’s menstrual cycle',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dad',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'father',
+    meaningZh: '',
+    exampleSentence: 'She lives with her mom and dad.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'daily',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening or done every day',
+    meaningZh: '',
+    exampleSentence: 'daily flights to Miami',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'damage',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'physical harm that is done to something or to a part of someone’s body, so that it is broken or injured',
+    meaningZh: '',
+    exampleSentence: 'damage to property',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'damn',
+    partOfSpeech: 'interjection',
+    simpleDefinitionEn: 'used when you are very annoyed or disappointed',
+    meaningZh: '',
+    exampleSentence: 'Damn! I’ve left my keys in the office.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dan',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with dan.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a special set of movements performed to a particular type of music',
+    meaningZh: '',
+    exampleSentence: 'The waltz is an easy dance to learn.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dancing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with dancing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'danger',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the possibility that someone or something will be harmed , destroyed , or killed',
+    meaningZh: '',
+    exampleSentence: 'Danger! No boats beyond this point.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dangerous',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'able or likely to harm or kill you',
+    meaningZh: '',
+    exampleSentence: 'laws about dangerous dogs',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'daniel',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'in the Old Testament of the Bible , a Jewish man who was made a prisoner by King Nebuchadnezzar of Babylon, and was put into a lions\' den as a punishment for not changing his beliefs . The lions did not kill him, however, because God protected him. The phrase in the lion\'s den comes from this story, and is used to describe a difficult situation in which you are surrounded by people who are your enemies .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with daniel.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dark',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if it is dark, there is little or no light',
+    meaningZh: '',
+    exampleSentence: 'The church was dark and quiet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'data',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'information or facts',
+    meaningZh: '',
+    exampleSentence: 'The research involves collecting data from two random samples.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'date',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a particular day of the month or year, especially shown by a number',
+    meaningZh: '',
+    exampleSentence: 'The date on the letter was 30th August 1962.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dates',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with dates.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dating',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when a supplier allows a customer a longer period of credit than they usually give',
+    meaningZh: '',
+    exampleSentence: 'This is an example with dating.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'daughter',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone’s female child',
+    meaningZh: '',
+    exampleSentence: 'She’s got two daughters and one son.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'david',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a statue of a young man made by the artist Michelangelo , which can be seen in Florence , in Italy. It is considered to be one of the best examples of the human form in art .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with david.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'davis',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with davis.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'day',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a period of 24 hours',
+    meaningZh: '',
+    exampleSentence: 'We spent three days in Paris.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'days',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with days.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dead',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'no longer alive',
+    meaningZh: '',
+    exampleSentence: 'Her mother had been dead for ten years.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'deal',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an agreement or arrangement , especially in business or politics , that helps both sides involved',
+    meaningZh: '',
+    exampleSentence: 'They made a deal to sell the land to a property developer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'deal with',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with deal with.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dealing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of buying, selling , or doing business with people',
+    meaningZh: '',
+    exampleSentence: 'penalties for drug dealing',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'deals',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with deals.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dear',
+    partOfSpeech: 'interjection',
+    simpleDefinitionEn: 'expensive',
+    meaningZh: '',
+    exampleSentence: 'Cars are 59% dearer in Britain than in Europe.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'death',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the end of the life of a person or animal',
+    meaningZh: '',
+    exampleSentence: 'The death of his mother came as a tremendous shock.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'deaths',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with deaths.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'debate',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'discussion of a particular subject that often continues for a long time and in which people express different opinions',
+    meaningZh: '',
+    exampleSentence: 'the gun-control debate in the US',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'debt',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a sum of money that a person or organization owes',
+    meaningZh: '',
+    exampleSentence: 'She had debts of over £100,000.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'debut',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the first public appearance of an entertainer , sports player etc or of something new and important',
+    meaningZh: '',
+    exampleSentence: 'He made his Major League debut as shortstop.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'decade',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a period of 10 years',
+    meaningZh: '',
+    exampleSentence: 'This is an example with decade.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'decades',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with decades.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'december',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the 12th month of the year, between November and January',
+    meaningZh: '',
+    exampleSentence: 'Last December they visited Prague.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'decide',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make a choice or judgment about something, especially after considering all the possibilities or arguments',
+    meaningZh: '',
+    exampleSentence: 'Has anything been decided yet?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'decide against',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with decide against.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'decide on',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with decide on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'decided',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'definite and easily noticed',
+    meaningZh: '',
+    exampleSentence: 'a decided change for the better',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'decision',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a choice or judgment that you make after a period of discussion or thought',
+    meaningZh: '',
+    exampleSentence: 'Do you ever wonder if you made the right decision?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'decisions',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with decisions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'declared',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'stated officially and publicly',
+    meaningZh: '',
+    exampleSentence: 'It is their declared intention to increase taxes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dedicated',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'someone who is dedicated works very hard at what they do because they care a lot about it',
+    meaningZh: '',
+    exampleSentence: 'a dedicated and thoughtful teacher',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'deep',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'going far down from the top or from the surface',
+    meaningZh: '',
+    exampleSentence: 'The castle is on an island surrounded by a deep lake.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'defeat',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'failure to win or succeed',
+    meaningZh: '',
+    exampleSentence: 'The socialist party suffered a crushing defeat in the elections.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'defence',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of protecting something or someone from attack',
+    meaningZh: '',
+    exampleSentence: 'In Britain, the defence of the country has historically been left to the navy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'defend',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to do something in order to protect someone or something from being attacked',
+    meaningZh: '',
+    exampleSentence: 'a struggle to defend our homeland',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'defense',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the American spelling of defence',
+    meaningZh: '',
+    exampleSentence: 'This is an example with defense.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'defined',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with defined.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'definitely',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'without any doubt',
+    meaningZh: '',
+    exampleSentence: '‘Do you reckon Margot will be there?’ ‘ Definitely not .’',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'definition',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a phrase or sentence that says exactly what a word, phrase, or idea means',
+    meaningZh: '',
+    exampleSentence: 'a dictionary definition',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'degree',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a unit for measuring temperature . It can be shown as a symbol after a number. For example , 70° means 70 degrees',
+    meaningZh: '',
+    exampleSentence: 'Preheat the oven to 425 degrees.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'degrees',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with degrees.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'deliver',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to take goods, letters , packages etc to a particular place or person',
+    meaningZh: '',
+    exampleSentence: 'The morning mail has just been delivered.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'delivered',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with delivered.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'delivery',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of bringing goods, letters etc to a particular person or place, or the things that are brought',
+    meaningZh: '',
+    exampleSentence: 'Most Indian restaurants offer free delivery.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'demand',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the need or desire that people have for particular goods and services',
+    meaningZh: '',
+    exampleSentence: 'Production is increasing faster than demand.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'democracy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a system of government in which every citizen in the country can vote to elect its government officials',
+    meaningZh: '',
+    exampleSentence: 'a return to democracy after 16 years of military rule',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'democratic',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'controlled by representatives who are elected by the people of a country',
+    meaningZh: '',
+    exampleSentence: 'a democratic government',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'democrats',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with democrats.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'department',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the groups of people who work together in a particular part of a large organization such as a hospital , university , company, or government',
+    meaningZh: '',
+    exampleSentence: 'the personnel department',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'depend on',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with depend on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'depending',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with depending.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'depends',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with depends.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'depression',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a medical condition that makes you very unhappy and anxious and often prevents you from living a normal life',
+    meaningZh: '',
+    exampleSentence: 'women who suffer from post-natal depression (= that sometimes happens after the birth of a baby )',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'depth',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the distance from the top surface of something such as a river or hole to the bottom of it',
+    meaningZh: '',
+    exampleSentence: 'a sea with an average depth of 35 metres',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'deputy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who is directly below another person in rank , and who is officially in charge when that person is not there',
+    meaningZh: '',
+    exampleSentence: 'the Deputy Secretary of State',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'describe',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to say what something or someone is like by giving details about them',
+    meaningZh: '',
+    exampleSentence: 'The police asked her to describe the man.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'described',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with described.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'description',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of writing or speech that gives details about what someone or something is like',
+    meaningZh: '',
+    exampleSentence: 'an accurate description of the event',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'deserve',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have earned something by good or bad actions or behaviour',
+    meaningZh: '',
+    exampleSentence: 'What have I done to deserve this?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'design',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the art or process of making a drawing of something to show how you will make it or what it will look like',
+    meaningZh: '',
+    exampleSentence: 'The new plane is in its final design stage.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'designed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with designed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'desire',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a strong hope or wish',
+    meaningZh: '',
+    exampleSentence: 'a strong desire to win',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'despite',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'used to say that something happens or is true even though something else might have prevented it',
+    meaningZh: '',
+    exampleSentence: 'Despite all our efforts to save the school, the authorities decided to close it.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'destroy',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to damage something so badly that it no longer exists or cannot be used or repaired',
+    meaningZh: '',
+    exampleSentence: 'The school was completely destroyed by fire.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'destroyed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with destroyed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'detail',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a single feature , fact, or piece of information about something',
+    meaningZh: '',
+    exampleSentence: 'She told me every detail of her trip.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'detailed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'containing or including a lot of information or details',
+    meaningZh: '',
+    exampleSentence: 'a detailed study of crime in Seattle',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'details',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'information that helps to complete what you know about something',
+    meaningZh: '',
+    exampleSentence: 'Full details of the incident were recently revealed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'determine',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to find out the facts about something',
+    meaningZh: '',
+    exampleSentence: 'Investigators are still trying to determine the cause of the fire.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'determined',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a strong desire to do something, so that you will not let anyone stop you',
+    meaningZh: '',
+    exampleSentence: 'Gwen is a very determined woman.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'develop',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to grow or change into something bigger, stronger, or more advanced , or to make someone or something do this',
+    meaningZh: '',
+    exampleSentence: 'Knowledge in the field of genetics has been developing very rapidly.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'developed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a developed country is one of the rich countries of the world with many industries , comfortable living for most people, and usually an elected government',
+    meaningZh: '',
+    exampleSentence: 'energy consumption in the developed world',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'developing',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a developing country is a poor country that is trying to increase its industry and trade and improve life for its people',
+    meaningZh: '',
+    exampleSentence: 'aid to developing countries',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'development',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of gradually becoming bigger, better, stronger, or more advanced',
+    meaningZh: '',
+    exampleSentence: 'child development',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'device',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a machine or tool that does a special job',
+    meaningZh: '',
+    exampleSentence: 'modern labour-saving devices',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'devices',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with devices.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dick',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a penis',
+    meaningZh: '',
+    exampleSentence: 'He’s acting like a complete dick.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dictionary',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a book that gives a list of words in alphabetical order and explains their meanings in the same language , or another language',
+    meaningZh: '',
+    exampleSentence: 'a German – English dictionary',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'die',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to stop living and become dead',
+    meaningZh: '',
+    exampleSentence: 'He died in 1985 at the age of 76.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'died',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with died.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'diet',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a way of eating in which you only eat certain foods, in order to lose weight , or to improve your health',
+    meaningZh: '',
+    exampleSentence: 'Lyn always seems to be on a diet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'difference',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a way in which two or more people or things are not like each other',
+    meaningZh: '',
+    exampleSentence: 'There’s a big difference between knowing that something is true, and being able to prove it.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'differences',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with differences.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'different',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not like something or someone else, or not like before',
+    meaningZh: '',
+    exampleSentence: 'Our sons are very different from each other.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'difficult',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'hard to do, understand , or deal with',
+    meaningZh: '',
+    exampleSentence: 'a difficult question',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'digital',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'using a system in which information is recorded or sent out electronically in the form of numbers, usually ones and zeros',
+    meaningZh: '',
+    exampleSentence: 'digital TV',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dinner',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the main meal of the day, eaten in the middle of the day or the evening',
+    meaningZh: '',
+    exampleSentence: 'What time do you usually have dinner?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'direct',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'done without any other people, actions, processes etc coming between',
+    meaningZh: '',
+    exampleSentence: 'Experienced users have direct access to the main data files.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'directed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with directed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'direction',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the way something or someone moves, faces, or is aimed',
+    meaningZh: '',
+    exampleSentence: 'Which direction did they go in ?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'directly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'with no other person, action, process etc between',
+    meaningZh: '',
+    exampleSentence: 'The new property tax law won’t directly affect us.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'director',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who controls or manages a company',
+    meaningZh: '',
+    exampleSentence: 'a former director of Gartmore Pensions Ltd',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dirty',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'covered in or marked by an unwanted substance',
+    meaningZh: '',
+    exampleSentence: 'a stack of dirty dishes in the sink',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'discovered',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with discovered.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'discuss',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to talk about something with another person or a group in order to exchange ideas or decide something',
+    meaningZh: '',
+    exampleSentence: 'Littman refused to discuss the case publicly.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'discussion',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when you discuss something',
+    meaningZh: '',
+    exampleSentence: 'class discussions',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'disease',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an illness which affects a person, animal, or plant',
+    meaningZh: '',
+    exampleSentence: 'She suffers from a rare disease of the brain.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'display',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an arrangement of things for people to look at or buy',
+    meaningZh: '',
+    exampleSentence: 'a superb display of African masks',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'distance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the amount of space between two places or things',
+    meaningZh: '',
+    exampleSentence: 'the distance from Chicago to Detroit',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'distribution',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of sharing things among a large group of people in a planned way',
+    meaningZh: '',
+    exampleSentence: 'the distribution of aid supplies',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'district',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an area of a town or the countryside , especially one with particular features',
+    meaningZh: '',
+    exampleSentence: 'a house in a pleasant suburban district',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'divided',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with divided.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'division',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of separating something into two or more different parts, or the way these parts are separated or shared',
+    meaningZh: '',
+    exampleSentence: 'the division of words into syllables',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dna',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a substance that carries genetic information in the cells of the body',
+    meaningZh: '',
+    exampleSentence: 'A DNA test showed that he was not the baby\'s father.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'doctor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who is trained to treat people who are ill',
+    meaningZh: '',
+    exampleSentence: 'She was treated by her local doctor.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'doctors',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with doctors.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'document',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of paper that has official information on it',
+    meaningZh: '',
+    exampleSentence: 'His research documents how the crisis occurred.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'documents',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with documents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dog',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a common animal with four legs , fur , and a tail . Dogs are kept as pets or trained to guard places, find drugs etc',
+    meaningZh: '',
+    exampleSentence: 'I could hear a dog barking .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dogs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'feet',
+    meaningZh: '',
+    exampleSentence: 'Boy, my dogs really hurt.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dollar',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the standard unit of money in the US, Canada , Australia, and some other countries, divided into 100 cent s : symbol $',
+    meaningZh: '',
+    exampleSentence: 'It cost three dollars.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dollars',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with dollars.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'domestic',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to or happening in one particular country and not involving any other countries',
+    meaningZh: '',
+    exampleSentence: 'the booming domestic economy',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'don',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a university teacher, especially one who teaches at the universities of Oxford or Cambridge',
+    meaningZh: '',
+    exampleSentence: 'This is an example with don.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'donald',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with donald.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dont',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with dont.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'door',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the large flat piece of wood , glass etc that you move when you go into or out of a building, room, vehicle etc, or when you open a cupboard',
+    meaningZh: '',
+    exampleSentence: 'Could you open the door for me?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'doors',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a US rock group, who were extremely popular in the late 1960s and early 1970s. Their singer was Jim Morrison and their songs included Light My Fire and Riders on the Storm .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with doors.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'double',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'consisting of two parts that are similar or exactly the same',
+    meaningZh: '',
+    exampleSentence: 'a double sink',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'doubt',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a feeling of being not sure whether something is true or right',
+    meaningZh: '',
+    exampleSentence: 'The incident raises doubts about the safety of nuclear power.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'down',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'to or towards a lower place or position',
+    meaningZh: '',
+    exampleSentence: 'David bent down to tie his shoelace.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'download',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move information or programs from a computer network to a small computer',
+    meaningZh: '',
+    exampleSentence: 'games that can be downloaded free from the Internet',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'draft',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of writing or a plan that is not yet in its finished form',
+    meaningZh: '',
+    exampleSentence: 'the rough draft of his new novel',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'drama',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a play for the theatre , television , radio etc, usually a serious one, or plays in general',
+    meaningZh: '',
+    exampleSentence: 'the great traditions of ancient Greek drama',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'draw',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to produce a picture of something using a pencil , pen etc',
+    meaningZh: '',
+    exampleSentence: 'Katie had drawn a cottage with a little stream running next to it.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'drawing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a picture that you draw with a pencil , pen etc',
+    meaningZh: '',
+    exampleSentence: 'a drawing of Canterbury Cathedral',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'drawn',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of draw',
+    meaningZh: '',
+    exampleSentence: 'This is an example with drawn.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dream',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a series of thoughts , images , and feelings that you experience when you are asleep',
+    meaningZh: '',
+    exampleSentence: 'I had lots of dreams last night.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dream about',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with dream about.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dream of',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with dream of.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dreams',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with dreams.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dress',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of clothing worn by a woman or girl that covers the top of her body and part or all of her legs',
+    meaningZh: '',
+    exampleSentence: 'Sheila wore a long red dress.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'drew',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of draw',
+    meaningZh: '',
+    exampleSentence: 'This is an example with drew.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'drink',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to take liquid into your mouth and swallow it',
+    meaningZh: '',
+    exampleSentence: 'You should drink plenty of water.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'drinking',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of drinking alcohol',
+    meaningZh: '',
+    exampleSentence: 'after a night of heavy drinking (= drinking a lot of alcohol )',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'drive',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make a car, truck , bus etc move along',
+    meaningZh: '',
+    exampleSentence: 'I am planning to drive to Morocco next year.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'driven',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of drive',
+    meaningZh: '',
+    exampleSentence: 'He claims he is not a driven workaholic.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'driver',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who drives a car, bus etc',
+    meaningZh: '',
+    exampleSentence: 'a taxi driver',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'drivers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with drivers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'driving',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of driving a car, truck etc',
+    meaningZh: '',
+    exampleSentence: 'driving lessons',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'drop',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to stop holding or carrying something so that it falls',
+    meaningZh: '',
+    exampleSentence: 'He dropped his briefcase on a chair.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dropped',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with dropped.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'drug',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an illegal substance such as marijuana or cocaine , which some people take in order to feel happy , relaxed , or excited',
+    meaningZh: '',
+    exampleSentence: 'A lot of young people start taking drugs at school.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'drugs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with drugs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'drunk',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of drink',
+    meaningZh: '',
+    exampleSentence: 'You’re drunk.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dry',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'without water or liquid inside or on the surface',
+    meaningZh: '',
+    exampleSentence: 'I need to change into some dry clothes .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dude',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a man',
+    meaningZh: '',
+    exampleSentence: 'a real cool dude',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'due',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'expected to happen or arrive at a particular time',
+    meaningZh: '',
+    exampleSentence: 'The team are due to fly to Italy next month.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dumb',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'stupid',
+    meaningZh: '',
+    exampleSentence: 'What a dumb question.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'duty',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that you have to do because it is morally or legally right',
+    meaningZh: '',
+    exampleSentence: 'I promise I will do my duty .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'dying',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the present participle of die',
+    meaningZh: '',
+    exampleSentence: 'It was her dying wish to have a simple burial.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'each',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'every one of two or more things or people, considered separately',
+    meaningZh: '',
+    exampleSentence: 'She had a bottle in each hand.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'earlier',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with earlier.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'early',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'in the first part of a period of time, event, or process',
+    meaningZh: '',
+    exampleSentence: 'the early morning sunshine',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'earn',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to receive a particular amount of money for the work that you do',
+    meaningZh: '',
+    exampleSentence: 'He earns nearly £20,000 a year.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'earned',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with earned.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'earth',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the planet that we live on',
+    meaningZh: '',
+    exampleSentence: 'the planet Earth',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'easier',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with easier.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'easily',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'without problems or difficulties',
+    meaningZh: '',
+    exampleSentence: 'They won quite easily.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'east',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the direction from which the sun rises , and which is on the right if you are facing north',
+    meaningZh: '',
+    exampleSentence: 'Which way is east?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'eastern',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'in or from the east of a country or area',
+    meaningZh: '',
+    exampleSentence: 'the eastern shore of the island',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'easy',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not difficult to do, and not needing much effort',
+    meaningZh: '',
+    exampleSentence: 'The test was easy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'eat',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to put food in your mouth and chew and swallow it',
+    meaningZh: '',
+    exampleSentence: 'Felix chatted cheerfully as he ate.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'eating',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with eating.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'economic',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to trade , industry , and the management of money',
+    meaningZh: '',
+    exampleSentence: 'Economic growth is slow.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'economy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the system by which a country’s money and goods are produced and used, or a country considered in this way',
+    meaningZh: '',
+    exampleSentence: 'a successful economy',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'edge',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of an object that is furthest from its centre',
+    meaningZh: '',
+    exampleSentence: 'Put the eggs in the centre of the dish, with the vegetables and herbs around the edge.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'edition',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the form that a book , newspaper , magazine etc is produced in',
+    meaningZh: '',
+    exampleSentence: 'a paperback edition',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'editor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the person who is in charge of a newspaper or magazine , or part of a newspaper or magazine, and decides what should be included in it',
+    meaningZh: '',
+    exampleSentence: 'the editor of the Daily Telegraph',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'education',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of teaching and learning , usually at school, college , or university',
+    meaningZh: '',
+    exampleSentence: 'She also hopes her children will get a good education.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'educational',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to education',
+    meaningZh: '',
+    exampleSentence: 'the educational development of children',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'edward',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with edward.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'effect',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a change that is caused by an event , action etc',
+    meaningZh: '',
+    exampleSentence: 'My parents’ divorce had a big effect on me.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'effective',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'successful , and working in the way that was intended',
+    meaningZh: '',
+    exampleSentence: 'The cheaper drugs are just as effective in treating arthritis.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'effectively',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in a way that produces the result that was intended',
+    meaningZh: '',
+    exampleSentence: 'Children have to learn to communicate effectively.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'effects',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the things that someone owns',
+    meaningZh: '',
+    exampleSentence: 'Don’s few personal effects were in a suitcase under the bed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'effort',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the physical or mental energy that is needed to do something',
+    meaningZh: '',
+    exampleSentence: 'Lou lifted the box easily, without using much effort.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'efforts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with efforts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'egg',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a round object with a hard surface , that contains a baby bird , snake , insect etc and which is produced by a female bird, snake, insect etc',
+    meaningZh: '',
+    exampleSentence: 'Blackbirds lay their eggs in March.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'eggs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with eggs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'eight',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 8',
+    meaningZh: '',
+    exampleSentence: 'It’s only eight days till Christmas.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'either',
+    partOfSpeech: 'conjunction',
+    simpleDefinitionEn: 'one or the other of two things or people',
+    meaningZh: '',
+    exampleSentence: 'There’s tea or coffee – you can have either.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'elected',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with elected.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'election',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when people vote to choose someone for an official position',
+    meaningZh: '',
+    exampleSentence: 'The Labour Party won the 2001 election by a huge majority.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'elections',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with elections.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'electric',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'needing electricity to work, produced by electricity, or used for carrying electricity',
+    meaningZh: '',
+    exampleSentence: 'the heat from a small electric fire',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'electronic',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'electronic equipment , such as computers and televisions , uses electricity that has passed through computer chip s, transistor s etc',
+    meaningZh: '',
+    exampleSentence: 'electronic games',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'element',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one part or feature of a whole system, plan, piece of work etc, especially one that is basic or important',
+    meaningZh: '',
+    exampleSentence: 'Honesty is a vital element of her success.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'elements',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with elements.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'elizabeth',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with elizabeth.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'else',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'besides or in addition to someone or something',
+    meaningZh: '',
+    exampleSentence: 'There’s something else I’d like to talk about as well.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'elsewhere',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in, at, or to another place',
+    meaningZh: '',
+    exampleSentence: 'She is becoming famous in Australia and elsewhere.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'email',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a system that allows you to send and receive messages by computer',
+    meaningZh: '',
+    exampleSentence: 'It’s usually best to contact him by email.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'emergency',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an unexpected and dangerous situation that must be dealt with immediately',
+    meaningZh: '',
+    exampleSentence: 'Lifeguards are trained to deal with emergencies .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'emotional',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to your feelings or how you control them',
+    meaningZh: '',
+    exampleSentence: 'She provided emotional support at a very distressing time for me.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'empire',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the British Empire',
+    meaningZh: '',
+    exampleSentence: 'the Roman empire',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'employee',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who is paid to work for someone else',
+    meaningZh: '',
+    exampleSentence: 'a government employee',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'employees',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with employees.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'employment',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the condition of having a paid job',
+    meaningZh: '',
+    exampleSentence: 'She was offered employment in the sales office.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'empty',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having nothing inside',
+    meaningZh: '',
+    exampleSentence: 'an empty box',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'end',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the last part of a period of time, event, activity, or story',
+    meaningZh: '',
+    exampleSentence: 'Costs are expected to double by the end of 2012.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ended',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ended.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ending',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the way that a story , film , activity etc finishes',
+    meaningZh: '',
+    exampleSentence: 'a story with a happy ending',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ends',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ends.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'enemy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who hates you and wants to harm you',
+    meaningZh: '',
+    exampleSentence: 'She’s a dangerous enemy to have.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'energy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'power that is used to provide heat , operate machines etc',
+    meaningZh: '',
+    exampleSentence: 'The water is heated using energy from the sun.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'engaged',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if two people are engaged , they have agreed to marry',
+    meaningZh: '',
+    exampleSentence: 'Have you heard? Sally and Ray are getting engaged .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'engine',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of a vehicle that produces power to make it move',
+    meaningZh: '',
+    exampleSentence: 'The engine won’t start.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'engineer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone whose job is to design or build roads , bridges , machines etc',
+    meaningZh: '',
+    exampleSentence: 'He trained as a civil engineer (= one who designs and builds roads, bridges etc ) .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'engineering',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the work involved in designing and building roads , bridges , machines etc',
+    meaningZh: '',
+    exampleSentence: 'Most students specialize in one single branch of engineering.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'england',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the largest country in Britain; capital London',
+    meaningZh: '',
+    exampleSentence: 'This is an example with england.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'english',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the language used in Britain, the US, Australia, and some other countries',
+    meaningZh: '',
+    exampleSentence: 'Do you speak English?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'enjoy',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to get pleasure from something',
+    meaningZh: '',
+    exampleSentence: 'Sandra enjoys her job in the city.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'enjoyed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with enjoyed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'enough',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'to the degree that is necessary or wanted',
+    meaningZh: '',
+    exampleSentence: 'Are the carrots cooked enough?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ensure',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make certain that something will happen properly',
+    meaningZh: '',
+    exampleSentence: 'facilities to ensure the safety of cyclists',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'enter',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to go or come into a place',
+    meaningZh: '',
+    exampleSentence: 'Silence fell as I entered the room.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'entered',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with entered.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'entertainment',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'things such as films , television , performances etc that are intended to amuse or interest people',
+    meaningZh: '',
+    exampleSentence: 'The town provides a wide choice of entertainment.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'entire',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'used when you want to emphasize that you mean all of a group, period of time, amount etc',
+    meaningZh: '',
+    exampleSentence: 'It was the worst day in my entire life.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'entirely',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'completely and in every possible way',
+    meaningZh: '',
+    exampleSentence: 'Our situation is entirely different.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'entitled',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with entitled.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'entry',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of going into something',
+    meaningZh: '',
+    exampleSentence: 'It was dark and their entry into the camp had gone unnoticed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'environment',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the people and things that are around you in your life, for example the buildings you use, the people you live or work with, and the general situation you are in',
+    meaningZh: '',
+    exampleSentence: 'The company had failed to provide a safe environment for its workers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'environmental',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'concerning or affecting the air, land, or water on Earth',
+    meaningZh: '',
+    exampleSentence: 'the environmental damage caused by the chemical industry',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'episode',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an event or a short period of time during which something happens',
+    meaningZh: '',
+    exampleSentence: 'She decided she would try to forget the episode by the lake.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'equal',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the same in size , number, amount, value etc as something else',
+    meaningZh: '',
+    exampleSentence: 'Both candidates received an equal number of votes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'equipment',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the tools , machines etc that you need to do a particular job or activity',
+    meaningZh: '',
+    exampleSentence: 'a shop selling camping equipment',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'equivalent',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having the same value , purpose , job etc as a person or thing of a different kind',
+    meaningZh: '',
+    exampleSentence: 'a qualification which is equivalent to a degree',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'era',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a period of time in history that is known for a particular event, or for particular qualities',
+    meaningZh: '',
+    exampleSentence: 'We live in an era of instant communication.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'eric',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with eric.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'error',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a mistake',
+    meaningZh: '',
+    exampleSentence: 'There must be an error in our calculations.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'escape',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to leave a place when someone is trying to catch you or stop you, or when there is a dangerous situation',
+    meaningZh: '',
+    exampleSentence: 'He broke down the locked door and escaped.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'especially',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to emphasize that something is more important or happens more with one particular thing than with others',
+    meaningZh: '',
+    exampleSentence: 'I never liked long walks, especially in winter.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'essential',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'extremely important and necessary',
+    meaningZh: '',
+    exampleSentence: 'A good diet is essential for everyone.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'establish',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to start a company, organization , system, etc that is intended to exist or continue for a long time',
+    meaningZh: '',
+    exampleSentence: 'The city of Boerne was established by German settlers in the 1840s.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'established',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'already in use or existing for a long period of time',
+    meaningZh: '',
+    exampleSentence: 'Competition from established businesses can be formidable.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'estate',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'all of someone’s property and money, especially everything that is left after they die',
+    meaningZh: '',
+    exampleSentence: 'The property is part of the deceased’s estate.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'estimated',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with estimated.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'etc',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used in writing after a list to show that there are many other similar things or people that you could have added',
+    meaningZh: '',
+    exampleSentence: 'a shop which sells cards, calendars, wrapping paper etc',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'europe',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the continent that is north of the Mediterranean and goes as far east as the Ural Mountains in Russia',
+    meaningZh: '',
+    exampleSentence: 'eastern Europe',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'european',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone from Europe',
+    meaningZh: '',
+    exampleSentence: 'European languages',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'evening',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the early part of the night between the end of the day and the time you go to bed',
+    meaningZh: '',
+    exampleSentence: 'I do most of my studying in the evening .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'event',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that happens, especially something important, interesting or unusual',
+    meaningZh: '',
+    exampleSentence: 'one of the most important events in the history of mankind',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'events',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with events.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'eventually',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'after a long time, or after a lot of things have happened',
+    meaningZh: '',
+    exampleSentence: 'He eventually escaped and made his way back to England.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ever',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'a word meaning at any time; used mostly in questions, negatives , comparisons , or sentences with ‘if’',
+    meaningZh: '',
+    exampleSentence: 'Nothing ever seems to upset him.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'every',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'used to refer to all the people or things in a particular group or all the parts of something',
+    meaningZh: '',
+    exampleSentence: 'We looked carefully at every car that drove past.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'everybody',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'everyone',
+    meaningZh: '',
+    exampleSentence: 'This is an example with everybody.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'everyday',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'ordinary , usual , or happening every day',
+    meaningZh: '',
+    exampleSentence: 'the problems of everyday life',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'everyone',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'every person',
+    meaningZh: '',
+    exampleSentence: 'If everyone is ready, I’ll begin.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'everything',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'each thing or all things',
+    meaningZh: '',
+    exampleSentence: 'Everything was covered in a thick layer of dust.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'everywhere',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in or to every place',
+    meaningZh: '',
+    exampleSentence: 'I’ve looked everywhere but I can’t find the map.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'evidence',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'facts or signs that show clearly that something exists or is true',
+    meaningZh: '',
+    exampleSentence: 'At present we have no evidence of life on other planets.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'evil',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'someone who is evil deliberately does very cruel things to harm other people',
+    meaningZh: '',
+    exampleSentence: 'an evil dictator responsible for the deaths of millions',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'exact',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'completely correct in every detail',
+    meaningZh: '',
+    exampleSentence: 'Police are still investigating the exact cause of the accident.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'exactly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used when emphasizing that something is no more and no less than a number or amount , or is completely correct in every detail',
+    meaningZh: '',
+    exampleSentence: 'It’s exactly half past five.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'exam',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a spoken or written test of knowledge , especially an important one',
+    meaningZh: '',
+    exampleSentence: 'At the end of each level, there’s an exam.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'example',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a specific fact , idea, person, or thing that is used to explain or support a general idea, or to show what is typical of a larger group',
+    meaningZh: '',
+    exampleSentence: 'Can anyone give me an example of a transitive verb?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'examples',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with examples.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'excellent',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'extremely good or of very high quality',
+    meaningZh: '',
+    exampleSentence: 'an excellent suggestion',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'except',
+    partOfSpeech: 'conjunction',
+    simpleDefinitionEn: 'used to introduce the only person , thing, action , fact , or situation about which a statement is not true',
+    meaningZh: '',
+    exampleSentence: 'The office is open every day except Sundays.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'exchange',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of giving someone something and receiving something else from them',
+    meaningZh: '',
+    exampleSentence: 'an exchange of political prisoners',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'excited',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happy , interested , or hopeful because something good has happened or will happen',
+    meaningZh: '',
+    exampleSentence: 'Steve flies home tomorrow – we’re all really excited.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'exciting',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'making you feel excited',
+    meaningZh: '',
+    exampleSentence: 'an exciting discovery',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'exclusive',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'available or belonging only to particular people, and not shared',
+    meaningZh: '',
+    exampleSentence: 'Our figure skating club has exclusive use of the rink on Mondays.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'excuse',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to forgive someone for doing something that is not seriously wrong , such as being rude or careless',
+    meaningZh: '',
+    exampleSentence: 'I’ll excuse you this time, but don’t be late again.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'executive',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a manager in an organization or company who helps make important decisions',
+    meaningZh: '',
+    exampleSentence: 'a marketing executive',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'exercise',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'physical activities that you do in order to stay healthy and become stronger',
+    meaningZh: '',
+    exampleSentence: 'Try to fit some regular exercise into your daily routine.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'exist',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to happen or be present in a particular situation or place',
+    meaningZh: '',
+    exampleSentence: 'The custom of arranged marriages still exists in many countries.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'existence',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the state of existing',
+    meaningZh: '',
+    exampleSentence: 'It is impossible to prove the existence of God.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'existing',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'present or being used now',
+    meaningZh: '',
+    exampleSentence: 'the existing laws',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'exists',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with exists.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'expansion',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when something increases in size , range , amount etc',
+    meaningZh: '',
+    exampleSentence: 'The rapid expansion of cities can cause social and economic problems.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'expect',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to think that something will happen because it seems likely or has been planned',
+    meaningZh: '',
+    exampleSentence: 'I expect to be back within a week.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'expected',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with expected.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'expensive',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'costing a lot of money',
+    meaningZh: '',
+    exampleSentence: 'the most expensive restaurant in town',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'experience',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'knowledge or skill that you gain from doing a job or activity, or the process of doing this',
+    meaningZh: '',
+    exampleSentence: 'You’ve got a lot of experience of lecturing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'experienced',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'possessing skills or knowledge because you have done something often or for a long time',
+    meaningZh: '',
+    exampleSentence: 'an experienced pilot',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'experiences',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with experiences.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'expert',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who has a special skill or special knowledge of a subject , gained as a result of training or experience',
+    meaningZh: '',
+    exampleSentence: 'He’s a world expert on marine mammals.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'experts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with experts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'explain',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to tell someone about something in a way that is clear or easy to understand',
+    meaningZh: '',
+    exampleSentence: 'He carefully explained the procedure.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'explained',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with explained.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'exposed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not protected from the weather',
+    meaningZh: '',
+    exampleSentence: 'an exposed coastline',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'express',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to tell or show what you are feeling or thinking by using words, looks, or actions',
+    meaningZh: '',
+    exampleSentence: 'Bill’s not afraid to express his opinions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'expressed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with expressed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'expression',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something you say, write, or do that shows what you think or feel',
+    meaningZh: '',
+    exampleSentence: 'I decided to go to the meeting as an expression of support.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'extended',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'made longer or bigger',
+    meaningZh: '',
+    exampleSentence: 'an extended business trip',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'extension',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of making a road , building etc bigger or longer, or the part that is added',
+    meaningZh: '',
+    exampleSentence: 'the extension of the Jubilee underground line',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'extensive',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'large in size , amount, or degree',
+    meaningZh: '',
+    exampleSentence: 'The house stands in extensive grounds.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'extent',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'how large, important, or serious something is, especially something such as a problem or injury',
+    meaningZh: '',
+    exampleSentence: 'Considering the extent of his injuries, he’s lucky to be alive.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'external',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to the outside of something or of a person’s body',
+    meaningZh: '',
+    exampleSentence: 'the external appearance of the building',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'extra',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'more of something, in addition to the usual or standard amount or number',
+    meaningZh: '',
+    exampleSentence: 'Could you get an extra loaf of bread?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'extreme',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'very great in degree',
+    meaningZh: '',
+    exampleSentence: 'Extreme poverty still exists in many rural areas.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'extremely',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'to a very great degree',
+    meaningZh: '',
+    exampleSentence: 'Earthquakes are extremely difficult to predict.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'eye',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the two parts of the body that you use to see with',
+    meaningZh: '',
+    exampleSentence: 'He’s got beautiful eyes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'eyes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with eyes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'face',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the front part of your head, where your eyes, nose , and mouth are',
+    meaningZh: '',
+    exampleSentence: 'She had a beautiful face.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'facebook',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a social networking website started in 2004',
+    meaningZh: '',
+    exampleSentence: 'This is an example with facebook.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'faced',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with faced.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'faces',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with faces.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'facilities',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'rooms, equipment , or services that are provided for a particular purpose',
+    meaningZh: '',
+    exampleSentence: 'All rooms have private facilities (= private bathroom and toilet ) .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'facility',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a special part of a piece of equipment or a system which makes it possible to do something',
+    meaningZh: '',
+    exampleSentence: 'Is there a call-back facility on this phone?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'facing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an outer surface of a wall or building made of a different material from the rest in order to make it look attractive',
+    meaningZh: '',
+    exampleSentence: 'This is an example with facing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fact',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of information that is known to be true',
+    meaningZh: '',
+    exampleSentence: 'The book is full of facts about the World Cup.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'factor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of several things that influence or cause a situation',
+    meaningZh: '',
+    exampleSentence: 'The rise in crime is mainly due to social and economic factors.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'factors',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with factors.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'factory',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a building or group of buildings in which goods are produced in large quantities , using machines',
+    meaningZh: '',
+    exampleSentence: 'a car factory',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'facts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with facts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fail',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to not succeed in achieving something',
+    meaningZh: '',
+    exampleSentence: 'It looks likely that the peace talks will fail.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'failed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with failed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'failure',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a lack of success in achieving or doing something',
+    meaningZh: '',
+    exampleSentence: 'Successful people often aren’t very good at dealing with failure.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fair',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a fair situation, system, way of treating people, or judgment seems reasonable , acceptable , and right',
+    meaningZh: '',
+    exampleSentence: 'All we are asking for is a fair wage.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fairly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'more than a little, but much less than very',
+    meaningZh: '',
+    exampleSentence: 'The house had a fairly large garden.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'faith',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a strong feeling of trust or confidence in someone or something',
+    meaningZh: '',
+    exampleSentence: 'I still have faith in him.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fake',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a copy of a valuable object , painting etc that is intended to deceive people',
+    meaningZh: '',
+    exampleSentence: 'The painting was judged a fake.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fall',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move or drop down from a higher position to a lower position',
+    meaningZh: '',
+    exampleSentence: 'The tree was about to fall.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'falling',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with falling.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'falls',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where a river suddenly goes straight down over a cliff',
+    meaningZh: '',
+    exampleSentence: 'The spray from the falls is so dense that you can hardly see.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'false',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a statement , story etc that is false is completely untrue',
+    meaningZh: '',
+    exampleSentence: 'Please decide whether the following statements are true or false .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'familiar',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'someone or something that is familiar is well-known to you and easy to recognize',
+    meaningZh: '',
+    exampleSentence: 'a familiar tune',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'families',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with families.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'family',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of people who are related to each other, especially a mother , a father , and their children',
+    meaningZh: '',
+    exampleSentence: 'Do you know the family next door?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'famous',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'known about by many people in many places',
+    meaningZh: '',
+    exampleSentence: 'a famous actor',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fan',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who likes a particular sport or performing art very much, or who admires a famous person',
+    meaningZh: '',
+    exampleSentence: 'Groups of football fans began heading towards the ground.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fans',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with fans.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fantastic',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'extremely good, attractive , enjoyable etc',
+    meaningZh: '',
+    exampleSentence: 'You look fantastic!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fantasy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an exciting and unusual experience or situation that you imagine happening to you, but which will probably never happen',
+    meaningZh: '',
+    exampleSentence: 'I used to have fantasies about living in Paris with an artist.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'far',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'a long distance',
+    meaningZh: '',
+    exampleSentence: 'Have you driven far?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'farm',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an area of land used for growing crops or keeping animals',
+    meaningZh: '',
+    exampleSentence: 'a 300-hectare farm',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fashion',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that is popular or thought to be good at a particular time',
+    meaningZh: '',
+    exampleSentence: 'the fashion for ‘discovery methods’ of learning',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fast',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'moving or able to move quickly',
+    meaningZh: '',
+    exampleSentence: 'a fast car',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'faster',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with faster.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fat',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'weighing too much because you have too much flesh on your body',
+    meaningZh: '',
+    exampleSentence: 'Are you suggesting I’m too fat?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'father',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a male parent',
+    meaningZh: '',
+    exampleSentence: 'Ask your father to help you.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fault',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'if something bad that has happened is your fault, you should be blamed for it, because you made a mistake or failed to do something',
+    meaningZh: '',
+    exampleSentence: 'I’m really sorry – it’s all my fault.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'favor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the American spelling of favour',
+    meaningZh: '',
+    exampleSentence: 'This is an example with favor.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'favorite',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the American spelling of favourite',
+    meaningZh: '',
+    exampleSentence: 'This is an example with favorite.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'favourite',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'your favourite person or thing is the one that you like the most',
+    meaningZh: '',
+    exampleSentence: 'a child’s favourite toy',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fear',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the feeling you get when you are afraid or worried that something bad is going to happen',
+    meaningZh: '',
+    exampleSentence: 'a fear of flying',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'feature',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a part of something that you notice because it seems important, interesting , or typical',
+    meaningZh: '',
+    exampleSentence: 'Air bags are a standard feature in most new cars.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'features',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with features.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'february',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the second month of the year, between January and March',
+    meaningZh: '',
+    exampleSentence: 'Mum died last February.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of feed 1',
+    meaningZh: '',
+    exampleSentence: 'The bond market rallied as the Fed eased monetary conditions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'federal',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a federal country or system of government consists of a group of states which control their own affairs , but which are also controlled by a single national government which makes decisions on foreign affairs, defence etc',
+    meaningZh: '',
+    exampleSentence: 'Switzerland is a federal republic.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fee',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an amount of money that you pay to do something or that you pay to a professional person for their work',
+    meaningZh: '',
+    exampleSentence: 'You can use the gym and pool for a fee of £35 a month.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'feed',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to give food to a person or animal',
+    meaningZh: '',
+    exampleSentence: 'Have you fed the cat?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'feel',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to experience a particular physical feeling or emotion',
+    meaningZh: '',
+    exampleSentence: 'Do you still feel hungry?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'feeling',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an emotion that you feel, such as anger , sadness , or happiness',
+    meaningZh: '',
+    exampleSentence: 'Knowing we\'d won was a wonderful feeling.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'feelings',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone’s feelings are their thoughts , emotions , and attitudes',
+    meaningZh: '',
+    exampleSentence: 'He’s considerate of other people’s feelings.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'feels',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with feels.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fees',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with fees.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'feet',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the plural of foot',
+    meaningZh: '',
+    exampleSentence: 'This is an example with feet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fell',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of fall',
+    meaningZh: '',
+    exampleSentence: 'More than 100 trees were felled in just over an hour.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fellow',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a man',
+    meaningZh: '',
+    exampleSentence: 'Paul’s an easy-going sort of fellow.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'felt',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of feel',
+    meaningZh: '',
+    exampleSentence: 'This is an example with felt.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'female',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to women or girls',
+    meaningZh: '',
+    exampleSentence: 'female voters',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'festival',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an occasion when there are performances of many films , plays, pieces of music etc, usually happening in the same place every year',
+    meaningZh: '',
+    exampleSentence: 'the Swansea Festival of Music and the Arts',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'few',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'a small number of things or people',
+    meaningZh: '',
+    exampleSentence: 'I have to buy a few things at the supermarket.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'field',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an area of land in the country, especially one where crops are grown or animals feed on grass',
+    meaningZh: '',
+    exampleSentence: 'a view of green fields and rolling hills',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fields',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with fields.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fifth',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'coming after four other things in a series',
+    meaningZh: '',
+    exampleSentence: 'in the fifth century',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fight',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to take part in a war or battle',
+    meaningZh: '',
+    exampleSentence: 'the families of those who fought in the war',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fighting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when people or groups fight each other in a war, in the street etc',
+    meaningZh: '',
+    exampleSentence: 'heavy fighting between government and rebel forces',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'figure',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a number representing an amount, especially an official number',
+    meaningZh: '',
+    exampleSentence: 'Ohio’s unemployment figures for December',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'figures',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of adding, multiplying etc numbers',
+    meaningZh: '',
+    exampleSentence: 'a natural ability with figures',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'file',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of papers , records etc that contain information about a particular person or subject',
+    meaningZh: '',
+    exampleSentence: 'Mendoza read over the file on the murders.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'filed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with filed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'files',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with files.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fill',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if a container or place fills, or if you fill it, enough of something goes into it to make it full',
+    meaningZh: '',
+    exampleSentence: 'He poured her a drink, then filled his own glass.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fill in',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with fill in.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'filled',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with filled.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'film',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a story that is told using sound and moving pictures , shown at a cinema or on television',
+    meaningZh: '',
+    exampleSentence: 'Have you seen any good films recently?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'films',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with films.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'final',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'last in a series of actions, events, parts of a story etc',
+    meaningZh: '',
+    exampleSentence: 'The final episode will be shown tonight.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'finally',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'after a long time',
+    meaningZh: '',
+    exampleSentence: 'After several delays we finally took off at six o\'clock.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'finance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the management of money by governments, large organizations etc',
+    meaningZh: '',
+    exampleSentence: 'leasing and other forms of business finance',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'financial',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to money or the management of money',
+    meaningZh: '',
+    exampleSentence: 'financial transactions',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'find',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to discover , see, or get something that you have been searching for',
+    meaningZh: '',
+    exampleSentence: 'I can’t find the car keys.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'find out',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with find out.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'finding',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the information that someone has discovered as a result of their study, work etc',
+    meaningZh: '',
+    exampleSentence: 'Surveys conducted in other countries reported similar findings.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'finds',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with finds.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fine',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'satisfactory or acceptable',
+    meaningZh: '',
+    exampleSentence: '‘We’re meeting at 8.30.’ ‘Okay, fine.’',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'finger',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the four long thin parts on your hand, not including your thumb',
+    meaningZh: '',
+    exampleSentence: 'The woman had a ring on her finger, so I assumed she was married.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fingers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with fingers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'finish',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to complete the last part of something that you are doing',
+    meaningZh: '',
+    exampleSentence: 'You can’t go anywhere until you’ve finished your homework.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'finished',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'no longer doing, dealing with, or using something',
+    meaningZh: '',
+    exampleSentence: 'I’m almost finished.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fire',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'uncontrolled flames , light, and heat that destroy and damage things',
+    meaningZh: '',
+    exampleSentence: 'The warehouse was completely destroyed by fire.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fired',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with fired.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'firm',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a business or company, especially a small one',
+    meaningZh: '',
+    exampleSentence: 'She works for an electronics firm.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fish',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an animal that lives in water, and uses its fin s and tail to swim',
+    meaningZh: '',
+    exampleSentence: 'Over 1,500 different species of fish inhabit the waters around the reef.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fishing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the sport or business of catching fish',
+    meaningZh: '',
+    exampleSentence: 'Fishing is one of his hobbies.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fit',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if a piece of clothing fits you, it is the right size for your body',
+    meaningZh: '',
+    exampleSentence: 'His clothes did not fit him very well .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'five',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 5',
+    meaningZh: '',
+    exampleSentence: 'There is also a golf course five miles away.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fix',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to repair something that is broken or not working properly',
+    meaningZh: '',
+    exampleSentence: 'He’s outside fixing the brakes on the car.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fixed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'firmly fastened to a particular position',
+    meaningZh: '',
+    exampleSentence: 'a mirror fixed to the bathroom wall',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'flag',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of cloth with a coloured pattern or picture on it that represents a country or organization',
+    meaningZh: '',
+    exampleSentence: 'Children waving flags greeted the Russian leader.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'flat',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'smooth and level, without raised or hollow areas, and not sloping or curving',
+    meaningZh: '',
+    exampleSentence: 'houses with flat roofs',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'flight',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a journey in a plane or space vehicle , or the plane or vehicle that is making the journey',
+    meaningZh: '',
+    exampleSentence: 'He immediately booked a flight to Toulouse.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'floor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the flat surface that you stand on inside a building',
+    meaningZh: '',
+    exampleSentence: 'a polished wooden floor',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'florida',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a state in the southeastern US. Florida is known for having warm weather all year round , and many older people go there to live when they have stopped working. During spring break many US college students go to the seaside towns in Florida for a short holiday . Disney World and the Epcot Center are in Florida, and the area is also a popular place for British people to go for a holiday.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with florida.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'flow',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a smooth steady movement of liquid, gas, or electricity',
+    meaningZh: '',
+    exampleSentence: 'He struggled to swim against the flow of the water.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'flowers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with flowers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fly',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to travel by plane',
+    meaningZh: '',
+    exampleSentence: 'She’s flying back to the States tomorrow.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'flying',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'able to fly',
+    meaningZh: '',
+    exampleSentence: 'a story about a flying horse',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'focus',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to give special attention to one particular person or thing, or to make people do this',
+    meaningZh: '',
+    exampleSentence: 'He needs to focus more on his career.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'focused',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with focused.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'folder',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a container for keeping loose papers in, made of folded card or plastic',
+    meaningZh: '',
+    exampleSentence: 'All the correspondence is in this folder.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'folks',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'your parents and family',
+    meaningZh: '',
+    exampleSentence: 'Is it OK if I call my folks?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'follow',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to go, walk, drive etc behind or after someone else',
+    meaningZh: '',
+    exampleSentence: 'Are those men following us?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'followed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with followed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'following',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a group of people who support or admire someone',
+    meaningZh: '',
+    exampleSentence: 'The band has a big following in Europe.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'follows',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with follows.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'food',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'things that people and animals eat , such as vegetables or meat',
+    meaningZh: '',
+    exampleSentence: 'The restaurant serves good food at affordable prices.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'foot',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of your body that you stand on and walk on',
+    meaningZh: '',
+    exampleSentence: 'My foot hurts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'football',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a game played by two teams of eleven players who try to kick a round ball into the other team’s goal',
+    meaningZh: '',
+    exampleSentence: 'Which football team do you support?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'force',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of people who have been trained to do military work for a government or other organization',
+    meaningZh: '',
+    exampleSentence: 'The riots were suppressed by government forces.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'forced',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a forced smile , laugh etc is not natural or sincere',
+    meaningZh: '',
+    exampleSentence: '‘Oh, hello, ’ said Eileen, with forced brightness.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'forces',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with forces.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ford',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where a river is not deep , so that you can walk or drive across it',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ford.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'foreign',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'from or relating to a country that is not your own',
+    meaningZh: '',
+    exampleSentence: 'foreign students',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'forest',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large area of land that is covered with trees',
+    meaningZh: '',
+    exampleSentence: 'Much of Scandinavia is covered in dense forest.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'forever',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'for all future time',
+    meaningZh: '',
+    exampleSentence: 'I wanted that moment to last forever .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'forget',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to not remember facts , information , or people or things from the past',
+    meaningZh: '',
+    exampleSentence: 'I’m sorry, I’ve forgotten your name.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'forgot',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of forget',
+    meaningZh: '',
+    exampleSentence: 'This is an example with forgot.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'form',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a particular type of something that exists in many different varieties',
+    meaningZh: '',
+    exampleSentence: 'a severe form of cancer',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'format',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the way in which something such as a television show or meeting is organized or arranged',
+    meaningZh: '',
+    exampleSentence: 'The courses were run to a consistent format.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'formation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of starting a new organization or group',
+    meaningZh: '',
+    exampleSentence: 'the formation of a new government',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'formed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with formed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'former',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening or existing before, but not now',
+    meaningZh: '',
+    exampleSentence: 'the former Soviet Union',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'forms',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with forms.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'forward',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'towards a place or position that is in front of you',
+    meaningZh: '',
+    exampleSentence: 'He leaned forward , his elbows resting on the table.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fought',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of fight',
+    meaningZh: '',
+    exampleSentence: 'This is an example with fought.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'found',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense and past participle of find',
+    meaningZh: '',
+    exampleSentence: 'Founded in 1935 in Ohio, Alcoholics Anonymous is now a world-wide organization.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'foundation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the solid layer of cement , bricks , stones etc that is put under a building to support it',
+    meaningZh: '',
+    exampleSentence: 'It took the builders three weeks to lay the foundations .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'founded',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with founded.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'founder',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who establishes a business, organization , school etc',
+    meaningZh: '',
+    exampleSentence: 'Their marriage began to founder soon after the honeymoon.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'four',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 4',
+    meaningZh: '',
+    exampleSentence: 'She is married with four children.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fourth',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'coming after three other things in a series',
+    meaningZh: '',
+    exampleSentence: 'in the fourth century',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fox',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a wild animal like a dog with reddish-brown fur , a pointed face, and a thick tail',
+    meaningZh: '',
+    exampleSentence: 'He was a sly old fox.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'frame',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a structure made of wood , metal , plastic etc that surrounds something such as a picture or window, and holds it in place',
+    meaningZh: '',
+    exampleSentence: 'They removed the picture from its wooden frame.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'france',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country in western Europe and a member of the EU. Population : 65,951,611 (2014). Capital : Paris. France is known especially for its art, good food, and fine wines , and many British people go there on holiday . People from France are called French.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with france.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'francisco',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with francisco.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'frank',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'honest and truthful',
+    meaningZh: '',
+    exampleSentence: 'He was completely frank with her about what happened.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'free',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'something that is free does not cost you any money',
+    meaningZh: '',
+    exampleSentence: 'Admission is free for children under 9.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'freedom',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the right to do what you want without being controlled or restricted by anyone',
+    meaningZh: '',
+    exampleSentence: 'People here like their freedom and privacy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'french',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to France, its people, or its language',
+    meaningZh: '',
+    exampleSentence: 'an excellent French wine',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'frequently',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'very often or many times',
+    meaningZh: '',
+    exampleSentence: 'He was frequently drunk.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fresh',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'adding to or replacing something',
+    meaningZh: '',
+    exampleSentence: 'I’ll just make some fresh coffee.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'friday',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the day between Thursday and Saturday',
+    meaningZh: '',
+    exampleSentence: 'It’s Kate’s birthday on Friday.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'friend',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who you know and like very much and enjoy spending time with',
+    meaningZh: '',
+    exampleSentence: 'Jerry, this is my friend Sue.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'friendly',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'behaving towards someone in a way that shows you like them and are ready to talk to them or help them',
+    meaningZh: '',
+    exampleSentence: 'a friendly smile',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'friends',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a very popular US sitcom (=a television programme consisting of humorous stories about the same group of characters ) about a group of friends who live in New York City during the late 1990s. Friends was first broadcast from 1994 until 2004.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with friends.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'front',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the place where two areas of air of different temperatures meet, often shown as a line on weather maps',
+    meaningZh: '',
+    exampleSentence: 'The casino was used as a front for cross-border smuggling operations.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fruit',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that grows on a plant , tree , or bush , can be eaten as a food, contains seeds or a stone , and is usually sweet',
+    meaningZh: '',
+    exampleSentence: 'Try to eat plenty of fresh fruit .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fuck',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have sex with someone',
+    meaningZh: '',
+    exampleSentence: 'Fuck! I’ve forgotten my keys!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fucked',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'completely broken or in a very bad condition',
+    meaningZh: '',
+    exampleSentence: 'The engine’s completely fucked.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fucking',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'used to emphasize that you are angry or annoyed',
+    meaningZh: '',
+    exampleSentence: 'It’s none of your fucking business!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fuel',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a substance such as coal , gas , or oil that can be burned to produce heat or energy',
+    meaningZh: '',
+    exampleSentence: 'Coal is one of the cheapest fuels.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'full',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'containing as much or as many things or people as possible, so there is no space left',
+    meaningZh: '',
+    exampleSentence: 'The train was completely full.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fully',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'completely',
+    meaningZh: '',
+    exampleSentence: 'The restaurant is fully booked this evening.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fun',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an experience or activity that is very enjoyable and exciting',
+    meaningZh: '',
+    exampleSentence: 'There’s plenty of fun for all the family.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'function',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the purpose that something has, or the job that someone or something does',
+    meaningZh: '',
+    exampleSentence: 'In your new job you will perform a variety of functions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'functions',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with functions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'fund',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an amount of money that is collected and kept for a particular purpose',
+    meaningZh: '',
+    exampleSentence: 'The fund was set up to try to save the cathedral.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'funding',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'money that is provided by an organization for a particular purpose',
+    meaningZh: '',
+    exampleSentence: 'College directors have called for more government funding.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'funds',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'money that an organization needs or has',
+    meaningZh: '',
+    exampleSentence: 'A sale is being held to raise funds for the school.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'funny',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'making you laugh',
+    meaningZh: '',
+    exampleSentence: 'Do you remember any funny stories about work?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'further',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'more, or to a greater degree',
+    meaningZh: '',
+    exampleSentence: 'A spokesman declined to comment until the evidence could be studied further.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'future',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'likely to happen or exist at a time after the present',
+    meaningZh: '',
+    exampleSentence: 'We are now more able to predict future patterns of climate change.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gain',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to obtain or achieve something you want or need',
+    meaningZh: '',
+    exampleSentence: 'Radical left-wing parties gained control of local authorities.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gained',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with gained.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gallery',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large building where people can see famous pieces of art',
+    meaningZh: '',
+    exampleSentence: 'an exhibition of African art at the Hayward Gallery',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'game',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an activity or sport in which people compete with each other according to agreed rules',
+    meaningZh: '',
+    exampleSentence: 'We used to love playing games like chess or backgammon.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'games',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large organized sports event',
+    meaningZh: '',
+    exampleSentence: 'the Olympic Games',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gang',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of young people who spend time together, and who are often involved in crime or drugs and who often fight against other groups',
+    meaningZh: '',
+    exampleSentence: 'two rival street gangs',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gap',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a space between two objects or two parts of an object, especially because something is missing',
+    meaningZh: '',
+    exampleSentence: 'The neighbors’ dog got in through a gap in the hedge.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'garden',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the area of land next to a house, where there are flowers , grass , and other plants , and often a place for people to sit',
+    meaningZh: '',
+    exampleSentence: 'He’s outside in the garden.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gas',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a substance such as air, which is not solid or liquid , and usually cannot be seen',
+    meaningZh: '',
+    exampleSentence: 'hydrogen gas',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gate',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of a fence or outside wall that you can open and close so that you can enter or leave a place',
+    meaningZh: '',
+    exampleSentence: 'We went through the gate into the orchard.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gave',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of give',
+    meaningZh: '',
+    exampleSentence: 'This is an example with gave.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gay',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if someone, especially a man, is gay, they are sexually attracted to people of the same sex',
+    meaningZh: '',
+    exampleSentence: 'the gay community in London',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gear',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the machinery in a vehicle such as a car, truck , or bicycle that you use to go comfortably at different speeds',
+    meaningZh: '',
+    exampleSentence: 'His mountain bike had 18 gears.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gender',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the fact of being male or female',
+    meaningZh: '',
+    exampleSentence: 'people of the same gender',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'general',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'describing or relating to only the main features or parts of something, not the details',
+    meaningZh: '',
+    exampleSentence: 'a general introduction to computing',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'generally',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'considering or relating to the whole of a thing or group, rather than to details or specific cases or parts',
+    meaningZh: '',
+    exampleSentence: 'It was generally a positive conversation.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'generation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'all people of about the same age',
+    meaningZh: '',
+    exampleSentence: 'Like most of my generation, I had never known a war.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'george',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with george.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'georgia',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a state in the southeast US, one of the original 13 states established under British rule . Its capital and largest city is Atlanta, an important industrial centre for the southeastern US.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with georgia.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'german',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Germany, its people, or its language',
+    meaningZh: '',
+    exampleSentence: 'German history',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'germany',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country in central Europe , which was divided from 1945 until 1990 into West Germany and East Germany. Population : 81,147,265 (2014). Capital : Berlin. It is a member of the EU. Germany is a rich , advanced industrial country, known especially for its car industry , but it also has made many laws to protect the environment . Germany is also known as a country that has produced many great musicians , including Bach, Beethoven, and Wagner.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with germany.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'get',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to receive something that someone gives you or sends you',
+    meaningZh: '',
+    exampleSentence: 'She got loads of presents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'get along',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with get along.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'get back',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with get back.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'get on with',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with get on with.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'get over',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with get over.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gets',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with gets.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'getting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with getting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'giant',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'extremely big, and much bigger than other things of the same type',
+    meaningZh: '',
+    exampleSentence: 'a giant electronics company',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gift',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that you give someone, for example to thank them or because you like them, especially on a special occasion',
+    meaningZh: '',
+    exampleSentence: 'The earrings were a gift from my aunt.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'girl',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a female child',
+    meaningZh: '',
+    exampleSentence: 'Both boys and girls can apply to join the choir.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'girlfriend',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a girl or woman that you are having a romantic relationship with',
+    meaningZh: '',
+    exampleSentence: 'He’s never had a girlfriend .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'girls',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with girls.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'give',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to let someone have something as a present, or to provide something for someone',
+    meaningZh: '',
+    exampleSentence: 'What did Bob give you for your birthday?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'give away',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with give away.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'give up',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with give up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'given',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of give',
+    meaningZh: '',
+    exampleSentence: 'The wrapping machine was pre-set to wrap a given number of biscuits.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gives',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with gives.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'giving',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'kind, caring, and generous',
+    meaningZh: '',
+    exampleSentence: 'She’s a very giving person.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'glad',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'pleased and happy about something',
+    meaningZh: '',
+    exampleSentence: 'I’m really glad I don’t have to go back there again.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'glass',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a transparent solid substance used for making windows , bottles etc',
+    meaningZh: '',
+    exampleSentence: 'a glass bowl',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'global',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'affecting or including the whole world',
+    meaningZh: '',
+    exampleSentence: 'global climate change',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'go away',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with go away.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'go on',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with go on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'go out',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with go out.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'goal',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that you hope to achieve in the future',
+    meaningZh: '',
+    exampleSentence: 'Your goal as a parent is to help your child become an independent adult.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'goals',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with goals.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'god',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a male spirit or being who is believed by some religions to control the world or part of it, or who represents a particular quality',
+    meaningZh: '',
+    exampleSentence: 'Mars, the god of war',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'goes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with goes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'going',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the difficulty or speed with which something is done',
+    meaningZh: '',
+    exampleSentence: 'I’m getting the work done, but it’s slow going.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gold',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a valuable soft yellow metal that is used to make coins , jewellery etc. It is a chemical element : symbol Au',
+    meaningZh: '',
+    exampleSentence: 'a gold ring',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'golden',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a bright yellow colour like gold',
+    meaningZh: '',
+    exampleSentence: 'golden hair',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'golf',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a game in which the players hit a small white ball into holes in the ground with a set of golf clubs , using as few hits as possible',
+    meaningZh: '',
+    exampleSentence: 'He plays golf on Sundays.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gone',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of go',
+    meaningZh: '',
+    exampleSentence: 'When we got home it was gone midnight.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gonna',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a way of saying ‘going to’',
+    meaningZh: '',
+    exampleSentence: 'This isn’t gonna be easy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'good',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'of a high standard or quality',
+    meaningZh: '',
+    exampleSentence: 'a good hotel',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'goods',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'things that are produced in order to be sold',
+    meaningZh: '',
+    exampleSentence: 'furniture and other household goods',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'google',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a very popular search engine (= computer program that allows you to search for information on the Internet ) . Google also provides other Internet services including e-mail, maps , social networking , and video sharing .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with google.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'got',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and a past participle of get',
+    meaningZh: '',
+    exampleSentence: 'I think he’s got an idea.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gotta',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a short form of ‘have got to’, ‘has got to’, ‘have got a’, or ‘has got a’, which most people think is incorrect',
+    meaningZh: '',
+    exampleSentence: 'We gotta go now.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gotten',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of get',
+    meaningZh: '',
+    exampleSentence: 'I’d gotten an A on the test.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'government',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the group of people who govern a country or state',
+    meaningZh: '',
+    exampleSentence: 'The Government are planning further cuts in public spending.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'governor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the person in charge of governing a state in the US',
+    meaningZh: '',
+    exampleSentence: 'a school governor',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'grab',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to take hold of someone or something with a sudden or violent movement',
+    meaningZh: '',
+    exampleSentence: 'I grabbed my bag and ran off.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'grace',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a smooth way of moving that looks natural, relaxed , and attractive',
+    meaningZh: '',
+    exampleSentence: 'Lena moved with the grace of a dancer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'grade',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a particular level of quality that a product , material etc has',
+    meaningZh: '',
+    exampleSentence: 'The best grades of tea are expensive.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'graduate',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who has completed a university degree , especially a first degree',
+    meaningZh: '',
+    exampleSentence: 'a Harvard graduate',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'grand',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'big and very impressive',
+    meaningZh: '',
+    exampleSentence: 'a grand country house',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'grant',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to give someone something or allow them to have something that they have asked for',
+    meaningZh: '',
+    exampleSentence: 'Britain could grant Spain’s request .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'granted',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used when you admit that something is true',
+    meaningZh: '',
+    exampleSentence: 'Granted, the music is not perfect, but the flaws are outweighed by the sheer joy of the piece.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'great',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'very large in amount or degree',
+    meaningZh: '',
+    exampleSentence: 'The movie was a great success.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'greater',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with greater.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'greatest',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with greatest.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'greek',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Greece, its people, or its language',
+    meaningZh: '',
+    exampleSentence: 'Greek yoghurt',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'green',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having the colour of grass or leaves',
+    meaningZh: '',
+    exampleSentence: 'beautiful green eyes',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'grew',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of grow',
+    meaningZh: '',
+    exampleSentence: 'This is an example with grew.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'grey',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having the colour of dark clouds , neither black nor white',
+    meaningZh: '',
+    exampleSentence: 'an old lady with grey hair',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ground',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the surface of the Earth',
+    meaningZh: '',
+    exampleSentence: 'The leaves were slowly fluttering to the ground.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'group',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'several people or things that are all together in the same place',
+    meaningZh: '',
+    exampleSentence: 'a group of children',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'groups',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with groups.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'grow',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to increase in amount, size , number, or strength',
+    meaningZh: '',
+    exampleSentence: 'Support for Mr Thompson is growing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'grow up',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with grow up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'growing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with growing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'grown',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of grow',
+    meaningZh: '',
+    exampleSentence: 'This is an example with grown.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'growth',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an increase in amount, number, or size',
+    meaningZh: '',
+    exampleSentence: 'We’ve seen an enormous growth in the number of businesses using the Web.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'guard',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone whose job is to protect a place or person',
+    meaningZh: '',
+    exampleSentence: 'There were two security guards on duty outside the building.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'guess',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to try to answer a question or form an opinion when you are not sure whether you will be correct',
+    meaningZh: '',
+    exampleSentence: 'I’d say he’s around 50, but I’m only guessing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'guest',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who is invited to an event or special occasion',
+    meaningZh: '',
+    exampleSentence: 'a banquet for 250 distinguished guests',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'guide',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that provides information and helps you to form an opinion or make a decision',
+    meaningZh: '',
+    exampleSentence: 'The polls are not a reliable guide of how people will vote.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'guilty',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'feeling very ashamed and sad because you know that you have done something wrong',
+    meaningZh: '',
+    exampleSentence: 'I feel really guilty about forgetting her birthday again.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'guitar',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a musical instrument usually with six strings that you play by pulling the strings with your fingers or with a plectrum (= small piece of plastic, metal etc )',
+    meaningZh: '',
+    exampleSentence: 'This is an example with guitar.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'gun',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a metal weapon which shoots bullets or shell s',
+    meaningZh: '',
+    exampleSentence: 'I could see he was carrying a gun.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'guns',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with guns.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'guy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a man',
+    meaningZh: '',
+    exampleSentence: 'Dave’s a nice guy when you get to know him.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'guys',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'used when talking to or about a group of people, male or female',
+    meaningZh: '',
+    exampleSentence: 'Hey you guys! Where are you going?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'haha',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with haha.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hair',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the mass of things like fine threads that grows on your head',
+    meaningZh: '',
+    exampleSentence: 'Her hair was short and dark.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'half',
+    partOfSpeech: 'predeterminer',
+    simpleDefinitionEn: 'exactly or about 50% (½) of an amount, time, distance , number etc',
+    meaningZh: '',
+    exampleSentence: 'Over half of the children live in one-parent families.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hall',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the area just inside the door of a house or other building, that leads to other rooms',
+    meaningZh: '',
+    exampleSentence: 'We hung our coats in a cupboard in the hall.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hand',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of your body at the end of your arm , including your fingers and thumb , that you use to hold things',
+    meaningZh: '',
+    exampleSentence: 'Steve gripped the steering wheel tightly with both hands.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hand in',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with hand in.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'handle',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to do the things that are necessary to complete a job',
+    meaningZh: '',
+    exampleSentence: 'I handled most of the paperwork.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hands',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with hands.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hang',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to put something in a position so that the top part is fixed or supported , and the bottom part is free to move and does not touch the ground',
+    meaningZh: '',
+    exampleSentence: 'Philip hung his coat on a hook behind the door.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hanging',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of killing someone by putting a rope around their neck and dropping them, used as a punishment',
+    meaningZh: '',
+    exampleSentence: 'public hangings',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'happen',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'when something happens, there is an event , especially one that is not planned',
+    meaningZh: '',
+    exampleSentence: 'When did the accident happen?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'happened',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with happened.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'happening',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that happens, especially a strange event',
+    meaningZh: '',
+    exampleSentence: 'There have been reports of strange happenings in the town.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'happens',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with happens.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'happy',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having feelings of pleasure , for example because something good has happened to you or you are very satisfied with your life',
+    meaningZh: '',
+    exampleSentence: 'It’s a lovely house and we’ve been very happy here.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hard',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'firm , stiff , and difficult to press down, break, or cut',
+    meaningZh: '',
+    exampleSentence: 'a hard wooden chair',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'harder',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with harder.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hardly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'almost not',
+    meaningZh: '',
+    exampleSentence: 'My parents divorced when I was six, and I hardly knew my father.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hardware',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'computer machinery and equipment , as opposed to the programs that make computers work',
+    meaningZh: '',
+    exampleSentence: 'tanks and other military hardware',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'harm',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'damage , injury , or trouble caused by someone’s actions or by an event',
+    meaningZh: '',
+    exampleSentence: 'The scandal did his career a lot of harm.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'harry',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to keep attacking an enemy',
+    meaningZh: '',
+    exampleSentence: 'This is an example with harry.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hat',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of clothing that you wear on your head',
+    meaningZh: '',
+    exampleSentence: 'Maria was wearing a beautiful new hat.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hate',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to dislike something very much',
+    meaningZh: '',
+    exampleSentence: 'It’s the kind of movie you either love or hate.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'head',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the top part of your body that has your face at the front and is supported by your neck',
+    meaningZh: '',
+    exampleSentence: 'He kissed the top of her head.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'headed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'paper for writing letters that has your name and address , or that of your company, at the top',
+    meaningZh: '',
+    exampleSentence: 'All letters to clients must be printed on headed paper.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'heading',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the title written at the beginning of a piece of writing, or at the beginning of part of a book',
+    meaningZh: '',
+    exampleSentence: 'chapter headings',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'heads',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the side of a coin that has a picture of a person’s head on it',
+    meaningZh: '',
+    exampleSentence: 'This is an example with heads.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'health',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the general condition of your body and how healthy you are',
+    meaningZh: '',
+    exampleSentence: 'I’m worried about my husband’s health.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'healthcare',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of looking after people’s health , considered as an industry',
+    meaningZh: '',
+    exampleSentence: 'An ageing population creates greater expenditure on health care.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'healthy',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'physically strong and not likely to become ill or weak',
+    meaningZh: '',
+    exampleSentence: 'a healthy baby boy',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hear',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to know that a sound is being made, using your ears',
+    meaningZh: '',
+    exampleSentence: 'She heard a sudden loud crash.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'heard',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with heard.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hearing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the sense which you use to hear sounds',
+    meaningZh: '',
+    exampleSentence: 'She has remarkable hearing for a lady of her age.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'heart',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the organ in your chest which pumps blood through your body',
+    meaningZh: '',
+    exampleSentence: 'Regular exercise is good for the heart.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'heat',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'warmth or the quality of being hot',
+    meaningZh: '',
+    exampleSentence: 'Ice needs heat to melt.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'heaven',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the place where God is believed to live and where good people are believed to go when they die',
+    meaningZh: '',
+    exampleSentence: 'He believed that he and his wife would one day be together again in heaven.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'heavily',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in large amounts, to a high degree , or with great severity',
+    meaningZh: '',
+    exampleSentence: 'I became heavily involved in politics.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'heavy',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'weighing a lot',
+    meaningZh: '',
+    exampleSentence: 'The wardrobe was too heavy for me to move on my own.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'height',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'how tall someone or something is',
+    meaningZh: '',
+    exampleSentence: 'Sam’s about the same height as his sister now.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'held',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of hold',
+    meaningZh: '',
+    exampleSentence: 'This is an example with held.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hell',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the place where the souls of bad people are believed to be punished after death , especially in the Christian and Muslim religions',
+    meaningZh: '',
+    exampleSentence: 'War is hell.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hello',
+    partOfSpeech: 'interjection',
+    simpleDefinitionEn: 'a British magazine with pictures and articles about famous people, such as film actors , fashion model s , and members of the aristocracy . It typically describes how happy these people are and shows what beautiful houses they live in.',
+    meaningZh: '',
+    exampleSentence: 'Hello, John! How are you?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'help',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make it possible or easier for someone to do something by doing part of their work or by giving them something they need',
+    meaningZh: '',
+    exampleSentence: 'If there’s anything I can do to help, just give me a call.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'helped',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with helped.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'helping',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the amount of food that someone gives you or that you take',
+    meaningZh: '',
+    exampleSentence: 'a double helping of pie',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'helps',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with helps.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'henry',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with henry.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hero',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a man who is admired for doing something extremely brave',
+    meaningZh: '',
+    exampleSentence: 'He had dared to speak out against injustice, and overnight he became a national hero .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'herself',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'used to show that the woman or girl who does something is affected by her own action',
+    meaningZh: '',
+    exampleSentence: 'She cut herself on some broken glass.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hey',
+    partOfSpeech: 'interjection',
+    simpleDefinitionEn: 'a shout used to get someone’s attention or to show surprise , interest, or annoyance',
+    meaningZh: '',
+    exampleSentence: 'Hey, wait a minute!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hidden',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of hide',
+    meaningZh: '',
+    exampleSentence: 'the use of hidden cameras',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hide',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to deliberately put or keep something or someone in a place where they cannot easily be seen or found',
+    meaningZh: '',
+    exampleSentence: 'Marcia hid the pictures in her desk drawer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'high',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'measuring a long distance from the bottom to the top',
+    meaningZh: '',
+    exampleSentence: 'This is the highest mountain in Japan.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'higher',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with higher.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'highest',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with highest.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'highly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'very',
+    meaningZh: '',
+    exampleSentence: 'a highly successful politician',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'highway',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a wide main road that joins one town to another',
+    meaningZh: '',
+    exampleSentence: 'Interstate Highway 75',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hill',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an area of land that is higher than the land around it, like a mountain but smaller',
+    meaningZh: '',
+    exampleSentence: 'Their house is on a hill overlooking the sea.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hills',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with hills.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'himself',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'used to show that the man or boy who does something is affected by his own action',
+    meaningZh: '',
+    exampleSentence: 'In despair, the young boy had hanged himself.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hip',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the two parts on each side of your body between the top of your leg and your waist',
+    meaningZh: '',
+    exampleSentence: 'She stood there with her hands on her hips glaring at him.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'historic',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a historic place or building is very old',
+    meaningZh: '',
+    exampleSentence: 'the restoration of historic buildings',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'historical',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to the past',
+    meaningZh: '',
+    exampleSentence: 'places of historical interest',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'history',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'all the things that happened in the past, especially the political, social, or economic development of a nation',
+    meaningZh: '',
+    exampleSentence: 'Throughout history the achievements of women have been largely ignored.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hit',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to touch someone or something quickly and hard with your hand, a stick etc',
+    meaningZh: '',
+    exampleSentence: 'He raised the hammer and hit the bell.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hits',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with hits.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hitting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with hitting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hold',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have something in your hand, hands, or arms',
+    meaningZh: '',
+    exampleSentence: 'Could you hold my bag for me?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hold on',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with hold on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'holding',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something which a person owns, especially land or share s in a company',
+    meaningZh: '',
+    exampleSentence: 'The government has decided to sell its 21% holding in the firm.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'holds',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with holds.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hole',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an empty space in something solid',
+    meaningZh: '',
+    exampleSentence: 'There was a huge hole in the road.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'holiday',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a time of rest from work, school etc',
+    meaningZh: '',
+    exampleSentence: 'The school holidays start tomorrow.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hollywood',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a part of Los Angeles in California where films are made, often used to refer to the film industry in general',
+    meaningZh: '',
+    exampleSentence: 'She is one of Hollywood’s major stars.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'holy',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'connected with God and religion',
+    meaningZh: '',
+    exampleSentence: 'the holy city of Varanasi',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'home',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the house, apartment , or place where you live',
+    meaningZh: '',
+    exampleSentence: 'They have a beautiful home in California.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'homes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with homes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'homework',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'work that a student at school is asked to do at home',
+    meaningZh: '',
+    exampleSentence: 'For homework , finish the exercise on page 14.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'honest',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'someone who is honest always tells the truth and does not cheat or steal',
+    meaningZh: '',
+    exampleSentence: 'He was a hard-working honest man.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'honestly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to emphasize that what you are saying is true , even though it may seem surprising',
+    meaningZh: '',
+    exampleSentence: 'I honestly don’t know how old my parents are.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hong',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with hong.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'honor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the American spelling of honour',
+    meaningZh: '',
+    exampleSentence: 'This is an example with honor.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hope',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to want something to happen or be true and to believe that it is possible or likely',
+    meaningZh: '',
+    exampleSentence: 'We hope that more women will decide to join the course.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hope for',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with hope for.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hopefully',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'a way of saying what you hope will happen, which some people think is incorrect',
+    meaningZh: '',
+    exampleSentence: 'Hopefully, I’ll be back home by ten o‘clock.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hoping',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with hoping.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'horse',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large strong animal that people ride and use for pulling heavy things',
+    meaningZh: '',
+    exampleSentence: 'a horse and cart',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hospital',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large building where sick or injured people receive medical treatment',
+    meaningZh: '',
+    exampleSentence: 'They are building a new hospital.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'host',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone at a party , meal etc who has invited the guests and who provides the food, drink etc',
+    meaningZh: '',
+    exampleSentence: 'Our host greeted us at the door.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hot',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'something that is hot has a high temperature – used about weather , places, food, drink , or objects',
+    meaningZh: '',
+    exampleSentence: 'a hot day in July',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hotel',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a building where people pay to stay and eat meals',
+    meaningZh: '',
+    exampleSentence: 'I’ve booked the flights and the hotel.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hour',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a unit for measuring time. There are 60 minutes in one hour, and 24 hours in one day',
+    meaningZh: '',
+    exampleSentence: 'The interview will last about two hours.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hours',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a fixed period of time in the day when a particular activity, business etc happens',
+    meaningZh: '',
+    exampleSentence: 'hours of business 9.00–5.00',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'house',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a building that someone lives in, especially one that has more than one level and is intended to be used by one family',
+    meaningZh: '',
+    exampleSentence: 'a four-bedroom house',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'household',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'all the people who live together in one house',
+    meaningZh: '',
+    exampleSentence: 'A growing number of households have at least one computer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'houses',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with houses.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'housing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the houses or conditions that people live in',
+    meaningZh: '',
+    exampleSentence: 'health problems caused by bad housing',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'howard',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with howard.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'however',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used when you are adding a fact or piece of information that seems surprising , or seems very different from what you have just said',
+    meaningZh: '',
+    exampleSentence: 'This is a cheap and simple process. However, there are dangers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'http',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of standards that control how computer documents that are written in HTML connect to each other',
+    meaningZh: '',
+    exampleSentence: 'This is an example with http.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'huge',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'extremely large in size , amount, or degree',
+    meaningZh: '',
+    exampleSentence: 'a huge dog',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'human',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'belonging to or relating to people, especially as opposed to machines or animals',
+    meaningZh: '',
+    exampleSentence: 'There are many different cell types in the human body .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'humans',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with humans.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hundred',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 100',
+    meaningZh: '',
+    exampleSentence: 'The tree was probably a hundred years old.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hundreds',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with hundreds.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hunt',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to chase animals and birds in order to kill or catch them',
+    meaningZh: '',
+    exampleSentence: 'the slopes where I hunted deer as a kid',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'hurt',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to injure yourself or someone else',
+    meaningZh: '',
+    exampleSentence: 'Was anyone hurt in the accident?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'husband',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the man that a woman is married to',
+    meaningZh: '',
+    exampleSentence: 'Have you met my husband Roy?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ice',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'water that has frozen into a solid state',
+    meaningZh: '',
+    exampleSentence: 'Would you like some ice in your drink?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'idea',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a plan or suggestion for a possible course of action, especially one that you think of suddenly',
+    meaningZh: '',
+    exampleSentence: 'You should talk to Ken - he’s always full of good ideas.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ideas',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ideas.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'identified',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with identified.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'identify',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to recognize and correctly name someone or something',
+    meaningZh: '',
+    exampleSentence: 'He was too far away to be able to identify faces.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'identity',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone’s identity is their name or who they are',
+    meaningZh: '',
+    exampleSentence: 'The identity of the killer is still unknown.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ignore',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to deliberately pay no attention to something that you have been told or that you know about',
+    meaningZh: '',
+    exampleSentence: 'You can’t ignore the fact that many criminals never go to prison.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'iii',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with iii.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ill',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'suffering from a disease or not feeling well',
+    meaningZh: '',
+    exampleSentence: 'Bridget can’t come – she’s ill.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'illegal',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not allowed by the law',
+    meaningZh: '',
+    exampleSentence: 'illegal drugs',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'image',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the opinion people have of a person, organization , product etc, or the way a person, organization etc seems to be to the public',
+    meaningZh: '',
+    exampleSentence: 'attempts to improve the image of the police',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'images',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with images.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'imagine',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to form a picture or idea in your mind about what something could be like',
+    meaningZh: '',
+    exampleSentence: 'Imagine that you have just won a million pounds.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'immediate',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening or done at once and without delay',
+    meaningZh: '',
+    exampleSentence: 'Our immediate response to the attack was sheer horror.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'immediately',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'without delay',
+    meaningZh: '',
+    exampleSentence: 'Mix in the remaining ingredients and serve immediately.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'immigration',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of entering another country in order to live there permanently',
+    meaningZh: '',
+    exampleSentence: 'He called for a common European policy on immigration.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'impact',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the effect or influence that an event , situation etc has on someone or something',
+    meaningZh: '',
+    exampleSentence: 'We need to assess the impact on climate change.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'importance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the quality of being important',
+    meaningZh: '',
+    exampleSentence: 'the importance of regular exercise',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'important',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'an important event , decision , problem etc has a big effect or influence on people’s lives or on events in the future',
+    meaningZh: '',
+    exampleSentence: 'a very important meeting',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'impossible',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'something that is impossible cannot happen or be done',
+    meaningZh: '',
+    exampleSentence: '‘I want to speak to Mr Franks.’ ‘I’m afraid that’s impossible.’',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'impressive',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'something that is impressive makes you admire it because it is very good, large, important etc',
+    meaningZh: '',
+    exampleSentence: 'The figures certainly look impressive.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'improve',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make something better , or to become better',
+    meaningZh: '',
+    exampleSentence: 'a course for students wishing to improve their English',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'improved',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'better than before',
+    meaningZh: '',
+    exampleSentence: 'improved performance',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'improvement',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of improving something, or the state of being improved',
+    meaningZh: '',
+    exampleSentence: 'There’s been a big improvement in the children’s behaviour.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'inc',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the written abbreviation of',
+    meaningZh: '',
+    exampleSentence: 'General Motors Inc.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'inch',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a unit for measuring length , equal to 2.54 centimetres . There are 12 inches in a foot',
+    meaningZh: '',
+    exampleSentence: 'The curtains were an inch too short.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'incident',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an event, especially one that is unusual , important, or violent',
+    meaningZh: '',
+    exampleSentence: 'Am I at risk because of some incident in my sexual past?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'include',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if one thing includes another, the second thing is part of the first',
+    meaningZh: '',
+    exampleSentence: 'Does the price include postage?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'included',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'including someone or something',
+    meaningZh: '',
+    exampleSentence: 'Everyone has to go to the dentist, you included.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'includes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with includes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'including',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'used to introduce something or someone that is part of a larger group or amount you have just mentioned',
+    meaningZh: '',
+    exampleSentence: 'The price is £25.50, including postage and packing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'income',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the money that you earn from your work or that you receive from investment s , the government etc',
+    meaningZh: '',
+    exampleSentence: 'People on higher incomes should pay more tax.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'increase',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if you increase something, or if it increases, it becomes bigger in amount, number, or degree',
+    meaningZh: '',
+    exampleSentence: 'The population increased dramatically in the first half of the century.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'increased',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with increased.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'increases',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with increases.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'increasing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with increasing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'incredible',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'extremely good, large, or great',
+    meaningZh: '',
+    exampleSentence: 'The view is just incredible.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'indeed',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to emphasize a statement or answer',
+    meaningZh: '',
+    exampleSentence: 'The blood tests prove that Vince is indeed the father.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'independence',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'political freedom from control by the government of another country',
+    meaningZh: '',
+    exampleSentence: 'Nigeria gained independence from Britain in 1960.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'independent',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a serious British newspaper which generally supports liberal political ideas. The same company produces a similar paper on Sundays, called the Independent on Sunday .',
+    meaningZh: '',
+    exampleSentence: 'There are plans to split the corporation into a number of smaller independent companies.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'index',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an alphabetical list of names , subjects etc at the back of a book , with the numbers of the pages where they can be found',
+    meaningZh: '',
+    exampleSentence: 'The changing size of an infant’s head is considered an index of brain growth.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'india',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large country in southern Asia. Population : 1,220,800,359 (2014). Capital : New Delhi. India was ruled by the British from 1757 until 1947, and is now the largest democracy in the world. The official languages are Hindi and English, and most people belong to the Hindu religion , although there are also large populations of Muslims and Sikhs. Because of the long connection between India and the UK, the two countries have had a great influence on each other\'s culture . Many British people are of Indian origin (= they were born in India or their parents, grandparents etc were born in India ) , and Indian food is very popular in the UK. There have also been many well-known books, films , TV programmes etc about the British in India.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with india.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'indian',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone from India',
+    meaningZh: '',
+    exampleSentence: 'Do you fancy going out for an Indian?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'individual',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'considered separately from other people or things in the same group',
+    meaningZh: '',
+    exampleSentence: 'Each individual leaf on the tree is different.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'individuals',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with individuals.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'industrial',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to industry or the people working in it',
+    meaningZh: '',
+    exampleSentence: 'Industrial production has risen by 0.5% since November.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'industry',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the large-scale production of goods or of substances such as coal and steel',
+    meaningZh: '',
+    exampleSentence: 'This type of software is widely used in industry.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'influence',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the power to affect the way someone or something develops , behaves , or thinks, without using direct force or orders',
+    meaningZh: '',
+    exampleSentence: 'As a scientist, his influence was immense.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'info',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'information',
+    meaningZh: '',
+    exampleSentence: 'This is an example with info.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'information',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'facts or details that tell you something about a situation , person, event etc',
+    meaningZh: '',
+    exampleSentence: 'I need more information.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'infrastructure',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the basic systems and structures that a country or organization needs in order to work properly, for example roads , railways , banks etc',
+    meaningZh: '',
+    exampleSentence: 'Some countries lack a suitable economic infrastructure.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'initial',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening at the beginning',
+    meaningZh: '',
+    exampleSentence: 'an initial investment of £5,000',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'initially',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'at the beginning',
+    meaningZh: '',
+    exampleSentence: 'Stan initially wanted to go to medical school.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'injured',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a wound or damage to part of your body',
+    meaningZh: '',
+    exampleSentence: 'an injured bird',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'injury',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a wound or damage to part of your body caused by an accident or attack',
+    meaningZh: '',
+    exampleSentence: 'She was taken to hospital with serious head injuries.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'inner',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'on the inside or close to the centre of something',
+    meaningZh: '',
+    exampleSentence: 'an inner room',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'inside',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in or into a container or other closed space so as to be completely covered or surrounded',
+    meaningZh: '',
+    exampleSentence: 'The jewels were locked away inside the safe.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'insist on',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with insist on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'inspired',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having very exciting special qualities that are better than anyone or anything else',
+    meaningZh: '',
+    exampleSentence: 'an inspired leader',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'instance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an example of a particular kind of situation',
+    meaningZh: '',
+    exampleSentence: 'They came across many instances of discrimination.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'instead',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to say what is done, when you have just said that a particular thing is not done',
+    meaningZh: '',
+    exampleSentence: 'Geoff didn’t study law. Instead, he decided to become an actor.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'institute',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an organization that has a particular purpose such as scientific or educational work, or the building where this organization is based',
+    meaningZh: '',
+    exampleSentence: 'research institutes',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'institutions',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with institutions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'insurance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an arrangement with a company in which you pay them money, especially regularly, and they pay the costs if something bad happens, for example if you become ill or your car is damaged',
+    meaningZh: '',
+    exampleSentence: 'Your father took out insurance to cover the mortgage.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'intelligence',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the ability to learn , understand , and think about things',
+    meaningZh: '',
+    exampleSentence: 'To be good at the game, you need a reasonable level of intelligence.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'intended',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with intended.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'interest',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'if you have an interest in something or someone, you want to know or learn more about them',
+    meaningZh: '',
+    exampleSentence: 'My parents encouraged my interest in science.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'interested',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'giving a lot of attention to something because you want to find out more about it or because you enjoy it',
+    meaningZh: '',
+    exampleSentence: 'I’ve always been interested in music.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'interesting',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if something is interesting, you give it your attention because it seems unusual or exciting or provides information that you did not know about',
+    meaningZh: '',
+    exampleSentence: 'That’s an interesting question.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'interests',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with interests.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'interior',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the inner part or inside of something',
+    meaningZh: '',
+    exampleSentence: 'The interior of the church was dark.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'internal',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'within a particular country',
+    meaningZh: '',
+    exampleSentence: 'We have no interest in interfering in the internal affairs of other countries.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'international',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to or involving more than one nation',
+    meaningZh: '',
+    exampleSentence: 'the response of the international community',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'internet',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'to look quickly through information on the Internet, looking for anything that interests you',
+    meaningZh: '',
+    exampleSentence: 'We do most of our shopping on the Internet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'interview',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a formal meeting at which someone is asked questions in order to find out whether they are suitable for a job, course of study etc',
+    meaningZh: '',
+    exampleSentence: 'an interview for a job on the ‘Los Angeles Times’',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'introduced',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with introduced.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'introduction',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of bringing something into use for the first time',
+    meaningZh: '',
+    exampleSentence: 'the introduction of a range of new products',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'investigation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an official attempt to find out the truth about or the cause of something such as a crime , accident , or scientific problem',
+    meaningZh: '',
+    exampleSentence: 'The investigation continued for nearly three years.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'investment',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the use of money to get a profit or to make a business activity successful , or the money that is used',
+    meaningZh: '',
+    exampleSentence: 'We plan to buy some property as an investment.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'invited',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with invited.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'involved',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having so many different parts that it is difficult to understand',
+    meaningZh: '',
+    exampleSentence: 'The plot was so involved that very few people knew what was going on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'involving',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with involving.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'iran',
+    partOfSpeech: 'noun, adjective',
+    simpleDefinitionEn: 'a country in southwest Asia, between Iraq and Afghanistan. Population : 79,853,900 (2014). Capital : Tehran. Iran was called Persia until 1935, and is an important oil-producing country. It was at war with Iraq from 1980 to 1988. Iran is a strongly Muslim country and, although it is a democracy Muslim priests have held a lot of political power there since the Shah (= King ) was removed in 1979, when the Ayatollah Khomeini came to power.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with iran.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ireland',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large island to the west of Great Britain, from which it is separated by the Irish Sea . It is divided politically into Northern Ireland and the Republic of Ireland . Northern Ireland is part of the UK, and many people there belong to the Protestant religion . The Republic of Ireland has been an independent state since 1921, and most people there belong to the Roman Catholic religion. Ireland, especially the Republic of Ireland, is known for its beautiful green countryside , and is sometimes called the Emerald Isle . Many great writers in English come from Ireland, including Oscar Wilde , James Joyce , George Bernard Shaw , and Samuel Beckett .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ireland.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'irish',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Ireland or its people',
+    meaningZh: '',
+    exampleSentence: 'This is an example with irish.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'iron',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a common hard metal that is used to make steel , is magnetic , and is found in very small quantities in food and blood . It is a chemical element : symbol Fe',
+    meaningZh: '',
+    exampleSentence: 'the iron and steel industry',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'island',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of land completely surrounded by water',
+    meaningZh: '',
+    exampleSentence: 'The Cayman Islands',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'islands',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with islands.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'israel',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country on the eastern side of the Mediterranean Sea , surrounded by Egypt, Jordan , and Lebanon . Population : 7,707,042 (2014). Capital : Jerusalem. Israel was established in 1948 as a home for the Jewish diaspora , out of land that was part of Palestine. Many Arab countries do not want Israel to exist , and there have been several wars since 1948. The Arab Palestinians who live in Israel have tried to improve their position, sometimes using violence . Following a peace agreement in 1993, the Palestinian people have become partly independent of Israel through the establishment of the Palestinian National Authority .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with israel.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'issue',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a subject or problem that is often discussed or argued about, especially a social or political matter that affects the interests of a lot of people',
+    meaningZh: '',
+    exampleSentence: 'Abortion is a highly controversial issue.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'issued',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with issued.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'issues',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with issues.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'italian',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Italy, its people, or its language',
+    meaningZh: '',
+    exampleSentence: 'This is an example with italian.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'italy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country in southern Europe , surrounded on three sides by the Mediterranean Sea . It is a member of the EU. Population : 61,482,297 (2014). Capital : Rome. In ancient times, Italy was home of the Roman civilization which has had a great influence on how people in Europe live and think. The Renaissance began in Italy in the 14th century , and Italy is known for its many beautiful paintings , sculpture s , and buildings as well as music, especially opera . Many British people go to Italy on holiday .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with italy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'item',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a single thing, especially one thing in a list , group, or set of things',
+    meaningZh: '',
+    exampleSentence: 'He opened the cardboard box and took out each item.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'items',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with items.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'itself',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'used to show that a thing, organization , animal , or baby that does something is affected by its own action',
+    meaningZh: '',
+    exampleSentence: 'The cat lay on the sofa, washing itself.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jack',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of equipment used to lift a heavy weight off the ground, such as a car, and support it while it is in the air',
+    meaningZh: '',
+    exampleSentence: 'a hydraulic jack',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jackson',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the capital city of the US state of Mississippi',
+    meaningZh: '',
+    exampleSentence: 'This is an example with jackson.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jail',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where criminals are kept as part of their punishment , or where people who have been charged with a crime are kept before they are judged in a law court',
+    meaningZh: '',
+    exampleSentence: 'He’s been in jail for three months already.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'james',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with james.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jan',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the written abbreviation of',
+    meaningZh: '',
+    exampleSentence: 'This is an example with jan.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'january',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the first month of the year, between December and February',
+    meaningZh: '',
+    exampleSentence: 'I haven’t heard from him since last January.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'japan',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country in East Asia consisting of four large islands , Hokkaido, Honshu, Shikoku, and Kyushu, and many smaller ones. Population : 127,253,075 (2014). Capital : Tokyo. The main religions are Shinto and Buddhism . Japan is an ancient civilization , but during the 1970s and 1980s it became a rich country with advanced industries, known especially for making cars and electronic goods. When people in the US and UK think of Japan, they typically think of it as a place that develops and produces advanced electronic equipment and has trains that travel at high speeds . It is also known for its traditional culture , such as geisha s (= traditional female entertainers ) wearing beautiful kimono s and sumo wrestler s .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with japan.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'japanese',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Japan, its people, or its language',
+    meaningZh: '',
+    exampleSentence: 'a Japanese car',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jason',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'in ancient Greek stories , a hero who sailed with a group of men called the Argonauts in the ship Argo to find the Golden Fleece . Together they had many exciting adventures . The story was made into a film called Jason and the Argonauts .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with jason.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jersey',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a shirt made of soft material , worn by players of sports such as football and rugby',
+    meaningZh: '',
+    exampleSentence: 'This is an example with jersey.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jesus',
+    partOfSpeech: 'interjection',
+    simpleDefinitionEn: 'the man who Christians believe was the son of God , and on whose life and ideas Christianity is based',
+    meaningZh: '',
+    exampleSentence: 'Jesus! That was close!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jewish',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Jews or Judaism',
+    meaningZh: '',
+    exampleSentence: 'the Jewish religion',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jews',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with jews.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jim',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with jim.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'job',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the regular paid work that you do for an employer',
+    meaningZh: '',
+    exampleSentence: 'Do you enjoy your job?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jobs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with jobs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'joe',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with joe.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'john',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a toilet',
+    meaningZh: '',
+    exampleSentence: 'This is an example with john.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'johnson',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with johnson.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'join',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to become a member of an organization , society , or group',
+    meaningZh: '',
+    exampleSentence: 'When did you join the Labour Party?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'joined',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with joined.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'joining',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with joining.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'joint',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'involving two or more people or groups, or owned or shared by them',
+    meaningZh: '',
+    exampleSentence: 'The two ministers have issued a joint statement .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'joke',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that you say or do to make people laugh , especially a funny story or trick',
+    meaningZh: '',
+    exampleSentence: 'a joke about absent-minded professors',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jones',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with jones.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jordan',
+    partOfSpeech: 'noun, adjective',
+    simpleDefinitionEn: 'an Arab country in the Middle East , which is surrounded by Israel, Syria , Iraq , and Saudi Arabia. Capital : Amman. Population : 6,482,081 (2014). Before the 1967 Arab-Israeli War, the country was divided by the River Jordan, which runs from the north to the south , into the West Bank and the East Bank. Since 1967 the West Bank has been ruled by Israel.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with jordan.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'joseph',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'in the Old Testament of the Bible , the favourite son of Jacob . Joseph was given a ‘ coat of many colours’ by his father , and this made his brothers jealous of him. They sold him as a slave to some Egyptians, but Joseph later became powerful by becoming an adviser to the Egyptian king , and brought his people to live in Egypt.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with joseph.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'journal',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a serious magazine produced for professional people or those with a particular interest',
+    meaningZh: '',
+    exampleSentence: 'the British Medical Journal',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'journey',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an occasion when you travel from one place to another, especially over a long distance',
+    meaningZh: '',
+    exampleSentence: 'my journey to China',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'joy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'great happiness and pleasure',
+    meaningZh: '',
+    exampleSentence: 'the look of joy on her face',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'judge',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the official in control of a court , who decides how criminals should be punished',
+    meaningZh: '',
+    exampleSentence: 'The trial judge specifies the number of years to be spent in prison.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'july',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the seventh month of the year, between June and August',
+    meaningZh: '',
+    exampleSentence: 'Laura came over to England last July.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jump',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to push yourself up into the air, or over or away from something etc, using your legs',
+    meaningZh: '',
+    exampleSentence: 'How high can you jump?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'june',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the sixth month of the year, between May and July',
+    meaningZh: '',
+    exampleSentence: 'I finished school last June.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'junior',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a low rank in an organization or profession',
+    meaningZh: '',
+    exampleSentence: 'a junior doctor',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'jury',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of often 12 ordinary people who listen to the details of a case in court and decide whether someone is guilty or not',
+    meaningZh: '',
+    exampleSentence: 'the members of the jury',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'justice',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the system by which people are judged in courts of law and criminals are punished',
+    meaningZh: '',
+    exampleSentence: 'a book on the criminal justice system',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'keep',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to stay in a particular state, condition , or position , or to make someone or something do this',
+    meaningZh: '',
+    exampleSentence: 'We huddled around the fire to keep warm.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'keep up',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with keep up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'keeping',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with keeping.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'keeps',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with keeps.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kept',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of keep',
+    meaningZh: '',
+    exampleSentence: 'This is an example with kept.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kevin',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with kevin.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'key',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a small specially shaped piece of metal that you put into a lock and turn in order to lock or unlock a door, start a car etc',
+    meaningZh: '',
+    exampleSentence: 'I lost my house keys.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'keyboard',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a board with buttons marked with letters or numbers that are pressed to put information into a computer or other machine',
+    meaningZh: '',
+    exampleSentence: 'a computer keyboard',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kick',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to hit something with your foot',
+    meaningZh: '',
+    exampleSentence: 'Billy was kicking a ball around the yard.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kid',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a child',
+    meaningZh: '',
+    exampleSentence: 'She’d always loved animals since she was a little kid .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kids',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with kids.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kill',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make a person or animal die',
+    meaningZh: '',
+    exampleSentence: 'Why did she kill her husband?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'killed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with killed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'killer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a person, animal, or thing that kills',
+    meaningZh: '',
+    exampleSentence: 'Heart disease is America’s number one killer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'killing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of killing someone deliberately',
+    meaningZh: '',
+    exampleSentence: 'a series of gangland killings',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kim',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with kim.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kind',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the different types of a person or thing that belong to the same group',
+    meaningZh: '',
+    exampleSentence: 'They sell all kinds of things.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kinda',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with kinda.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kinds',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with kinds.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'king',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a man who rules a country because he is from a royal family',
+    meaningZh: '',
+    exampleSentence: 'Henry VIII, King of England',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kingdom',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country ruled by a king or queen',
+    meaningZh: '',
+    exampleSentence: 'the United Kingdom',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kiss',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to touch someone with your lips as a greeting , to show them love, or as part of a sexual relationship',
+    meaningZh: '',
+    exampleSentence: 'Maggie leaned forward and kissed her cheek.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kitchen',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the room where you prepare and cook food',
+    meaningZh: '',
+    exampleSentence: 'Sam went into the kitchen to make a pot of tea.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'knew',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of know 1',
+    meaningZh: '',
+    exampleSentence: 'This is an example with knew.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'know',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have information about something',
+    meaningZh: '',
+    exampleSentence: 'Who knows the answer?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'knowing',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'showing that you know all about something, even if it has not been discussed directly',
+    meaningZh: '',
+    exampleSentence: 'He gave us a knowing look .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'knowledge',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the information , skills , and understanding that you have gained through learning or experience',
+    meaningZh: '',
+    exampleSentence: 'He did not have much knowledge of American history.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'known',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of know 1',
+    meaningZh: '',
+    exampleSentence: 'a study of all the known facts',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'knows',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with knows.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'kong',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with kong.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'korea',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country in East Asia which, in 1948, was divided into two countries, North Korea and South Korea',
+    meaningZh: '',
+    exampleSentence: 'This is an example with korea.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'korean',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with korean.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'labor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the American spelling of labour',
+    meaningZh: '',
+    exampleSentence: 'This is an example with labor.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'labour',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'work, especially physical work',
+    meaningZh: '',
+    exampleSentence: 'The garage charges £30 an hour for labour.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lack',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when there is not enough of something, or none of it',
+    meaningZh: '',
+    exampleSentence: 'new parents suffering from lack of sleep',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ladies',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'used to speak to a group of women',
+    meaningZh: '',
+    exampleSentence: 'Ladies and gentlemen, may I have your attention please?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lady',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a woman of a particular type or age',
+    meaningZh: '',
+    exampleSentence: 'the ladies’ darts team',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'laid',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of lay',
+    meaningZh: '',
+    exampleSentence: 'This is an example with laid.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lake',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large area of water surrounded by land',
+    meaningZh: '',
+    exampleSentence: 'Lake Michigan',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'land',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an area of ground, especially when used for farming or building',
+    meaningZh: '',
+    exampleSentence: 'They own a lot of land.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lane',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a narrow road in the countryside',
+    meaningZh: '',
+    exampleSentence: 'a quiet country lane',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'language',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a system of communication by written or spoken words, which is used by the people of a particular country or area',
+    meaningZh: '',
+    exampleSentence: 'How many languages do you speak?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'large',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'big in size , amount, or number',
+    meaningZh: '',
+    exampleSentence: 'Los Angeles is the second largest city in the US.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'largely',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'mostly or mainly',
+    meaningZh: '',
+    exampleSentence: 'The state of Nevada is largely desert.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'larger',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with larger.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'largest',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with largest.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'last',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'most recent or nearest to the present time',
+    meaningZh: '',
+    exampleSentence: 'I hadn’t seen him since the last meeting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'late',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'arriving , happening , or done after the time that was expected , agreed , or arranged',
+    meaningZh: '',
+    exampleSentence: 'Sorry I’m late – I overslept.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'later',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'after the time you are talking about or after the present time',
+    meaningZh: '',
+    exampleSentence: 'I’m going out for a bit – I’ll see you later.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'latest',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the most recent or the newest',
+    meaningZh: '',
+    exampleSentence: 'all the latest gossip',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'latin',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the language used in ancient Rome',
+    meaningZh: '',
+    exampleSentence: 'a Latin inscription',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'latter',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'being the second of two people or things, or the last in a list just mentioned',
+    meaningZh: '',
+    exampleSentence: 'In the latter case, buyers pay a 15% commission.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'laugh',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make sounds with your voice , usually while you are smiling , because you think something is funny',
+    meaningZh: '',
+    exampleSentence: 'Maria looked at him and laughed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'laugh about',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with laugh about.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'laugh at',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with laugh at.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'laughing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with laughing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'launch',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to start something, usually something big or important',
+    meaningZh: '',
+    exampleSentence: 'The organization has launched a campaign to raise $150,000.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'launched',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with launched.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'law',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the whole system of rules that people in a particular country or area must obey',
+    meaningZh: '',
+    exampleSentence: 'Elected officials ought to obey the law.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'laws',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with laws.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lawyer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone whose job is to advise people about laws, write formal agreements , or represent people in court',
+    meaningZh: '',
+    exampleSentence: 'If you are charged with breaking the law, you will need to get a lawyer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lay',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of lie 1',
+    meaningZh: '',
+    exampleSentence: 'He laid his hand on my shoulder.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lead',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to take someone somewhere by going in front of them while they follow, or by pulling them gently',
+    meaningZh: '',
+    exampleSentence: 'A nurse took her arm and led her to a chair.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'leader',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the person who directs or controls a group, organization , country etc',
+    meaningZh: '',
+    exampleSentence: 'the leader of the local black community',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'leaders',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with leaders.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'leadership',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the position of being the leader of a group, organization , country etc',
+    meaningZh: '',
+    exampleSentence: 'the leadership of the Labour party',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'leading',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'best, most important, or most successful',
+    meaningZh: '',
+    exampleSentence: 'The army played a leading role in organizing the attempted coup.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'leads',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'sheets of lead used for covering a roof',
+    meaningZh: '',
+    exampleSentence: 'This is an example with leads.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'league',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of sports teams or players who play games against each other to see who is best',
+    meaningZh: '',
+    exampleSentence: 'He makes his football league debut tomorrow.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'learn',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to gain knowledge of a subject or skill , by experience , by studying it, or by being taught',
+    meaningZh: '',
+    exampleSentence: 'What’s the best way to learn a language?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'learned',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a learned person has a lot of knowledge because they have read and studied a lot',
+    meaningZh: '',
+    exampleSentence: 'a learned professor',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'learning',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'knowledge gained through reading and study',
+    meaningZh: '',
+    exampleSentence: 'a man of great learning',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'least',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'less than anything or anyone else',
+    meaningZh: '',
+    exampleSentence: 'The journey would impose extra expense on those least able to afford it.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'leave',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to go away from a place or a person',
+    meaningZh: '',
+    exampleSentence: 'My baby gets upset when I leave the room.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'leaves',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the plural of leaf',
+    meaningZh: '',
+    exampleSentence: 'This is an example with leaves.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'leaving',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with leaving.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'led',
+    partOfSpeech: 'suffix',
+    simpleDefinitionEn: 'the past tense and past participle of lead 1',
+    meaningZh: '',
+    exampleSentence: 'an export-led economic recovery',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lee',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with lee.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'left',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'your left side is the side of your body that contains your heart',
+    meaningZh: '',
+    exampleSentence: 'She held out her left hand.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'leg',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the long parts of your body that your feet are joined to, or a similar part on an animal or insect',
+    meaningZh: '',
+    exampleSentence: 'a young boy with skinny legs',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'legal',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if something is legal, you are allowed to do it or have to do it by law',
+    meaningZh: '',
+    exampleSentence: 'What the company has done is perfectly legal.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'legislation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a law or set of laws',
+    meaningZh: '',
+    exampleSentence: 'It is a very important piece of legislation .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'legs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with legs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'length',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the measurement of how long something is from one end to the other',
+    meaningZh: '',
+    exampleSentence: 'We measured the length and width of the living room.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'less',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'not so much or to a smaller degree',
+    meaningZh: '',
+    exampleSentence: 'Maybe he would worry less if he understood the situation.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lesson',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a period of time in which someone is taught a particular skill , for example how to play a musical instrument or drive a car',
+    meaningZh: '',
+    exampleSentence: 'piano lessons',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'let',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to allow someone to do something',
+    meaningZh: '',
+    exampleSentence: 'I can’t come out tonight – my dad won’t let me.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'let down',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with let down.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lets',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with lets.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'letter',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a written or printed message that is usually put in an envelope and sent by mail',
+    meaningZh: '',
+    exampleSentence: 'I got a letter from Melanie today.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'letters',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with letters.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'letting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a house or apartment that can be rented',
+    meaningZh: '',
+    exampleSentence: 'short-term holiday lettings',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'level',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the amount or degree of something, compared to another amount or degree',
+    meaningZh: '',
+    exampleSentence: 'Inflation fell to its lowest level in 30 years.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'levels',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with levels.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lewis',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with lewis.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'liberal',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'willing to understand and respect other people’s ideas, opinions , and feelings',
+    meaningZh: '',
+    exampleSentence: 'a more liberal attitude towards sexuality',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'library',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a room or building containing books that can be looked at or borrowed',
+    meaningZh: '',
+    exampleSentence: 'a public library',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'license',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to give official permission for someone to do or produce something, or for an activity to take place',
+    meaningZh: '',
+    exampleSentence: 'a restaurant which is licensed to sell alcohol',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lie',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to be in a position in which your body is flat on the floor, on a bed etc',
+    meaningZh: '',
+    exampleSentence: 'He was lying on the bed smoking a cigarette.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lies',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with lies.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'life',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the period of time when someone is alive',
+    meaningZh: '',
+    exampleSentence: 'Learning goes on throughout life.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lift',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move something or someone upwards into the air',
+    meaningZh: '',
+    exampleSentence: 'Sophie lifted the phone before the second ring.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'light',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the energy from the Sun, a flame , a lamp etc that allows you to see things',
+    meaningZh: '',
+    exampleSentence: 'We saw a flash of light.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lights',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with lights.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'like',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'similar to something else, or happening in the same way',
+    meaningZh: '',
+    exampleSentence: 'Her hair is dark brown like mine.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'liked',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with liked.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'likely',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'something that is likely will probably happen or is probably true',
+    meaningZh: '',
+    exampleSentence: 'Snow showers are likely tomorrow.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'likes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with likes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'limit',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the greatest or least amount, number, speed etc that is allowed',
+    meaningZh: '',
+    exampleSentence: 'a 55 mph speed limit',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'limited',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not very great in amount, number, ability etc',
+    meaningZh: '',
+    exampleSentence: 'There are only a limited number of tickets available.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'limits',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with limits.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'line',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a long thin mark on a piece of paper, the ground, or another surface',
+    meaningZh: '',
+    exampleSentence: 'Draw a straight line across the top of the page.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lines',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a punishment given to school children that consists of writing the same thing a lot of times',
+    meaningZh: '',
+    exampleSentence: 'He got 50 lines for being cheeky to a teacher.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'link',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make a connection between two or more things or people',
+    meaningZh: '',
+    exampleSentence: 'A love of nature links the two poets.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'linked',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with linked.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'links',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with links.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'list',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of names , numbers etc, usually written one below the other, for example so that you can remember or check them',
+    meaningZh: '',
+    exampleSentence: 'Make a list of all the things you have to do.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'listed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a listed building is one of historical interest in Britain, and is protected by a government order',
+    meaningZh: '',
+    exampleSentence: 'This is an example with listed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'listen',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to pay attention to what someone is saying or to a sound that you can hear',
+    meaningZh: '',
+    exampleSentence: 'Listen! There’s a strange noise in the engine.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'listen to',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with listen to.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'listening',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with listening.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'literally',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'according to the most basic or original meaning of a word or expression',
+    meaningZh: '',
+    exampleSentence: 'The name of the cheese is Dolcelatte, literally meaning ‘sweet milk’.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'literature',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'books, plays, poems etc that people think are important and good',
+    meaningZh: '',
+    exampleSentence: 'He has read many of the major works of literature .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'little',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'small in size',
+    meaningZh: '',
+    exampleSentence: 'a little house',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'live',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if you live in a place, you have your home there',
+    meaningZh: '',
+    exampleSentence: 'They lived in Holland for ten years.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lived',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with lived.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lives',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the plural of life',
+    meaningZh: '',
+    exampleSentence: 'This is an example with lives.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'living',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'alive now',
+    meaningZh: '',
+    exampleSentence: 'He’s one of the greatest living composers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'load',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large quantity of something that is carried by a vehicle , person etc',
+    meaningZh: '',
+    exampleSentence: 'a load of wood',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'loan',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an amount of money that you borrow from a bank etc',
+    meaningZh: '',
+    exampleSentence: 'a loan of £60,000',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'loans',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with loans.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'local',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to the particular area you live in, or the area you are talking about',
+    meaningZh: '',
+    exampleSentence: 'local hospital',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'located',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with located.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'location',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a particular place, especially in relation to other areas, buildings etc',
+    meaningZh: '',
+    exampleSentence: 'His apartment is in a really good location.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'locations',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with locations.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lock',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to fasten something, usually with a key , so that other people cannot open it, or to be fastened like this',
+    meaningZh: '',
+    exampleSentence: 'Did you lock the car?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lol',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'used in emails , text message s etc to show that you think something is funny',
+    meaningZh: '',
+    exampleSentence: 'This is an example with lol.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'london',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the capital city of the UK, in southeast England on the River Thames, which is also an important port and centre for tourists . Population : 8,308,369 (2012). London is the centre of the British government , and the Houses of Parliament , Downing Street (the home of the prime minister ), Buckingham Palace (the home of the Queen ), and Whitehall (the main government offices) are all in the southwestern part of central London. London is also one of the world ’s main financial centres, and the London Stock Exchange and the Bank of England are in the City, the main business area in the eastern part of central London. Most of the well-known shops , hotels , theatres , cinemas etc are in the West End, the western part of central London, and the East End – known as a mainly working-class area where the local people are called ‘Cockneys’. London is also known for its many parks , including Hyde Park and Regent ’s Park, its many museum s , and its system of public transport , which includes red buses , black taxis , and an underground railway called the ‘ Tube ’. London was originally established by the Romans, as Londinium, in the 1st century AD , and became the capital of England in the 11th century.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with london.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'long',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'measuring a great length from one end to the other',
+    meaningZh: '',
+    exampleSentence: 'a long table',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'longer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with longer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'look',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to turn your eyes towards something, so that you can see it',
+    meaningZh: '',
+    exampleSentence: 'We sneaked out while Jessie’s mom wasn’t looking.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'look after',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with look after.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'look at',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with look at.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'look for',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with look for.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'look forward to',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with look forward to.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'look up',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with look up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'looked',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with looked.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'looking',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with looking.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'looks',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'physical attractiveness',
+    meaningZh: '',
+    exampleSentence: 'Fiona’s got everything – looks, money and youth.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'loose',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not firmly fastened in place',
+    meaningZh: '',
+    exampleSentence: 'a loose floorboard',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lord',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a man who has a rank in the aristocracy , especially in Britain, or his title',
+    meaningZh: '',
+    exampleSentence: 'Lord Salisbury',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'los',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with los.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lose',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to stop having a particular attitude , quality, ability etc, or to gradually have less of it',
+    meaningZh: '',
+    exampleSentence: 'I’ve lost my appetite.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'losing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with losing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'loss',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the fact of no longer having something, or of having less of it than you used to have, or the process by which this happens',
+    meaningZh: '',
+    exampleSentence: 'The court awarded Ms Dixon £7,000 for damages and loss of earnings .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lost',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the past tense and past participle of lose',
+    meaningZh: '',
+    exampleSentence: '‘Are you lost?’ the driver asked.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lot',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'a group of people or things considered together',
+    meaningZh: '',
+    exampleSentence: 'Could you help me carry this lot upstairs?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lots',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with lots.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'loud',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'making a lot of noise',
+    meaningZh: '',
+    exampleSentence: 'The book fell to the floor with a loud bang.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'louis',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with louis.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'love',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have a strong feeling of affection for someone, combined with sexual attraction',
+    meaningZh: '',
+    exampleSentence: 'I love you, Tracy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'loved',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with loved.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lovely',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'beautiful or attractive',
+    meaningZh: '',
+    exampleSentence: 'She had a lovely face.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'loves',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with loves.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'loving',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'behaving in a way that shows you love someone',
+    meaningZh: '',
+    exampleSentence: 'the confidence he had gained from having a warm and loving family',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'low',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'small, or smaller than usual , in amount, level, or value',
+    meaningZh: '',
+    exampleSentence: 'families existing on very low incomes',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lower',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'below something else, especially below something of the same type',
+    meaningZh: '',
+    exampleSentence: 'Nina chewed her lower lip anxiously.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ltd',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the written abbreviation of Limited , used in the names of companies or businesses',
+    meaningZh: '',
+    exampleSentence: 'M. Dixon & Son Ltd',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'luck',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'good things that happen to you by chance',
+    meaningZh: '',
+    exampleSentence: 'You’re not having much luck today, are you?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lucky',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having good luck',
+    meaningZh: '',
+    exampleSentence: 'The children were lucky to survive the fire which destroyed their home.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lunch',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a meal eaten in the middle of the day',
+    meaningZh: '',
+    exampleSentence: 'What’s for lunch?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'lying',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the present participle of lie',
+    meaningZh: '',
+    exampleSentence: 'This is an example with lying.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'machine',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of equipment with moving parts that uses power such as electricity to do a particular job',
+    meaningZh: '',
+    exampleSentence: 'Is the washing machine working now?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'machines',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with machines.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mad',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'angry',
+    meaningZh: '',
+    exampleSentence: 'Are you still mad at me?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'made',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense and past participle of make',
+    meaningZh: '',
+    exampleSentence: 'sales of British-made equipment',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'magazine',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large thin book with a paper cover that contains news stories, articles , photographs etc, and is sold weekly or monthly',
+    meaningZh: '',
+    exampleSentence: 'a glossy fashion magazine',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'magic',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the power to make impossible things happen by saying special words or doing special actions',
+    meaningZh: '',
+    exampleSentence: 'Do you believe in magic?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mail',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the letters and packages that are delivered to you',
+    meaningZh: '',
+    exampleSentence: 'You shouldn\'t read other people\'s mail.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'main',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'larger or more important than all other things, ideas etc of the same kind',
+    meaningZh: '',
+    exampleSentence: 'The main reason for living in Spain is the weather.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mainly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to mention the main part or cause of something, the main reason for something etc',
+    meaningZh: '',
+    exampleSentence: 'Her illness was caused mainly by stress.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'maintain',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make something continue in the same way or at the same standard as before',
+    meaningZh: '',
+    exampleSentence: 'Careers Officers maintain contact with young people when they have left school.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'maintenance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the repairs , painting etc that are necessary to keep something in good condition',
+    meaningZh: '',
+    exampleSentence: 'the cost of repairs and maintenance',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'major',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having very serious or worrying results',
+    meaningZh: '',
+    exampleSentence: 'There is a major problem with parking in London.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'majority',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'most of the people or things in a group',
+    meaningZh: '',
+    exampleSentence: 'The majority of workers find it quite hard to live on the amount of money they earn.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'make',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to produce something, for example by putting the different parts of it together',
+    meaningZh: '',
+    exampleSentence: 'I’m going to show you how to make a box for your tools.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'make out',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with make out.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'make sure',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with make sure.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'make up',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with make up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'makes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with makes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'making',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of making something',
+    meaningZh: '',
+    exampleSentence: 'companies involved in the making of nuclear weapons',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'male',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'typical of or relating to men or boys',
+    meaningZh: '',
+    exampleSentence: 'a deep male voice',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'man',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an adult male human',
+    meaningZh: '',
+    exampleSentence: 'There were two men and a woman in the car.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'manage',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to direct or control a business or department and the people, equipment , and money involved in it',
+    meaningZh: '',
+    exampleSentence: 'He was asked to manage a new department.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'managed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with managed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'management',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of controlling and organizing the work that a company or organization does',
+    meaningZh: '',
+    exampleSentence: 'good management and co-operation with staff',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'manager',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone whose job is to manage part or all of a company or other organization',
+    meaningZh: '',
+    exampleSentence: 'She’s now assistant marketing manager for the southeast area.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'managers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with managers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'manchester',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large city in the northwest of England, which was formerly known for its wool and cotton industries , but is now the financial and business centre for the area. Many pop and rock bands come from Manchester, which is known for its music industry and its many nightclub s . It is also known for its two football teams , Manchester United and Manchester City. Many of the buildings in the city centre were destroyed by an IRA bomb in 1996. People who come from Manchester are called Mancunians.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with manchester.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'manner',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the way in which something is done or happens',
+    meaningZh: '',
+    exampleSentence: 'It seemed rather an odd manner of deciding things.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'manufacturing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process or business of producing goods in factories',
+    meaningZh: '',
+    exampleSentence: 'Thousands of jobs had been lost in manufacturing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'many',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'a large number of people or things',
+    meaningZh: '',
+    exampleSentence: 'Many people have to use a car to travel to work.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'map',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a drawing of a particular area, for example a city or country, which shows its main features , such as its roads, rivers , mountains etc',
+    meaningZh: '',
+    exampleSentence: 'a map of Mexico City',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'march',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if soldiers or other people march somewhere, they walk there quickly with firm regular steps',
+    meaningZh: '',
+    exampleSentence: 'On 29 August the royal army marched into Inverness.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'marine',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to the sea and the creatures that live there',
+    meaningZh: '',
+    exampleSentence: 'the enormous variety of marine life',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mark',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to write or draw on something, so that someone will notice what you have written',
+    meaningZh: '',
+    exampleSentence: 'I’ve marked the pages you need to look at.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'marked',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'very easy to notice',
+    meaningZh: '',
+    exampleSentence: 'a marked lack of enthusiasm',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'market',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a time when people buy and sell goods, food etc, or the place, usually outside or in a large building, where this happens',
+    meaningZh: '',
+    exampleSentence: 'I usually buy all my vegetables at the market.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'marketing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of deciding how to advertise a product , what price to charge for it etc, or the type of job in which you do this',
+    meaningZh: '',
+    exampleSentence: 'a clever marketing ploy',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'markets',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with markets.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'marks',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with marks.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'marriage',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the relationship between two people who are married , or the state of being married',
+    meaningZh: '',
+    exampleSentence: 'She has three daughters from a previous marriage.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'married',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a husband or a wife',
+    meaningZh: '',
+    exampleSentence: 'Are you married or single?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'martin',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a small bird like a swallow',
+    meaningZh: '',
+    exampleSentence: 'This is an example with martin.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mary',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'in the Christian religion , the mother of Jesus Christ, and the most important of all the saint s . She was the wife of Joseph, but Christians believe she was a virgin (= someone who has never had sex ) , because the father of Jesus is not a human being, but God . Christians, especially Roman Catholics, often pray to her to ask for help.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with mary.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mass',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large amount of a substance which does not have a definite or regular shape',
+    meaningZh: '',
+    exampleSentence: 'The food had congealed into a sticky mass.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'massive',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'very large, solid , and heavy',
+    meaningZh: '',
+    exampleSentence: 'The bell is massive, weighing over 40 tons.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'master',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who is very skilled at something',
+    meaningZh: '',
+    exampleSentence: 'Runyon was a master of the short story.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'match',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an organized sports event between two teams or people',
+    meaningZh: '',
+    exampleSentence: 'It’s our last match of the season.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'matches',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with matches.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mate',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone you work with, do an activity with, or share something with',
+    meaningZh: '',
+    exampleSentence: 'Dad’s office mates are throwing a party for him.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'material',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'cloth used for making clothes, curtains etc',
+    meaningZh: '',
+    exampleSentence: 'curtain material',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'materials',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with materials.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'math',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'mathematics',
+    meaningZh: '',
+    exampleSentence: 'Tim’s good at math and science.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'matt',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'matt paint , colour , or photographs have a dull surface, not shiny',
+    meaningZh: '',
+    exampleSentence: 'matt black',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'matter',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a subject or situation that you have to think about or deal with',
+    meaningZh: '',
+    exampleSentence: 'There are important matters we need to discuss.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'matters',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a situation that you are in or have been describing',
+    meaningZh: '',
+    exampleSentence: 'Maybe some of these suggestions will help to improve matters.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'max',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the abbreviation of',
+    meaningZh: '',
+    exampleSentence: 'Five people will fit, but that’s the max.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'maximum',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the maximum amount , quantity , speed etc is the largest that is possible or allowed',
+    meaningZh: '',
+    exampleSentence: 'The car has a maximum speed of 120 mph.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'maybe',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to say that something may happen or may be true but you are not certain',
+    meaningZh: '',
+    exampleSentence: 'Maybe it’s all just a big misunderstanding.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mayor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the person who has been elected to lead the government of a town or city',
+    meaningZh: '',
+    exampleSentence: 'the election of the London mayor',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'meal',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an occasion when you eat food , for example breakfast or dinner , or the food that you eat on that occasion',
+    meaningZh: '',
+    exampleSentence: 'We must have a meal together some time.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mean',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have or represent a particular meaning',
+    meaningZh: '',
+    exampleSentence: 'What does ‘patronizing’ mean ?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'meaning',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the thing or idea that a word , expression , or sign represents',
+    meaningZh: '',
+    exampleSentence: 'I don’t know the precise meaning of the word ‘gleaned’.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'means',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a way of doing or achieving something',
+    meaningZh: '',
+    exampleSentence: 'For most people, the car is still their main means of transport .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'meant',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of mean',
+    meaningZh: '',
+    exampleSentence: 'This is an example with meant.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'meanwhile',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'while something else is happening',
+    meaningZh: '',
+    exampleSentence: 'Cook the sauce over a medium heat until it thickens. Meanwhile start boiling the water for the pasta.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'measure',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to find the size , length , or amount of something, using standard units such as inch es , metres etc',
+    meaningZh: '',
+    exampleSentence: 'The rainfall was measured over a three-month period.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'measures',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with measures.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'meat',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the flesh of animals and birds eaten as food',
+    meaningZh: '',
+    exampleSentence: 'I gave up eating meat a few months ago.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'media',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the plural of medium',
+    meaningZh: '',
+    exampleSentence: 'The case received enormous publicity in the national media.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'medical',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to medicine and the treatment of disease or injury',
+    meaningZh: '',
+    exampleSentence: 'medical research',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'medicine',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a substance used for treating illness , especially a liquid you drink',
+    meaningZh: '',
+    exampleSentence: 'Medicines should be kept out of the reach of children.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'medium',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'of middle size , level , or amount',
+    meaningZh: '',
+    exampleSentence: 'What size shirt does he wear – small, medium or large?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'meet',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to go to a place where someone will be at a particular time, according to an arrangement , so that you can talk or do something together',
+    meaningZh: '',
+    exampleSentence: 'Meet me at 8.00.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'meeting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an event at which people meet to discuss and decide things',
+    meaningZh: '',
+    exampleSentence: 'We’re having a meeting next week to discuss the matter.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'meetings',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with meetings.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'member',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a person or country that belongs to a group or organization',
+    meaningZh: '',
+    exampleSentence: 'The majority of union members voted in favour of a strike.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'members',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with members.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'membership',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when someone is a member of a club , group, or organization',
+    meaningZh: '',
+    exampleSentence: 'Greece first applied for membership of the EU in 1975.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'memories',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with memories.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'memory',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone’s ability to remember things, places, experiences etc',
+    meaningZh: '',
+    exampleSentence: 'She has a terrible memory for names.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'men',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the plural of man',
+    meaningZh: '',
+    exampleSentence: 'This is an example with men.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mental',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to the health or state of someone’s mind',
+    meaningZh: '',
+    exampleSentence: 'The centre provides help for people suffering from mental illness .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mention',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to talk or write about something or someone, usually quickly and without saying very much or giving details',
+    meaningZh: '',
+    exampleSentence: 'Was my name mentioned at all?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mentioned',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with mentioned.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mess',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'if there is a mess somewhere or a place is a mess, things there are dirty or not neatly arranged',
+    meaningZh: '',
+    exampleSentence: 'What a mess!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'message',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a spoken or written piece of information that you send to another person or leave for them',
+    meaningZh: '',
+    exampleSentence: 'There’s a message from Karen on the answerphone.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'messages',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with messages.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'met',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of meet',
+    meaningZh: '',
+    exampleSentence: 'This is an example with met.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'metal',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a hard, usually shiny substance such as iron , gold , or steel',
+    meaningZh: '',
+    exampleSentence: 'The gate is made of metal.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'method',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a planned way of doing something, especially one that a lot of people know about and use',
+    meaningZh: '',
+    exampleSentence: 'traditional teaching methods',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'methods',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with methods.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mexico',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country to the south of the US and to the north of Guatemala . Population : 116,220,947 (2014). Capital : Mexico City. The official language is Spanish , and most people belong to the Roman Catholic religion . It has had a strong influence on US culture , especially on its food and language. Before the arrival of Europeans, there were several important Native American civilization s in Mexico, including the Aztecs and the Maya . The country was ruled by Spain from the 16th century , and became independent in 1821.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with mexico.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'miami',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a city in the southeast of Florida, in the US. It is known for having warm weather and pleasant beaches , and is very popular with tourists . A lot of people in Miami come from Hispanic (= Spanish-speaking ) countries, including many from Cuba , who came to Miami because they disliked Castro\'s communist government. Because of its large Hispanic population and its nearness to Latin America, many companies in Miami do a lot of business with companies in Central and South America. During the 1980s, the city became known as a centre of the illegal drugs trade , and in the past it had more murders than most other US cities.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with miami.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'michael',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'in the Old Testament of the Bible , an archangel (= a good spirit of the highest rank who lives with God in Heaven )',
+    meaningZh: '',
+    exampleSentence: 'This is an example with michael.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'michigan',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a state in north central US, an industrial area known especially for producing cars',
+    meaningZh: '',
+    exampleSentence: 'This is an example with michigan.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mid',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'among or in the middle of',
+    meaningZh: '',
+    exampleSentence: 'a young woman in her mid-twenties',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'middle',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of your body around your waist and stomach',
+    meaningZh: '',
+    exampleSentence: 'He was holding a towel around his middle.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mike',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a microphone',
+    meaningZh: '',
+    exampleSentence: 'This is an example with mike.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mile',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a unit for measuring distance , equal to 1,760 yard s or about 1,609 metres',
+    meaningZh: '',
+    exampleSentence: 'It’s forty miles from here to the Polish border.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'miles',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a very long distance',
+    meaningZh: '',
+    exampleSentence: 'We were miles from home, and very tired.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'military',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'used by, involving, or relating to the army , navy , or air force',
+    meaningZh: '',
+    exampleSentence: 'a military helicopter',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'milk',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a white liquid produced by cows or goats that is drunk by people',
+    meaningZh: '',
+    exampleSentence: 'a bottle of milk',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'miller',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who owns or works in a mill which makes flour',
+    meaningZh: '',
+    exampleSentence: 'This is an example with miller.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'million',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 1,000,000',
+    meaningZh: '',
+    exampleSentence: 'The book sold more than a million copies.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'millions',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with millions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mind',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'your thoughts or your ability to think, feel, and imagine things',
+    meaningZh: '',
+    exampleSentence: 'It is impossible to understand the complex nature of the human mind .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'minimum',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the minimum number, degree , or amount of something is the smallest or least that is possible , allowed , or needed',
+    meaningZh: '',
+    exampleSentence: 'The minimum number of students we need to run the course is fifteen.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mining',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the work or industry of getting gold , coal etc out of the earth',
+    meaningZh: '',
+    exampleSentence: 'the coal mining industry',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'minister',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a politician who is in charge of a government department , in Britain and some other countries',
+    meaningZh: '',
+    exampleSentence: 'the Minister of Agriculture',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ministry',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a government department that is responsible for one of the areas of government work, such as education or health',
+    meaningZh: '',
+    exampleSentence: 'the Ministry of Agriculture',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'minor',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'small and not very important or serious , especially when compared with other things',
+    meaningZh: '',
+    exampleSentence: 'We have made some minor changes to the program.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'minute',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a unit for measuring time. There are 60 minutes in one hour',
+    meaningZh: '',
+    exampleSentence: 'It takes me ten minutes to walk to work.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'minutes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an official written record of what is said and decided at a meeting',
+    meaningZh: '',
+    exampleSentence: 'Will you take the minutes (= write them down ) ?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mirror',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of special glass that you can look at and see yourself in',
+    meaningZh: '',
+    exampleSentence: 'She was studying her reflection in the mirror.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'miss',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to not go somewhere or do something, especially when you want to but cannot',
+    meaningZh: '',
+    exampleSentence: 'I’m absolutely starving – I missed lunch.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'missed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with missed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'missing',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'something that is missing is not in its usual place, so that you cannot find it',
+    meaningZh: '',
+    exampleSentence: 'We found the missing piece of the jigsaw under the chair.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mission',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an important job that involves travelling somewhere, done by a member of the air force , army etc, or by a spacecraft',
+    meaningZh: '',
+    exampleSentence: 'He was sent on over 200 missions before being killed in action.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mistake',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that has been done in the wrong way, or an opinion or statement that is incorrect',
+    meaningZh: '',
+    exampleSentence: 'We may have made a mistake in our calculations.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mix',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if you mix two or more substances or if they mix, they combine to become a single substance, and they cannot be easily separated',
+    meaningZh: '',
+    exampleSentence: 'Oil and water don’t mix.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mixed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'consisting of several different types of things or people',
+    meaningZh: '',
+    exampleSentence: 'a very mixed group of women',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mobile',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a mobile phone',
+    meaningZh: '',
+    exampleSentence: 'Give me a call on my mobile.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mode',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a particular way or style of behaving , living, or doing something',
+    meaningZh: '',
+    exampleSentence: 'the most efficient mode of transport',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'model',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a small copy of a building, vehicle , machine etc, especially one that can be put together from separate parts',
+    meaningZh: '',
+    exampleSentence: 'They showed us a model of the building.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'models',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with models.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'modern',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'belonging to the present time or most recent time',
+    meaningZh: '',
+    exampleSentence: 'Such companies must change if they are to compete in the modern world .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mom',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'mother',
+    meaningZh: '',
+    exampleSentence: 'Mom, can I go over to Lisa’s house?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'moment',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a particular point in time',
+    meaningZh: '',
+    exampleSentence: 'It was one of the most exciting moments in his life.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'moments',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with moments.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'monday',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the day between Sunday and Tuesday',
+    meaningZh: '',
+    exampleSentence: 'It was raining on Monday.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'money',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'what you earn by working and can use to buy things. Money can be in the form of notes and coins or cheques , and can be kept in a bank',
+    meaningZh: '',
+    exampleSentence: 'Don’t spend all your money on the first day of your holiday!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'monster',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an imaginary or ancient creature that is large, ugly , and frightening',
+    meaningZh: '',
+    exampleSentence: 'the remains of a prehistoric monster',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'month',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the 12 named periods of time that a year is divided into',
+    meaningZh: '',
+    exampleSentence: 'Phil is coming home for a visit next month.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'monthly',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening once a month',
+    meaningZh: '',
+    exampleSentence: 'The mortgage is payable in monthly instalments.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'months',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a long time, especially several months',
+    meaningZh: '',
+    exampleSentence: 'Redecorating the kitchen took months.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'moon',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the appearance or shape of the moon at a particular time',
+    meaningZh: '',
+    exampleSentence: 'It was the night of the full moon .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'moral',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to the principles of what is right and wrong behaviour , and with the difference between good and evil',
+    meaningZh: '',
+    exampleSentence: 'It is easy to have an opinion on a moral issue like the death penalty for murder.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'morning',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the early part of the day, from when the sun rises until 12 o ’ clock in the middle of the day',
+    meaningZh: '',
+    exampleSentence: 'I hated those cold winter mornings.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mostly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to talk about most members of a group, most occasions , most parts of something etc',
+    meaningZh: '',
+    exampleSentence: 'Green teas are mostly from China or Japan.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mother',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a female parent of a child or animal',
+    meaningZh: '',
+    exampleSentence: 'His mother and father are both doctors.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'motion',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of moving or the way that someone or something moves',
+    meaningZh: '',
+    exampleSentence: 'the motion of the planets',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'motor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of a machine that makes it work or move, by changing power, especially electrical power, into movement',
+    meaningZh: '',
+    exampleSentence: 'an electric motor',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mount',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to plan, organize , and begin an event or a course of action',
+    meaningZh: '',
+    exampleSentence: 'The National Gallery mounted an exhibition of Danish painting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mountain',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a very high hill',
+    meaningZh: '',
+    exampleSentence: 'the highest mountain in Austria',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mountains',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with mountains.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mouse',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a small furry animal with a pointed nose and a long tail that lives in people’s houses or in fields',
+    meaningZh: '',
+    exampleSentence: 'The cat laid a dead mouse at my feet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mouth',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of your face which you put food into, or which you use for speaking',
+    meaningZh: '',
+    exampleSentence: 'He lifted his glass to his mouth.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'move',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to change from one place or position to another, or to make something do this',
+    meaningZh: '',
+    exampleSentence: 'Please keep the doors closed while the train is moving.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'moved',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with moved.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'movement',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of people who share the same ideas or beliefs and who work together to achieve a particular aim',
+    meaningZh: '',
+    exampleSentence: 'the civil rights movement of the 1960s',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'moves',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with moves.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'movie',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a film made to be shown at the cinema or on television',
+    meaningZh: '',
+    exampleSentence: 'It was like one of those old John Wayne movies.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'movies',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with movies.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'moving',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'making you feel strong emotions , especially sadness or sympathy',
+    meaningZh: '',
+    exampleSentence: 'Bayman’s book about his illness is deeply moving.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'mrs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'used before a married woman’s family name to be polite when you are speaking to her, writing to her, or talking about her',
+    meaningZh: '',
+    exampleSentence: 'Mrs. Smith',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'much',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'by a great amount',
+    meaningZh: '',
+    exampleSentence: 'Henry’s room is much bigger than mine.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'multi',
+    partOfSpeech: 'prefix',
+    simpleDefinitionEn: 'more than one',
+    meaningZh: '',
+    exampleSentence: 'multicoloured',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'multiple',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'many, or involving many things, people, events etc',
+    meaningZh: '',
+    exampleSentence: 'Baxter was rushed to the hospital with multiple stab wounds.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'murder',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the crime of deliberately killing someone',
+    meaningZh: '',
+    exampleSentence: 'On the night the murder was committed , he was out of the country.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'museum',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a building where important cultural , historical , or scientific objects are kept and shown to the public',
+    meaningZh: '',
+    exampleSentence: 'the Museum of Modern Art',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'music',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a series of sounds made by instruments or voices in a way that is pleasant or exciting',
+    meaningZh: '',
+    exampleSentence: 'I often listen to classical music when I’m in the car.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'musical',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to music or consisting of music',
+    meaningZh: '',
+    exampleSentence: 'a musical version of the fairy tale ‘Cinderella’',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'muslim',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone whose religion is Islam',
+    meaningZh: '',
+    exampleSentence: 'This is an example with muslim.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'myself',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'used by the person speaking or writing to show that they are affected by their own action',
+    meaningZh: '',
+    exampleSentence: 'I blame myself for what has happened.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'name',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'what someone is called',
+    meaningZh: '',
+    exampleSentence: 'Her name is Mandy Wilson.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'named',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with named.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'names',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'at LLOYD\'S , the investors who use their own money as a GUARANTEE for contracts against insurance risks',
+    meaningZh: '',
+    exampleSentence: 'This is an example with names.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country, considered especially in relation to its people and its social or economic structure',
+    meaningZh: '',
+    exampleSentence: 'the president’s radio broadcast to the nation',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'national',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'related to a whole nation as opposed to any of its parts',
+    meaningZh: '',
+    exampleSentence: 'Religion matters very much at a national level.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nations',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with nations.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'native',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'your native country, town etc is the place where you were born',
+    meaningZh: '',
+    exampleSentence: 'They never saw their native land again.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'natural',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'existing in nature and not caused, made, or controlled by people',
+    meaningZh: '',
+    exampleSentence: 'the study of the natural world (= trees, rivers, animals, plants etc )',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'naturally',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'use this to say that something is normal and not surprising',
+    meaningZh: '',
+    exampleSentence: 'Naturally, you’ll want to discuss this with your wife.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nature',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'everything in the physical world that is not controlled by humans , such as wild plants and animals, earth and rocks , and the weather',
+    meaningZh: '',
+    exampleSentence: 'We grew up in the countryside, surrounded by the beauties of nature.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'navy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of a country’s military forces that fights at sea',
+    meaningZh: '',
+    exampleSentence: 'the British Navy',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'near',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'only a short distance from a person or thing',
+    meaningZh: '',
+    exampleSentence: 'They live near London.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nearby',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not far away',
+    meaningZh: '',
+    exampleSentence: 'Lucy was staying in the nearby town of Hamilton.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nearly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'almost, but not quite or not completely',
+    meaningZh: '',
+    exampleSentence: 'It took nearly two hours to get here.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'necessarily',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in a way that cannot be different or be avoided',
+    meaningZh: '',
+    exampleSentence: 'The care of old people necessarily involves quite a lot of heavy lifting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'necessary',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'something that is necessary is what you need to have or need to do',
+    meaningZh: '',
+    exampleSentence: 'The booklet provides all the necessary information about the college.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'neck',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of your body that joins your head to your shoulders , or the same part of an animal or bird',
+    meaningZh: '',
+    exampleSentence: 'Jean wore a string of pearls around her neck.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'need',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have to have something or someone, because you cannot do something without them, or because you cannot continue or cannot exist without them',
+    meaningZh: '',
+    exampleSentence: 'You don’t really need a car.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'needed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with needed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'needs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with needs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'negative',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'harmful , unpleasant , or not wanted',
+    meaningZh: '',
+    exampleSentence: 'My drinking was starting to have a negative effect on my work.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'neighborhood',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with neighborhood.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'neither',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'not one or the other of two people or things',
+    meaningZh: '',
+    exampleSentence: '‘Would you like tea or coffee?’ ‘Neither, thanks.’',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'net',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something used for catching fish, insects , or animals which is made of threads or wires woven across each other with regular spaces between them',
+    meaningZh: '',
+    exampleSentence: 'a fishing net',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'network',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a system of lines, tubes , wires , roads etc that cross each other and are connected to each other',
+    meaningZh: '',
+    exampleSentence: 'Hungary’s telephone network',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'never',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'not at any time, or not once',
+    meaningZh: '',
+    exampleSentence: 'He’s never been to Australia.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'news',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'information about something that has happened recently',
+    meaningZh: '',
+    exampleSentence: 'I hope to have some good news for you soon.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'newspaper',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of large folded sheets of printed paper containing news , articles , pictures , advertisements etc which is sold daily or weekly',
+    meaningZh: '',
+    exampleSentence: 'She had read about it in the newspaper.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'next',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'the next event , day, time etc is the one that happens after the present one, or the previous one',
+    meaningZh: '',
+    exampleSentence: 'I just missed my flight to Chicago. When’s the next one?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nfl',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the organization in charge of the highest level of professional American football in the US. The NFL consists of two league s (= groups of teams who play against each other ) , the National Football Conference (NFC) and the American Football Conference (AFC). Every year, the teams that win these leagues play each other in the Super Bowl .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with nfl.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nice',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'pleasant , attractive , or enjoyable',
+    meaningZh: '',
+    exampleSentence: 'They’ve got a very nice house.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nick',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a very small cut made on the edge or surface of something',
+    meaningZh: '',
+    exampleSentence: 'Someone’s nicked my wallet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'night',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the dark part of each 24-hour period when the sun cannot be seen and when most people sleep',
+    meaningZh: '',
+    exampleSentence: 'It was a cold moonlit night.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nights',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'if you do something nights, you do it regularly or often at night',
+    meaningZh: '',
+    exampleSentence: 'I work nights, so I’m usually asleep during the day.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nine',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 9',
+    meaningZh: '',
+    exampleSentence: 'He’s only been in this job for nine months.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nobody',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'no one',
+    meaningZh: '',
+    exampleSentence: 'I knocked on the door but nobody answered.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'noise',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a sound , especially one that is loud , unpleasant , or frightening',
+    meaningZh: '',
+    exampleSentence: 'What’s that noise?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'non',
+    partOfSpeech: 'prefix',
+    simpleDefinitionEn: 'used to say that someone or something is not a particular thing, or does not do a particular thing',
+    meaningZh: '',
+    exampleSentence: 'non-British visitors',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'none',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'not any amount of something or not one of a group of people or things',
+    meaningZh: '',
+    exampleSentence: 'I wish I could offer you some cake but there’s none left.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with nor.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'normal',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'usual , typical , or expected',
+    meaningZh: '',
+    exampleSentence: 'A normal working week is 40 hours.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'normally',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'usually',
+    meaningZh: '',
+    exampleSentence: 'The journey normally takes about two hours.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'north',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the direction that is at the top of a map of the world, above the Equator . It is on the left if you are facing the rising sun',
+    meaningZh: '',
+    exampleSentence: 'Which way is north?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'northern',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'in or from the north of a country or area',
+    meaningZh: '',
+    exampleSentence: 'a man with a northern accent',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nose',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of a person’s or animal’s face used for smelling or breathing',
+    meaningZh: '',
+    exampleSentence: 'Someone punched him on the nose.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'note',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that you write down to remind you of something',
+    meaningZh: '',
+    exampleSentence: 'Dave made a note of her address and phone number.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'notebook',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a book made of plain paper on which you can write notes',
+    meaningZh: '',
+    exampleSentence: 'It says it is offering the industry’s most advanced notebooks at competitive prices.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'noted',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'well known or famous , especially because of some special quality or ability',
+    meaningZh: '',
+    exampleSentence: 'a noted author',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'notes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'information that a student writes down during a lesson , from a book etc',
+    meaningZh: '',
+    exampleSentence: 'Can I borrow your lecture notes ?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nothing',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'not anything or no thing',
+    meaningZh: '',
+    exampleSentence: 'Nothing ever happens in this town.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'notice',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if you notice something or someone, you realize that they exist , especially because you can see, hear , or feel them',
+    meaningZh: '',
+    exampleSentence: 'He noticed a woman in a black dress sitting across from him.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'noticed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with noticed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'novel',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a long written story in which the characters and events are usually imaginary',
+    meaningZh: '',
+    exampleSentence: 'a novel by Jane Austen',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'november',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the 11th month of the year, between October and December',
+    meaningZh: '',
+    exampleSentence: 'He started work here last November.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'nuclear',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to or involving the nucleus (= central part ) of an atom , or the energy produced when the nucleus of an atom is either split or joined with the nucleus of another atom',
+    meaningZh: '',
+    exampleSentence: 'France’s reliance on nuclear energy',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'number',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a word or sign that represents an exact amount or quantity',
+    meaningZh: '',
+    exampleSentence: 'They wrote various numbers on a large sheet of paper.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'numbers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'how many people there are, especially people attending an event or doing an activity together',
+    meaningZh: '',
+    exampleSentence: 'Can you give me some idea of numbers?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'numerous',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'many',
+    meaningZh: '',
+    exampleSentence: 'Numerous attempts have been made to hide the truth.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'obama',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with obama.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'object',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a solid thing that you can hold, touch , or see but that is not alive',
+    meaningZh: '',
+    exampleSentence: 'an everyday object such as a spoon',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'object to',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with object to.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'objects',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with objects.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'obtained',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with obtained.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'obvious',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'easy to notice or understand',
+    meaningZh: '',
+    exampleSentence: 'The obvious way of reducing pollution is to use cars less.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'obviously',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to mean that a fact can easily be noticed or understood',
+    meaningZh: '',
+    exampleSentence: 'We’re obviously going to need more help.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'occur',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to happen',
+    meaningZh: '',
+    exampleSentence: 'A third of accidental deaths occur in the home.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'occurred',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with occurred.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ocean',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the very large areas of sea on the Earth ’s surface',
+    meaningZh: '',
+    exampleSentence: 'the Pacific Ocean',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'october',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the tenth month of the year, between September and November',
+    meaningZh: '',
+    exampleSentence: 'We moved in last October.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'off',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'away from a place',
+    meaningZh: '',
+    exampleSentence: 'He got into his car and drove off.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'offensive',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'very rude or insulting and likely to upset people',
+    meaningZh: '',
+    exampleSentence: 'I found her remarks deeply offensive .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'offer',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to ask someone if they would like to have something, or to hold something out to them so that they can take it',
+    meaningZh: '',
+    exampleSentence: 'Can I offer you something to drink?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'offered',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with offered.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'offering',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a book, play, piece of music etc that someone has written recently',
+    meaningZh: '',
+    exampleSentence: 'the latest offering from Nanci Griffith',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'offers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with offers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'office',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a building that belongs to a company or an organization , with rooms where people can work at desks',
+    meaningZh: '',
+    exampleSentence: 'The department occupies an office just a mile from the White House.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'officer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who is in a position of authority in the army , navy etc',
+    meaningZh: '',
+    exampleSentence: 'a commanding officer of the SAS',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'officers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with officers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'offices',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with offices.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'official',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who is in a position of authority in an organization',
+    meaningZh: '',
+    exampleSentence: 'a government official',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'officially',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'publicly or formally',
+    meaningZh: '',
+    exampleSentence: 'The new church was officially opened on July 5th.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'officials',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with officials.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'offline',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'with your computer not connected to the Internet',
+    meaningZh: '',
+    exampleSentence: 'I work offline most of the day.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'often',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'if something happens often, it happens regularly or many times',
+    meaningZh: '',
+    exampleSentence: 'She often works at the weekend.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ohio',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a state in the Midwest of the US, known especially for its engineering , coal mining , and farming . Its largest city is Cleveland.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ohio.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'oil',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the thick dark liquid from under the ground from which petrol is produced',
+    meaningZh: '',
+    exampleSentence: 'a rise in the price of oil',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'okay',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with okay.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'old',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'something that is old has existed or been used for a long time',
+    meaningZh: '',
+    exampleSentence: 'a pair of old shoes',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'older',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with older.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'olympic',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to the Olympic Games',
+    meaningZh: '',
+    exampleSentence: 'an Olympic gold medal',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'once',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'on one occasion only',
+    meaningZh: '',
+    exampleSentence: 'I’ve only met her once.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ones',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ones.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'online',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'connected to other computers through the Internet , or available through the Internet',
+    meaningZh: '',
+    exampleSentence: 'All the city’s schools will be online by the end of the year.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'open',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not closed, so that things, people, air etc can go in and out or be put in and out',
+    meaningZh: '',
+    exampleSentence: 'He threw the door open and ran down the stairs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'opened',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with opened.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'opening',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the time when a new building, road etc is used for the first time, or when a public event begins, especially when it involves a special ceremony',
+    meaningZh: '',
+    exampleSentence: 'the official opening of the new theatre',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'operate',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to use and control a machine or equipment',
+    meaningZh: '',
+    exampleSentence: 'The Lewis family operated a number of boats on the canal.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'operating',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with operating.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'operation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of cutting into someone’s body to repair or remove a part that is damaged',
+    meaningZh: '',
+    exampleSentence: 'She’s going to need an operation on her ankle.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'operations',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with operations.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'opinion',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'your ideas or beliefs about a particular subject',
+    meaningZh: '',
+    exampleSentence: 'What’s your opinion of Cathy?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'opportunities',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with opportunities.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'opportunity',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a chance to do something or an occasion when it is easy for you to do something',
+    meaningZh: '',
+    exampleSentence: 'a rare opportunity to see inside this historic building',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'opposed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'two ideas that are opposed to each other are completely different from each other',
+    meaningZh: '',
+    exampleSentence: 'The principles of capitalism and socialism are diametrically opposed (= completely opposite ) .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'opposite',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'if one thing or person is opposite another, they are facing each other',
+    meaningZh: '',
+    exampleSentence: 'The people sitting opposite us looked very familiar.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'opposition',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'strong disagreement with, or protest against, something such as a plan, law , or system',
+    meaningZh: '',
+    exampleSentence: 'There was a great deal of opposition to the war.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'option',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a choice you can make in a particular situation',
+    meaningZh: '',
+    exampleSentence: 'There are a number of options available.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'options',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with options.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'orange',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a round fruit that has a thick orange skin and is divided into parts inside',
+    meaningZh: '',
+    exampleSentence: 'Peel the oranges and divide them into segments.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'order',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'for the purpose of doing something',
+    meaningZh: '',
+    exampleSentence: 'Samuel trained every day in order to improve his performance.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ordered',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'well arranged or controlled',
+    meaningZh: '',
+    exampleSentence: 'an ordered existence',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'orders',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with orders.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'organization',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group such as a club or business that has formed for a particular purpose',
+    meaningZh: '',
+    exampleSentence: 'The public expect high standards from any large organization.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'organizations',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with organizations.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'organized',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'involving people working together in an effective and well-planned way',
+    meaningZh: '',
+    exampleSentence: 'Organized groups of citizens are more successful at changing the government’s mind.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'origin',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the place or situation in which something begins to exist',
+    meaningZh: '',
+    exampleSentence: 'a new theory to explain the origins of the universe',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'original',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'existing or happening first, before other people or things',
+    meaningZh: '',
+    exampleSentence: 'The land was returned to its original owner.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'originally',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in the beginning, before other things happened or before things changed',
+    meaningZh: '',
+    exampleSentence: 'The family originally came from France.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'others',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with others.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'otherwise',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used when saying what bad thing will happen if something is not done',
+    meaningZh: '',
+    exampleSentence: 'You’ll have to go now, otherwise you’ll miss your bus.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ourselves',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'used by the person speaking to show that they and one or more other people are affected by their own action',
+    meaningZh: '',
+    exampleSentence: 'We prepared ourselves for the long journey ahead.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'outside',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'not inside a building',
+    meaningZh: '',
+    exampleSentence: 'When we got up, it was still dark outside.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'outstanding',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'extremely good',
+    meaningZh: '',
+    exampleSentence: 'an outstanding example of a 13th-century castle',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'overall',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'considering or including everything',
+    meaningZh: '',
+    exampleSentence: 'The overall cost of the exhibition was £400,000.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'own',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'used to emphasize that something belongs to or is connected with a particular person or thing and not any other',
+    meaningZh: '',
+    exampleSentence: 'Bring your own equipment.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'owned',
+    partOfSpeech: 'suffix',
+    simpleDefinitionEn: 'added to other words in order to say who owns something or how much of it they own',
+    meaningZh: '',
+    exampleSentence: 'It has 55 company-owned stores and 130 franchised stores in 21 states.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'owner',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who owns something',
+    meaningZh: '',
+    exampleSentence: 'I met the owner of the local hotel.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'owners',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with owners.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pacific',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'peaceful and loving or wanting peace',
+    meaningZh: '',
+    exampleSentence: 'a normally pacific community',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pack',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to put things into cases, bags etc ready for a trip somewhere',
+    meaningZh: '',
+    exampleSentence: 'I forgot to pack my razor.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'package',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something wrapped in paper , packed in a box , and then sent by mail or delivered',
+    meaningZh: '',
+    exampleSentence: 'There’s a package here for a Miami Lakes address.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'page',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one side of a piece of paper in a book , newspaper , document etc, or the sheet of paper itself',
+    meaningZh: '',
+    exampleSentence: 'The full address is given on page 15.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pages',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with pages.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'paid',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the past tense and past participle of pay',
+    meaningZh: '',
+    exampleSentence: 'It will become increasingly difficult for those over retirement age to obtain any paid work with which to supplement their pension.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pain',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the feeling you have when part of your body hurts',
+    meaningZh: '',
+    exampleSentence: 'The pain is getting worse.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'paint',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a liquid that you put on a surface , using a brush to make the surface a particular colour',
+    meaningZh: '',
+    exampleSentence: 'a can of blue paint',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'painting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a painted picture that you put on a wall for people to see',
+    meaningZh: '',
+    exampleSentence: 'a collection of valuable paintings',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pair',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an object that is made from two similar parts that are joined together',
+    meaningZh: '',
+    exampleSentence: 'two pairs of jeans',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pakistan',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a Muslim country in Asia, west of India and east of Afghanistan and Iran . Population : 193,238,868 (2014). Capital : Islamabad. Pakistan was formed as a new, independent country in 1947, when the British left India and India was divided into separate parts in a process known as ‘ Partition ’: a mainly Hindu part, the country now called India, and a mainly Muslim part, called Pakistan. Pakistan was also divided into East Pakistan and West Pakistan, but they separated in 1971, when East Pakistan became the new country of Bangladesh, and after this West Pakistan was just called Pakistan. A lot of people from Pakistan came to live in the UK, especially in the 1960s and 1970s.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with pakistan.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'panel',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of people with skills or specialist knowledge who have been chosen to give advice or opinions on a particular subject',
+    meaningZh: '',
+    exampleSentence: 'A panel of experts has looked at the proposal.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pants',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of clothing that covers you from your waist to your feet and has a separate part for each leg',
+    meaningZh: '',
+    exampleSentence: 'She was wearing dark blue pants and a white sweater.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'paper',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'material in the form of thin sheets that is used for writing on, wrapping things etc',
+    meaningZh: '',
+    exampleSentence: 'I’ll get you a piece of paper so you can write the number down.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'papers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'pieces of paper with writing on them that you use in your work, at meetings etc',
+    meaningZh: '',
+    exampleSentence: 'I left some important papers in my briefcase.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'parent',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the father or mother of a person or animal',
+    meaningZh: '',
+    exampleSentence: 'Children under 14 should be accompanied by a parent.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'parents',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with parents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'paris',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the capital city of France, on the River Seine, which is also the country’s business and financial centre . Paris is typically thought of as a very romantic city, and is known as a place where many famous artists lived, especially in the 19th and early 20th centuries . It has many important museum s and galleries ( gallery ), including the Louvre , and its famous buildings include the Eiffel Tower and the cathedral of Notre Dame . It is also known as a centre of the European fashion industry , and many important designers work there. British people used to think of Paris as a place where sexual morals were less strict than in the UK, and it was sometimes known as ‘ Gay Paree’. It was also a popular place for US writers to live in the 1920s and 1930s, including Ernest Hemingway and Gertrude Stein . People from Paris are called Parisians.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with paris.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'park',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large open area with grass and trees , especially in a town , where people can walk , play games etc',
+    meaningZh: '',
+    exampleSentence: 'Let’s go for a walk in the park.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'parking',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of parking a car or other vehicle',
+    meaningZh: '',
+    exampleSentence: 'No Parking (= used on signs )',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'parliament',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the group of people who are elected to make a country’s laws and discuss important national affairs',
+    meaningZh: '',
+    exampleSentence: 'They demanded a free parliament and press.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'part',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece or feature of something such as an object , area, event, or period of time',
+    meaningZh: '',
+    exampleSentence: 'The front part of the car was damaged.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'particular',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a particular thing or person is the one that you are talking about, and not any other',
+    meaningZh: '',
+    exampleSentence: 'In this particular case, no one else was involved.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'particularly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'more than usual or more than others',
+    meaningZh: '',
+    exampleSentence: 'Steve was in a particularly bad mood when he got back.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'parties',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with parties.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'partner',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of two people who are married , or who live together and have a sexual relationship',
+    meaningZh: '',
+    exampleSentence: 'Discuss your worries with your partner.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'partners',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with partners.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'partnership',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the state of being a partner in business',
+    meaningZh: '',
+    exampleSentence: 'I’ve been in partnership with her for five years.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'parts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with parts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'party',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a social event when a lot of people meet together to enjoy themselves by eating, drinking, dancing etc',
+    meaningZh: '',
+    exampleSentence: 'We’re having a small party this evening to celebrate our wedding anniversary.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pass',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to come up to a particular place, person, or object and go past them',
+    meaningZh: '',
+    exampleSentence: 'The crowd parted to let the truck pass.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pass away',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with pass away.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'passed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with passed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'passing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the passing of something is the fact that it has ended',
+    meaningZh: '',
+    exampleSentence: 'The old regime was defeated, and few people mourned its passing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'password',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a secret group of letters or numbers that you must type into a computer before you can use a system or program',
+    meaningZh: '',
+    exampleSentence: 'Enter your password, then click on the ‘proceed’ icon.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'past',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'done, used, or experienced before now',
+    meaningZh: '',
+    exampleSentence: 'Judging by her past performance, Jane should do very well.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'path',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a track that has been made deliberately or made by many people walking over the same ground',
+    meaningZh: '',
+    exampleSentence: 'I walked nervously up the garden path towards the front door.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'patient',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who is receiving medical treatment from a doctor or in a hospital',
+    meaningZh: '',
+    exampleSentence: 'One in three cancer patients suffers no pain at all.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'patients',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with patients.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pattern',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the regular way in which something happens, develops , or is done',
+    meaningZh: '',
+    exampleSentence: 'Weather patterns have changed in recent years.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'paul',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with paul.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pay',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to give someone money for something you buy or for a service',
+    meaningZh: '',
+    exampleSentence: 'How would you like to pay?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pay back',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with pay back.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pay for',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with pay for.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'paying',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with paying.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'payment',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an amount of money that has been or must be paid',
+    meaningZh: '',
+    exampleSentence: 'You can make a payment in any bank.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'payments',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with payments.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'peace',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a situation in which there is no war or fighting',
+    meaningZh: '',
+    exampleSentence: 'The country is at peace with its neighbours for the first time in years.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'peak',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the time when something or someone is best, greatest, highest, most successful etc',
+    meaningZh: '',
+    exampleSentence: 'The British Empire was at its peak in the mid 19th century.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pen',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an instrument for writing or drawing with ink',
+    meaningZh: '',
+    exampleSentence: 'a ballpoint pen',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pencil',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an instrument that you use for writing or drawing , consisting of a wooden stick with a thin piece of a black or coloured substance in the middle',
+    meaningZh: '',
+    exampleSentence: 'a sharp pencil',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'people',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'used as the plural of ‘person’ to refer to men, women, and children',
+    meaningZh: '',
+    exampleSentence: 'How many people were at the meeting?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'per',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'for each',
+    meaningZh: '',
+    exampleSentence: 'How much does it cost per kilo?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'percent',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'equal to 5,10 etc parts out of every 100 parts',
+    meaningZh: '',
+    exampleSentence: 'a one percent (= 1% ) cut in interest rates',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'percentage',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an amount expressed as if it is part of a total which is 100',
+    meaningZh: '',
+    exampleSentence: 'The percentage of school leavers that go to university is about five per cent.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'perfect',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not having any mistakes , faults , or damage',
+    meaningZh: '',
+    exampleSentence: 'His English was perfect.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'perfectly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'completely – used to emphasize what you are saying',
+    meaningZh: '',
+    exampleSentence: 'It’s perfectly normal to be nervous before a performance.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'perform',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to do something to entertain people, for example by acting a play or playing a piece of music',
+    meaningZh: '',
+    exampleSentence: 'Chenier and the band are performing at the Silver Palace tomorrow.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'performance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when someone performs a play or a piece of music',
+    meaningZh: '',
+    exampleSentence: 'Their performance of Mozart’s Concerto in E flat was finely controlled and dramatic.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'performed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with performed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'performing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with performing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'perhaps',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to say that something may be true, but you are not sure',
+    meaningZh: '',
+    exampleSentence: 'Perhaps she’s next door.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'period',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a particular length of time with a beginning and an end',
+    meaningZh: '',
+    exampleSentence: 'Tomorrow’s weather will be dry with sunny periods.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'permanent',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'continuing to exist for a long time or for all the time in the future',
+    meaningZh: '',
+    exampleSentence: 'He gave up a permanent job in order to freelance.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'permission',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'if you have permission to do something, you are officially allowed to do it',
+    meaningZh: '',
+    exampleSentence: 'You\'ll have to get permission from your parents if you want to come.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'person',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a human being, especially considered as someone with their own particular character',
+    meaningZh: '',
+    exampleSentence: 'He was a very nice person, always pleasant and friendly.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'personal',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'belonging or relating to one particular person, rather than to other people or to people in general',
+    meaningZh: '',
+    exampleSentence: 'My personal view is that we shouldn’t offer him the job.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'personality',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone’s character , especially the way they behave towards other people',
+    meaningZh: '',
+    exampleSentence: 'Despite their different personalities, they became the best of friends.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'personally',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to emphasize that you are only giving your own opinion about something',
+    meaningZh: '',
+    exampleSentence: 'Personally, I don’t think much of the idea.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'personnel',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the people who work in a company, organization , or military force',
+    meaningZh: '',
+    exampleSentence: 'senior military personnel',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'perspective',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a way of thinking about something, especially one which is influenced by the type of person you are or by your experiences',
+    meaningZh: '',
+    exampleSentence: 'His father’s death gave him a whole new perspective on life.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'peter',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with peter.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'phase',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the stages of a process of development or change',
+    meaningZh: '',
+    exampleSentence: 'a new drug that is in the experimental phase',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'philosophy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the study of the nature and meaning of existence , truth , good and evil etc',
+    meaningZh: '',
+    exampleSentence: 'Emma studies philosophy at university.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'phone',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a telephone',
+    meaningZh: '',
+    exampleSentence: 'Much of his work is done by phone .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'photo',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a photograph',
+    meaningZh: '',
+    exampleSentence: 'I’ll send Mom a photo of Sammy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'photos',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with photos.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'physical',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'related to someone’s body rather than their mind or emotions',
+    meaningZh: '',
+    exampleSentence: 'She was in constant physical pain.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pick',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to choose a person or thing, for example because they are the best or most suitable',
+    meaningZh: '',
+    exampleSentence: 'Students have to pick three courses from a list of 15.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pick up',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with pick up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'picked',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'picked people have been specially chosen because they are very suitable for a particular job',
+    meaningZh: '',
+    exampleSentence: 'This is an example with picked.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'picture',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'shapes, lines etc painted or drawn on a surface, showing what someone or something looks like',
+    meaningZh: '',
+    exampleSentence: 'The room had several pictures on the walls.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pictures',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with pictures.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'piece',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an amount of something that has been separated from the main part',
+    meaningZh: '',
+    exampleSentence: 'He broke off a piece of bread and gave it her.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pieces',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with pieces.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pilot',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who operates the controls of an aircraft or spacecraft',
+    meaningZh: '',
+    exampleSentence: 'an airline pilot',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pink',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'pale red',
+    meaningZh: '',
+    exampleSentence: 'bright pink lipstick',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'place',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a space or area, for example a particular point on a surface or in a room, building, town, city etc',
+    meaningZh: '',
+    exampleSentence: 'Make sure you keep the key in a safe place.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'placed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with placed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'places',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with places.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'plan',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something you have decided to do',
+    meaningZh: '',
+    exampleSentence: 'His plan is to get a degree in economics and then work abroad for a year.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'plane',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a vehicle that flies in the air and has wings and at least one engine',
+    meaningZh: '',
+    exampleSentence: 'It is a big airline with a large fleet of planes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'planet',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a very large round object in space that moves around the Sun or another star',
+    meaningZh: '',
+    exampleSentence: 'Mercury is the smallest of all the planets.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'planned',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with planned.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'planning',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of thinking about and deciding on a plan for achieving or making something',
+    meaningZh: '',
+    exampleSentence: 'A little careful planning is important in gardening.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'plans',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with plans.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'plant',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a living thing that has leaves and roots and grows in earth , especially one that is smaller than a tree',
+    meaningZh: '',
+    exampleSentence: 'Don’t forget to water the plants.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'plants',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with plants.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'plastic',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'made of plastic',
+    meaningZh: '',
+    exampleSentence: 'a plastic spoon',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'plate',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a flat and usually round dish that you eat from or serve food on',
+    meaningZh: '',
+    exampleSentence: 'The plates were piled high with rice.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'platform',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the raised place beside a railway track where you get on and off a train in a station',
+    meaningZh: '',
+    exampleSentence: 'The Edinburgh train will depart from platform six.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'play',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'when children play, they do things that they enjoy, often with other people or with toys',
+    meaningZh: '',
+    exampleSentence: 'Kids were playing and chasing each other.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'played',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with played.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'player',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who takes part in a game or sport',
+    meaningZh: '',
+    exampleSentence: 'a basketball player',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'players',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with players.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'playing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with playing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'plays',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with plays.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'please',
+    partOfSpeech: 'interjection',
+    simpleDefinitionEn: 'used to be polite when asking someone to do something',
+    meaningZh: '',
+    exampleSentence: 'Could you please clean up the living room?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pleasure',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the feeling of happiness , enjoyment , or satisfaction that you get from an experience',
+    meaningZh: '',
+    exampleSentence: 'She sipped her drink with obvious pleasure.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'plenty',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'a large quantity that is enough or more than enough',
+    meaningZh: '',
+    exampleSentence: 'Make sure she gets plenty of fresh air.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'plot',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a secret plan by a group of people to do something harmful or illegal',
+    meaningZh: '',
+    exampleSentence: 'a plot to bomb the UN headquarters',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'plus',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'used to show that one number or amount is added to another',
+    meaningZh: '',
+    exampleSentence: 'Three plus six equals nine (3 + 6 = 9).',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pocket',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a type of small bag in or on a coat , trousers etc that you can put money, keys etc in',
+    meaningZh: '',
+    exampleSentence: 'Luke came in with his hands in his pockets.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'point',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a single fact, idea, or opinion that is part of an argument or discussion',
+    meaningZh: '',
+    exampleSentence: 'That’s a very interesting point.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'point out',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with point out.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pointed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a point at the end',
+    meaningZh: '',
+    exampleSentence: 'a pointed beard',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'points',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of railway track that can be moved to allow a train to cross over from one track to another',
+    meaningZh: '',
+    exampleSentence: 'The train rattled over the points.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'police',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the people who work for an official organization whose job is to catch criminals and make sure that people obey the law',
+    meaningZh: '',
+    exampleSentence: 'Police surrounded the courthouse.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'policies',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with policies.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'policy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a way of doing something that has been officially agreed and chosen by a political party , a business, or another organization',
+    meaningZh: '',
+    exampleSentence: 'a foreign policy adviser',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'political',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to the government, politics , and public affairs of a country',
+    meaningZh: '',
+    exampleSentence: 'Education is now a major political issue.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'politicians',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with politicians.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'politics',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'ideas and activities relating to gaining and using power in a country, city etc',
+    meaningZh: '',
+    exampleSentence: 'a good understanding of politics in China',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pool',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a hole or container that has been specially made and filled with water so that people can swim or play in it',
+    meaningZh: '',
+    exampleSentence: 'They have a nice pool in their backyard.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'poor',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having very little money and not many possessions',
+    meaningZh: '',
+    exampleSentence: 'Her family were so poor they couldn’t afford to buy her new clothes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pop',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to come suddenly or unexpectedly out of or away from something',
+    meaningZh: '',
+    exampleSentence: 'The top button popped off my shirt.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'popular',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'liked by a lot of people',
+    meaningZh: '',
+    exampleSentence: 'Hilary was popular at school.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'population',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the number of people living in a particular area, country etc',
+    meaningZh: '',
+    exampleSentence: 'India has a population of more than one billion.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'porn',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'pornography',
+    meaningZh: '',
+    exampleSentence: 'the porn industry',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'port',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where ships can be loaded and unloaded',
+    meaningZh: '',
+    exampleSentence: 'We’ll have two days ashore while the ship is in port.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'portion',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a part of something larger, especially a part that is different from the other parts',
+    meaningZh: '',
+    exampleSentence: 'The front portion of the rocket breaks off.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'position',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the way someone is standing, sitting, or lying',
+    meaningZh: '',
+    exampleSentence: 'Lie in a comfortable position .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'positions',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with positions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'positive',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if you are positive about things, you are hopeful and confident , and think about what is good in a situation rather than what is bad',
+    meaningZh: '',
+    exampleSentence: 'You’ve got to be more positive about your work.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'possibility',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'if there is a possibility that something is true or that something will happen, it might be true or it might happen',
+    meaningZh: '',
+    exampleSentence: 'There’s always a possibility that he might go back to Seattle.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'possible',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if something is possible, it can be done or achieved',
+    meaningZh: '',
+    exampleSentence: 'Is it possible to get tickets for the game?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'possibly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used when saying that something may be true or likely , although you are not completely certain',
+    meaningZh: '',
+    exampleSentence: 'This last task is possibly the most difficult.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'post',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a job, especially an important one in a large organization',
+    meaningZh: '',
+    exampleSentence: 'I applied for the post and was asked to attend an interview.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'posted',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with posted.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'posts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with posts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'potential',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'likely to develop into a particular type of person or thing in the future',
+    meaningZh: '',
+    exampleSentence: 'new ways of attracting potential customers',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pounds',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with pounds.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'power',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the ability or right to control people or events',
+    meaningZh: '',
+    exampleSentence: 'People should have more power over the decisions that affect their lives.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'powerful',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a powerful person, organization, group etc is able to control and influence events and other people’s actions',
+    meaningZh: '',
+    exampleSentence: 'He was one of the most powerful men in Bohemia.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'powers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with powers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'practical',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to real situations and events rather than ideas, emotions etc',
+    meaningZh: '',
+    exampleSentence: 'Candidates should have training and practical experience in basic electronics.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'practice',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when you do a particular thing, often regularly, in order to improve your skill at it',
+    meaningZh: '',
+    exampleSentence: 'It takes hours of practice to learn to play the guitar.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'practices',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with practices.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pre',
+    partOfSpeech: 'prefix',
+    simpleDefinitionEn: 'before someone or something',
+    meaningZh: '',
+    exampleSentence: 'pre-war (= before a war )',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'prefer',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to like someone or something more than someone or something else, so that you would choose it if you could',
+    meaningZh: '',
+    exampleSentence: 'This type of owl prefers a desert habitat.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pregnant',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if a woman or female animal is pregnant, she has an unborn baby growing inside her body',
+    meaningZh: '',
+    exampleSentence: 'medical care for pregnant women',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'premier',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'best or most important',
+    meaningZh: '',
+    exampleSentence: 'one of Dublin’s premier hotels',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'prepare',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make a meal or a substance',
+    meaningZh: '',
+    exampleSentence: 'Prepare the sauce while the pasta is cooking.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'prepare for',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with prepare for.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'prepared',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'ready to do something or deal with a situation',
+    meaningZh: '',
+    exampleSentence: 'I wasn’t prepared for all their questions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'presence',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when someone or something is present in a particular place',
+    meaningZh: '',
+    exampleSentence: 'Your presence is requested at the club meeting on Friday.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'present',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'in a particular place',
+    meaningZh: '',
+    exampleSentence: 'Foreign observers were present at the elections.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'presented',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with presented.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'president',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the official leader of a country that does not have a king or queen',
+    meaningZh: '',
+    exampleSentence: 'the president of France',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'presidential',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to a president',
+    meaningZh: '',
+    exampleSentence: 'a presidential election',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'press',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'people who write reports for newspapers , radio , or television',
+    meaningZh: '',
+    exampleSentence: 'the freedom of the press',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pressure',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an attempt to persuade someone by using influence , arguments , or threats',
+    meaningZh: '',
+    exampleSentence: 'They are putting pressure on people to vote yes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pretty',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'fairly or more than a little',
+    meaningZh: '',
+    exampleSentence: 'I’m pretty sure he’ll say yes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'prevent',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to stop something from happening, or stop someone from doing something',
+    meaningZh: '',
+    exampleSentence: 'The rules are intended to prevent accidents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'previous',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having happened or existed before the event , time, or thing that you are talking about now',
+    meaningZh: '',
+    exampleSentence: 'I’ve met him before on two previous occasions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'previously',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'before now or before a particular time',
+    meaningZh: '',
+    exampleSentence: 'Almost half the group had previously been heavy smokers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'price',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the amount of money you have to pay for something',
+    meaningZh: '',
+    exampleSentence: 'The price of fuel keeps going up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'prices',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with prices.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pride',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a feeling that you are proud of something that you or someone connected with you has achieved',
+    meaningZh: '',
+    exampleSentence: 'He wore his medals with pride.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'primarily',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'mainly',
+    meaningZh: '',
+    exampleSentence: 'The advertisement is aimed primarily at children.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'primary',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'most important',
+    meaningZh: '',
+    exampleSentence: 'Our primary concern is to provide the refugees with food and health care.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'prime',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'most important',
+    meaningZh: '',
+    exampleSentence: 'Smoking is the prime cause of lung disease.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'prince',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the son of a king , queen , or prince',
+    meaningZh: '',
+    exampleSentence: 'Prince William',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'princess',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a close female relation of a king and queen , especially a daughter',
+    meaningZh: '',
+    exampleSentence: 'Princess Anne',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'principal',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'most important',
+    meaningZh: '',
+    exampleSentence: 'His principal reason for making the journey was to visit his family.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'print',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to produce words, numbers, or pictures on paper , using a machine which puts ink onto the surface',
+    meaningZh: '',
+    exampleSentence: 'I need to make a few changes before I print the document.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'prior',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'existing or arranged before something else or before the present situation',
+    meaningZh: '',
+    exampleSentence: 'You do not need any prior knowledge of the subject.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'prison',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a building where people are kept as a punishment for a crime , or while they are waiting to go to court for their trial',
+    meaningZh: '',
+    exampleSentence: 'He visits his dad in prison every week.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'private',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'for use by one person or group, not for everyone',
+    meaningZh: '',
+    exampleSentence: 'Morris has a private jet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'prize',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that is given to someone who is successful in a competition , race , game of chance etc',
+    meaningZh: '',
+    exampleSentence: 'In this month’s competition you could win a prize worth £3,000.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pro',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who is paid to do something, especially play a sport , that other people do for pleasure',
+    meaningZh: '',
+    exampleSentence: 'a tennis pro',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'probably',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to say that something is likely to happen, likely to be true etc',
+    meaningZh: '',
+    exampleSentence: 'It will probably take about a week.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'problem',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a situation that causes difficulties',
+    meaningZh: '',
+    exampleSentence: 'She was older than me, but that wasn’t really a problem.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'problems',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with problems.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'process',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a series of actions that are done in order to achieve a particular result',
+    meaningZh: '',
+    exampleSentence: 'the Israeli–Egyptian peace process',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'processor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the central part of a computer that deals with the commands and information it is given',
+    meaningZh: '',
+    exampleSentence: 'US tuna processors',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'produce',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to cause a particular result or effect',
+    meaningZh: '',
+    exampleSentence: 'New drugs are producing remarkable results .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'produced',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with produced.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'product',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that is grown or made in a factory in large quantities , usually in order to be sold',
+    meaningZh: '',
+    exampleSentence: 'consumer products such as VCRs',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'production',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of making or growing things to be sold , especially in large quantities',
+    meaningZh: '',
+    exampleSentence: 'the production of consumer goods',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'products',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with products.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'professional',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to a job that needs special education and training',
+    meaningZh: '',
+    exampleSentence: 'What professional qualifications does he have?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'professor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a teacher of the highest rank in a university department',
+    meaningZh: '',
+    exampleSentence: 'Professor Barclay',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'profile',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a side view of someone’s head',
+    meaningZh: '',
+    exampleSentence: 'Dani has a lovely profile.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'profit',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'money that you gain by selling things or doing business , after your costs have been paid',
+    meaningZh: '',
+    exampleSentence: 'The shop’s daily profit is usually around $500.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'program',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of instructions given to a computer to make it perform an operation',
+    meaningZh: '',
+    exampleSentence: 'a word-processing program',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'programme',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a series of actions which are designed to achieve something important',
+    meaningZh: '',
+    exampleSentence: 'the US space program',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'programs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with programs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'progress',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of getting better at doing something, or getting closer to finishing or achieving something',
+    meaningZh: '',
+    exampleSentence: 'The police are disappointed by the slow progress of the investigation.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'project',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a carefully planned piece of work to get information about something, to build something, to improve something etc',
+    meaningZh: '',
+    exampleSentence: 'The project aims to provide an analysis of children’s emotions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'projects',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with projects.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'promise',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to tell someone that you will definitely do or provide something or that something will happen',
+    meaningZh: '',
+    exampleSentence: 'Last night the headmaster promised a full investigation.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'promised',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with promised.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'promote',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to help something to develop or increase',
+    meaningZh: '',
+    exampleSentence: 'a meeting to promote international trade',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'proof',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'facts, information, documents etc that prove something is true',
+    meaningZh: '',
+    exampleSentence: 'proof of the existence of life on other planets',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'proper',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'right, suitable , or correct',
+    meaningZh: '',
+    exampleSentence: 'Everything was in its proper place (= where it should be ) .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'properly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'correctly, or in a way that is considered right',
+    meaningZh: '',
+    exampleSentence: 'The brakes don’t seem to be working properly.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'properties',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with properties.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'property',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the thing or things that someone owns',
+    meaningZh: '',
+    exampleSentence: 'The hotel is not responsible for any loss or damage to guests’ personal property .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'proposal',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a plan or suggestion which is made formally to an official person or group, or the act of making it',
+    meaningZh: '',
+    exampleSentence: 'the government’s proposals for regulation of the industry',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'proposed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a proposed change, plan, development etc is one that has been formally suggested to an official person or group',
+    meaningZh: '',
+    exampleSentence: 'The document supplies details of the proposed changes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'protect',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to keep someone or something safe from harm , damage , or illness',
+    meaningZh: '',
+    exampleSentence: 'Are we doing enough to protect the environment?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'protected',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a protected animal, plant , area, or building is one that it is illegal to harm or damage',
+    meaningZh: '',
+    exampleSentence: 'Spotted owls are a protected species .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'protection',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when someone or something is protected',
+    meaningZh: '',
+    exampleSentence: 'the protection of the environment',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'protein',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of several natural substances that exist in food such as meat , eggs , and beans , and which your body needs in order to grow and remain strong and healthy',
+    meaningZh: '',
+    exampleSentence: 'This is an example with protein.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'proud',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'feeling pleased about something that you have done or something that you own, or about someone or something you are involved with or related to',
+    meaningZh: '',
+    exampleSentence: 'Her parents are very proud of her.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'prove',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to show that something is true by providing facts, information etc',
+    meaningZh: '',
+    exampleSentence: 'You’re wrong, and I can prove it.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'proved',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with proved.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'provide',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to give something to someone or make it available to them, because they need it or want it',
+    meaningZh: '',
+    exampleSentence: 'Tea and biscuits will be provided.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'provided',
+    partOfSpeech: 'conjunction',
+    simpleDefinitionEn: 'used to say that something will only be possible if something else happens or is done',
+    meaningZh: '',
+    exampleSentence: 'He can come with us, provided he pays for his own meals.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'provides',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with provides.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'providing',
+    partOfSpeech: 'conjunction',
+    simpleDefinitionEn: 'used to say that something will only be possible if something else happens or is done',
+    meaningZh: '',
+    exampleSentence: 'You can borrow the car, providing I can have it back by six o\'clock.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'province',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the large areas into which some countries are divided , and which usually has its own local government',
+    meaningZh: '',
+    exampleSentence: 'a Chinese province',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'public',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to all the ordinary people in a country, who are not members of the government or do not have important jobs',
+    meaningZh: '',
+    exampleSentence: 'We have to show that publishing this story is in the public interest (= helpful or useful to ordinary people ) .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'published',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with published.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pull',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to use your hands to make something or someone move towards you or in the direction that your hands are moving',
+    meaningZh: '',
+    exampleSentence: 'Mom! Davey’s pulling my hair!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pulled',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with pulled.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'purchase',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to buy something',
+    meaningZh: '',
+    exampleSentence: 'You can purchase insurance online.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'purchased',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with purchased.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'pure',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a pure substance or material is not mixed with anything',
+    meaningZh: '',
+    exampleSentence: 'pure wool blankets',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'purpose',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the purpose of something is what it is intended to achieve',
+    meaningZh: '',
+    exampleSentence: 'The purpose of this meeting is to elect a new chairman.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'purposes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with purposes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'push',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make someone or something move by pressing them with your hands, arms etc',
+    meaningZh: '',
+    exampleSentence: 'It didn’t move, so she pushed harder.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'put',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move something to a particular place or position, especially using your hands',
+    meaningZh: '',
+    exampleSentence: 'He put the coffee on the table.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'put away',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with put away.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'put off',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with put off.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'put on',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with put on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'put up with',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with put up with.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'puts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with puts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'putting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with putting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'quality',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'how good or bad something is',
+    meaningZh: '',
+    exampleSentence: 'Much of the land was of poor quality.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'quarter',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of four equal parts into which something can be divided',
+    meaningZh: '',
+    exampleSentence: 'a quarter of a mile',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'queen',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the female ruler of a country',
+    meaningZh: '',
+    exampleSentence: 'Cleopatra, Queen of Egypt',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'question',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a sentence or phrase that is used to ask for information or to test someone’s knowledge',
+    meaningZh: '',
+    exampleSentence: 'Can I ask you a question?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'questions',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with questions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'quick',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'lasting for or taking only a short time',
+    meaningZh: '',
+    exampleSentence: 'That was quick! I thought you’d be another hour.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'quickly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'fast',
+    meaningZh: '',
+    exampleSentence: 'We need to get this finished as quickly as possible.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'quiet',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not making much noise , or making no noise at all',
+    meaningZh: '',
+    exampleSentence: 'We’ll have to be quiet so as not to wake the baby.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'quit',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to leave a job , school etc, especially without finishing it completely',
+    meaningZh: '',
+    exampleSentence: 'He quit his job after an argument with a colleague.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'quite',
+    partOfSpeech: 'predeterminer',
+    simpleDefinitionEn: 'very, but not extremely',
+    meaningZh: '',
+    exampleSentence: 'The food in the cafeteria is usually quite good.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'quote',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to repeat exactly what someone else has said or written',
+    meaningZh: '',
+    exampleSentence: 'She quoted from a newspaper article.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'race',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a competition in which people or animals compete to run, drive etc fastest and finish first',
+    meaningZh: '',
+    exampleSentence: 'He will be the youngest runner in the race.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'racing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the sport of racing horses',
+    meaningZh: '',
+    exampleSentence: 'watching the racing on television',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'radio',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of electronic equipment which you use to listen to programmes that are broadcast , such as music and news',
+    meaningZh: '',
+    exampleSentence: 'I sat down and turned on the radio.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rain',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'water that falls in small drops from clouds in the sky',
+    meaningZh: '',
+    exampleSentence: 'a night of wind and rain',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'raise',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move or lift something to a higher position, place, or level',
+    meaningZh: '',
+    exampleSentence: 'Can you raise the lamp so I can see?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'raised',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'higher than the surrounding area or surface',
+    meaningZh: '',
+    exampleSentence: 'a raised platform',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ran',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of run',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ran.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'random',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening or chosen without any definite plan, aim , or pattern',
+    meaningZh: '',
+    exampleSentence: 'The company has introduced random drug testing of its employees.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'range',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a number of people or things that are all different, but are all of the same general type',
+    meaningZh: '',
+    exampleSentence: 'a range of services',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rape',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to force someone to have sex , especially by using violence',
+    meaningZh: '',
+    exampleSentence: 'She had been raped and stabbed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rare',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not seen or found very often, or not happening very often',
+    meaningZh: '',
+    exampleSentence: 'This species of plant is becoming increasingly rare.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rate',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the number of times something happens, or the number of examples of something within a certain period',
+    meaningZh: '',
+    exampleSentence: 'Australia’s unemployment rate rose to 6.5% in February.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rates',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a local tax , paid before 1990 by owners of buildings in Britain',
+    meaningZh: '',
+    exampleSentence: 'This is an example with rates.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rather',
+    partOfSpeech: 'predeterminer',
+    simpleDefinitionEn: 'fairly or to some degree',
+    meaningZh: '',
+    exampleSentence: 'I was rather surprised to see him with his ex-wife.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'raw',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not cooked',
+    meaningZh: '',
+    exampleSentence: 'raw meat',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ray',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a straight narrow beam of light from the sun or moon',
+    meaningZh: '',
+    exampleSentence: 'The room darkened as a cloud hid the sun’s rays.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reach',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if someone or something reaches a particular point in their development or in a process or competition, they get to that point',
+    meaningZh: '',
+    exampleSentence: 'Chelsea could reach the final of the European Cup.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reached',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with reached.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reaction',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that you feel or do because of something that has happened or been said',
+    meaningZh: '',
+    exampleSentence: 'What was Jeff’s reaction when you told him about the job?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'read',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to look at written words and understand what they mean',
+    meaningZh: '',
+    exampleSentence: 'I can’t read your writing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reading',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity or skill of understanding written words',
+    meaningZh: '',
+    exampleSentence: 'She loves reading.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ready',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if you are ready, you are prepared for what you are going to do',
+    meaningZh: '',
+    exampleSentence: 'Come on. Aren’t you ready yet?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'real',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'something that is real exists and is important',
+    meaningZh: '',
+    exampleSentence: 'There is a real danger that the disease might spread.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reality',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'what actually happens or is true , not what is imagined or thought',
+    meaningZh: '',
+    exampleSentence: 'the distinction between fantasy and reality',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'realize',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to know and understand something, or suddenly begin to understand it',
+    meaningZh: '',
+    exampleSentence: 'I suddenly realized that the boy was crying.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'realized',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with realized.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'really',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'very',
+    meaningZh: '',
+    exampleSentence: 'a really good film',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reason',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'why something happens, or why someone does something',
+    meaningZh: '',
+    exampleSentence: 'People give different reasons for wanting to change jobs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reasonable',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'fair and sensible',
+    meaningZh: '',
+    exampleSentence: 'a reasonable request',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reasons',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with reasons.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'receive',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to be given something',
+    meaningZh: '',
+    exampleSentence: 'All the children will receive a small gift.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'received',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'accepted or considered to be correct by most people',
+    meaningZh: '',
+    exampleSentence: 'The received wisdom is that he will retire within the next year.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'receiving',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the crime of buying and selling stolen goods',
+    meaningZh: '',
+    exampleSentence: 'This is an example with receiving.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'recent',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having happened or started only a short time ago',
+    meaningZh: '',
+    exampleSentence: 'Irving’s most recent book',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'recently',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'not long ago',
+    meaningZh: '',
+    exampleSentence: 'He has recently been promoted to Assistant Manager.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'recognition',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of realizing and accepting that something is true or important',
+    meaningZh: '',
+    exampleSentence: 'Don’s recognition of the importance of Suzy in his life',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'recognize',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to know who someone is or what something is, because you have seen, heard, experienced , or learned about them in the past',
+    meaningZh: '',
+    exampleSentence: 'I didn’t recognize you in your uniform.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'recognized',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with recognized.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'recommend',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to advise someone to do something, especially because you have special knowledge of a situation or subject',
+    meaningZh: '',
+    exampleSentence: 'I recommend that you get some professional advice.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'recommended',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with recommended.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'record',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'information about something that is written down or stored on computer, film etc so that it can be looked at in the future',
+    meaningZh: '',
+    exampleSentence: 'I try to keep a record of everything I spend.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'recorded',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with recorded.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'recording',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'music , sound, or images that have been stored on a disc , computer file , or tape',
+    meaningZh: '',
+    exampleSentence: 'Have you heard the new recording of Mozart’s Requiem?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'records',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with records.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'recovery',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of getting better after an illness , injury etc',
+    meaningZh: '',
+    exampleSentence: 'Doctors expect him to make a full recovery.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'red',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having the colour of blood',
+    meaningZh: '',
+    exampleSentence: 'We painted the door bright red .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reduce',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make something smaller or less in size , amount , or price',
+    meaningZh: '',
+    exampleSentence: 'The governor announced a new plan to reduce crime.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reduced',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with reduced.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'refer to',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with refer to.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reference',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'part of something you say or write in which you mention a person or thing',
+    meaningZh: '',
+    exampleSentence: 'There is no direct reference to her own childhood in the novel.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'referred',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with referred.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reform',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a change or changes made to a system or organization in order to improve it',
+    meaningZh: '',
+    exampleSentence: 'a reform of the legal system',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'refused',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with refused.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'regarding',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'a word used especially in letters or speeches to introduce the subject you are writing or talking about',
+    meaningZh: '',
+    exampleSentence: 'Regarding your recent inquiry, I have enclosed a copy of our new brochure.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'regardless',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'without being affected or influenced by something',
+    meaningZh: '',
+    exampleSentence: 'The law requires equal treatment for all, regardless of race, religion, or sex.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'region',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large area of a country or of the world, usually without exact limits',
+    meaningZh: '',
+    exampleSentence: 'efforts to bring peace to the region',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'regional',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to a particular region or area',
+    meaningZh: '',
+    exampleSentence: 'local and regional government',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'regions',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with regions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'register',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an official list of names of people, companies etc, or a book that has this list',
+    meaningZh: '',
+    exampleSentence: 'the official register of births, deaths, and marriages',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'registered',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'included in an official register',
+    meaningZh: '',
+    exampleSentence: 'The association has 554 registered members.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'regular',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening every hour, every week, every month etc, usually with the same amount of time in between',
+    meaningZh: '',
+    exampleSentence: 'The company holds regular meetings with employees.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'regularly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'at the same time each day, week, month etc',
+    meaningZh: '',
+    exampleSentence: 'We meet regularly, once a month.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'regulations',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with regulations.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'related',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'things that are related are connected in some way',
+    meaningZh: '',
+    exampleSentence: 'Police now believe that the three crimes could be related.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'relations',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'official connections between countries , companies , organizations etc',
+    meaningZh: '',
+    exampleSentence: 'Britain threatened to break off diplomatic relations with the regime.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'relationship',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the way in which two people or two groups feel about each other and behave towards each other',
+    meaningZh: '',
+    exampleSentence: 'I have quite a good relationship with my parents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'relationships',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with relationships.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'relative',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a member of your family',
+    meaningZh: '',
+    exampleSentence: 'a gathering of friends and relatives',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'relatively',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'something that is relatively small, easy etc is fairly small, easy etc compared to other things',
+    meaningZh: '',
+    exampleSentence: 'The system is relatively easy to use.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'release',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to let someone go free , after having kept them somewhere',
+    meaningZh: '',
+    exampleSentence: 'Police arrested several men, who were later released.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'released',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with released.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'relevant',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'directly relating to the subject or problem being discussed or considered',
+    meaningZh: '',
+    exampleSentence: 'Relevant documents were presented in court.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'relief',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a feeling of comfort when something frightening , worrying , or painful has ended or has not happened',
+    meaningZh: '',
+    exampleSentence: 'I felt a huge surge of relief and happiness.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'religion',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a belief in one or more gods',
+    meaningZh: '',
+    exampleSentence: 'The U.S. Constitution promises freedom of religion.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'religious',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to religion in general or to a particular religion',
+    meaningZh: '',
+    exampleSentence: 'I don’t share her religious beliefs .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rely on',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with rely on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'remain',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to continue to be in the same state or condition',
+    meaningZh: '',
+    exampleSentence: 'Please remain seated until all the lights are on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'remained',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with remained.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'remaining',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the remaining people or things are those that are left when the others have gone, been used, or been dealt with',
+    meaningZh: '',
+    exampleSentence: 'The few remaining guests were in the kitchen.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'remains',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the parts of something that are left after the rest has been destroyed or has disappeared',
+    meaningZh: '',
+    exampleSentence: 'On the table were the remains of the evening meal.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'remember',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have a picture or idea in your mind of people, events , places etc from the past',
+    meaningZh: '',
+    exampleSentence: 'Do you remember Rosa Davies?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'remove',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to take something away from, out of, or off the place where it is',
+    meaningZh: '',
+    exampleSentence: 'Remove the old wallpaper and fill any holes in the walls.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'removed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with removed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rent',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to regularly pay money to live in a house or room that belongs to someone else, or to use something that belongs to someone else',
+    meaningZh: '',
+    exampleSentence: 'Most students rent rooms in their second year.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'repeat',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to say or write something again',
+    meaningZh: '',
+    exampleSentence: 'Can you repeat your question?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'replace',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to start doing something instead of another person, or start being used instead of another thing',
+    meaningZh: '',
+    exampleSentence: 'I’m replacing Sue on the team.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'replaced',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with replaced.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reply',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to answer someone by saying or writing something',
+    meaningZh: '',
+    exampleSentence: 'I asked Clive where he was going, but he didn’t reply.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'report',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a written or spoken description of a situation or event, giving people the information they need',
+    meaningZh: '',
+    exampleSentence: 'Colleges have to provide a written report on the progress of each student during the year.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reported',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with reported.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reporting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of writing about news events for a newspaper or telling people about them on television or on the radio',
+    meaningZh: '',
+    exampleSentence: 'news reporting',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reports',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with reports.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'represent',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to officially speak or take action for another person or group of people',
+    meaningZh: '',
+    exampleSentence: 'Mr Kobayashi was chosen to represent the company at the conference.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'representative',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who has been chosen to speak , vote , or make decisions for someone else',
+    meaningZh: '',
+    exampleSentence: 'a union representative',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'representatives',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with representatives.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'represented',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with represented.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'represents',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with represents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'republic',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country governed by elected representatives of the people, and led by a president , not a king or queen',
+    meaningZh: '',
+    exampleSentence: 'the former Federal Republic of Germany',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'republican',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who believes in government by elected representatives only, with no king or queen',
+    meaningZh: '',
+    exampleSentence: 'This is an example with republican.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'republicans',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with republicans.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reputation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the opinion that people have about someone or something because of what has happened in the past',
+    meaningZh: '',
+    exampleSentence: 'Judge Kelso has a reputation for being strict but fair.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'request',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a polite or formal demand for something',
+    meaningZh: '',
+    exampleSentence: 'They have made an urgent request for international aid.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'require',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to need something',
+    meaningZh: '',
+    exampleSentence: 'Campbell’s broken leg will probably require surgery.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'required',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with required.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'requirements',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with requirements.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'requires',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with requires.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rescue',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to save someone or something from a situation of danger or harm',
+    meaningZh: '',
+    exampleSentence: 'Survivors of the crash were rescued by helicopter.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'research',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'serious study of a subject , in order to discover new facts or test new ideas',
+    meaningZh: '',
+    exampleSentence: 'research into the causes of cancer',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reserve',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to arrange for a place in a hotel , restaurant , plane etc to be kept for you to use at a particular time in the future',
+    meaningZh: '',
+    exampleSentence: 'I’d like to reserve a table for two.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'residents',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with residents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'resistance',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a refusal to accept new ideas or changes',
+    meaningZh: '',
+    exampleSentence: 'people’s resistance to change',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'resolution',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a formal decision or statement agreed on by a group of people, especially after a vote',
+    meaningZh: '',
+    exampleSentence: 'The resolution was passed by a two-thirds majority.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'resources',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'all the money, property , skills etc that you have available to use when you need them',
+    meaningZh: '',
+    exampleSentence: 'She had no financial resources .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'respect',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a feeling of admiring someone or what they do, especially because of their personal qualities , knowledge , or skills',
+    meaningZh: '',
+    exampleSentence: 'I have the greatest respect for Jane’s work.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'respond',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to do something as a reaction to something that has been said or done',
+    meaningZh: '',
+    exampleSentence: 'Responding to the news, Mr Watt appealed for calm.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'response',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that is done as a reaction to something that has happened or been said',
+    meaningZh: '',
+    exampleSentence: 'the public’s response to our appeal for help',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'responsibility',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a duty to be in charge of someone or something, so that you make decisions and can be blamed if something bad happens',
+    meaningZh: '',
+    exampleSentence: 'Kelly’s promotion means more money and more responsibility.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'responsible',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if someone is responsible for an accident , mistake , crime etc, it is their fault or they can be blamed',
+    meaningZh: '',
+    exampleSentence: 'Police believe that the same man is responsible for three other murders in the area.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rest',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a period of time when you are not doing anything tiring and you can relax or sleep',
+    meaningZh: '',
+    exampleSentence: 'You look exhausted! Why don’t you take a rest?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'restaurant',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where you can buy and eat a meal',
+    meaningZh: '',
+    exampleSentence: 'We went to a little Italian restaurant near Leicester Square.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'result',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that happens or exists because of something that happened before',
+    meaningZh: '',
+    exampleSentence: 'Accidents are the inevitable result of driving too fast.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'resulting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with resulting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'results',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the accounts of a business that show how successful it has been over a period of time, usually a year',
+    meaningZh: '',
+    exampleSentence: 'British Airways has announced disappointing results for the first half of the year.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'retail',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the sale of goods in shops to customers , for their own use and not for selling to anyone else',
+    meaningZh: '',
+    exampleSentence: 'a manager with twenty years’ experience in the retail business',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'retirement',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when you stop working, usually because of your age',
+    meaningZh: '',
+    exampleSentence: 'He became a keen golfer after his retirement from politics.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'return',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to go or come back to a place where you were before',
+    meaningZh: '',
+    exampleSentence: 'It was forty five minutes before she returned.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'returned',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with returned.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'returning',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with returning.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'returns',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with returns.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'revealed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with revealed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'revenue',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'money that a business or organization receives over a period of time, especially from selling goods or services',
+    meaningZh: '',
+    exampleSentence: 'advertising revenue',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'review',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a careful examination of a situation or process',
+    meaningZh: '',
+    exampleSentence: 'She sent us her review of the research.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'reviews',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with reviews.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'revolution',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a complete change in ways of thinking, methods of working etc',
+    meaningZh: '',
+    exampleSentence: 'In the last ten years there has been a revolution in education.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rice',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a food that consists of small white or brown grains that you boil in water until they become soft enough to eat',
+    meaningZh: '',
+    exampleSentence: 'a tasty sauce served with rice or pasta',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rich',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'someone who is rich has a lot of money and valuable possessions',
+    meaningZh: '',
+    exampleSentence: 'one of the richest women in America',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'richard',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with richard.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rid',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with rid.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ride',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to sit on an animal, especially a horse , and make it move along',
+    meaningZh: '',
+    exampleSentence: 'She learned to ride when she was seven.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'riding',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the sport or activity of riding horses',
+    meaningZh: '',
+    exampleSentence: 'horse riding',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'right',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a statement or piece of information that is right is correct and based on true facts',
+    meaningZh: '',
+    exampleSentence: 'Yes, that’s the right answer .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rights',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'if someone has the rights to a book, film , television programme etc, they are allowed to sell it or show it',
+    meaningZh: '',
+    exampleSentence: 'The studio bought the rights to his new book.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ring',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of jewellery that you wear on your finger',
+    meaningZh: '',
+    exampleSentence: 'a diamond ring',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rise',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to increase in number, amount, or value',
+    meaningZh: '',
+    exampleSentence: 'Sales rose by 20% over the Christmas period.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rising',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'becoming more important or famous',
+    meaningZh: '',
+    exampleSentence: 'Francesca was a rising star in the cinema.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'risk',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the possibility that something bad, unpleasant, or dangerous may happen',
+    meaningZh: '',
+    exampleSentence: 'Skiers always face the risk of serious injury.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'river',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a natural and continuous flow of water in a long line across a country into the sea',
+    meaningZh: '',
+    exampleSentence: 'the Mississippi River',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'road',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a specially prepared hard surface for cars , buses , bicycles etc to travel on',
+    meaningZh: '',
+    exampleSentence: 'I was driving along the road when a kid suddenly stepped out in front of me.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'roads',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with roads.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'robert',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with robert.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rock',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the hard substance that forms the main surface of the Earth',
+    meaningZh: '',
+    exampleSentence: 'To build the tunnel, they had to cut through 500 feet of solid rock .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'role',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the way in which someone or something is involved in an activity or situation, and how much influence they have on it',
+    meaningZh: '',
+    exampleSentence: 'women’s role in society',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'roll',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if something rolls, especially something round, or if you roll it, it moves along a surface by turning over and over',
+    meaningZh: '',
+    exampleSentence: 'The ball rolled into the street.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rolling',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'rolling hills have many long gentle slopes',
+    meaningZh: '',
+    exampleSentence: 'We recommend a rolling programme of machine upgrading.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'roman',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the ordinary style of printing that uses small upright letters , like the style used for printing these words',
+    meaningZh: '',
+    exampleSentence: 'an old Roman road',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'roof',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the structure that covers or forms the top of a building, vehicle , tent etc',
+    meaningZh: '',
+    exampleSentence: 'They finally found the cat up on the roof.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'room',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a part of the inside of a building that has its own walls , floor , and ceiling',
+    meaningZh: '',
+    exampleSentence: 'I looked around the room.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rooms',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'two or more rooms that you rent in a building, or stay in at a college',
+    meaningZh: '',
+    exampleSentence: 'This is an example with rooms.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rose',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a flower that often has a pleasant smell , and is usually red , pink , white, or yellow , or the bush that this flower grows on',
+    meaningZh: '',
+    exampleSentence: 'a dozen red roses',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rough',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having an uneven surface',
+    meaningZh: '',
+    exampleSentence: 'Her hands were rough from hard work.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'round',
+    partOfSpeech: 'adverb, preposition',
+    simpleDefinitionEn: 'surrounding or on all sides of something or someone',
+    meaningZh: '',
+    exampleSentence: 'We sat round the table playing cards.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'route',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a way from one place to another',
+    meaningZh: '',
+    exampleSentence: 'What’s the best route to Cambridge?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'row',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a line of things or people next to each other',
+    meaningZh: '',
+    exampleSentence: 'a row of houses',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'royal',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to or belonging to a king or queen',
+    meaningZh: '',
+    exampleSentence: 'the royal palace',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rule',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an official instruction that says how things must be done or what is allowed, especially in a game, organization , or job',
+    meaningZh: '',
+    exampleSentence: 'the rules of the game',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rules',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with rules.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'run',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move very quickly, by moving your legs more quickly than when you walk',
+    meaningZh: '',
+    exampleSentence: 'I ran down the stairs as fast as I could.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'run away',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with run away.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'run out of',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with run out of.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'running',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity or sport of running',
+    meaningZh: '',
+    exampleSentence: 'Did you go running this morning?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'runs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with runs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rural',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening in or relating to the countryside , not the city',
+    meaningZh: '',
+    exampleSentence: 'a rural setting',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'rush',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move very quickly, especially because you need to be somewhere very soon',
+    meaningZh: '',
+    exampleSentence: 'A small girl rushed past her.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'russia',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a very large country in Eastern Europe and northern Asia, officially called the Russian Federation , which goes from the Arctic Ocean in the north to the Black Sea in the south , and from the borders of Belarus and Ukraine in the west to the Pacific Ocean in the east . Population : 142,500,482 (2014). Capital : Moscow. Before the Russian Revolution , Russia was a large powerful country, ruled by a king called the Czar . It formed the largest part of the Soviet Union (1917–91) , and people often used the name ‘Russia’ when they meant the whole Soviet Union and its Communist government. The country now has a democratic government. Russia is known for its beautiful old buildings , especially in Moscow and St. Petersburg, for its many great writers , including Tolstoy, Dostoevsky, and Chekhov, and for having extremely cold winters .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with russia.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'russian',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Russia, its people, or its language',
+    meaningZh: '',
+    exampleSentence: 'This is an example with russian.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ryan',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ryan.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sad',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not happy , especially because something unpleasant has happened',
+    meaningZh: '',
+    exampleSentence: 'Dad looked sad and worried as he read the letter.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'safe',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not in danger of being harmed , lost, or stolen',
+    meaningZh: '',
+    exampleSentence: 'She doesn’t feel safe in the house on her own.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'safety',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when someone or something is safe from danger or harm',
+    meaningZh: '',
+    exampleSentence: 'measures to improve the health and safety of employees',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'said',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the past tense and past participle of say 1',
+    meaningZh: '',
+    exampleSentence: 'The said weapon was later found in the defendant’s home.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sale',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when you sell something',
+    meaningZh: '',
+    exampleSentence: 'The use and sale of marijuana remains illegal.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sales',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the total number of products that are sold during a particular period of time',
+    meaningZh: '',
+    exampleSentence: 'Britain’s retail sales (= all the things sold to the public in shops ) jumped 3.2 percent in April.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'salt',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a natural white mineral that is added to food to make it taste better or to preserve it',
+    meaningZh: '',
+    exampleSentence: 'This might need some salt and pepper.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sam',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sam.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'same',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the same person, place, thing etc is one particular person etc and not a different one',
+    meaningZh: '',
+    exampleSentence: 'He sits in the same chair every night.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sample',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a small part or amount of something that is examined in order to find out something about the whole',
+    meaningZh: '',
+    exampleSentence: 'I’d like to see some samples of your work.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'san',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with san.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'santa',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with santa.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sarah',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sarah.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sat',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of sit',
+    meaningZh: '',
+    exampleSentence: 'SAT scores have been steadily decreasing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'saturday',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the day between Friday and Sunday',
+    meaningZh: '',
+    exampleSentence: 'We went for a picnic on Saturday.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'save',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make someone or something safe from danger , harm , or destruction',
+    meaningZh: '',
+    exampleSentence: 'Emergency aid could save millions threatened with starvation.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'saved',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with saved.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'saving',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an amount of money that you have not spent , or an amount of something that you have not used',
+    meaningZh: '',
+    exampleSentence: 'The new engines will lead to savings in fuel.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'saw',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of see',
+    meaningZh: '',
+    exampleSentence: 'That reminds me of the old saw about being careful about what you wish for.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'say',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to express an idea, feeling, thought etc using words',
+    meaningZh: '',
+    exampleSentence: '‘I’m so tired, ’ she said.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'saying',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a well-known short statement that expresses an idea most people believe is true and wise',
+    meaningZh: '',
+    exampleSentence: 'You can’t judge a book by its cover, as the old saying goes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'says',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with says.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'scale',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the size or level of something, or the amount that something is happening',
+    meaningZh: '',
+    exampleSentence: 'We had underestimated the scale of the problem.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'scared',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'frightened of something, or nervous about something',
+    meaningZh: '',
+    exampleSentence: 'At first, he was really scared.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'scene',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'part of a play during which there is no change in time or place',
+    meaningZh: '',
+    exampleSentence: 'Hamlet, Act 5, Scene 2',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'scenes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with scenes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'schedule',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a plan of what someone is going to do and when they are going to do it',
+    meaningZh: '',
+    exampleSentence: 'The majority of holiday flights depart and arrive on schedule.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'scheme',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an official plan that is intended to help people in some way, for example by providing education or training',
+    meaningZh: '',
+    exampleSentence: 'The money will be used for teacher training schemes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'school',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where children are taught',
+    meaningZh: '',
+    exampleSentence: 'His mother always used to pick him up from school.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'schools',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with schools.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'science',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'knowledge about the world, especially based on examining , testing, and proving facts',
+    meaningZh: '',
+    exampleSentence: 'Many leading scientists do not consider that science can give absolutely reliable knowledge.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'scientific',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'about or relating to science , or using its methods',
+    meaningZh: '',
+    exampleSentence: 'We believe in investing in scientific research.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'scientists',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with scientists.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'score',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the number of points that each team or player has won in a game or competition',
+    meaningZh: '',
+    exampleSentence: 'At half-time the score was one all.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'scored',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with scored.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'scotland',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country in the United Kingdom , north of England. Population : 5,295,400 (2014). Capital : Edinburgh. Scotland was an independent country until the Scottish and English parliaments were united by the ‘ Act of Union ’ in 1707, and it still has a different legal system and a different education system from the rest of the UK. Scotland has had its own parliament since 1999. It is still part of the UK, but some groups such as the SNP (the Scottish National Party ) want Scotland to become an independent country. Scottish Gaelic is still spoken by some people in the northwest of the country and in the islands off the west coast . Scotland is known for its beautiful countryside and its many loch s (= lakes ) , islands, and mountains . When people think of Scotland, they often think of men wearing kilt s (= a sort of skirt of thick woollen cloth, with a tartan pattern ) and playing the bagpipes (= a type of Scottish musical instrument ) . Products that are thought of as very typical of Scotland include the haggis (= a food in the shape of a ball, made from chopped up sheep’s meat and grains ) and Scotch whisky . The national symbol of Scotland is the thistle , and its patron saint is Saint Andrew. People from Scotland are called Scots . They are Scottish.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with scotland.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'scott',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with scott.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'scottish',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Scotland or its people',
+    meaningZh: '',
+    exampleSentence: 'This is an example with scottish.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'screen',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of a television or computer where the picture or information appears',
+    meaningZh: '',
+    exampleSentence: 'a computer with an 18-inch colour screen',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sea',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the large area of salty water that covers much of the Earth ’s surface',
+    meaningZh: '',
+    exampleSentence: 'Jay stripped his clothes off and ran into the sea.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'search',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an attempt to find someone or something',
+    meaningZh: '',
+    exampleSentence: 'Bad weather is hampering the search for survivors.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'search for',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with search for.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'season',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the main periods into which a year is divided , each of which has a particular type of weather . The seasons are spring , summer , autumn , and winter',
+    meaningZh: '',
+    exampleSentence: 'the effect on plants as the seasons start to change',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seasons',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with seasons.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seat',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where you can sit, especially one in a vehicle or one from which you watch a performance , sports event etc',
+    meaningZh: '',
+    exampleSentence: 'I was in the back seat and Jo was driving.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seats',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'Stock Exchange Alternative Trading Service ; a computer system run by the LONDON STOCK EXCHANGE for trading the shares of smaller companies',
+    meaningZh: '',
+    exampleSentence: 'This is an example with seats.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'second',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the second person, thing, event etc is the one that comes after the first',
+    meaningZh: '',
+    exampleSentence: 'the Second World War',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'secondary',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not as important as something else',
+    meaningZh: '',
+    exampleSentence: 'the novel’s secondary characters',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seconds',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'another serving of food, after you have eaten your first serving',
+    meaningZh: '',
+    exampleSentence: 'Visit the factory shop, and look out for cheap seconds of all leather goods.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'secret',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'known about by only a few people and kept hidden from others',
+    meaningZh: '',
+    exampleSentence: 'They kept their relationship secret from their parents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'secretary',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who works in an office typing letters , keeping records , answering telephone calls, arranging meetings etc',
+    meaningZh: '',
+    exampleSentence: 'My secretary will fax you all the details.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'section',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the parts that something such as an object or place is divided into',
+    meaningZh: '',
+    exampleSentence: 'a busy section of road',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sector',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a part of an area of activity , especially of business, trade etc',
+    meaningZh: '',
+    exampleSentence: 'the agricultural sector of the economy',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'secure',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to get or achieve something that will be permanent , especially after a lot of effort',
+    meaningZh: '',
+    exampleSentence: 'Boyd’s goal secured his team’s place in the Cup Final.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'security',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'things that are done to keep a person, building, or country safe from danger or crime',
+    meaningZh: '',
+    exampleSentence: 'The trial was held under tight security .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'see',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to notice or examine someone or something, using your eyes',
+    meaningZh: '',
+    exampleSentence: 'The moment we saw the house, we knew we wanted to buy it.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'see off',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with see off.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seeing',
+    partOfSpeech: 'conjunction',
+    simpleDefinitionEn: 'because a particular fact or situation is true',
+    meaningZh: '',
+    exampleSentence: 'I won’t stay long, seeing as you’re busy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seek',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to try to achieve or get something',
+    meaningZh: '',
+    exampleSentence: 'Do you think the president will seek re-election ?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seeking',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with seeking.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seem',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if something seems to be true , there are things that make people think it is true',
+    meaningZh: '',
+    exampleSentence: 'Ann didn’t seem very pleased.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seemed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with seemed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seems',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with seems.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seen',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of see',
+    meaningZh: '',
+    exampleSentence: 'This is an example with seen.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sees',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sees.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'selected',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with selected.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'selection',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the careful choice of a particular person or thing from a group of similar people or things',
+    meaningZh: '',
+    exampleSentence: 'The judges have made their final selection.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'self',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the type of person you are, your character , your typical behaviour etc',
+    meaningZh: '',
+    exampleSentence: 'Sid was not his usual smiling self.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sell',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to give something to someone in exchange for money',
+    meaningZh: '',
+    exampleSentence: 'If you offer him another hundred, I think he’ll sell.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'selling',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the job and skill of persuading people to buy things',
+    meaningZh: '',
+    exampleSentence: 'a career in selling',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'semi',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a semi-detached house',
+    meaningZh: '',
+    exampleSentence: 'a three-bedroomed semi',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'senate',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the smaller and more important of the two parts of the government with the power to make laws, in countries such as the US, Australia, and France',
+    meaningZh: '',
+    exampleSentence: 'The Senate approved the bill.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'senator',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a member of the Senate or a senate',
+    meaningZh: '',
+    exampleSentence: 'Senator Kennedy',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'send',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to arrange for something to go or be taken to another place, especially by post',
+    meaningZh: '',
+    exampleSentence: 'Lyn sent some pictures of the wedding.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sending',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sending.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'senior',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a higher position , level , or rank',
+    meaningZh: '',
+    exampleSentence: 'the senior Democrat on the House committee',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sense',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a feeling about something',
+    meaningZh: '',
+    exampleSentence: 'Afterwards, I felt a great sense of relief.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sent',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of send',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sent.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sentence',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of words that usually contains a subject and a verb , and expresses a complete idea. Sentences written in English begin with a capital letter and usually end with a full stop or a question mark',
+    meaningZh: '',
+    exampleSentence: 'His voice dropped at the end of the sentence.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'separate',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'different',
+    meaningZh: '',
+    exampleSentence: 'Use separate knives for raw and cooked meat.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'september',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the ninth month of the year, between August and October',
+    meaningZh: '',
+    exampleSentence: 'I haven’t heard from him since last September.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'series',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of events or actions that are planned to happen one after the other',
+    meaningZh: '',
+    exampleSentence: 'This autumn the BBC will be showing a series of French films.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'serious',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a serious situation, problem, accident etc is extremely bad or dangerous',
+    meaningZh: '',
+    exampleSentence: 'the serious problem of unemployment',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seriously',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'very much or to a great degree',
+    meaningZh: '',
+    exampleSentence: 'Was she seriously hurt?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'serve',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to give someone food or drink, especially as part of a meal or in a restaurant , bar etc',
+    meaningZh: '',
+    exampleSentence: 'The waiter was serving another table.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'served',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with served.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'server',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the main computer on a network , which controls all the others',
+    meaningZh: '',
+    exampleSentence: 'The server’s down (= not working ) again.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'service',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the official system for providing something, especially something that everyone in a country needs to have, or the official organization that provides it',
+    meaningZh: '',
+    exampleSentence: 'the health service',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'services',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'skilled work or advice from a particular type of worker who you use to help you do something',
+    meaningZh: '',
+    exampleSentence: 'Lydia obtained the services of a qualified nurse.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'serving',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an amount of food that is enough for one person',
+    meaningZh: '',
+    exampleSentence: 'This should make enough for four servings.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'session',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a period of time used for a particular activity , especially by a group of people',
+    meaningZh: '',
+    exampleSentence: 'a training session for teachers about computers',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sessions',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sessions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'set',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to carefully put something down somewhere',
+    meaningZh: '',
+    exampleSentence: 'She set the tray down on a table next to his bed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'set off',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with set off.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'set out',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with set out.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'set up',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with set up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sets',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'Stock Exchange ( Electronic ) Trading Service ; an electronic service on the LONDON STOCK EXCHANGE for trading shares and bonds of the best known companies , which are the safest investment',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sets.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'setting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the place where something is or where something happens, and the general environment',
+    meaningZh: '',
+    exampleSentence: 'an old farmhouse in a beautiful setting',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'settlement',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an official agreement or decision that ends an argument , a court case, or a fight , or the action of making an agreement',
+    meaningZh: '',
+    exampleSentence: 'Union leaders and company bosses will meet tomorrow in an attempt to reach a settlement .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'seven',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 7',
+    meaningZh: '',
+    exampleSentence: 'The women visited cities in seven states.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'several',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'a number of people or things that is more than a few, but not a lot',
+    meaningZh: '',
+    exampleSentence: 'I visited him in Kansas several times.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'severe',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'severe problems, injuries , illnesses etc are very bad or very serious',
+    meaningZh: '',
+    exampleSentence: 'His injuries were quite severe.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sex',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the physical activity that two people do together in order to produce babies , or for pleasure',
+    meaningZh: '',
+    exampleSentence: 'All you see on TV is sex and violence these days.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sexual',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to the physical activity of sex',
+    meaningZh: '',
+    exampleSentence: 'a disease passed on by sexual contact',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shame',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the feeling you have when you feel guilty and embarrassed because you, or someone who is close to you, have done something wrong',
+    meaningZh: '',
+    exampleSentence: 'He felt a deep sense of shame.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shape',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the form that something has, for example round, square , triangular etc',
+    meaningZh: '',
+    exampleSentence: 'What shape is the table?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'share',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have or use something with other people',
+    meaningZh: '',
+    exampleSentence: 'We don’t have enough books, so you’ll have to share.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shared',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with shared.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shares',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with shares.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sharing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sharing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sharp',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a very thin edge or point that can cut things easily',
+    meaningZh: '',
+    exampleSentence: 'Make sure you use a good sharp knife.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shift',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move from one place or position to another, or make something do this',
+    meaningZh: '',
+    exampleSentence: 'Joe listened, shifting uncomfortably from one foot to another.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ship',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large boat used for carrying people or goods across the sea',
+    meaningZh: '',
+    exampleSentence: 'the ship’s captain',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shipping',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'ships considered as a group',
+    meaningZh: '',
+    exampleSentence: 'The port is closed to all shipping.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ships',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ships.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shirt',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of clothing that covers the upper part of your body and your arms , usually has a collar , and is fastened at the front by buttons',
+    meaningZh: '',
+    exampleSentence: 'I have to wear a shirt and tie to work.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shit',
+    partOfSpeech: 'interjection',
+    simpleDefinitionEn: 'used to express anger , annoyance , fear , or disappointment',
+    meaningZh: '',
+    exampleSentence: 'Shit! I’ve left my purse at home.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shoes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with shoes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shoot',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to deliberately kill or injure someone using a gun',
+    meaningZh: '',
+    exampleSentence: 'Police shot one suspect when he pulled a gun on them.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shooting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a situation in which someone is injured or killed by a gun',
+    meaningZh: '',
+    exampleSentence: 'His brother was killed in a shooting incident last year.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shop',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a building or part of a building where you can buy things, food, or services',
+    meaningZh: '',
+    exampleSentence: 'Her brother runs a record shop in Chester.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shopping',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of going to shops and buying things',
+    meaningZh: '',
+    exampleSentence: 'Late-night shopping is becoming very popular.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'short',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening or continuing for only a little time or for less time than usual',
+    meaningZh: '',
+    exampleSentence: 'a short meeting',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shortly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'soon',
+    meaningZh: '',
+    exampleSentence: 'Ms Jones will be back shortly.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shot',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an act of firing a gun',
+    meaningZh: '',
+    exampleSentence: 'He pulled out his rifle and fired three shots.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shots',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with shots.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shoulder',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the two parts of the body at each side of the neck where the arm is connected',
+    meaningZh: '',
+    exampleSentence: 'She tapped the driver on the shoulder.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'show',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to let someone see something',
+    meaningZh: '',
+    exampleSentence: 'The children proudly showed me their presents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'show off',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with show off.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'showed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with showed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shower',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of equipment that you stand under to wash your whole body',
+    meaningZh: '',
+    exampleSentence: 'Why does the phone always ring when I’m in the shower?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'showing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an occasion when a film , art show etc can be seen or looked at, especially a special occasion that people are invited to',
+    meaningZh: '',
+    exampleSentence: 'I saw a private showing of the film.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shown',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of show',
+    meaningZh: '',
+    exampleSentence: 'This is an example with shown.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shows',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with shows.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'shut',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to close something, or to become closed',
+    meaningZh: '',
+    exampleSentence: 'Shut the window, Ellen!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sick',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'suffering from a disease or illness',
+    meaningZh: '',
+    exampleSentence: 'His mother’s very sick.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'side',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the two areas that are on the left or the right of an imaginary line, or on the left or the right of a border , wall, river etc',
+    meaningZh: '',
+    exampleSentence: 'The south side of town is pretty run down.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sides',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sides.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sight',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the physical ability to see',
+    meaningZh: '',
+    exampleSentence: 'Anne’s sight is very good for someone of her age.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sign',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of paper, metal, or wood with words or a picture that gives people information, warnings , or instructions',
+    meaningZh: '',
+    exampleSentence: 'a sign on the door',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'signal',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a sound or an action that you make in order to give information to someone or tell them to do something',
+    meaningZh: '',
+    exampleSentence: 'When she got up from the table, it was obviously the signal for us to leave.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'signed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with signed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'significant',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having an important effect or influence , especially on what will happen in the future',
+    meaningZh: '',
+    exampleSentence: 'His most significant political achievement was the abolition of the death penalty.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'significantly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in an important way or to an important degree',
+    meaningZh: '',
+    exampleSentence: 'Health problems can be significantly reduced by careful diet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'signs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with signs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'silver',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a valuable shiny , light grey metal that is used to make jewellery , knives , coins etc. It is a chemical element : symbol Ag',
+    meaningZh: '',
+    exampleSentence: 'a silver necklace',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'similar',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'almost the same',
+    meaningZh: '',
+    exampleSentence: 'We have similar tastes in music.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'simon',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with simon.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'simple',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not difficult or complicated to do or understand',
+    meaningZh: '',
+    exampleSentence: 'a simple but effective solution to the problem',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'simply',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to emphasize what you are saying',
+    meaningZh: '',
+    exampleSentence: 'This work is simply not good enough.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'since',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'from a particular time or event in the past until the present , or in that period of time',
+    meaningZh: '',
+    exampleSentence: 'We’ve been waiting here since two o’clock.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sing',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to produce a musical sound with your voice',
+    meaningZh: '',
+    exampleSentence: 'She can sing beautifully.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'singer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who sings',
+    meaningZh: '',
+    exampleSentence: 'her favourite pop singer',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'singing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of producing musical sounds with your voice',
+    meaningZh: '',
+    exampleSentence: 'He entered the Royal College of Music to study singing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'single',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'only one',
+    meaningZh: '',
+    exampleSentence: 'A single tree gave shade from the sun.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sir',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'used when speaking to a man in order to be polite or show respect',
+    meaningZh: '',
+    exampleSentence: '‘Report back to me in an hour, sergeant.’ ‘Yes, sir.’',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sister',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a girl or woman who has the same parents as you',
+    meaningZh: '',
+    exampleSentence: 'Janet and Abby are sisters.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sit',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to be on a chair or seat , or on the ground , with the top half of your body upright and your weight resting on your buttock s',
+    meaningZh: '',
+    exampleSentence: 'I sat on the shore and looked at the sea.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sit down',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sit down.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'site',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where something important or interesting happened',
+    meaningZh: '',
+    exampleSentence: 'an archaeological site',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sites',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sites.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sitting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the times when a meal is served in a place where there is not enough space for everyone to eat at the same time',
+    meaningZh: '',
+    exampleSentence: 'School dinners are served in three sittings.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'situation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a combination of all the things that are happening and all the conditions that exist at a particular time in a particular place',
+    meaningZh: '',
+    exampleSentence: 'I explained the situation to everyone.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'situations',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with situations.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'six',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 6',
+    meaningZh: '',
+    exampleSentence: 'six months ago',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'size',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'how big or small something is',
+    meaningZh: '',
+    exampleSentence: 'He’s a small boy, about John’s size.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'skills',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with skills.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'skin',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the natural outer layer of a person’s or animal ’s body',
+    meaningZh: '',
+    exampleSentence: 'She had thick black hair and smooth dark skin.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sky',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the space above the Earth where clouds and the Sun and stars appear',
+    meaningZh: '',
+    exampleSentence: 'The sky grew dark, and a cold rain began to fall.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sleep',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to rest your mind and body , usually at night when you are lying in bed with your eyes closed',
+    meaningZh: '',
+    exampleSentence: 'I usually sleep on my back.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sleeping',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sleeping.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'slightly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'a little',
+    meaningZh: '',
+    exampleSentence: 'a slightly different color',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'slow',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not moving, being done, or happening quickly',
+    meaningZh: '',
+    exampleSentence: 'The car was travelling at a very slow speed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'slowly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'at a slow speed',
+    meaningZh: '',
+    exampleSentence: 'He shook his head slowly.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'small',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not large in size or amount',
+    meaningZh: '',
+    exampleSentence: 'a small piece of paper',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'smaller',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with smaller.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'smart',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'intelligent or sensible',
+    meaningZh: '',
+    exampleSentence: 'The smart kids get good grades and go off to college.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'smell',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the quality that people and animals recognize by using their nose',
+    meaningZh: '',
+    exampleSentence: 'The air was filled with the smell of flowers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'smile',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make your mouth curve upwards , in order to be friendly or because you are happy or amused',
+    meaningZh: '',
+    exampleSentence: 'Susan smiled at him and waved.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'smith',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who makes and repairs things made of iron',
+    meaningZh: '',
+    exampleSentence: 'a gunsmith (= someone who makes guns )',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'smoke',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'white, grey , or black gas that is produced by something burning',
+    meaningZh: '',
+    exampleSentence: 'clouds of black smoke',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'smoking',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of breathing in tobacco smoke from a cigarette , pipe etc',
+    meaningZh: '',
+    exampleSentence: 'I gave up smoking nearly ten years ago.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'snow',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'soft white pieces of frozen water that fall from the sky in cold weather and cover the ground',
+    meaningZh: '',
+    exampleSentence: 'Snow was falling heavily as we entered the village.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'soap',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the substance that you use to wash your body',
+    meaningZh: '',
+    exampleSentence: 'Wash thoroughly with soap and water .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'soccer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a sport played by two teams of 11 players , who try to kick a round ball into their opponents ’ goal',
+    meaningZh: '',
+    exampleSentence: 'This is an example with soccer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'social',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to human society and its organization, or the quality of people’s lives',
+    meaningZh: '',
+    exampleSentence: 'social issues, such as unemployment and education',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'society',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'people in general , considered in relation to the laws, organizations etc that make it possible for them to live together',
+    meaningZh: '',
+    exampleSentence: 'technology and its effects on modern society',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'soft',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not hard, firm, or stiff , but easy to press',
+    meaningZh: '',
+    exampleSentence: 'My feet sank into the soft ground.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'software',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the sets of programs that tell a computer how to do a particular job',
+    meaningZh: '',
+    exampleSentence: 'She loaded the new software .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'solar',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to the sun',
+    meaningZh: '',
+    exampleSentence: 'a solar eclipse',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sold',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense and past participle of sell',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sold.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'soldiers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with soldiers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'solid',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'hard or firm, with a fixed shape, and not a liquid or gas',
+    meaningZh: '',
+    exampleSentence: 'The lake was frozen solid .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'solo',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of music for one performer',
+    meaningZh: '',
+    exampleSentence: 'a gorgeous piano solo',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'solution',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a way of solving a problem or dealing with a difficult situation',
+    meaningZh: '',
+    exampleSentence: 'The best solution would be for them to separate.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'solutions',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with solutions.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'somebody',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'used to mean a person, when you do not know or do not say who the person is',
+    meaningZh: '',
+    exampleSentence: 'There’s somebody waiting to see you.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'somehow',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in some way, or by some means , although you do not know how',
+    meaningZh: '',
+    exampleSentence: 'Don’t worry, we’ll get the money back somehow.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'someone',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'used to mean a person , when you do not know or do not say who the person is',
+    meaningZh: '',
+    exampleSentence: 'What would you do if someone tried to rob you in the street?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'something',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'used to mean a particular thing when you do not know its name or do not know exactly what it is',
+    meaningZh: '',
+    exampleSentence: 'There’s something in my eye.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sometimes',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'on some occasions but not always',
+    meaningZh: '',
+    exampleSentence: 'I sometimes have to work late.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'somewhat',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'more than a little but not very',
+    meaningZh: '',
+    exampleSentence: 'The price is somewhat higher than I expected.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'somewhere',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in or to a place, but you do not say or know exactly where',
+    meaningZh: '',
+    exampleSentence: 'My wallet must be around here somewhere.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'son',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone’s male child',
+    meaningZh: '',
+    exampleSentence: 'Her son Sean was born in 1983.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'song',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a short piece of music with words that you sing',
+    meaningZh: '',
+    exampleSentence: 'We used to listen to pop songs on the radio.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'songs',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with songs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sons',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sons.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'soon',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in a short time from now, or a short time after something else happens',
+    meaningZh: '',
+    exampleSentence: 'It will be dark soon.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sorry',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'feeling ashamed or unhappy about something bad you have done',
+    meaningZh: '',
+    exampleSentence: 'She was genuinely sorry for what she had done.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sort',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group or class of people, things etc that have similar qualities or features',
+    meaningZh: '',
+    exampleSentence: 'What sort of shampoo do you use?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sought',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of seek',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sought.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'soul',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the part of a person that is not physical , and that contains their character , thoughts , and feelings . Many people believe that a person’s soul continues to exist after they have died.',
+    meaningZh: '',
+    exampleSentence: 'the immortality of the soul',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sound',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that you hear, or what can be heard',
+    meaningZh: '',
+    exampleSentence: 'There were strange sounds coming from the next room.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sounds',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'songs or music that are on a record, CD , or tape',
+    meaningZh: '',
+    exampleSentence: 'I need to buy some new sounds.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'source',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a thing, place, activity etc that you get something from',
+    meaningZh: '',
+    exampleSentence: 'They get their money from various sources.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sources',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sources.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'south',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the direction that is at the bottom of a map of the world, below the Equator . It is on the right if you are facing the rising sun',
+    meaningZh: '',
+    exampleSentence: 'Which way is south?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'southern',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'in or from the south of a country or area',
+    meaningZh: '',
+    exampleSentence: 'a southern accent',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'soviet',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an elected council in a Communist country',
+    meaningZh: '',
+    exampleSentence: 'This is an example with soviet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'space',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the amount of an area, room, container etc that is empty or available to be used',
+    meaningZh: '',
+    exampleSentence: 'There’s space for a table and two chairs.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'spain',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country in southwest Europe , between France and Portugal, which includes the Balearic and Canary Islands , and is a member of the (EU European Union ). Population : 47,370,542 (2014). Capital : Madrid. Some parts of Spain, especially Catalunya and the Basque country, have their own language and culture , and the southwest of Spain has been strongly influenced in its buildings and its culture by the Moors, a Muslim people from North Africa who ruled this part of Spain from the 8th to the 15th centuries . People from Spain are called Spaniards. For many British people, Spain is a very popular place to go for a holiday because of its hot , dry summers , and many people go to well-known holiday towns such as Benidorm and Torremolinos. Some British people go to live in the south of Spain when they are older.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with spain.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'spanish',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to Spain, its people, or its language',
+    meaningZh: '',
+    exampleSentence: 'This is an example with spanish.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'speak',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to talk to someone about something',
+    meaningZh: '',
+    exampleSentence: 'I spoke to her last Wednesday.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'speak to',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with speak to.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'speaker',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who makes a formal speech to a group of people',
+    meaningZh: '',
+    exampleSentence: 'the guest speaker at the conference',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'speaking',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with speaking.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'special',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not ordinary or usual , but different in some way and often better or more important',
+    meaningZh: '',
+    exampleSentence: 'a special place in the classroom for reading',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'species',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of animals or plants whose members are similar and can breed together to produce young animals or plants',
+    meaningZh: '',
+    exampleSentence: 'Seven species of birds of prey have been observed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'specific',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a specific thing, person, or group is one particular thing, person, or group',
+    meaningZh: '',
+    exampleSentence: 'games suitable for specific age groups',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'specifically',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'relating to or intended for one particular type of person or thing only',
+    meaningZh: '',
+    exampleSentence: 'advertising that specifically targets children',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'speech',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a talk, especially a formal one about a particular subject , given to a group of people',
+    meaningZh: '',
+    exampleSentence: 'Each child had to give a short speech to the rest of the class.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'speed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the rate at which something moves or travels',
+    meaningZh: '',
+    exampleSentence: 'The truck was travelling at a speed of 50 mph.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'spend',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to use your money to pay for goods or services',
+    meaningZh: '',
+    exampleSentence: 'I can’t afford to spend any more money this week.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'spending',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the amount of money spent , especially by a government or organization',
+    meaningZh: '',
+    exampleSentence: 'a plan to increase military spending',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'spent',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the past tense and past participle of spend',
+    meaningZh: '',
+    exampleSentence: 'He tried to eject the spent cartridge and reload.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'spirit',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the qualities that make someone live the way they do, and make them different from other people',
+    meaningZh: '',
+    exampleSentence: 'I’m 85, but I still feel young in spirit.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'split',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if a group of people splits, or if it is split, people in the group disagree strongly with each other and the group sometimes divides into separate smaller groups',
+    meaningZh: '',
+    exampleSentence: 'It was feared that the issue would split the church.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'spoke',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of speak',
+    meaningZh: '',
+    exampleSentence: 'This is an example with spoke.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sport',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a physical activity in which people compete against each other',
+    meaningZh: '',
+    exampleSentence: 'My favourite sports are tennis and swimming.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sports',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sports.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'spot',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a particular place or area, especially a pleasant place where you spend time',
+    meaningZh: '',
+    exampleSentence: 'a nice quiet spot on the beach',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'spread',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if something spreads or is spread, it becomes larger or moves so that it affects more people or a larger area',
+    meaningZh: '',
+    exampleSentence: 'Fire quickly spread through the building.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'spring',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the season between winter and summer when leaves and flowers appear',
+    meaningZh: '',
+    exampleSentence: 'the spring of 1933',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'squad',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of players from which a team will be chosen for a particular sports event',
+    meaningZh: '',
+    exampleSentence: 'the Italian World Cup squad',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'square',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having four straight equal sides and 90° angles at the corners',
+    meaningZh: '',
+    exampleSentence: 'a large square room',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stable',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'steady and not likely to move or change',
+    meaningZh: '',
+    exampleSentence: 'A wide base will make the structure much more stable.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stadium',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a building for public events, especially sports and large rock music concerts , consisting of a playing field surrounded by rows of seats',
+    meaningZh: '',
+    exampleSentence: 'the new Olympic Stadium',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'staff',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the people who work for an organization',
+    meaningZh: '',
+    exampleSentence: 'Our department has a staff of seven.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stage',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a particular time or state that something reaches as it grows or develops',
+    meaningZh: '',
+    exampleSentence: 'the early stages of a child’s development',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stand',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to support yourself on your feet or be in an upright position',
+    meaningZh: '',
+    exampleSentence: 'It looks like we’ll have to stand – there are no seats left.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stand up',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with stand up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'standard',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the level that is considered to be acceptable , or the level that someone or something has achieved',
+    meaningZh: '',
+    exampleSentence: 'Students have to reach a certain standard or they won’t pass.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'standards',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'moral principles about what kind of behaviour or attitudes are acceptable',
+    meaningZh: '',
+    exampleSentence: 'the recent decline in moral standards',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'standing',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'permanently agreed or arranged',
+    meaningZh: '',
+    exampleSentence: 'You have to pay standing charges whether or not you use the service.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stands',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with stands.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'star',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large ball of burning gas in space that can be seen at night as a point of light in the sky',
+    meaningZh: '',
+    exampleSentence: 'I lay on my back and looked up at the stars.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stars',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with stars.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'start',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to do something that you were not doing before, and continue doing it',
+    meaningZh: '',
+    exampleSentence: 'There’s so much to do I don’t know where to start.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'started',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with started.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'starting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with starting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'starts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when people begin to build a number of new houses',
+    meaningZh: '',
+    exampleSentence: 'This is an example with starts.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'state',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the physical or mental condition that someone or something is in',
+    meaningZh: '',
+    exampleSentence: 'There are fears for the state of the country’s economy.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stated',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with stated.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'statement',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something you say or write, especially publicly or officially, to let people know your intentions or opinions , or to record facts',
+    meaningZh: '',
+    exampleSentence: 'In an official statement, she formally announced her resignation.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'statements',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with statements.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'states',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an informal name for the United States of America',
+    meaningZh: '',
+    exampleSentence: 'This is an example with states.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'station',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where trains or buses regularly stop so that passengers can get on and off, goods can be loaded etc, or the buildings at such a place',
+    meaningZh: '',
+    exampleSentence: 'I want to get off at the next station.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stations',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with stations.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'statistics',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of numbers which represent facts or measurements',
+    meaningZh: '',
+    exampleSentence: 'the official crime statistics',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'status',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the official legal position or condition of a person, group, country etc',
+    meaningZh: '',
+    exampleSentence: 'These documents have no legal status in Britain.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stay',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to remain in a place rather than leave',
+    meaningZh: '',
+    exampleSentence: 'They stayed all afternoon chatting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stayed',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with stayed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'staying',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with staying.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'steam',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the hot mist that water produces when it is boiled',
+    meaningZh: '',
+    exampleSentence: 'Steam rose from the hot tub.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'steel',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'strong metal that can be shaped easily, consisting of iron and carbon',
+    meaningZh: '',
+    exampleSentence: 'a steel bridge',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'step',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the movement you make when you put one foot in front of or behind the other when walking',
+    meaningZh: '',
+    exampleSentence: 'a video of baby’s first steps',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stephen',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with stephen.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'steps',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a stepladder',
+    meaningZh: '',
+    exampleSentence: 'This is an example with steps.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'steve',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with steve.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stick',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to attach something to something else using a substance , or to become attached to a surface',
+    meaningZh: '',
+    exampleSentence: 'Someone had stuck posters all over the walls.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stock',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a supply of a particular type of thing that a shop has available to sell',
+    meaningZh: '',
+    exampleSentence: 'We have a huge stock of quality carpets on sale.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stone',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a hard solid mineral substance',
+    meaningZh: '',
+    exampleSentence: 'a stone wall',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stood',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of stand 1',
+    meaningZh: '',
+    exampleSentence: 'This is an example with stood.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stop',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to not continue, or to make someone or something not continue',
+    meaningZh: '',
+    exampleSentence: 'By midday the rain had stopped.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stopped',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with stopped.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'storage',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of keeping or putting something in a special place while it is not being used',
+    meaningZh: '',
+    exampleSentence: 'the storage of radioactive material',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'store',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place where goods are sold to the public. In British English, a store is large and sells many different things, but in American English, a store can be large or small, and sell many things or only one type of thing.',
+    meaningZh: '',
+    exampleSentence: 'At Christmas the stores stay open late.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stores',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'supplies of food and equipment that are used by an army , navy etc',
+    meaningZh: '',
+    exampleSentence: 'medical stores',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stories',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with stories.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'storm',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a period of very bad weather when there is a lot of rain or snow , strong winds , and often lightning',
+    meaningZh: '',
+    exampleSentence: 'The weather forecast is for severe storms tonight.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'story',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a description of how something happened, that is intended to entertain people, and may be true or imaginary',
+    meaningZh: '',
+    exampleSentence: 'a story about a princess',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'straight',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in a line or direction that is not curved or bent',
+    meaningZh: '',
+    exampleSentence: 'The book is on the table straight in front of you.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'strange',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'unusual or surprising , especially in a way that is difficult to explain or understand',
+    meaningZh: '',
+    exampleSentence: 'strange noises',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'strategy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a planned series of actions for achieving something',
+    meaningZh: '',
+    exampleSentence: 'the government’s long-term economic strategy',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stream',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a natural flow of water that moves across the land and is narrower than a river',
+    meaningZh: '',
+    exampleSentence: 'a stream of traffic',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'street',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a public road in a city or town that has houses, shops etc on one or both sides',
+    meaningZh: '',
+    exampleSentence: 'We moved to Center Street when I was young.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'streets',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with streets.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'strength',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the physical power and energy that makes someone strong',
+    meaningZh: '',
+    exampleSentence: 'She didn’t even have the strength to stand up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stress',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'continuous feelings of worry about your work or personal life, that prevent you from relaxing',
+    meaningZh: '',
+    exampleSentence: 'Your headaches are due to stress.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'strike',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to hit or fall against the surface of something',
+    meaningZh: '',
+    exampleSentence: 'She fell heavily, striking her head against the side of the boat.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'strong',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a lot of physical power so that you can lift heavy things, do hard physical work etc',
+    meaningZh: '',
+    exampleSentence: 'He was a big strong man.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stronger',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with stronger.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'strongly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'if you feel or believe in something strongly, you are very sure and serious about it',
+    meaningZh: '',
+    exampleSentence: 'I’m strongly opposed to capital punishment.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'structure',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the way in which the parts of something are connected with each other and form a whole , or the thing that these parts make up',
+    meaningZh: '',
+    exampleSentence: 'the social structure of organizations',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'structures',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with structures.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'struggle',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to try extremely hard to achieve something, even though it is very difficult',
+    meaningZh: '',
+    exampleSentence: 'She’s struggling to bring up a family alone.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stuck',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the past tense and past participle of stick 1',
+    meaningZh: '',
+    exampleSentence: 'Sara tried to open the window but it was stuck.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'student',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who is studying at a university , school etc',
+    meaningZh: '',
+    exampleSentence: 'a first-year student at the University of Oslo',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'students',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with students.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'studied',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a studied way of behaving is deliberate and often not sincere , because it has been planned carefully',
+    meaningZh: '',
+    exampleSentence: 'She spoke with studied politeness.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'studies',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with studies.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'studio',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a room where television and radio programmes are made and broadcast or where music is recorded',
+    meaningZh: '',
+    exampleSentence: 'a TV studio',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'study',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of work that is done to find out more about a particular subject or problem, and usually includes a written report',
+    meaningZh: '',
+    exampleSentence: 'Recent studies show that women still get paid a lot less than men.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stuff',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'used when you are talking about things such as substances , materials , or groups of objects when you do not know what they are called, or it is not important to say exactly what they are',
+    meaningZh: '',
+    exampleSentence: 'I’ve got some sticky stuff on my shoe.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'stupid',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'showing a lack of good sense or good judgment',
+    meaningZh: '',
+    exampleSentence: 'stupid mistakes',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'style',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a particular way of doing, designing, or producing something, especially one that is typical of a particular place, period of time, or group of people',
+    meaningZh: '',
+    exampleSentence: 'an attempt to use Japanese management style in a European business',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sub',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a submarine',
+    meaningZh: '',
+    exampleSentence: 'Roy’s subbing for Chris in tonight’s game.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'subject',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the thing you are talking about or considering in a conversation , discussion , book, film etc',
+    meaningZh: '',
+    exampleSentence: 'Paul has strong opinions on most subjects.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'succeed in',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with succeed in.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'success',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when you achieve what you want or intend',
+    meaningZh: '',
+    exampleSentence: 'The experiment was a big success.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'successful',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'achieving what you wanted, or having the effect or result you intended',
+    meaningZh: '',
+    exampleSentence: 'The operation was successful.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'such',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'of the same kind as the thing or person which has already been mentioned',
+    meaningZh: '',
+    exampleSentence: 'Such behavior is just not acceptable in this school.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'suddenly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'quickly and unexpectedly',
+    meaningZh: '',
+    exampleSentence: 'I suddenly realized that there was someone following me.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'suffer from',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with suffer from.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'suffered',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with suffered.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'suffering',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'serious physical or mental pain',
+    meaningZh: '',
+    exampleSentence: 'the suffering of the refugees after the war',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sugar',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a sweet white or brown substance that is obtained from plants and used to make food and drinks sweet',
+    meaningZh: '',
+    exampleSentence: 'Do you take sugar in your coffee?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'suggest',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to tell someone your ideas about what they should do, where they should go etc',
+    meaningZh: '',
+    exampleSentence: 'The zoo asked its visitors to suggest a name for the new baby panda.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'suggested',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with suggested.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'suggests',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with suggests.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'suicide',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the act of killing yourself',
+    meaningZh: '',
+    exampleSentence: 'More people commit suicide at Christmas than at any other time.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'suit',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of clothes made of the same material , usually including a jacket with trousers or a skirt',
+    meaningZh: '',
+    exampleSentence: 'a grey lightweight suit',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'summer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the time of the year when the sun is hottest and the days are longest, between spring and autumn',
+    meaningZh: '',
+    exampleSentence: 'the long hot summer of 1976',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sun',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a British tabloid daily newspaper which sells more copies than almost any other daily newspaper in the UK. It has some articles about events in the news and politics , but many of its stories are about the private lives of well-known people, such as the royal family, television actors , and sports players .',
+    meaningZh: '',
+    exampleSentence: 'Too much sun is bad for you.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sunday',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the day between Saturday and Monday',
+    meaningZh: '',
+    exampleSentence: 'We’re going to a match on Sunday.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'super',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'extremely good',
+    meaningZh: '',
+    exampleSentence: 'an old car in super condition',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'supplies',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'food, clothes , and things necessary for daily life or for a particular purpose , especially for a group of people over a period of time',
+    meaningZh: '',
+    exampleSentence: 'Supplies were brought in by air.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'supply',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an amount of something that is available to be used',
+    meaningZh: '',
+    exampleSentence: 'I’ve only got a week’s supply of tablets left.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'support',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to say that you agree with an idea, group, or person, and usually to help them because you want them to succeed',
+    meaningZh: '',
+    exampleSentence: 'The bill was supported by a large majority in the Senate.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'supported',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with supported.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'supporting',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with supporting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'suppose',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to think that something is probably true, based on what you know',
+    meaningZh: '',
+    exampleSentence: 'There were many more deaths than was first supposed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'supposed',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'claimed by other people to be true or real , although you do not think they are right',
+    meaningZh: '',
+    exampleSentence: 'gossip about Emma’s supposed affair with Peter',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'supreme',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having the highest position of power, importance , or influence',
+    meaningZh: '',
+    exampleSentence: 'the Supreme Allied Commander in Europe',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sure',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'confident that you know something or that something is true or correct',
+    meaningZh: '',
+    exampleSentence: '‘That’s Sarah’s cousin.’ ‘Are you sure?’',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'surely',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to show that you think something must be true, especially when people seem to be disagreeing with you',
+    meaningZh: '',
+    exampleSentence: 'You must have heard about the riots, surely?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'surface',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the top layer of an area of water or land',
+    meaningZh: '',
+    exampleSentence: 'Dead leaves floated on the surface of the water.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'surgery',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'medical treatment in which a surgeon cuts open your body to repair or remove something inside',
+    meaningZh: '',
+    exampleSentence: 'She required surgery on her right knee.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'surprise',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an unexpected or unusual event',
+    meaningZh: '',
+    exampleSentence: 'What a surprise to find you here!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'surprised',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a feeling of surprise',
+    meaningZh: '',
+    exampleSentence: 'He looked surprised to see Cassie standing by the front door.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'surrounding',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'near or around a particular place',
+    meaningZh: '',
+    exampleSentence: 'Troops sealed off the surrounding area .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'survey',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of questions that you ask a large number of people in order to find out about their opinions or behaviour',
+    meaningZh: '',
+    exampleSentence: 'We conducted a survey of parents in the village.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'survive',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to continue to live after an accident , war , or illness',
+    meaningZh: '',
+    exampleSentence: 'Only 12 of the 140 passengers survived.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'suspect',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to think that something is probably true , especially something bad',
+    meaningZh: '',
+    exampleSentence: 'I suspected that there was something wrong with the engine.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'swear',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to use rude and offensive language',
+    meaningZh: '',
+    exampleSentence: 'Don’t swear in front of the children.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sweet',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'containing or having a taste like sugar',
+    meaningZh: '',
+    exampleSentence: 'This tea is too sweet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'switch',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to change from doing or using one thing to doing or using another',
+    meaningZh: '',
+    exampleSentence: 'She worked as a librarian before switching to journalism.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'sydney',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the largest city in Australia, which is the capital of the state of New South Wales and an important financial , industrial , and educational centre . It is known especially for the Sydney Harbour Bridge and for the Sydney Opera House, an unusual modern building that is greatly admired .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with sydney.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'symptoms',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with symptoms.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'system',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of related parts that work together as a whole for a particular purpose',
+    meaningZh: '',
+    exampleSentence: 'an alarm system',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'systems',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with systems.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'table',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of furniture with a flat top supported by legs',
+    meaningZh: '',
+    exampleSentence: 'The food was served on long tables.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'take',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move or go with someone or something from one place to another',
+    meaningZh: '',
+    exampleSentence: 'Barney took us to the airport.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'take after',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with take after.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'take off',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with take off.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'take over',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with take over.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'take part in',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with take part in.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'take place',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with take place.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'taken',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of take',
+    meaningZh: '',
+    exampleSentence: 'This is an example with taken.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'takes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with takes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'taking',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with taking.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'talent',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a natural ability to do something well',
+    meaningZh: '',
+    exampleSentence: 'He has a lot of talent , and his work is fresh and interesting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'talk',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to say things to someone as part of a conversation',
+    meaningZh: '',
+    exampleSentence: 'I could hear Sarah and Andy talking in the next room.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'talk about',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with talk about.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'talk over',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with talk over.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'talked',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with talked.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'talking',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with talking.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'talks',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'formal discussions between governments, organizations etc',
+    meaningZh: '',
+    exampleSentence: 'The peace talks look promising.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tall',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a person, building, tree etc that is tall is a greater height than normal',
+    meaningZh: '',
+    exampleSentence: 'He was young and tall.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tank',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large container for storing liquid or gas',
+    meaningZh: '',
+    exampleSentence: 'The water tank is leaking.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'target',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that you are trying to achieve , such as a total , an amount , or a time',
+    meaningZh: '',
+    exampleSentence: 'demanding financial targets',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'task',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of work that must be done, especially one that is difficult or unpleasant or that must be done regularly',
+    meaningZh: '',
+    exampleSentence: 'The task of the union representative is to fight on behalf of the members.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'taste',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the feeling that is produced by a particular food or drink when you put it in your mouth',
+    meaningZh: '',
+    exampleSentence: 'The medicine had a slightly bitter taste.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'taught',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of teach',
+    meaningZh: '',
+    exampleSentence: 'This is an example with taught.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tax',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an amount of money that you must pay to the government according to your income , property , goods etc and that is used to pay for public services',
+    meaningZh: '',
+    exampleSentence: 'a tax on fuel',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'taxes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with taxes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'taylor',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with taylor.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tea',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a hot brown drink made by pouring boiling water onto the dried leaves from a particular Asian bush , or a cup of this drink',
+    meaningZh: '',
+    exampleSentence: 'Would you like a cup of tea or coffee?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'teach',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to give lessons in a school , college , or university , or to help someone learn about something by giving them information',
+    meaningZh: '',
+    exampleSentence: 'Neil teaches at the Guildhall School of Music in London.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'teacher',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone whose job is to teach , especially in a school',
+    meaningZh: '',
+    exampleSentence: 'a primary school teacher',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'teachers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with teachers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'teaching',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the work or profession of a teacher',
+    meaningZh: '',
+    exampleSentence: 'Mrs Ward had many years of experience in teaching.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'team',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of people who play a game or sport together against another group',
+    meaningZh: '',
+    exampleSentence: 'Which team do you support?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'teams',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with teams.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tears',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with tears.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tech',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a technical college',
+    meaningZh: '',
+    exampleSentence: 'A lot of smaller tech companies are reporting disappointing profits.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'technical',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'connected with knowledge of how machines work',
+    meaningZh: '',
+    exampleSentence: 'Our staff will be available to give you technical support .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'technique',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a special way of doing something',
+    meaningZh: '',
+    exampleSentence: 'There are various techniques for dealing with industrial pollution.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'techniques',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with techniques.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'technology',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'new machines , equipment , and ways of doing things that are based on modern knowledge about science and computers',
+    meaningZh: '',
+    exampleSentence: 'Modern technology makes moving money around much easier than it used to be.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'teeth',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the plural of tooth',
+    meaningZh: '',
+    exampleSentence: 'This is an example with teeth.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'television',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of electronic equipment shaped like a box with a screen , on which you can watch programmes',
+    meaningZh: '',
+    exampleSentence: 'Lucy turned on the television to watch the evening news.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tell',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if someone tells you something, they communicate information , a story , their feelings etc to you',
+    meaningZh: '',
+    exampleSentence: 'I wish someone had told me the meeting was canceled.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'telling',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a great or important effect',
+    meaningZh: '',
+    exampleSentence: 'a telling argument',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tells',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with tells.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'temperature',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a measure of how hot or cold a place or thing is',
+    meaningZh: '',
+    exampleSentence: 'The temperature of the water was just right for swimming.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'temporary',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'continuing for only a limited period of time',
+    meaningZh: '',
+    exampleSentence: 'temporary pain relief',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ten',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 10',
+    meaningZh: '',
+    exampleSentence: 'Snow had been falling steadily for ten days.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tend',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to look after someone or something',
+    meaningZh: '',
+    exampleSentence: 'Sofia was in the bedroom tending to her son.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'term',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a word or expression with a particular meaning, especially one that is used for a specific subject or type of language',
+    meaningZh: '',
+    exampleSentence: '‘Multimedia’ is the term for any technique combining sounds and images.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'terms',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the conditions that are set for an agreement , contract , arrangement etc',
+    meaningZh: '',
+    exampleSentence: 'Under the terms of the agreement, the debt would be repaid over 20 years.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'terrible',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'extremely severe in a way that causes harm or damage',
+    meaningZh: '',
+    exampleSentence: 'Their son had been injured in a terrible accident.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'territory',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'land that is owned or controlled by a particular country, ruler , or military force',
+    meaningZh: '',
+    exampleSentence: 'The plane was flying over enemy territory.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'test',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of questions, exercises, or practical activities to measure someone’s skill, ability, or knowledge',
+    meaningZh: '',
+    exampleSentence: 'We have a test on irregular verbs tomorrow.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tested',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with tested.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'testing',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a testing situation, experience etc is difficult to deal with',
+    meaningZh: '',
+    exampleSentence: 'It’s been a testing time .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tests',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with tests.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'texas',
+    partOfSpeech: 'noun, adjective',
+    simpleDefinitionEn: 'a large state in the south of the US, which has a long border with Mexico. It is an important centre of the oil and gas industries , and also of cattle and crop farming . Its cities include Houston, Dallas, San Antonio, Austin, and El Paso. Before it became part of the US in 1845, Texas was briefly an independent country. Partly because of this, Texans are very proud of their state and often feel that they are different from other people in the US. When people think of Texas, they often think of cowboy s and of the oil industry. It is also sometimes thought of as the place where everything is bigger than anywhere else.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with texas.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'text',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'any written material',
+    meaningZh: '',
+    exampleSentence: 'One disk can store the equivalent of 500 pages of text.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thank',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to tell someone that you are pleased and grateful for something they have done, or to be polite about it',
+    meaningZh: '',
+    exampleSentence: 'I haven’t had a chance to thank him yet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thanks',
+    partOfSpeech: 'interjection',
+    simpleDefinitionEn: 'used to tell someone that you are grateful for something they have given you or done for you',
+    meaningZh: '',
+    exampleSentence: '‘Pass the salt, please ... thanks.’',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thats',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with thats.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'theatre',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a building or place with a stage where plays and shows are performed',
+    meaningZh: '',
+    exampleSentence: 'an open-air theatre (= a theatre that is outside )',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'theme',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the main subject or idea in a piece of writing, speech , film etc',
+    meaningZh: '',
+    exampleSentence: 'The book’s theme is the conflict between love and duty.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'themselves',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'used to show that the people who do something are affected by their own action',
+    meaningZh: '',
+    exampleSentence: 'Teachers have no choice but to take measures to protect themselves.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'theory',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an idea or set of ideas that is intended to explain something about life or the world , especially an idea that has not yet been proved to be true',
+    meaningZh: '',
+    exampleSentence: 'different theories about how the brain works',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'therapy',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the treatment of an illness or injury over a fairly long period of time',
+    meaningZh: '',
+    exampleSentence: 'new drug therapies',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'therefore',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'as a result of something that has just been mentioned',
+    meaningZh: '',
+    exampleSentence: 'Their car was bigger and therefore more comfortable.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thin',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if something is thin, there is only a small distance between its two opposite sides or surfaces',
+    meaningZh: '',
+    exampleSentence: 'a thin gold chain',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an idea, action , feeling, or fact that someone thinks, does, says, or talks about, or that happens',
+    meaningZh: '',
+    exampleSentence: 'People say things they don’t mean when they are angry.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'things',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'clothes and possessions',
+    meaningZh: '',
+    exampleSentence: 'Jim began to unpack his things.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'think',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have a particular opinion or to believe that something is true',
+    meaningZh: '',
+    exampleSentence: 'I think that you’re being unfair.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'think about',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with think about.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'think over',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with think over.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thinking',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'your opinion or ideas about something, or your attitude towards it',
+    meaningZh: '',
+    exampleSentence: 'The Administration’s thinking changed as the war progressed.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thinks',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with thinks.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'third',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'coming after two other things in a series',
+    meaningZh: '',
+    exampleSentence: 'in the third century',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thomas',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with thomas.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'though',
+    partOfSpeech: 'conjunction',
+    simpleDefinitionEn: 'used to introduce a statement that makes the main statement coming after it seem surprising , unlikely , or unexpected',
+    meaningZh: '',
+    exampleSentence: 'Though she’s almost 40, she still plans to compete.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thought',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of think 1',
+    meaningZh: '',
+    exampleSentence: 'It’s an interesting thought.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thoughts',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a person’s ideas or opinions about something',
+    meaningZh: '',
+    exampleSentence: 'What are your thoughts, Michael?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thousand',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 1,000',
+    meaningZh: '',
+    exampleSentence: 'a journey of almost a thousand miles',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thousands',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with thousands.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'threat',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a statement in which you tell someone that you will cause them harm or trouble if they do not do what you want',
+    meaningZh: '',
+    exampleSentence: 'Your threats don’t scare me.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'three',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 3',
+    meaningZh: '',
+    exampleSentence: 'They’ve won their last three games.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'throughout',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'in every part of a particular area, place etc',
+    meaningZh: '',
+    exampleSentence: 'a large organization with offices throughout the world',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'throw',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to make an object such as a ball move quickly through the air by pushing your hand forward quickly and letting the object go',
+    meaningZh: '',
+    exampleSentence: 'He threw his shirt to someone in the crowd.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'throw away',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with throw away.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thursday',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the day between Wednesday and Friday',
+    meaningZh: '',
+    exampleSentence: 'I went to Edinburgh on Thursday.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'thus',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'as a result of something that you have just mentioned',
+    meaningZh: '',
+    exampleSentence: 'Most of the evidence was destroyed in the fire. Thus it would be almost impossible to prove him guilty.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ticket',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a printed piece of paper which shows that you have paid to enter a cinema , travel on a bus , plane etc',
+    meaningZh: '',
+    exampleSentence: 'How much are tickets for the concert?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tickets',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with tickets.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tie',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to fasten things together or hold them in a particular position using a piece of string , rope etc',
+    meaningZh: '',
+    exampleSentence: 'Tie this label to your suitcase.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tied',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with tied.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tight',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'tight clothes fit your body very closely, especially in a way that is uncomfortable',
+    meaningZh: '',
+    exampleSentence: 'tight jeans',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'till',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'until',
+    meaningZh: '',
+    exampleSentence: 'I didn’t have a boyfriend till I was 17.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tim',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with tim.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'times',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'multiplied by',
+    meaningZh: '',
+    exampleSentence: 'two times two equals four (2 x 2 = 4)',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tiny',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'extremely small',
+    meaningZh: '',
+    exampleSentence: 'a tiny community in the Midwest',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tip',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the end of something, especially something pointed',
+    meaningZh: '',
+    exampleSentence: 'He kissed the tip of her nose.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tips',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with tips.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tired',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'feeling that you want to sleep or rest',
+    meaningZh: '',
+    exampleSentence: 'I’m so tired I could sleep for a week.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'title',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the name given to a particular book, painting , play etc',
+    meaningZh: '',
+    exampleSentence: 'The title of this play is ‘Othello’.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'today',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'on the day that is happening now',
+    meaningZh: '',
+    exampleSentence: 'I couldn’t go shopping yesterday so I’ll have to go today.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'together',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'if two or more people do something together, they do it with each other',
+    meaningZh: '',
+    exampleSentence: 'We’ve very much enjoyed working together .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'toilet',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large bowl that you sit on to get rid of waste liquid or waste matter from your body',
+    meaningZh: '',
+    exampleSentence: 'He flushed the toilet (= pulled the handle so that water ran into the toilet to clean it ) .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'told',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of tell',
+    meaningZh: '',
+    exampleSentence: 'This is an example with told.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tom',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a tomcat',
+    meaningZh: '',
+    exampleSentence: 'This is an example with tom.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tomorrow',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'on or during the day after today',
+    meaningZh: '',
+    exampleSentence: 'Our class is going to London tomorrow.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tone',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the way your voice sounds, which shows how you are feeling or what you mean',
+    meaningZh: '',
+    exampleSentence: '‘You must be Annie, ’ he said in a friendly tone.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tonight',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'during the night of this day',
+    meaningZh: '',
+    exampleSentence: 'I think I’ll go to bed early tonight.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tony',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'fashionable and expensive',
+    meaningZh: '',
+    exampleSentence: 'We met in a tony restaurant uptown.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'took',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of take',
+    meaningZh: '',
+    exampleSentence: 'This is an example with took.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tool',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that you hold in your hand and use to do a particular job',
+    meaningZh: '',
+    exampleSentence: 'I don’t have the right tools to start fiddling around with the engine.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tools',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with tools.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'top',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the highest part of something',
+    meaningZh: '',
+    exampleSentence: 'The tops of the mountains were still covered with snow.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'topic',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a subject that people talk or write about',
+    meaningZh: '',
+    exampleSentence: 'The environment is a popular topic these days.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'toronto',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a city and port on Lake Ontario, Canada . Toronto is the capital of the province of Ontario and the second largest city in Canada. It is also the business and financial centre of Canada.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with toronto.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'total',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'complete , or as great as is possible',
+    meaningZh: '',
+    exampleSentence: 'The sales campaign was a total disaster.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'totally',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'completely',
+    meaningZh: '',
+    exampleSentence: 'That’s a totally different matter.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'touch',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to put your hand, finger etc on someone or something',
+    meaningZh: '',
+    exampleSentence: 'She reached out to touch his arm.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tough',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'difficult to do or deal with',
+    meaningZh: '',
+    exampleSentence: 'It was a tough race.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tour',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a journey for pleasure , during which you visit several different towns , areas etc',
+    meaningZh: '',
+    exampleSentence: 'a 10-day tour of China',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tournament',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a competition in which players compete against each other in a series of games until there is one winner',
+    meaningZh: '',
+    exampleSentence: 'I feel I can win this tournament.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'toward',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with toward.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'towards',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'used to say that someone or something moves, looks, faces etc in the direction of someone or something',
+    meaningZh: '',
+    exampleSentence: 'He noticed two policemen coming towards him.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'towel',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a piece of cloth that you use for drying your skin or for drying things such as dishes',
+    meaningZh: '',
+    exampleSentence: 'Have you got a clean towel I could use?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tower',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a tall narrow building either built on its own or forming part of a castle , church etc',
+    meaningZh: '',
+    exampleSentence: 'the Eiffel Tower',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'town',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large area with houses, shops , offices etc where people live and work, that is smaller than a city and larger than a village',
+    meaningZh: '',
+    exampleSentence: 'an industrial town in the Midlands',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'track',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a narrow path or road with a rough uneven surface , especially one made by people or animals frequently moving through the same place',
+    meaningZh: '',
+    exampleSentence: 'The road leading to the farm was little more than a dirt track .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'trade',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of buying, selling , or exchanging goods within a country or between countries',
+    meaningZh: '',
+    exampleSentence: 'There has been a marked increase in trade between East and West.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'trading',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity of buying and selling goods or services',
+    meaningZh: '',
+    exampleSentence: 'Shares dropped 10% in heavy trading.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tradition',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a belief , custom , or way of doing something that has existed for a long time, or these beliefs, customs etc in general',
+    meaningZh: '',
+    exampleSentence: 'the traditions of South East Asia',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'traditional',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'being part of the traditions of a country or group of people',
+    meaningZh: '',
+    exampleSentence: 'traditional Italian cooking',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'traffic',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the vehicles moving along a road or street',
+    meaningZh: '',
+    exampleSentence: 'There wasn’t much traffic on the roads.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'train',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a set of several carriages that are connected to each other and pulled along a railway line by an engine',
+    meaningZh: '',
+    exampleSentence: 'the train to Munich',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'trained',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with trained.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'training',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the process of teaching or being taught the skills for a particular job or activity',
+    meaningZh: '',
+    exampleSentence: 'On the course we received training in every aspect of the job.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'transfer',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move from one place, school, job etc to another, or to make someone do this, especially within the same organization',
+    meaningZh: '',
+    exampleSentence: 'Swod transferred from MI6 to the Security Service.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'transport',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a system or method for carrying passengers or goods from one place to another',
+    meaningZh: '',
+    exampleSentence: 'Improved rail transport is essential for business.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'transportation',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a system or method for carrying passengers or goods from one place to another',
+    meaningZh: '',
+    exampleSentence: 'The city needs to improve its public transportation (= buses, trains etc ) .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'travel',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to go from one place to another, or to several places, especially ones that are far away',
+    meaningZh: '',
+    exampleSentence: 'Someday I’d like to travel abroad .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'treat',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to behave towards someone or something in a particular way',
+    meaningZh: '',
+    exampleSentence: 'She treats me like one of the family.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'treated',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with treated.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'treatment',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that is done to cure someone who is injured or ill',
+    meaningZh: '',
+    exampleSentence: 'There have been great advances in the treatment of cancer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tree',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a very tall plant that has branches and leaves, and lives for many years',
+    meaningZh: '',
+    exampleSentence: 'As a kid, I loved to climb trees.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'trees',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with trees.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'trend',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a general tendency in the way a situation is changing or developing',
+    meaningZh: '',
+    exampleSentence: 'Lately there has been a trend towards hiring younger, cheaper employees.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'trial',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a legal process in which a judge and often a jury in a court of law examine information to decide whether someone is guilty of a crime',
+    meaningZh: '',
+    exampleSentence: 'The trial is due to start next week.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'trick',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something you do in order to deceive someone',
+    meaningZh: '',
+    exampleSentence: 'Pretending he doesn’t remember is an old trick of his.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tried',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the past tense and past participle of try',
+    meaningZh: '',
+    exampleSentence: 'This is an example with tried.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tries',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with tries.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'trip',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a visit to a place that involves a journey , for pleasure or a particular purpose',
+    meaningZh: '',
+    exampleSentence: 'Did you enjoy your trip to Disneyland?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'troops',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'soldiers in an organized group',
+    meaningZh: '',
+    exampleSentence: 'Both countries agreed to withdraw their troops .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'trouble',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'problems or difficulties',
+    meaningZh: '',
+    exampleSentence: 'We’re having a lot of trouble with the new computer system.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'truck',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large road vehicle used to carry goods',
+    meaningZh: '',
+    exampleSentence: 'a truck driver',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'true',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'based on facts and not imagined or invented',
+    meaningZh: '',
+    exampleSentence: 'It’s not true that I’m going to marry him.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'truly',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to emphasize that the way you are describing something is really true',
+    meaningZh: '',
+    exampleSentence: 'His work is truly original.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'trump',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a card from the suit that has been chosen to have a higher value than the other suits in a particular game',
+    meaningZh: '',
+    exampleSentence: 'By wearing a simple but stunning dress, she had trumped them all.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'trust',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a strong belief in the honesty , goodness etc of someone or something',
+    meaningZh: '',
+    exampleSentence: 'At first there was a lack of trust between them.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'truth',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the state or quality of being true',
+    meaningZh: '',
+    exampleSentence: 'There was some truth in the accusations.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'try',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to take action in order to do something that you may not be able to do',
+    meaningZh: '',
+    exampleSentence: 'Let’s have a rest and then we’ll try again.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'try on',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with try on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'trying',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'annoying or difficult in a way that makes you feel worried , tired etc',
+    meaningZh: '',
+    exampleSentence: 'That child is very trying.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'tuesday',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the day between Monday and Wednesday',
+    meaningZh: '',
+    exampleSentence: 'The sale starts on Tuesday.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'turkey',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a bird that looks like a large chicken and is often eaten at Christmas and at Thanksgiving',
+    meaningZh: '',
+    exampleSentence: 'roast turkey',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'turn',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move your body so that you are looking in a different direction',
+    meaningZh: '',
+    exampleSentence: 'Ricky turned and walked away.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'turn down',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with turn down.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'turn off',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with turn off.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'turn on',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with turn on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'turn up',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with turn up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'turned',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with turned.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'turning',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a road that connects with the one you are on',
+    meaningZh: '',
+    exampleSentence: 'He must have taken a wrong turning in the dark.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'turns',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with turns.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'twenty',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 20',
+    meaningZh: '',
+    exampleSentence: 'a small village twenty miles from Nairobi',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'twice',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'two times',
+    meaningZh: '',
+    exampleSentence: 'He was questioned by police twice yesterday.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'twitter',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if a bird twitters, it makes a lot of short high sounds',
+    meaningZh: '',
+    exampleSentence: 'This is an example with twitter.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'type',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one member of a group of people or things that have similar features or qualities',
+    meaningZh: '',
+    exampleSentence: 'I’ve already seen a few movies of this type.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'types',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with types.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'typical',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having the usual features or qualities of a particular group or thing',
+    meaningZh: '',
+    exampleSentence: 'typical British weather',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'typically',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in a way that a person or group is generally believed to behave',
+    meaningZh: '',
+    exampleSentence: 'Typically, he didn’t even bother to tell anyone he was going.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ultimate',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'someone’s ultimate aim is their main and most important aim, that they hope to achieve in the future',
+    meaningZh: '',
+    exampleSentence: 'Complete disarmament was the ultimate goal of the conference.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ultimately',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'finally, after everything else has been done or considered',
+    meaningZh: '',
+    exampleSentence: 'Ultimately, the decision rests with the child’s parents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'unable',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not able to do something',
+    meaningZh: '',
+    exampleSentence: 'Lucy was unable to find out what had happened.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'understand',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to know the meaning of what someone is telling you, or the language that they speak',
+    meaningZh: '',
+    exampleSentence: 'She doesn’t understand English.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'understanding',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'knowledge about something, based on learning or experience',
+    meaningZh: '',
+    exampleSentence: 'How does this add to our understanding of the problem?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'understood',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of understand',
+    meaningZh: '',
+    exampleSentence: 'This is an example with understood.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'unfortunately',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used when you are mentioning a fact that you wish was not true',
+    meaningZh: '',
+    exampleSentence: 'Unfortunately, you were out when we called.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'union',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an organization formed by workers to protect their rights',
+    meaningZh: '',
+    exampleSentence: 'the National Union of Teachers',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'unique',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'unusually good and special',
+    meaningZh: '',
+    exampleSentence: 'This is a unique opportunity to study these rare creatures.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'unit',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a group of people working together as part of a larger group',
+    meaningZh: '',
+    exampleSentence: 'The man is in the hospital’s intensive care unit .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'united',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'joined or closely connected by feelings , aims etc',
+    meaningZh: '',
+    exampleSentence: 'a united Europe',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'units',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with units.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'universal',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'involving everyone in the world or in a particular group',
+    meaningZh: '',
+    exampleSentence: 'free universal health care',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'universe',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a world or an area of space that is different from the one we are in',
+    meaningZh: '',
+    exampleSentence: 'This is an example with universe.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'university',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an educational institution at the highest level , where you study for a degree',
+    meaningZh: '',
+    exampleSentence: 'She’s at Cambridge University.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'unknown',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not known about',
+    meaningZh: '',
+    exampleSentence: 'The murderer’s identity remains unknown .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'unless',
+    partOfSpeech: 'conjunction',
+    simpleDefinitionEn: 'used to say that something will happen or be true if something else does not happen or is not true',
+    meaningZh: '',
+    exampleSentence: 'Unless some extra money is found, the theatre will close.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'unlike',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'completely different from a particular person or thing',
+    meaningZh: '',
+    exampleSentence: 'Tammy was unlike any other woman I have ever known.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'until',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'if something happens until a particular time, it continues and then stops at that time',
+    meaningZh: '',
+    exampleSentence: 'The ticket is valid until March.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'update',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to add the most recent information to something',
+    meaningZh: '',
+    exampleSentence: 'The files need updating.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'updated',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with updated.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'upload',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if information , a computer program etc uploads, or if you upload it, you move it from a small computer to a computer network so that other people can see it or use it',
+    meaningZh: '',
+    exampleSentence: 'It might take a while for this to upload.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'upon',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'used to mean ‘on’ or ‘onto’',
+    meaningZh: '',
+    exampleSentence: 'an honour bestowed upon the association',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'upper',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'in a higher position than something else',
+    meaningZh: '',
+    exampleSentence: 'the upper lip',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'upset',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'unhappy and worried because something unpleasant or disappointing has happened',
+    meaningZh: '',
+    exampleSentence: 'She was deeply upset about the way her father treated her.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'urban',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to towns and cities',
+    meaningZh: '',
+    exampleSentence: 'unemployment in urban areas',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'usa',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the United States of America',
+    meaningZh: '',
+    exampleSentence: 'This is an example with usa.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'use',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if you use a particular tool , method , service, ability etc, you do something with that tool, by means of that method etc, for a particular purpose',
+    meaningZh: '',
+    exampleSentence: 'Can I use your phone?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'use up',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with use up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'used',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'dirty or not in good condition any longer, as a result of being used',
+    meaningZh: '',
+    exampleSentence: 'a used tissue',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'useful',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'helping you to do or get what you want',
+    meaningZh: '',
+    exampleSentence: 'useful information',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'user',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone or something that uses a product , service etc',
+    meaningZh: '',
+    exampleSentence: 'road users',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'users',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with users.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'uses',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with uses.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'using',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with using.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'usual',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening, done, or existing most of the time or in most situations',
+    meaningZh: '',
+    exampleSentence: 'Make a cheese sauce in the usual way.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'usually',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used to talk about what happens on most occasions or in most situations',
+    meaningZh: '',
+    exampleSentence: 'Women usually live longer than men.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'valley',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an area of lower land between two lines of hills or mountains , usually with a river flowing through it',
+    meaningZh: '',
+    exampleSentence: 'the San Fernando Valley',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'valuable',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'worth a lot of money',
+    meaningZh: '',
+    exampleSentence: 'a valuable painting',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'value',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the amount of money that something is worth',
+    meaningZh: '',
+    exampleSentence: 'The alterations doubled the value of the house.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'values',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'your ideas about what is right and wrong , or what is important in life',
+    meaningZh: '',
+    exampleSentence: 'a return to traditional values',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'van',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a vehicle used especially for carrying goods, which is smaller than a truck and has a roof and usually no windows at the sides',
+    meaningZh: '',
+    exampleSentence: 'a delivery van',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'variety',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the differences within a group, set of actions etc that make it interesting',
+    meaningZh: '',
+    exampleSentence: 'I really like the variety the store has to offer.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'various',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'if there are various things, there are several different types of that thing',
+    meaningZh: '',
+    exampleSentence: 'The jacket is available in various colours.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'vast',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'extremely large',
+    meaningZh: '',
+    exampleSentence: 'The government will have to borrow vast amounts of money.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'vehicle',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a machine with an engine that is used to take people or things from one place to another, such as a car, bus , or truck',
+    meaningZh: '',
+    exampleSentence: 'a description of the stolen vehicle',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'vehicles',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with vehicles.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'version',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a copy of something that has been changed so that it is slightly different',
+    meaningZh: '',
+    exampleSentence: 'a new version of the software',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'via',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'travelling through a place on the way to another place',
+    meaningZh: '',
+    exampleSentence: 'We flew to Athens via Paris.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'vice',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'criminal activities that involve sex or drugs',
+    meaningZh: '',
+    exampleSentence: 'the fight against vice on the streets',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'victim',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who has been attacked , robbed , or murdered',
+    meaningZh: '',
+    exampleSentence: 'The victim received head injuries from which she died a week later.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'victims',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with victims.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'victory',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a situation in which you win a battle , game , election , or dispute',
+    meaningZh: '',
+    exampleSentence: 'the Raiders’ 35–17 victory over St Louis',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'video',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a copy of a film or television programme , or a series of events , recorded on videotape',
+    meaningZh: '',
+    exampleSentence: 'How much does it cost to hire videos?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'videos',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with videos.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'view',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'what you think or believe about something',
+    meaningZh: '',
+    exampleSentence: 'What’s your view on the subject?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'views',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with views.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'village',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a very small town in the countryside',
+    meaningZh: '',
+    exampleSentence: 'a little fishing village',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'violence',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'behaviour that is intended to hurt other people physically',
+    meaningZh: '',
+    exampleSentence: 'There is too much sex and violence on TV these days.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'virginia',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a state on the east coast of the US, south of Washington, D . C ., which is considered to be a southern state and is one of the 13 original states of the US',
+    meaningZh: '',
+    exampleSentence: 'This is an example with virginia.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'vision',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the ability to see',
+    meaningZh: '',
+    exampleSentence: 'She suffered temporary loss of vision after being struck on the head.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'visit',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to go and spend time in a place or with someone, especially for pleasure or interest',
+    meaningZh: '',
+    exampleSentence: 'Eric went to Seattle to visit his cousins.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'visited',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with visited.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'visitors',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with visitors.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'visual',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'relating to seeing',
+    meaningZh: '',
+    exampleSentence: 'Artists translate their ideas into visual images.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'voice',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the sounds that you make when you speak, or the ability to make these sounds',
+    meaningZh: '',
+    exampleSentence: 'He recognized her voice instantly.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'volume',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the amount of sound produced by a television , radio etc',
+    meaningZh: '',
+    exampleSentence: 'Can you turn the volume up?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'vote',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to show which person or party you want, or whether you support a plan, by marking a piece of paper , raising your hand etc',
+    meaningZh: '',
+    exampleSentence: 'In 1918 British women got the right to vote.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'voted',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with voted.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'votes',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with votes.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'voting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with voting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wait',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to stay somewhere or not do something until something else happens, someone arrives etc',
+    meaningZh: '',
+    exampleSentence: 'Hurry up! Everyone’s waiting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wait for',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with wait for.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'waiting',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with waiting.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wake',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to stop sleeping , or to make someone stop sleeping',
+    meaningZh: '',
+    exampleSentence: 'When she woke, the sun was streaming through the windows.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wake up',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with wake up.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wales',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a country in the United Kingdom , west of England, which was an independent country until it was brought under English rule in 1284. Population : 3,063,758 (2014). Capital : Cardiff. The country\'s Welsh name is Cymru. Wales is known for its high mountains , including Snowdon, and it is a popular place for tourists to visit . Traditionally, its main industries were farming , especially sheep farming and, in South Wales, coal mining (= getting coal out of the earth ) . The mines have now all closed, but new industries are being developed, especially making electronic products . The Welsh language is spoken by many people, especially in the north . The Welsh Assembly was established in 1999 in order to give the Welsh people more power to govern themselves while still being part of the UK. Some people, including the political party Plaid Cymru, want Wales to be an independent country. Welsh people are thought to be good singers , and Wales is known for its male voice choir s . The national symbol s of Wales are the leek (= a vegetable with a long white stem and long flat green leaves ) , the daffodil (= a tall yellow spring flower ) , and the red dragon . The patron saint is Saint David.',
+    meaningZh: '',
+    exampleSentence: 'This is an example with wales.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'walk',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to move forward by putting one foot in front of the other',
+    meaningZh: '',
+    exampleSentence: '‘How did you get here?’ ‘We walked.’',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'walked',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with walked.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'walking',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the activity or sport of going for walks, especially in the countryside or mountains',
+    meaningZh: '',
+    exampleSentence: 'We went walking in the hills.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wall',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an upright flat structure made of stone or brick , that divides one area from another or surrounds an area',
+    meaningZh: '',
+    exampleSentence: 'The estate is surrounded by high stone walls.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'walls',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with walls.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wanna',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a short form of ‘want to’ or ‘want a’, used in writing to show how people sound when they speak',
+    meaningZh: '',
+    exampleSentence: 'This is an example with wanna.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'want',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have a desire for something',
+    meaningZh: '',
+    exampleSentence: 'I really want a drink.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wanted',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'someone who is wanted is being looked for by the police',
+    meaningZh: '',
+    exampleSentence: 'He is wanted for the murder of a teenage girl.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wanting',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'something that is wanting lacks or misses something that it needs or something that you expect it to have',
+    meaningZh: '',
+    exampleSentence: 'Their security procedures were found wanting .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wants',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with wants.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'war',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when there is fighting between two or more countries or between opposing groups within a country, involving large numbers of soldiers and weapons',
+    meaningZh: '',
+    exampleSentence: 'the Vietnam War',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'warm',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'slightly hot, especially in a pleasant way',
+    meaningZh: '',
+    exampleSentence: 'The house was lovely and warm.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'warning',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something, especially a statement , that tells you that something bad, dangerous , or annoying might happen so that you can be ready or avoid it',
+    meaningZh: '',
+    exampleSentence: 'a warning of floods',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wars',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with wars.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wash',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to clean something using water and a type of soap',
+    meaningZh: '',
+    exampleSentence: 'This shirt needs washing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'washington',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with washington.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'waste',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'when something such as money or skills are not used in a way that is effective , useful , or sensible',
+    meaningZh: '',
+    exampleSentence: 'Being unemployed is such a waste of your talents.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'watch',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to look at someone or something for a period of time, paying attention to what is happening',
+    meaningZh: '',
+    exampleSentence: 'Do you mind if I watch?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'watch out',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with watch out.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'watched',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with watched.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'watching',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with watching.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'water',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the clear liquid without colour , smell , or taste that falls as rain and that is used for drinking , washing etc',
+    meaningZh: '',
+    exampleSentence: 'There’s water all over the bathroom floor.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wave',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a line of raised water that moves across the surface of the sea',
+    meaningZh: '',
+    exampleSentence: 'Dee watched the waves breaking on the shore.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'way',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a method that you use to do or achieve something',
+    meaningZh: '',
+    exampleSentence: 'There are several different ways we can tackle this problem.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'ways',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with ways.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'weak',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not physically strong',
+    meaningZh: '',
+    exampleSentence: 'The illness left her feeling weak .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wealth',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large amount of money, property etc that a person or country owns',
+    meaningZh: '',
+    exampleSentence: 'The country’s wealth comes from its oil.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'weapon',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'something that you use to fight with or attack someone with, such as a knife , bomb , or gun',
+    meaningZh: '',
+    exampleSentence: 'They all had sticks which they planned to use as weapons.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'weapons',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with weapons.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wear',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to have something such as clothes , shoes , or jewellery on your body',
+    meaningZh: '',
+    exampleSentence: 'Susanna was wearing a black silk dress.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wearing',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'making you feel tired or annoyed',
+    meaningZh: '',
+    exampleSentence: 'Taking care of children can be wearing.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'weather',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the temperature and other conditions such as sun , rain , and wind',
+    meaningZh: '',
+    exampleSentence: 'What’s the weather like today?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'web',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a net of thin threads made by a spider to catch insects',
+    meaningZh: '',
+    exampleSentence: 'He watched a spider spinning its web .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'website',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a place on the Internet where you can find information about something, especially a particular organization',
+    meaningZh: '',
+    exampleSentence: 'For more information on weight loss and healthy eating, visit our website .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wedding',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a marriage ceremony , especially one with a religious service',
+    meaningZh: '',
+    exampleSentence: 'She’s busy planning her daughter’s wedding.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wednesday',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the day between Tuesday and Thursday',
+    meaningZh: '',
+    exampleSentence: 'The sale starts on Wednesday.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'week',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a period of seven days and nights, usually measured in Britain from Monday to Sunday and in the US from Sunday to Saturday',
+    meaningZh: '',
+    exampleSentence: 'Letters were delivered twice a week only.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'weekend',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'Saturday and Sunday, especially considered as time when you do not work',
+    meaningZh: '',
+    exampleSentence: 'Are you doing anything nice this weekend ?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'weekly',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'happening or done every week',
+    meaningZh: '',
+    exampleSentence: 'a weekly current affairs programme',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'weeks',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with weeks.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'weight',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'how heavy something is when you measure it',
+    meaningZh: '',
+    exampleSentence: 'The average weight of a baby at birth is just over seven pounds.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'weird',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'very strange and unusual , and difficult to understand or explain',
+    meaningZh: '',
+    exampleSentence: 'A really weird thing happened last night.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'welcome',
+    partOfSpeech: 'interjection',
+    simpleDefinitionEn: 'used to greet someone who has just arrived',
+    meaningZh: '',
+    exampleSentence: 'Welcome to London!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'well',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in a successful or satisfactory way',
+    meaningZh: '',
+    exampleSentence: 'Did you sleep well?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'went',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of go',
+    meaningZh: '',
+    exampleSentence: 'This is an example with went.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'west',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the direction towards which the sun goes down, and which is on the left if you are facing north',
+    meaningZh: '',
+    exampleSentence: 'A damp wind blew from the west.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'western',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'in or from the west of a country or area',
+    meaningZh: '',
+    exampleSentence: 'the western end of the bay',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wet',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'covered in or full of water or another liquid',
+    meaningZh: '',
+    exampleSentence: 'I’ve washed your shirt but it’s still wet.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'whatever',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'any or all of the things that are wanted, needed, or possible',
+    meaningZh: '',
+    exampleSentence: 'Help yourself to whatever you want.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wheel',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the round things under a car, bus , bicycle etc that turns when it moves',
+    meaningZh: '',
+    exampleSentence: 'The car slid sideways, its rear wheels spinning .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'whenever',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'every time that a particular thing happens',
+    meaningZh: '',
+    exampleSentence: 'Larry always blames me whenever anything goes wrong.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'whether',
+    partOfSpeech: 'conjunction',
+    simpleDefinitionEn: 'used when talking about a choice you have to make or about something that is not certain',
+    meaningZh: '',
+    exampleSentence: 'Maurice asked me whether I needed any help.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'while',
+    partOfSpeech: 'conjunction',
+    simpleDefinitionEn: 'during the time that something is happening',
+    meaningZh: '',
+    exampleSentence: 'They arrived while we were having dinner.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'white',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having the colour of milk , salt , or snow',
+    meaningZh: '',
+    exampleSentence: 'a white dress',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'whole',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'all of something',
+    meaningZh: '',
+    exampleSentence: 'You have your whole life ahead of you!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'whose',
+    partOfSpeech: 'determiner',
+    simpleDefinitionEn: 'used to ask which person or people a particular thing belongs to',
+    meaningZh: '',
+    exampleSentence: 'Whose is this?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wide',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'measuring a large distance from one side to the other',
+    meaningZh: '',
+    exampleSentence: 'a wide tree-lined road',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'widely',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'in a lot of different places or by a lot of people',
+    meaningZh: '',
+    exampleSentence: 'Organic food is now widely available.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wife',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the woman that a man is married to',
+    meaningZh: '',
+    exampleSentence: 'Have you met my wife?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wifi',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with wifi.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wild',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'living in a natural state, not changed or controlled by people',
+    meaningZh: '',
+    exampleSentence: 'wild animals',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'william',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with william.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'williams',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with williams.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'willing',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'prepared to do something, or having no reason to not want to do it',
+    meaningZh: '',
+    exampleSentence: 'How much are they willing to pay?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wilson',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with wilson.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'win',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to be the best or most successful in a competition , game , election etc',
+    meaningZh: '',
+    exampleSentence: 'Who do you think will win the next election?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wind',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'moving air, especially when it moves strongly or quickly in a current',
+    meaningZh: '',
+    exampleSentence: 'The wind blew from the northeast.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'window',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a space or an area of glass in the wall of a building or vehicle that lets in light',
+    meaningZh: '',
+    exampleSentence: 'Do you mind if I open the window?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'windows',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a type of operating system for computers , produced by the Microsoft Corporation , which allows users to run several programs at the same time in separate areas of the computer screen .',
+    meaningZh: '',
+    exampleSentence: 'Most of today’s software is designed for Windows.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wine',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an alcoholic drink made from grape s , or a type of this drink',
+    meaningZh: '',
+    exampleSentence: 'a glass of wine',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'one of the parts of a bird ’s or insect ’s body that it uses for flying',
+    meaningZh: '',
+    exampleSentence: 'a butterfly with beautiful markings on its wings',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'winner',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a person or animal that has won something',
+    meaningZh: '',
+    exampleSentence: 'the winner of the Ladies’ Championship',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'winning',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'the winning person or thing is the one that wins or makes you win a competition or game',
+    meaningZh: '',
+    exampleSentence: 'the winning team',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wins',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with wins.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'winter',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the season after autumn and before spring , when the weather is coldest',
+    meaningZh: '',
+    exampleSentence: 'Soon it will be winter.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wise',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'wise decisions and actions are sensible and based on good judgment',
+    meaningZh: '',
+    exampleSentence: 'It’s wise to check whether the flight times have changed before you leave for the airport.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wish',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'if you wish to do something or you wish to have it done for you, you want to do it or want to have it done',
+    meaningZh: '',
+    exampleSentence: 'I wish to make a complaint.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'within',
+    partOfSpeech: 'preposition',
+    simpleDefinitionEn: 'before a certain period of time has passed',
+    meaningZh: '',
+    exampleSentence: 'We should have the test results back within 24 hours.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'witness',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who sees a crime or an accident and can describe what happened',
+    meaningZh: '',
+    exampleSentence: 'Police have appealed for witnesses to come forward.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'woman',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an adult female person',
+    meaningZh: '',
+    exampleSentence: 'I was talking to a woman I met on the flight.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'women',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the plural of woman',
+    meaningZh: '',
+    exampleSentence: 'This is an example with women.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'won',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the past tense and past participle of win 1',
+    meaningZh: '',
+    exampleSentence: 'This is an example with won.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wonder',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to think about something that you are not sure about and try to guess what is true , what will happen etc',
+    meaningZh: '',
+    exampleSentence: 'I wonder how James is getting on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wonderful',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'making you feel very happy',
+    meaningZh: '',
+    exampleSentence: 'We had a wonderful time in Spain.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wondering',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with wondering.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wood',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the material that trees are made of',
+    meaningZh: '',
+    exampleSentence: 'Put some more wood on the fire.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'word',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a single group of letters that are used together with a particular meaning',
+    meaningZh: '',
+    exampleSentence: 'Write an essay of about five hundred words.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'words',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with words.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'work',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to do a job that you are paid for',
+    meaningZh: '',
+    exampleSentence: 'Where do you work?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'work on',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with work on.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'work out',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with work out.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'worked',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with worked.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'workers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with workers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'working',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having a job that you are paid for',
+    meaningZh: '',
+    exampleSentence: 'a working mother',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'works',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'activities involved in building or repairing things such as roads , bridges etc',
+    meaningZh: '',
+    exampleSentence: 'the official in charge of the engineering works',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'world',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the society that we live in, the way people behave , and the kind of life we have',
+    meaningZh: '',
+    exampleSentence: 'Parents want a better world for their children.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'worldwide',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'everywhere in the world',
+    meaningZh: '',
+    exampleSentence: 'We have offices in over 56 countries worldwide.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'worried',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'unhappy because you keep thinking about a problem , or about something bad that might happen',
+    meaningZh: '',
+    exampleSentence: 'She gave me a worried look.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'worry',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to be anxious or unhappy about someone or something, so that you think about them a lot',
+    meaningZh: '',
+    exampleSentence: 'I worry about my daughter.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'worry about',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with worry about.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'worse',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'more unpleasant , bad, or severe',
+    meaningZh: '',
+    exampleSentence: 'The violence was worse than we expected.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'worst',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'worse than anything or anyone else',
+    meaningZh: '',
+    exampleSentence: 'This is the worst recession for fifty years.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'worth',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'how good or useful something is or how important it is to people',
+    meaningZh: '',
+    exampleSentence: 'The new computer system has already proved its worth.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wow',
+    partOfSpeech: 'interjection',
+    simpleDefinitionEn: 'used when you think something is very impressive or surprising',
+    meaningZh: '',
+    exampleSentence: 'Wow! Look at that!',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'write',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'to produce a new book, article , poem etc',
+    meaningZh: '',
+    exampleSentence: 'He wrote some very famous books.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'write down',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with write down.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'writer',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'someone who writes books , stories etc, especially as a job',
+    meaningZh: '',
+    exampleSentence: 'She’s one of my favourite writers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'writers',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with writers.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'writing',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'words that have been written or printed',
+    meaningZh: '',
+    exampleSentence: 'What does the writing on the back say?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'written',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past participle of write',
+    meaningZh: '',
+    exampleSentence: 'the development of written language',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wrong',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'not correct , and not based on true facts',
+    meaningZh: '',
+    exampleSentence: 'Your calculations must be wrong.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'wrote',
+    partOfSpeech: 'verb',
+    simpleDefinitionEn: 'the past tense of write',
+    meaningZh: '',
+    exampleSentence: 'This is an example with wrote.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'yard',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a unit for measuring length , equal to three feet or 0.9144 metres',
+    meaningZh: '',
+    exampleSentence: 'a hundred yards away',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'yards',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with yards.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'yeah',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'yes',
+    meaningZh: '',
+    exampleSentence: 'This is an example with yeah.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'year',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a period of about 365 days or 12 months , measured from any particular time',
+    meaningZh: '',
+    exampleSentence: 'I arrived here two years ago.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'years',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a very long period of time',
+    meaningZh: '',
+    exampleSentence: 'It’s years since I rode a bike.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'yellow',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'having the colour of butter or the middle part of an egg',
+    meaningZh: '',
+    exampleSentence: 'yellow flowers',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'yesterday',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'on or during the day before today',
+    meaningZh: '',
+    exampleSentence: 'What did you do yesterday?',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'yet',
+    partOfSpeech: 'adverb',
+    simpleDefinitionEn: 'used in negative statements and questions to talk about whether something that was expected has happened',
+    meaningZh: '',
+    exampleSentence: 'I haven’t asked him yet (= but I will ) .',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'york',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'an ancient city in North Yorkshire in northern England. York was originally a Roman city, and it is a popular place for tourists to visit because of its old city wall, its large cathedral York Minster , the National Railway Museum , and an area of medieval streets called ‘the Shambles ’. It is also a centre of the chocolate industry .',
+    meaningZh: '',
+    exampleSentence: 'This is an example with york.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'young',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: 'a young person, plant , or animal has not lived for very long',
+    meaningZh: '',
+    exampleSentence: 'a young child',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'younger',
+    partOfSpeech: 'adjective',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with younger.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'yourself',
+    partOfSpeech: 'pronoun',
+    simpleDefinitionEn: 'used when talking to someone to show that they are affected by their own action',
+    meaningZh: '',
+    exampleSentence: 'Look at yourself in the mirror.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'youth',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'the period of time when someone is young, especially the period when someone is a teenager',
+    meaningZh: '',
+    exampleSentence: 'Many of these people had used drugs in their youth.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'youtube',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a website , started in 2005, where users can upload , watch, and share video clip s',
+    meaningZh: '',
+    exampleSentence: 'This is an example with youtube.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'zealand',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: '',
+    meaningZh: '',
+    exampleSentence: 'This is an example with zealand.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'zero',
+    partOfSpeech: 'number',
+    simpleDefinitionEn: 'the number 0',
+    meaningZh: '',
+    exampleSentence: 'Make x greater than or equal to zero.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+  {
+    word: 'zone',
+    partOfSpeech: 'noun',
+    simpleDefinitionEn: 'a large area that is different from other areas around it in some way',
+    meaningZh: '',
+    exampleSentence: 'San Francisco and Tokyo are both located in earthquake zones.',
+    exampleSentenceZh: '',
+    topicTag: 'general',
+    difficulty: 2
+  },
+];

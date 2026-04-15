@@ -1,6 +1,6 @@
 /**
- * PET B1 Complete Vocabulary - 4400+ Words
- * Main file importing all topic-specific vocabulary
+ * PET B1 Complete Vocabulary - Crawled 3000+ Words
+ * Main file importing the latest scraped word banks only
  */
 import { WordCard } from 'shared-types';
 export declare const petVocabulary: Omit<WordCard, 'id' | 'memoryState' | 'intervalDays' | 'nextReviewAt' | 'lapseCount' | 'correctCount' | 'wrongCount' | 'lastReviewedAt' | 'createdAt' | 'updatedAt'>[];

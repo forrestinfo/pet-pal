@@ -8,6 +8,7 @@ export interface WordCardProps {
   onShowAnswer: () => void;
   onAnswer: (result: 'dont-know' | 'somewhat' | 'know') => void;
   onSpeak: (text: string, lang?: string) => void;
+  onFillInBlank?: () => void;
 }
 
 const difficultyLabels = ['', 'Easy', 'Medium', 'Hard'];
@@ -183,6 +184,7 @@ export const WordCardComponent: React.FC<WordCardProps> = ({
   onShowAnswer,
   onAnswer,
   onSpeak,
+  onFillInBlank,
 }) => {
   return (
     <div style={styles.card}>
@@ -280,6 +282,20 @@ export const WordCardComponent: React.FC<WordCardProps> = ({
             😊 Know It
           </button>
         </div>
+        {showAnswer && onFillInBlank && (
+          <div style={{ textAlign: 'center', marginTop: melodySpacing.md }}>
+            <button
+              style={{
+                ...styles.answerBtn,
+                backgroundColor: '#8e44ad',
+                minWidth: '200px',
+              }}
+              onClick={onFillInBlank}
+            >
+              🧩 进入填词练习
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );

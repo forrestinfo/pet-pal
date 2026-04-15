@@ -6,15 +6,14 @@
 /**
  * Memory state for spaced repetition
  */
-export const MemoryState = {
-  New: 'new',
-  Learning: 'learning',
-  Review: 'review',
-  Strong: 'strong',
-  Mastered: 'mastered',
-  Rescue: 'rescue',
-} as const;
-export type MemoryState = (typeof MemoryState)[keyof typeof MemoryState];
+export enum MemoryState {
+  New = 'new',
+  Learning = 'learning',
+  Review = 'review',
+  Strong = 'strong',
+  Mastered = 'mastered',
+  Rescue = 'rescue'
+}
 
 /**
  * Word card for PET vocabulary
@@ -127,12 +126,11 @@ export interface UserProgress {
 /**
  * Difficulty level for content
  */
-export const Difficulty = {
-  Easy: 1,
-  Medium: 2,
-  Hard: 3,
-} as const;
-export type Difficulty = (typeof Difficulty)[keyof typeof Difficulty];
+export enum Difficulty {
+  Easy = 1,
+  Medium = 2,
+  Hard = 3
+}
 
 /**
  * Review result from spaced repetition

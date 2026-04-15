@@ -1,6 +1,6 @@
 import React from 'react';
 
-export type TabType = 'words' | 'sentences' | 'pet' | 'points' | 'settings';
+export type TabType = 'words' | 'sentences' | 'fillInBlank' | 'pet' | 'points' | 'settings';
 
 interface NavigationProps {
   activeTab: TabType;
@@ -11,6 +11,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeTab, onTabChange }) => {
   const tabs = [
     { id: 'words' as TabType, label: '学习（单词）', icon: '📚', emoji: '📖' },
     { id: 'sentences' as TabType, label: '句型', icon: '📝', emoji: '🗣️' },
+    { id: 'fillInBlank' as TabType, label: '填词', icon: '🧩', emoji: '✍️' },
     { id: 'pet' as TabType, label: '宠物', icon: '🐰', emoji: '❤️' },
     { id: 'points' as TabType, label: '积分', icon: '⭐', emoji: '🏆' },
     { id: 'settings' as TabType, label: '设置', icon: '⚙️', emoji: '🎛️' },
