@@ -48,8 +48,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
   background: var(--color-background);
   color: var(--color-text-primary);
-  line-height: 1.6;
-  font-size: 15px;
+  line-height: 1.7;
+  font-size: 16px;
   overflow-x: hidden;
   position: relative;
 }
@@ -145,7 +145,7 @@ html {
 /* 主要内容区域：全屏布局，充分利用窗口空间 */
 .app-main {
   flex: 1;
-  padding: 18px;
+  padding: 24px;
   width: 100%;
   max-width: 100%;
   min-height: calc(100vh - 140px); /* 减去 header 和 navigation 的高度 */
@@ -153,36 +153,43 @@ html {
 
 /* 卡片容器：减少“网页大白框”感，轻盈一点，适应全屏布局 */
 .tab-content {
-  background: rgba(255, 255, 255, 0.78);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 18px;
-  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.10);
-  padding: 18px;
-  margin-bottom: 18px;
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  margin-bottom: 24px;
   animation: fadeIn 0.25s ease;
-  border: 1px solid rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.04);
   max-width: 100%;
   overflow-y: auto;
   max-height: calc(100vh - 200px); /* 留出 header 和 navigation 空间 */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tab-content:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.12);
 }
 
 /* 底部导航：贴近原生 tab bar（更矮、更轻、更稳） */
 .navigation {
-  background: rgba(255, 255, 255, 0.82);
-  backdrop-filter: saturate(180%) blur(18px);
-  -webkit-backdrop-filter: saturate(180%) blur(18px);
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
   position: sticky;
   bottom: 0;
   z-index: 100;
-  padding: 8px 0;
+  padding: 10px 0;
 }
 
 .nav-button {
-  border-radius: 14px;
-  padding: 10px 12px;
-  min-width: 88px;
+  border-radius: 16px;
+  padding: 12px 16px;
+  min-width: 96px;
+  font-weight: 600;
 }
 
 .nav-button:hover {
@@ -191,17 +198,17 @@ html {
 }
 
 .nav-button.active {
-  background: rgba(10, 132, 255, 0.16);
+  background: rgba(10, 132, 255, 0.18);
   transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.10);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
 }
 
 .nav-icon {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 .nav-label {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 650;
   color: var(--color-text-primary);
 }
@@ -223,7 +230,7 @@ html {
 .learning-header h2 {
   color: var(--color-primary);
   margin: 0;
-  font-size: 2rem; /* 显著增大标题 */
+  font-size: 2.2rem; /* 显著增大标题 */
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -234,9 +241,9 @@ html {
 .word-count {
   background: var(--color-primary-light);
   color: var(--color-primary-dark);
-  padding: 0.8rem 1.5rem; /* 增大内边距 */
-  border-radius: 25px;
-  font-size: 1.2rem; /* 增大字体 */
+  padding: 1rem 2rem; /* 增大内边距 */
+  border-radius: 28px;
+  font-size: 1.3rem; /* 增大字体 */
   font-weight: 600;
   min-width: 200px;
   text-align: center;
@@ -253,16 +260,16 @@ html {
   background: var(--color-primary);
   color: white;
   border: none;
-  padding: 1.2rem 2.5rem; /* 增大按钮 */
-  font-size: 1.3rem; /* 增大字体 */
-  border-radius: 12px;
+  padding: 1.3rem 2.8rem; /* 增大按钮 */
+  font-size: 1.4rem; /* 增大字体 */
+  border-radius: 14px;
   cursor: pointer;
   font-weight: 600;
   transition: all 0.3s;
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  min-height: 60px;
+  min-height: 64px;
 }
 
 .nav-btn:hover {
@@ -297,17 +304,17 @@ html {
 }
 
 .action-btn {
-  padding: 1.2rem 2.5rem; /* 增大动作按钮 */
+  padding: 1.3rem 2.8rem; /* 增大动作按钮 */
   border: none;
-  border-radius: 12px;
-  font-size: 1.3rem; /* 增大字体 */
+  border-radius: 14px;
+  font-size: 1.4rem; /* 增大字体 */
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s;
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  min-height: 60px;
+  min-height: 64px;
 }
 
 .feed-btn {
@@ -382,7 +389,7 @@ button:disabled {
 
 /* 滚动条美化 */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {

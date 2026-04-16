@@ -30,11 +30,16 @@ function getFreq(w: string): number {
 }
 
 // 学习顺序：
-// 1) 按字母数递增（2,3,4...）
-// 2) 同长度内按使用频率递减（高频优先）
-// 3) 再按字母序稳定排序
-function sortByLearningOrder<T extends { word: string }>(items: T[]): T[] {
+// 1) 按难度递增（1→2→3）
+// 2) 同难度内按字母数递增（2,3,4...）
+// 3) 同长度内按使用频率递减（高频优先）
+// 4) 再按字母序稳定排序
+function sortByLearningOrder<T extends { word: string; difficulty?: number }>(items: T[]): T[] {
   return [...items].sort((a, b) => {
+    const da = a.difficulty || 2;
+    const db = b.difficulty || 2;
+    if (da !== db) return da - db;
+
     const la = getWordLen(a.word);
     const lb = getWordLen(b.word);
     if (la !== lb) return la - lb;
