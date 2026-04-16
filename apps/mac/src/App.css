@@ -142,16 +142,16 @@ html {
   justify-content: center;
 }
 
-/* 主要内容区域：更宽、更像原生内容区 */
+/* 主要内容区域：全屏布局，充分利用窗口空间 */
 .app-main {
   flex: 1;
   padding: 18px;
-  max-width: 1080px;
-  margin: 0 auto;
   width: 100%;
+  max-width: 100%;
+  min-height: calc(100vh - 140px); /* 减去 header 和 navigation 的高度 */
 }
 
-/* 卡片容器：减少“网页大白框”感，轻盈一点 */
+/* 卡片容器：减少“网页大白框”感，轻盈一点，适应全屏布局 */
 .tab-content {
   background: rgba(255, 255, 255, 0.78);
   backdrop-filter: blur(10px);
@@ -162,6 +162,9 @@ html {
   margin-bottom: 18px;
   animation: fadeIn 0.25s ease;
   border: 1px solid rgba(0, 0, 0, 0.06);
+  max-width: 100%;
+  overflow-y: auto;
+  max-height: calc(100vh - 200px); /* 留出 header 和 navigation 空间 */
 }
 
 /* 底部导航：贴近原生 tab bar（更矮、更轻、更稳） */
