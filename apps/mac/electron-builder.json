@@ -1,0 +1,40 @@
+{
+  "appId": "com.petpal.app",
+  "productName": "PET Pal",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "dist-electron/**/*"
+  ],
+  "extraResources": [
+    {
+      "from": "public/word-images",
+      "to": "word-images",
+      "filter": ["**/*"]
+    }
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "dir",
+        "arch": ["x64", "arm64"]
+      }
+    ]
+  },
+  "mac": {
+    "target": [
+      {
+        "target": "dir",
+        "arch": ["universal"]
+      }
+    ],
+    "category": "public.app-category.education"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  },
+  "asar": false
+}

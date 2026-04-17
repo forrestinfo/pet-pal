@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useMemo, useState } from 'react';
 import type { WordCard as WordCardType } from '../../../../packages/shared-types/dist';
 import { melodyColors, melodyShadows, melodyBorderRadius, melodySpacing } from '../themes/melodyTheme';
 
 export interface WordCardProps {
-  word: Pick<WordCardType, 'word' | 'partOfSpeech' | 'simpleDefinitionEn' | 'meaningZh' | 'exampleSentence' | 'exampleSentenceZh' | 'topicTag' | 'difficulty'> & { phonetic?: string };
+  word: Pick<WordCardType, 'word' | 'partOfSpeech' | 'simpleDefinitionEn' | 'meaningZh' | 'exampleSentence' | 'exampleSentenceZh' | 'topicTag' | 'difficulty' | 'imageUrl'> & {
+    phonetic?: string;
+    localImageUrl?: string;
+  };
   showAnswer: boolean;
   onShowAnswer: () => void;
   onAnswer: (result: 'dont-know' | 'somewhat' | 'know') => void;
@@ -41,10 +44,23 @@ const styles: any = {
     borderRadius: melodyBorderRadius['2xl'],
     boxShadow: melodyShadows.lg,
     padding: melodySpacing.xl,
-    maxWidth: 480,
+    maxWidth: 520,
     width: '100%',
     margin: '0 auto',
     border: `2px solid ${melodyColors.primaryLight}`,
+  },
+  imageSection: {
+    textAlign: 'center' as const,
+    marginBottom: melodySpacing.lg,
+  },
+  wordImage: {
+    maxWidth: '280px',
+    maxHeight: '200px',
+    borderRadius: melodyBorderRadius.xl,
+    boxShadow: melodyShadows.md,
+    border: `2px solid ${melodyColors.primaryLight}`,
+    objectFit: 'cover',
+    margin: '0 auto',
   },
   header: {
     display: 'flex',
@@ -205,6 +221,22 @@ export const WordCardComponent: React.FC<WordCardProps> = ({
   const [hoveredBtn, setHoveredBtn] = React.useState<string | null>(null);
   const [activeBtn, setActiveBtn] = React.useState<string | null>(null);
 
+  const cleanWord = useMemo(() => {
+    const raw = (word.word || '').toLowerCase();
+    return raw.replace(/[^a-z]/g, '');
+  }, [word.word]);
+
+  const localUrl = useMemo(() => {
+    if (word.localImageUrl) return word.localImageUrl;
+    if (!cleanWord) return undefined;
+    return `/word-images/${cleanWord}.jpg`;
+  }, [word.localImageUrl, cleanWord]);
+
+  const remoteUrl = word.imageUrl;
+
+  // prefer local; if local missing (404), fall back to remote
+  const [imgSrc, setImgSrc] = useState<string | undefined>(localUrl || remoteUrl || undefined);
+
   return (
     <div style={styles.card}>
       {/* Header */}
@@ -219,6 +251,26 @@ export const WordCardComponent: React.FC<WordCardProps> = ({
           {difficultyLabels[word.difficulty] || `Lvl ${word.difficulty}`}
         </span>
       </div>
+
+      {/* Image Display */}
+      {imgSrc && (
+        <div style={styles.imageSection}>
+          <img 
+            key={word.word}
+            src={imgSrc} 
+            alt={word.word} 
+            style={styles.wordImage} 
+            onError={() => {
+              // If local failed, try remote once; otherwise hide
+              if (imgSrc === localUrl && remoteUrl) {
+                setImgSrc(remoteUrl);
+              } else {
+                setImgSrc(undefined);
+              }
+            }}
+          />
+        </div>
+      )}
 
       {/* Word Display */}
       <div style={styles.wordSection}>

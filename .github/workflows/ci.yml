@@ -36,7 +36,7 @@ jobs:
       working-directory: packages/${{ matrix.package }}
 
   mac-app-build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     needs: build-and-test
     
     steps:

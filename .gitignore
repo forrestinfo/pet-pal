@@ -4,9 +4,15 @@ node_modules/
 yarn-debug.log*
 yarn-error.log*
 
+# Build artifacts
+.artifacts/
+
 # Production
-dist/
-dist-ssr/
+apps/mac/dist/
+apps/mac/dist-ssr/
+apps/mac/dist-electron/
+apps/mac/release/
+apps/mac/public/word-images/
 *.local
 
 # Editor directories and files
@@ -23,9 +29,9 @@ dist-ssr/
 .env.local
 .env.*.local
 
-# Tauri
-src-tauri/target/
-src-tauri/Cargo.lock
+# Tauri (legacy)
+apps/mac/src-tauri/target/
+apps/mac/src-tauri/Cargo.lock
 
 # macOS
 .DS_Store

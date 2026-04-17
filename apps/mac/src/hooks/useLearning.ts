@@ -22,6 +22,7 @@ type WordCard = {
   wrongCount: number;
   createdAt: any;
   updatedAt: any;
+  imageUrl?: string;
 };
 
 type SentenceCard = {
@@ -71,6 +72,14 @@ export function useLearning() {
   const [learningMode, setLearningMode] = useState<'review' | 'fillInBlank'>('review');
   const [fillInDifficulty, setFillInDifficulty] = useState<1 | 2 | 3 | 4>(2);
 
+  const getWordImageUrl = (word: string): string | undefined => {
+    // Use packaged local image assets in public/word-images/
+    // Naming convention: lowercase + remove non [a-z], stored as .jpg
+    const cleanWord = word.toLowerCase().replace(/[^a-z]/g, '');
+    if (!cleanWord) return undefined;
+    return `/word-images/${cleanWord}.jpg`;
+  };
+
   const buildWordCard = (wordData: any, randomIndex: number): WordCard => ({
     ...wordData,
     id: `word_${Date.now()}_${randomIndex}`,
@@ -82,6 +91,7 @@ export function useLearning() {
     wrongCount: 0,
     createdAt: new Date(),
     updatedAt: new Date(),
+    imageUrl: getWordImageUrl(wordData.word),
   });
 
   const buildSentenceCard = (sentenceData: any, randomIndex: number): SentenceCard => ({
@@ -128,6 +138,7 @@ export function useLearning() {
       memoryState: 'new',
       intervalDays: 10 / (24 * 60),
       nextReviewAt: new Date(),
+      imageUrl: getWordImageUrl(base.word),
     };
     setWordCards({ ...wordCards, [id]: card });
     return card;

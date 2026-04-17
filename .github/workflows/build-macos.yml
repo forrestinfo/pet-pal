@@ -15,109 +15,76 @@ permissions:
 jobs:
   build-macos:
     runs-on: macos-latest
-    
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-    
+
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '20'
         cache: 'npm'
         cache-dependency-path: '**/package-lock.json'
-    
-    - name: Setup Rust
-      uses: dtolnay/rust-toolchain@stable
-      with:
-        targets: aarch64-apple-darwin
-    
-    - name: Cache Rust dependencies
-      uses: actions/cache@v4
-      with:
-        path: |
-          ~/.cargo/registry
-          ~/.cargo/git
-          apps/mac/src-tauri/target
-        key: ${{ runner.os }}-cargo-${{ hashFiles('apps/mac/src-tauri/Cargo.toml') }}
-        restore-keys: |
-          ${{ runner.os }}-cargo-
-    
-    - name: Install npm dependencies
+
+    # Build shared packages (monorepo)
+    - name: Install npm dependencies (shared-types)
       run: npm ci
       working-directory: packages/shared-types
-    
+
     - name: Build shared-types
       run: npm run build
       working-directory: packages/shared-types
-    
-    - name: Install npm dependencies for content
+
+    - name: Install npm dependencies (content)
       run: npm ci
       working-directory: packages/content
-    
+
     - name: Build content
       run: npm run build
       working-directory: packages/content
-    
-    - name: Install npm dependencies for spaced-repetition
+
+    - name: Install npm dependencies (spaced-repetition)
       run: npm ci
       working-directory: packages/spaced-repetition
-    
+
     - name: Build spaced-repetition
       run: npm run build
       working-directory: packages/spaced-repetition
-    
+
+    # Build Electron app (apps/mac)
     - name: Install app dependencies
       run: npm ci
       working-directory: apps/mac
-    
-    - name: Build frontend
-      run: npm run build
+
+    - name: Build macOS Electron app
+      run: npm run build:mac
       working-directory: apps/mac
-    
-    - name: Install Tauri CLI
-      run: npm install @tauri-apps/cli
-    
-    - name: Build Tauri app
-      run: npx tauri build --verbose
-      working-directory: apps/mac
-    
-    - name: Ad-hoc sign and package app
-      run: |
-        cd apps/mac/src-tauri/target/release/bundle
-        # Ad-hoc sign the app (no developer account needed)
-        codesign --force --deep --sign - "macos/PET Pal.app"
-        # Create zip for distribution (like math-kids approach)
-        cd macos
-        zip -r ../PET-Pal-macOS.zip "PET Pal.app"
-        echo "Created PET-Pal-macOS.zip"
-      shell: bash
-    
+
     - name: Upload macOS app artifact
       uses: actions/upload-artifact@v4
       with:
         name: PET-Pal-macOS
         path: |
-          apps/mac/src-tauri/target/release/bundle/PET-Pal-macOS.zip
-          apps/mac/src-tauri/target/release/bundle/dmg/*.dmg
+          apps/mac/release/**
         retention-days: 7
-    
+
     - name: Create GitHub Release (on tag)
       if: startsWith(github.ref, 'refs/tags/v')
       uses: softprops/action-gh-release@v2
       with:
         files: |
-          apps/mac/src-tauri/target/release/bundle/PET-Pal-macOS.zip
-          apps/mac/src-tauri/target/release/bundle/dmg/*.dmg
+          apps/mac/release/**
         draft: false
         prerelease: false
         body: |
           ## PET Pal - macOS Release
-          
-          ### 安装说明
-          1. 下载 `PET-Pal-macOS.zip`
-          2. 解压 zip 文件
-          3. 将 `PET Pal.app` 拖到"应用程序"文件夹
-          4. 首次打开时，右键点击 → 选择"打开"（或运行 `xattr -cr "/Applications/PET Pal.app"`）
-          
-          如果提示"无法验证开发者"，请到 系统设置 → 隐私与安全性 → 点击"仍要打开"
+
+          这是通过 GitHub Actions 自动构建的 macOS 安装包/目录产物。
+
+          ### 说明
+          - 若包含 `.dmg`：直接下载并安装
+          - 若是 `mac-unpacked` / `PET Pal.app`：解压后拖入「应用程序」文件夹
+
+          首次打开如被拦截，可在「系统设置 → 隐私与安全性」选择“仍要打开”。
+
