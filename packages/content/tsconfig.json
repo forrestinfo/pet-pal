@@ -41,5 +41,5 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "exclude": ["src/pointsSystem.ts"]
+  "exclude": ["src/pointsSystem.ts", "src/words/ldoceWordBank.ts"]
 }

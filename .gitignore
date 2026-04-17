@@ -135,3 +135,8 @@ temp/
 packages/*/node_modules/shared-types/
 packages/*/node_modules/content/
 packages/*/node_modules/spaced-repetition/
+
+# Package build outputs
+packages/*/dist/
+packages/*/dist-*/
+packages/*/*.tsbuildinfo
