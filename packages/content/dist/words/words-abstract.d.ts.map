@@ -1,0 +1,1 @@
+{"version":3,"file":"words-abstract.d.ts","sourceRoot":"","sources":["../../src/words/words-abstract.ts"],"names":[],"mappings":"AAAA;;;;GAIG;AAEH,OAAO,EAAE,QAAQ,EAAE,MAAM,cAAc,CAAC;AAExC,eAAO,MAAM,aAAa,EAAE,IAAI,CAAC,QAAQ,EAAE,IAAI,GAAG,aAAa,GAAG,cAAc,GAC9E,cAAc,GAAG,YAAY,GAAG,cAAc,GAAG,YAAY,GAC7D,gBAAgB,GAAG,WAAW,GAAG,WAAW,CAAC,EA69C9C,CAAC"}

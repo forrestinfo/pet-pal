@@ -1,0 +1,1 @@
+{"version":3,"file":"sentences-grammarPatterns.d.ts","sourceRoot":"","sources":["../../src/sentences/sentences-grammarPatterns.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,cAAc,CAAC;AAE5C,eAAO,MAAM,gBAAgB,EAAE,IAAI,CAAC,YAAY,EAAE,IAAI,GAAG,aAAa,GAAG,cAAc,GACrF,cAAc,GAAG,YAAY,GAAG,cAAc,GAAG,YAAY,GAC7D,gBAAgB,GAAG,WAAW,GAAG,WAAW,CAAC,EAgE9C,CAAC"}
