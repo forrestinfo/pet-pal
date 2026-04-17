@@ -30,6 +30,8 @@ export interface WordCard {
   exampleSentenceZh: string;
   topicTag: string;            // PET topic category
   difficulty: number;          // 1-3 scale
+  imageUrl?: string;           // Remote image URL for fallback
+  localImageUrl?: string;      // Local packaged image path
   memoryState: MemoryState;
   intervalDays: number;        // Next review interval in days
   nextReviewAt: Date;          // When to review next

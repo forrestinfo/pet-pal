@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * PET Pal - LDOCE Crawled Word Bank
  * Auto-generated at 2026-04-17T02:24:14
