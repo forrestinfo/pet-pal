@@ -29,7 +29,8 @@
         "arch": ["universal"]
       }
     ],
-    "category": "public.app-category.education"
+    "category": "public.app-category.education",
+    "icon": "public/icon.png"
   },
   "nsis": {
     "oneClick": false,
