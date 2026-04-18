@@ -179,9 +179,20 @@ export function useLearning() {
         return;
       }
 
-      // no due -> new word
-      const randomIndex = Math.floor(Math.random() * petVocabulary.length);
-      const base = petVocabulary[randomIndex];
+      // no due -> pick first unlearned word in order (difficulty 1->2->3, then length, then frequency)
+      const learnedIds = new Set(Object.keys(wordCards));
+      let base = petVocabulary.find(w => !learnedIds.has(`w_${w.word}`));
+      
+      // If all words learned, pick from existing cards due for review
+      if (!base) {
+        const allWords = Object.values(wordCards);
+        if (allWords.length > 0) {
+          base = allWords[Math.floor(Math.random() * allWords.length)];
+        } else {
+          // Fallback: pick first word (shouldn't happen)
+          base = petVocabulary[0];
+        }
+      }
       const card = ensureWordCard(base);
       setCurrentWord(card);
       setCurrentSentence(null);
@@ -226,8 +237,20 @@ export function useLearning() {
         return;
       }
 
-      const randomIndex = Math.floor(Math.random() * petSentences.length);
-      const base = petSentences[randomIndex];
+      // no due -> pick first unlearned sentence in order
+      const learnedIds = new Set(Object.keys(sentenceCards));
+      let base = petSentences.find(s => !learnedIds.has(`s_${s.sentence}`));
+      
+      // If all sentences learned, pick from existing cards due for review
+      if (!base) {
+        const allSentences = Object.values(sentenceCards);
+        if (allSentences.length > 0) {
+          base = allSentences[Math.floor(Math.random() * allSentences.length)];
+        } else {
+          // Fallback: pick first sentence (shouldn't happen)
+          base = petSentences[0];
+        }
+      }
       const card = ensureSentenceCard(base);
       setCurrentSentence(card);
       setCurrentWord(null);
