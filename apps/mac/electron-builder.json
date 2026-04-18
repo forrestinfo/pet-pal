@@ -16,12 +16,7 @@
     }
   ],
   "win": {
-    "target": [
-      {
-        "target": "dir",
-        "arch": ["x64", "arm64"]
-      }
-    ]
+    "target": []
   },
   "mac": {
     "target": [

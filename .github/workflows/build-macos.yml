@@ -93,7 +93,9 @@ jobs:
       with:
         name: PET-Pal-macOS
         path: |
-          apps/mac/release/**
+          apps/mac/release/*.dmg
+          apps/mac/release/*.zip
+          apps/mac/release/*.blockmap
         retention-days: 7
 
     - name: Create GitHub Release (on tag)
@@ -101,17 +103,19 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         files: |
-          apps/mac/release/**
+          apps/mac/release/*.dmg
+          apps/mac/release/*.zip
+          apps/mac/release/*.blockmap
         draft: false
         prerelease: false
         body: |
           ## PET Pal - macOS Release
 
-          这是通过 GitHub Actions 自动构建的 macOS 安装包/目录产物。
+          这是通过 GitHub Actions 自动构建的 macOS 安装包。
 
-          ### 说明
-          - 若包含 `.dmg`：直接下载并安装
-          - 若是 `mac-unpacked` / `PET Pal.app`：解压后拖入「应用程序」文件夹
+          ### 下载
+          - `.dmg`：直接安装
+          - `.zip`：解压后拖入「应用程序」
 
           首次打开如被拦截，可在「系统设置 → 隐私与安全性」选择“仍要打开”。
 
